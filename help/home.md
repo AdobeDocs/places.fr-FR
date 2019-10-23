@@ -4,7 +4,7 @@ seo-title: Présentation d’Adobe Places
 description: 'Adobe Places est un contexte important pour comprendre l’engagement des utilisateurs mobiles. En utilisant ce contexte, les développeurs d’applications mobiles peuvent améliorer la conception de l’application et en faire une expérience plus personnalisée et plus attrayante. '
 seo-description: 'Les lieux sont un contexte important pour comprendre l’engagement des utilisateurs mobiles. En utilisant ce contexte, les développeurs d’applications mobiles peuvent améliorer la conception de l’application et en faire une expérience plus personnalisée et plus attrayante. '
 translation-type: tm+mt
-source-git-commit: ef3d77eba407013e1f701ed001ef9ab7b3818e07
+source-git-commit: fdfeb8c17820c4eb0eae249da39be4eebece22d3
 
 ---
 
@@ -30,13 +30,19 @@ Voici quelques-unes des méthodes d’utilisation de Places :
 * Segmentez une audience en fonction du comportement hors ligne en utilisant des profils d’audience avec contexte d’emplacement.
 * Ciblez un utilisateur avec une expérience en magasin, le cas échéant.
 
+## Ajout d’un espace réservé pour la vidéo "Places intro" de Brandon
+
+## Cas d’utilisation des lieux
+
+Améliorer cette section avec
+
 ## Place les composants
 
 Les lieux comprennent les composants suivants :
 
 * **Place le service Web**
 
-   Vous pouvez créer et gérer des points d’intérêt à l’aide des API REST. Pour plus d’informations sur les API REST, voir [Places Web Services](/help/places-rest-apis/api-usage/api-usage.md).
+   Vous pouvez créer et gérer des points d’intérêt à l’aide des API REST Places. Pour plus d’informations sur les API REST, voir [Gestion des bibliothèques](/help/places-web-service-api/api-usage/manage-libraries/manage-libraries.md) et [Gestion des API](/help/places-web-service-api/api-usage/manage-pois/manage-pois.md).
 
 * **Interface utilisateur Places**
 
@@ -44,7 +50,7 @@ Les lieux comprennent les composants suivants :
 
 * **Places SDK**
 
-   L’interface API mobile multiplateforme pour intégrer le contexte d’emplacement dans vos applications mobiles. Pour plus d’informations sur les SDK, voir [Extension](/help/configure-places-in-the-sdk/places-extension/places-extension.md)Places.
+   L’interface API mobile multiplateforme pour intégrer le contexte d’emplacement dans vos applications mobiles. Pour plus d’informations sur les SDK, voir [Extension](/help/places-ext-aep-sdks/places-extension/places-extension.md)Places.
 
 * **Règles de lieux**
 
@@ -52,7 +58,7 @@ Les lieux comprennent les composants suivants :
 
 * **Moniteur des lieux**
 
-   SDK mobile multiplateforme pouvant être intégré dans votre application mobile pour surveiller automatiquement les modifications d’emplacement de l’utilisateur et déclencher des règles de lieux. Pour plus d’informations, voir [Extension](/help/configure-places-in-the-sdk/places-monitor-extension/places-monitor-extension.md)du moniteur des lieux.
+   SDK mobile multiplateforme pouvant être intégré dans votre application mobile pour surveiller automatiquement les modifications d’emplacement de l’utilisateur et déclencher des règles de lieux. Pour plus d’informations, voir [Extension](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md)du moniteur des lieux.
 
 ## Terminologie
 
@@ -87,23 +93,3 @@ Voici quelques termes courants utilisés dans cette documentation :
 * The **Experience Cloud ID** service provides a universal, persistent ID that identifies your visitors across all the solutions in the Experience Cloud.
 
    For more information, see [Overview](https://docs.adobe.com/content/help/en/id-service/using/intro/overview.html).
-
-## Présentation de l’interface utilisateur Places
-
-Pour accéder à l’interface utilisateur Places, dans un navigateur, accédez à l’interface utilisateur [Places](https://places.adobe.com) et connectez-vous avec votre Adobe ID.
-
-Voici quelques informations de base pour vous familiariser avec l’interface utilisateur :
-
-* Dans le coin supérieur droit, vous pouvez cliquer sur des boutons pour créer une bibliothèque, des points d’intérêt et filtrer votre recherche.
-* Dans le coin inférieur droit de l’écran, il y a des boutons permettant d’effectuer un zoom avant ou arrière, de centrer sur votre emplacement actuel **[!UICONTROL Find Me]** et de basculer entre la vue de carte et la vue satellite.
-* Cliquez deux fois pour effectuer un zoom avant ou cliquez et faites glisser pour recentrer la carte.
-* Vous pouvez également utiliser les touches fléchées pour faire défiler la carte.
-
-![](assets/location-services.png)
-
-
-## Flux de travaux Places
-
-Voici une vue générale du flux de travaux Places :
-
-![](/help/assets/places-workflow-diagram-lc-1.png)
