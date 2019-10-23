@@ -4,7 +4,7 @@ seo-title: Notes de mise à jour d’Adobe Places.
 description: Notes de mise à jour d’Adobe Places.
 seo-description: Notes de mise à jour d’Adobe Places.
 translation-type: tm+mt
-source-git-commit: 60d72318db5f19646bca8870cec33979934593a7
+source-git-commit: a9aacd39be486195159b163b2c5969cb8b82b51b
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: 60d72318db5f19646bca8870cec33979934593a7
 
 Voici les notes de mise à jour de Places :
 
-## 9 octobre 2019
+## 9 octobre 2019
 
 * **PlacesMonitor 2.1.0**
 
@@ -183,7 +183,7 @@ iOS Places Monitor 1.0.0
 
 Version initiale de Places Monitor pour iOS.
 
-Le moniteur de lieux gère les API d’emplacement au niveau du système d’exploitation et communique directement avec l’extension Places. Avec les deux extensions installées, les clients peuvent avoir une surveillance de région prête à l’emploi dans leur application. Pour plus d’informations sur le moniteur de lieux, voir [Extension](/help/configure-places-in-the-sdk/places-monitor-extension/places-monitor-extension.md)du moniteur de lieux.
+Le moniteur de lieux gère les API d’emplacement au niveau du système d’exploitation et communique directement avec l’extension Places. Avec les deux extensions installées, les clients peuvent avoir une surveillance de région prête à l’emploi dans leur application. Pour plus d’informations sur le moniteur de lieux, voir [Extension](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md)du moniteur de lieux.
 
 ## 28 février 2019
 
@@ -212,7 +212,7 @@ Dans l’extension Places :
 * Evénements de règle qui se déclenchent lors de l’entrée ou de la sortie d’un point d’accès.
 * Créez des éléments de données qui pointent vers le point d’intérêt actuel de l’utilisateur.
 
-Pour plus d’informations sur l’extension Places, voir [Extension]Places (/help/configure-places-in-the sdk/places-extension/places-extension.md).
+Pour plus d’informations sur l’extension Places, voir [Extension](/help/places-ext-aep-sdks/places-extension/places-extension.md)Places.
 
 #### Utilise des API
 
@@ -224,7 +224,7 @@ Vous pouvez utiliser les API Places pour effectuer les opérations suivantes :
 
    Un utilitaire python est fourni avec les API.
 
-Pour plus d’informations sur les API Places, voir Services [Web](/help/places-rest-apis/places-web-services.md)Places.
+Pour plus d’informations sur les API Places, voir Services [Web](/help/places-web-service-api/places-web-services.md)Places.
 
 ### Bientôt disponible
 
