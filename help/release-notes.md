@@ -1,17 +1,17 @@
 ---
-title: Notes de mise à jour
+title: Notes de mise à jour des emplacements d’Adobe Experience Platform
 seo-title: Notes de mise à jour des emplacements de plateformes Adobe Experience Platform.
 description: Notes de mise à jour des emplacements de plateformes Adobe Experience Platform.
 seo-description: Notes de mise à jour des emplacements de plateformes Adobe Experience Platform.
 translation-type: tm+mt
-source-git-commit: fd1b37a0f50d93de1efff4cb38fc23253f02d517
+source-git-commit: 9fc484fd44c74ad77255668e4fbd7bc1642932e2
 
 ---
 
 
 # Notes de mise à jour {#release-notes}
 
-Voici les notes de mise à jour de Places :
+Voici les notes de mise à jour pour les emplacements (emplacements) d’Adobe Experience Platform :
 
 ## 9 octobre 2019
 
