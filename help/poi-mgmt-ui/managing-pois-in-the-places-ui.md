@@ -4,7 +4,7 @@ seo-title: Gestion des points d’accès dans l’interface utilisateur Lieux
 description: Utilisez l’interface utilisateur Places pour gérer vos points d’intérêt.
 seo-description: Utilisez l’interface utilisateur Places pour gérer vos points d’intérêt.
 translation-type: tm+mt
-source-git-commit: fdfeb8c17820c4eb0eae249da39be4eebece22d3
+source-git-commit: fd1b37a0f50d93de1efff4cb38fc23253f02d517
 
 ---
 
@@ -37,7 +37,7 @@ Les Geofences sont un type d’API et sont définies dans la base de données en
 ## Modification d’une API
 
 1. Connectez-vous à Places à l’aide de votre Adobe ID.
-1. Connectez-vous au service Adobe Places à l’aide de votre Adobe ID.
+1. Connectez-vous au service Places à l’aide de votre Adobe ID.
 1. Dans le coin supérieur droit, cliquez sur l’icône qui ressemble à une liste à puces.
 1. Localisez le point d’accès à modifier.
 1. Cliquez sur **[!UICONTROL ...]** puis sélectionnez **[!UICONTROL View Details]**.
@@ -46,14 +46,14 @@ Les Geofences sont un type d’API et sont définies dans la base de données en
 ## Suppression d’un point d’intérêt
 
 1. Connectez-vous à Places à l’aide de votre Adobe ID.
-1. Connectez-vous au service Adobe Places à l’aide de votre Adobe ID.
+1. Connectez-vous au service Places à l’aide de votre Adobe ID.
 1. Dans le coin supérieur droit, cliquez sur l’icône qui ressemble à une liste à puces.
 1. Localisez le point d’accès à supprimer.
 1. Cliquez sur **[!UICONTROL ...]** puis sélectionnez **[!UICONTROL Delete]**.
 
 ## Filtrage des points d’intérêt par ville, état, pays ou métadonnées
 
-1. Connectez-vous au service Adobe Places à l’aide de votre Adobe ID.
+1. Connectez-vous au service Places à l’aide de votre Adobe ID.
 1. Dans le coin supérieur droit, cliquez sur l’icône de filtrage.
 1. Vous pouvez filtrer les points d’intérêt de l’une des manières suivantes :
 
