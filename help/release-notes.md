@@ -1,10 +1,10 @@
 ---
 title: Notes de mise à jour
-seo-title: Notes de mise à jour d’Adobe Places.
-description: Notes de mise à jour d’Adobe Places.
-seo-description: Notes de mise à jour d’Adobe Places.
+seo-title: Notes de mise à jour des emplacements de plateformes Adobe Experience Platform.
+description: Notes de mise à jour des emplacements de plateformes Adobe Experience Platform.
+seo-description: Notes de mise à jour des emplacements de plateformes Adobe Experience Platform.
 translation-type: tm+mt
-source-git-commit: a9aacd39be486195159b163b2c5969cb8b82b51b
+source-git-commit: fd1b37a0f50d93de1efff4cb38fc23253f02d517
 
 ---
 
