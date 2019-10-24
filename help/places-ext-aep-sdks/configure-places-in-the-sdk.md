@@ -4,7 +4,7 @@ seo-title: Configuration du SDK avec l’extension Places
 description: 'Vous pouvez configurer le SDK avec l’extension Places pour activer la prise en compte de l’emplacement dans votre application mobile. '
 seo-description: 'Vous pouvez configurer le SDK avec l’extension Places pour activer la prise en compte de l’emplacement dans votre application mobile. '
 translation-type: tm+mt
-source-git-commit: ef720c112bc0de386e070094629c5bab69938e76
+source-git-commit: fd1b37a0f50d93de1efff4cb38fc23253f02d517
 
 ---
 
@@ -19,15 +19,15 @@ Pour configurer l’extension Places :
 
 1. Configurez l’extension Places dans Launch.
 
-   Pour plus d’informations, voir *Configuration de l’extension Lieux dans Lancement*.
+   Pour plus d’informations, voir *Configuration de l’extension Places dans Lancement* dans [Extension](/help/places-ext-aep-sdks/places-extension/places-extension.md)Places.
 
 1. Ajoutez l’extension Places à votre application mobile.
 
-   Pour plus d’informations, voir *Ajout de l’extension Places à votre application*.
+   Pour plus d’informations, voir *Ajout de l’extension Places à votre application* dans [Extension](/help/places-ext-aep-sdks/places-extension/places-extension.md)Places.
 
 1. Enregistrez des emplacements avec l’extension Mobile Core.
 
-   Pour plus d’informations, reportez-vous à la page *Enregistrement d’emplacements Adobe avec noyau* mobile.
+   Pour plus d’informations, voir *Enregistrement de lieux avec noyau* mobile dans [l’extension](/help/places-ext-aep-sdks/places-extension/places-extension.md)Places.
 
 ## Configuration de l’extension Places Monitor
 
