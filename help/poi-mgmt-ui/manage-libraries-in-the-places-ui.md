@@ -4,7 +4,7 @@ seo-title: Gestion des bibliothèques dans l’interface utilisateur Lieux
 description: Gérez vos bibliothèques à l’aide de l’interface utilisateur Lieux.
 seo-description: Gérez vos bibliothèques à l’aide de l’interface utilisateur Lieux.
 translation-type: tm+mt
-source-git-commit: fdfeb8c17820c4eb0eae249da39be4eebece22d3
+source-git-commit: fd1b37a0f50d93de1efff4cb38fc23253f02d517
 
 ---
 
@@ -25,7 +25,7 @@ Les bibliothèques sont définies par les éléments suivants :
 
 ## Créer une bibliothèque
 
-1. Connectez-vous à Adobe Places avec votre Adobe ID.
+1. Connectez-vous à Places avec votre Adobe ID.
 2. Dans le coin supérieur droit, cliquez sur **[!UICONTROL ...]** &gt; **[!UICONTROL Manage Libraries]**.
 3. Cliquez sur **[!UICONTROL New]** (Nouvelle propriété).
 4. Entrez le nom.
@@ -33,13 +33,13 @@ Les bibliothèques sont définies par les éléments suivants :
 
 ## Modification du classement d’une bibliothèque dans l’interface utilisateur Lieux
 
-1. Connectez-vous à Adobe Places avec votre Adobe ID.
+1. Connectez-vous à Places avec votre Adobe ID.
 2. Dans le coin supérieur droit, cliquez sur **[!UICONTROL ...]** &gt; **[!UICONTROL Manage Libraries]**.
 3. Cliquez sur l’icône à gauche du nom de la bibliothèque et faites glisser la bibliothèque vers le nouveau rang.
 
 ## Modification du nom d’une bibliothèque
 
-1. Connectez-vous à Adobe Places avec votre Adobe ID.
+1. Connectez-vous à Places avec votre Adobe ID.
 2. Dans le coin supérieur droit, cliquez sur **[!UICONTROL ...]** &gt; **[!UICONTROL Manage Libraries]**.
 3. Localisez la bibliothèque à supprimer.
 4. Cliquez sur **[!UICONTROL ...]** puis sélectionnez **[!UICONTROL Rename]**.
@@ -47,7 +47,7 @@ Les bibliothèques sont définies par les éléments suivants :
 
 ## Suppression d’une bibliothèque
 
-1. Connectez-vous à Adobe Places avec votre Adobe ID.
+1. Connectez-vous à Places avec votre Adobe ID.
 2. Dans le coin supérieur droit, cliquez sur **[!UICONTROL ...]** &gt; **[!UICONTROL Manage Libraries]**.
 3. Localisez la bibliothèque à supprimer.
 4. Cliquez sur **[!UICONTROL ...]** puis sélectionnez **[!UICONTROL Delete]**.
