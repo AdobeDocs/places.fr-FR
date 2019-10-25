@@ -1,35 +1,35 @@
 ---
 title: Prise en main
 seo-title: Prise en main
-description: Prise en main de Places.
-seo-description: Prise en main de Places.
+description: Prise en main du service d’emplacement.
+seo-description: Prise en main du service d’emplacement.
 translation-type: tm+mt
-source-git-commit: f6c92bbd4fb21999f5c96ea0df8ede6919d1bc79
+source-git-commit: 6ff72eb72ce3ae1abf805b7b542721a7e4915824
 
 ---
 
 
 # Prise en main {#getting-started}
 
-Voici une vidéo qui vous aide à vous familiariser avec Places :
+Voici une vidéo qui vous aide à vous familiariser avec le service d’emplacement :
 
 >[!VIDEO](https://www.youtube.com/watch?v=aV6i_ayxWCw)
 
-Pour utiliser Places, procédez comme suit :
+Pour utiliser le service d’emplacement, procédez comme suit :
 
-## 1. Obtenir les privilèges d’accès
+## 1. Obtenir les privilèges d’accès pour utiliser le service d’emplacement
 
-Places requiert un contexte de mise en service spécial avec votre contexte de mise en service normal d’Adobe Experience Platform.
+Le service d’emplacement requiert un contexte de mise en service spécial avec votre contexte de mise en service normal d’Adobe Experience Platform.
 
 Pour obtenir des privilèges d’accès, procédez comme suit :
 
-* Dans la console d’administration, assurez-vous que votre organisation dispose de Places.
+* Dans la console d’administration, assurez-vous que votre organisation est configurée avec le service d’emplacement.
 
-   Si vous n’êtes pas l’administrateur Adobe, contactez l’administrateur pour vérifier le contexte Lieux dans la Console d’administration.
+   Si vous n’êtes pas l’administrateur Adobe, contactez l’administrateur pour vérifier le contexte du service d’emplacement dans la console d’administration.
 
-* Vérifiez que vous êtes répertorié comme utilisateur sous les contextes de produit Places et Experience Platform Launch dans la Console d’administration.
+* Vérifiez que vous êtes répertorié en tant qu’utilisateur sous les contextes de produit Location Service et Experience Platform Launch dans la Console d’administration.
 
-   Pour plus d’informations, voir *Ajout d’un utilisateur au lancement de la plate-forme d’expérience et aux emplacements* dans [les FAQs](/help/places-faqs.md)Places.
+   Pour plus d’informations, voir *Ajout d’un utilisateur au service* de lancement et d’emplacement de la plate-forme d’expérience dans les questions [](/help/places-faqs.md)fréquentes.
 
 * Assurez-vous que la propriété de votre application mobile est configurée dans le lancement de la plateforme d’expérience avec l’extension Places installée.
 
@@ -49,7 +49,7 @@ Vous pouvez créer des bibliothèques et des points d’intérêt de l’une des
 
 * En utilisant les services Web.
 
-   Pour plus d’informations, voir [Places Web Services](/help/places-web-service-api/places-web-services.md).
+   Pour plus d’informations, voir API [Service](/help/web-service-api/places-web-services.md)Web.
 
 * En utilisant l’interface utilisateur Places.
 
