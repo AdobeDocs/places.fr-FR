@@ -4,7 +4,7 @@ seo-title: Envoyer des données de lieux à Adobe Analytics
 description: Cette section fournit des informations sur la manière d’envoyer des données Places à Analytics.
 seo-description: 'Cette section fournit des informations sur la manière d’envoyer des données Places à Analytics. '
 translation-type: tm+mt
-source-git-commit: 5d558755d816f4aa05a7a76cad12bab45c1dc282
+source-git-commit: 6ae0c8d90cad4c437e1db7f562a0bc9c6b072ce6
 
 ---
 
@@ -17,4 +17,3 @@ source-git-commit: 5d558755d816f4aa05a7a76cad12bab45c1dc282
 
 
 
-## Exécution de rapports dans Adobe Analytics qui incluent des données Places
