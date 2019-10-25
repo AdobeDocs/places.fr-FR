@@ -1,17 +1,17 @@
 ---
-title: FAQ sur les lieux
-seo-title: FAQ sur les lieux
-description: Cette rubrique fournit des informations supplémentaires sur certaines questions fréquentes sur Places.
-seo-description: Cette rubrique fournit des informations supplémentaires sur certaines questions fréquentes sur Places.
+title: Questions fréquentes
+seo-title: Questions fréquentes
+description: Cette rubrique fournit des informations supplémentaires sur certaines questions fréquentes.
+seo-description: Cette rubrique fournit des informations supplémentaires sur certaines questions fréquentes.
 translation-type: tm+mt
-source-git-commit: 26b0cab7bdada26a7598b20623095b72f7c8d334
+source-git-commit: 6ae0c8d90cad4c437e1db7f562a0bc9c6b072ce6
 
 ---
 
 
-# FAQ sur les lieux
+# Questions fréquentes
 
-Voici quelques informations et des questions fréquentes sur Places.
+Voici quelques informations et des questions fréquentes sur le service d’emplacement.
 
 ## Taille et fiabilité
 
@@ -25,7 +25,7 @@ Lorsque le moniteur de lieux (SDK) obtient une nouvelle liste des points d’int
 
 Si le système d’exploitation ne peut pas diffuser d’événement de sortie lorsque le périphérique quitte une région, il est plus sûr que le SDK omette simplement l’événement de sortie. Si le SDK fabrique un événement de sortie sans que l’événement ne soit déclenché par le système d’exploitation, il est possible que l’événement de sortie soit traité bien en dehors de la période pendant laquelle le périphérique se trouvait près de l’API.
 
-## Ajout d’un utilisateur aux emplacements et au lancement de la plateforme d’expérience {#adding-user-launch-places}
+## Ajout d’un utilisateur au service d’emplacement et au lancement de la plateforme d’expérience {#adding-user-launch-places}
 
 Pour permettre aux utilisateurs d’accéder à l’interface utilisateur [du service de](https://places.adobe.com)lancement, ils doivent être ajoutés au service Places Core dans la console d’administration en tant qu’utilisateur. Pour permettre aux utilisateurs d’accéder au lancement de la plateforme d’expérience, de configurer les propriétés mobiles et d’utiliser Places avec le SDK Adobe Experience Platform, ils doivent être ajoutés au lancement de la plateforme d’expérience dans la console d’administration et bénéficier des autorisations suivantes pour le lancement de la plateforme d’expérience :
 
@@ -37,15 +37,15 @@ Pour permettre aux utilisateurs d’accéder à l’interface utilisateur [du se
    * Gestion des environnements
 * Autorisation de gestion des propriétés sous Droits d’entreprise
 
-S’il s’agit de la première fois que vous ajoutez un utilisateur, procédez comme suit pour ajouter des utilisateurs au lancement et aux emplacements de la plateforme d’expérience. Si vous avez déjà ajouté des utilisateurs, plusieurs profils peuvent s’afficher, assurez-vous donc de sélectionner le profil approprié.
+S’il s’agit de la première fois que vous ajoutez un utilisateur, procédez comme suit pour ajouter des utilisateurs au service de localisation et de lancement de la plateforme d’expérience. Si vous avez déjà ajouté des utilisateurs, plusieurs profils peuvent s’afficher, assurez-vous donc de sélectionner le profil approprié.
 
 >[!IMPORTANT]
 >
 >Seuls les administrateurs de l’organisation peuvent accéder à la Console d’administration et ajouter les utilisateurs.
 
-### 1. Vérifiez que les emplacements et le lancement de la plateforme d’expérience sont configurés.
+### 1. Vérifiez que le service d’emplacement et le lancement de la plateforme d’expérience sont configurés.
 
-Pour vérifier que les emplacements et le lancement de la plateforme d’expérience sont configurés :
+Pour vérifier que le service d’emplacement et le lancement de la plateforme d’expérience sont configurés :
 
 1. Connectez-vous à votre organisation Experience Cloud.
 1. Dans le coin supérieur droit, cliquez sur le sélecteur de shell Experience Cloud.
@@ -70,7 +70,7 @@ Pour vérifier que les emplacements et le lancement de la plateforme d’expéri
 
    ![](/help/assets/places_provisioned1.png)
 
-   S’ils sont affichés, les emplacements et le lancement de la plateforme d’expérience ont été configurés pour votre entreprise. S’ils ne sont pas affichés, ils doivent être configurés pour votre entreprise.
+   S’ils sont affichés, le service d’emplacement et le lancement de la plateforme d’expérience ont été configurés pour votre entreprise. S’ils ne sont pas affichés, ils doivent être configurés pour votre entreprise.
 
    >[!IMPORTANT]
    >
@@ -111,17 +111,17 @@ Pour configurer le profil et ajouter les autorisations :
 
 >[!IMPORTANT]
 >
->Pour Places, il existe un profil par défaut, mais vous n’avez pas à ajouter d’autorisations.
+>Pour le service d’emplacement, il existe un profil par défaut, mais vous n’avez pas à ajouter d’autorisations.
 
 Vous avez correctement ajouté des autorisations au profil que vous avez créé.
 
-### 3. Ajout d’un utilisateur ou d’un développeur à vos profils Places et de lancement de plateforme d’expérience
+### 3. Ajout d’un utilisateur ou d’un développeur à vos profils de lancement du service d’emplacement et de plateforme d’expérience
 
-Vous pouvez ajouter un utilisateur et/ou un développeur à vos profils Places et Places de lancement d’expérience.
+Vous pouvez ajouter un utilisateur et/ou un développeur à vos profils de lancement de service d’emplacement et de plateforme d’expérience.
 
 ### Ajout d’un utilisateur
 
-Pour ajouter un utilisateur à vos profils Places et de lancement de plateforme d’expérience :
+Pour ajouter un utilisateur à vos profils de lancement du service d’emplacement et de la plateforme d’expérience :
 
 1. Ajoutez un utilisateur au profil de lancement de plateforme d’expérience.
 
@@ -149,7 +149,7 @@ Pour ajouter un utilisateur à vos profils Places et de lancement de plateforme 
 
    >[!TIP]
    >
-   >Actuellement, tous les utilisateurs de Places disposent des mêmes autorisations. Vous n’avez donc pas besoin de modifier ces autorisations.
+   >Actuellement, tous les utilisateurs du service d’emplacement disposent des mêmes autorisations. Il n’est donc pas nécessaire de modifier ces autorisations.
 
    a. Sur la **[!UICONTROL Places Core Services]** carte, vérifiez les éléments suivants :
 
@@ -169,7 +169,7 @@ Pour ajouter un utilisateur à vos profils Places et de lancement de plateforme 
 
 ### Ajout d’un développeur
 
-Pour les utilisateurs qui doivent également accéder à l’API REST Places, vous devez les ajouter en tant que développeur.
+Pour les utilisateurs qui ont également besoin d’accéder à l’API du service Web, vous devez les ajouter en tant que développeur.
 
 Pour ajouter un développeur :
 
