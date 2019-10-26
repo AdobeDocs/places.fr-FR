@@ -3,7 +3,7 @@ product: Adobe Experience Platform Location Service
 audience: end-user
 user-guide-title: Adobe Experience Platform Location Service
 translation-type: tm+mt
-source-git-commit: 5cb539b41426b177f17ff1ff44988ff646259d3f
+source-git-commit: 3a9653dcc7f5d18b717c4bb59424b8cad7104dd7
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 5cb539b41426b177f17ff1ff44988ff646259d3f
    + [Créer un nouveau POI](poi-mgmt-ui/create-a-poi-ui.md)
    + [Gestion des points d’accès créés précédemment](poi-mgmt-ui/managing-pois-in-the-places-ui.md)
    + [Stratégies d’utilisation des métadonnées avec des points d’intérêt](poi-mgmt-ui/metadata-with-pois.md)
-   + [POI de téléchargement en masse](poi-mgmt-ui/bulk-upload-pois.md)
+   + [Téléchargement en masse des points d’intérêt](poi-mgmt-ui/bulk-upload-pois.md)
    + [Gestion de plusieurs bibliothèques](poi-mgmt-ui/manage-libraries-in-the-places-ui.md)
 + API de service Web {#web-service-api}
    + [Présentation de l’API de service Web](web-service-api/places-web-services.md)
