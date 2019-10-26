@@ -4,12 +4,32 @@ seo-title: Présentation de l’intégration des E/S Adobe
 description: Informations sur la création d’une intégration d’E/S Adobe.
 seo-description: Informations sur la création d’une intégration d’E/S Adobe.
 translation-type: tm+mt
-source-git-commit: 6ff72eb72ce3ae1abf805b7b542721a7e4915824
+source-git-commit: 3a9653dcc7f5d18b717c4bb59424b8cad7104dd7
 
 ---
 
 
-# Présentation de l’intégration des E/S Adobe {#adobeio-integration}
+# Intégration des E/S Adobe {#adobeio-integration}
+
+Ces informations vous montrent comment créer une intégration d’E/S Adobe et d’emplacements.
+
+## Conditions préalables pour l’accès utilisateur
+
+Vérifiez auprès de l’administrateur système de votre entreprise que les tâches suivantes ont été accomplies :
+
+* Place le service principal s’affiche dans la console d’administration de votre entreprise.
+* Vous avez été ajouté à l’organisation.
+* Vous avez été ajouté en tant qu’utilisateur au service principal Places de votre entreprise.
+
+   Pour plus d’informations, reportez-vous à la section *Ajout d’un utilisateur ou d’un développeur à vos profils* de lancement du service d’emplacement et de plateforme d’expérience dans la section Questions [](/help/places-faqs.md)fréquentes.
+
+* Vous avez été ajouté en tant que développeur à Places Core Service dans votre entreprise.
+
+   Pour plus d’informations sur l’ajout de développeurs, reportez-vous à la section *Ajout d’un utilisateur ou d’un développeur à vos profils* de lancement de plateforme d’exploitation et de service d’emplacement dans la [Foire aux questions](/help/places-faqs.md).
+
+   Pour plus d’informations sur le rôle de développeur, voir [Gestion des développeurs](https://helpx.adobe.com/enterprise/using/manage-developers.html).
+
+### Demandes d’API REST
 
 Chaque requête à l’API REST Places requiert les éléments suivants :
 
@@ -19,8 +39,6 @@ Chaque requête à l’API REST Places requiert les éléments suivants :
 
 Une intégration avec les E/S Adobe fournit ces éléments et un moyen de demander le jeton porteur à l’aide d’un JSON Web Token (JWT).
 
-## Informations supplémentaires
-
 * Pour plus d’informations sur les JWT, voir [Présentation des jetons](https://jwt.io/introduction/)Web JSON.
 * Pour créer une intégration pour Places, voir la section *Création d’une intégration* Places ci-dessous.
 * Pour comprendre l’intégration des clés d’API, la génération d’un fichier JWT et de certificats de clé publique, voir Présentation [de l’authentification](https://www.adobe.io/apis/cloudplatform/console/authentication/gettingstarted.html)des E/S Adobe.
@@ -29,7 +47,7 @@ Une intégration avec les E/S Adobe fournit ces éléments et un moyen de demand
 >
 >Si vous ne pouvez pas vous connecter à la console d’E/S d’Adobe ou si le service d’emplacement de la plateforme d’expérience n’est pas une option de la page ** Créer des intégrations, voir Conditions requises *pour l’* organisation dans la présentation [de l’API des services](/help/web-service-api/places-web-services.md)Web.
 
-## Création d’une intégration Places {#create-places-integration}
+## Création d’une intégration Places
 
 Pour créer une intégration Places, procédez comme suit :
 
@@ -75,7 +93,7 @@ Pour générer vos propres clés autosignées :
 
 La vidéo suivante vous guide tout au long du processus de génération de la paire de clés :
 
-![](/help/assets/places_integration_video.gif)
+![vidéo d’intégration](/help/assets/places_integration_video.gif)
 
 ### Création d’une intégration Places dans la console d’E/S Adobe
 
@@ -125,4 +143,3 @@ Pour générer un jeton JWT :
 >[!IMPORTANT]
 >
 >Les jetons d’accès Adobe sont valides **uniquement** pendant 24 heures. Enregistrez donc l’exemple de commande CURL (étape 5). Si le jeton d’accès n’est plus valide, vous devez générer de nouveau le jeton.
-
