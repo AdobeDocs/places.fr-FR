@@ -4,7 +4,7 @@ seo-title: Définition des éléments de données
 description: Cette section fournit des informations sur la création, l’utilisation et la publication d’éléments de données dans le lancement de la plateforme d’expérience pour les emplacements.
 seo-description: 'Cette section fournit des informations sur la création, l’utilisation et la publication d’éléments de données dans le lancement de la plateforme d’expérience pour les emplacements. '
 translation-type: tm+mt
-source-git-commit: fd98249c01fba93250dc7111798c76f3c96c6e20
+source-git-commit: 573f2bb368bd8384f5b465819600a1668b0bdda8
 
 ---
 
@@ -30,10 +30,10 @@ Avec l’extension Places, vous pouvez référencer des valeurs à partir des ci
 Chaque API contient les références de données suivantes :
 
 * **[!UICONTROL Category]**: catégorie de l'IPE
-* **[!IUICONTROL Ville]**: ville de la POI
+* **[!UICONTROL City]**: ville de la POI
 * **[!UICONTROL Country]**: pays de la période d'enquête
-* **[Latitude]** UICONTROL : latitude du POI
-* **[UICONTROL Longitude]**: longitude de de l'IPE
+* **[!UICONTROL Latitude]**: latitude du POI
+* **[!UICONTROL Longitude]**: longitude de de l'IPE
 * **[!UICONTROL Metadata]**: métadonnées personnalisées de l’API
 * **[!UICONTROL Name]**: région du POI
 * **[!UICONTROL Radius]**: rayon de l’objet ciblé
