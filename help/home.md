@@ -4,7 +4,7 @@ seo-title: Adobe Experience Platform Location Service
 description: 'Le service d’emplacement est un contexte important pour comprendre l’engagement des utilisateurs mobiles. En utilisant ce contexte, les développeurs d’applications mobiles peuvent améliorer la conception de l’application et en faire une expérience plus personnalisée et plus attrayante. '
 seo-description: 'Le service d’emplacement est un contexte important pour comprendre l’engagement des utilisateurs mobiles. En utilisant ce contexte, les développeurs d’applications mobiles peuvent améliorer la conception de l’application et en faire une expérience plus personnalisée et plus attrayante. '
 translation-type: tm+mt
-source-git-commit: 85ce31329ad155e5c835be286c18e6609b88167b
+source-git-commit: fd98249c01fba93250dc7111798c76f3c96c6e20
 
 ---
 
@@ -29,8 +29,6 @@ Voici quelques-unes des méthodes d’utilisation de Places :
 * Analysez le trafic de pied de vos propres magasins par rapport à celui de vos concurrents.
 * Segmentez une audience en fonction du comportement hors ligne en utilisant des profils d’audience avec contexte d’emplacement.
 * Ciblez un utilisateur avec une expérience en magasin, le cas échéant.
-
-## Ajout d’un espace réservé pour la vidéo "Intro Service d’emplacement" de Brandon
 
 ## Cas d’utilisation du service d’emplacement
 
