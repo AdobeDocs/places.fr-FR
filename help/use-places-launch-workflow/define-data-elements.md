@@ -4,7 +4,7 @@ seo-title: Définition des éléments de données
 description: Cette section fournit des informations sur la création, l’utilisation et la publication d’éléments de données dans le lancement de la plateforme d’expérience pour les emplacements.
 seo-description: 'Cette section fournit des informations sur la création, l’utilisation et la publication d’éléments de données dans le lancement de la plateforme d’expérience pour les emplacements. '
 translation-type: tm+mt
-source-git-commit: 573f2bb368bd8384f5b465819600a1668b0bdda8
+source-git-commit: 5d438fdd712c85101d546ed82f8ad155010cfb91
 
 ---
 
@@ -45,8 +45,6 @@ Chaque API contient les références de données suivantes :
 1. Dans la page Propriétés de votre application, cliquez sur l’ **[!UICONTROL Data Elements]** onglet.
 
 2. Cliquez sur **[!UICONTROL Create New Data Element]** (Nouvelle propriété).
-
-   ![Créer un élément de données](/help/assets/create-de-2-v3.png)
 
 3. Dans la liste des extensions installées, recherchez **[!UICONTROL Places]**.
 
