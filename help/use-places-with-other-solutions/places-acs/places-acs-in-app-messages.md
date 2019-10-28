@@ -4,14 +4,12 @@ seo-title: Messages in-app avec le service d’emplacement
 description: Cette section fournit des informations sur l’utilisation de la messagerie Push dans Campaign Standard avec des messages in-app dans Campaign Standard.
 seo-description: 'Cette section fournit des informations sur la manière d’utiliser "Messagerie Push dans Campaign Standard" avec les messages in-app dans Campaign Standard. '
 translation-type: tm+mt
-source-git-commit: 0612e2fb06e45ff25ad580e3336be3eb48bb39b9
+source-git-commit: fd98249c01fba93250dc7111798c76f3c96c6e20
 
 ---
 
 
 # Messagerie in-app avec le service de localisation {#in-app-messages-loc-service}
-
-(vidéo d'Ivan.)
 
 Ces informations vous aident à comprendre comment utiliser les informations du service d’emplacement de la plate-forme Adobe Experience Platform pour envoyer des messages in-app ou des notifications locales.
 
