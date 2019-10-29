@@ -4,7 +4,7 @@ seo-title: Présentation de l’intégration des E/S Adobe
 description: Informations sur la création d’une intégration d’E/S Adobe.
 seo-description: Informations sur la création d’une intégration d’E/S Adobe.
 translation-type: tm+mt
-source-git-commit: 3a9653dcc7f5d18b717c4bb59424b8cad7104dd7
+source-git-commit: f99930325a3d94bcc60595e69306c51d6b81caa6
 
 ---
 
@@ -100,25 +100,31 @@ La vidéo suivante vous guide tout au long du processus de génération de la pa
 Pour créer une intégration Places :
 
 1. Accédez à [https://console.adobe.io](https://console.adobe.io) et connectez-vous avec votre Adobe ID.
-2. Si vous avez accès à plusieurs organisations Experience Cloud, sélectionnez l’organisation dans la liste déroulante à gauche.
-3. Cliquez sur **[!UICONTROL New Integration]** (Nouvelle propriété).
-4. Sélectionnez **[!UICONTROL Access an API]** puis cliquez sur **[!UICONTROL Continue]**.
+2. dans la section **Démarrage** rapide, cliquez sur **Créer une intégration**.
+3. Sélectionnez **[!UICONTROL Access an API]** puis cliquez sur **[!UICONTROL Continue]**.
+
+   **[!UICONTROL Access an API]** est l’emplacement par défaut.
+
+4. Si vous avez accès à plusieurs organisations Experience Cloud, sélectionnez l’organisation dans la liste déroulante en haut à droite.
 5. Sous **[!UICONTROL Experience Cloud]**, sélectionnez **[!UICONTROL Places]** le service Adobe auquel vous souhaitez intégrer, puis cliquez sur **[!UICONTROL Continue]**.
 6. Sélectionnez **[!UICONTROL New integration]** puis cliquez sur **[!UICONTROL Continue]**.
-7. Dans l’écran *Créer une intégration* , saisissez un nom et une description.
+7. Dans l’écran Créer une intégration, saisissez un nom et une description.
 8. Faites glisser votre `xxxx_public.crt` fichier que vous avez créé ci-dessus vers la zone de **[!UICONTROL Public keys certificates]** dépôt.
-9. At the bottom of the page, click **[!UICONTROL Create integration]**.
-10. Au bout de quelques secondes, dans l’écran *Intégration créée* , vérifiez que le message suivant s’affiche :
+9. Sélectionnez un profil de produit.
+
+   Si vous ne savez pas quel profil sélectionner, contactez votre administrateur système.
+10. At the bottom of the page, click **[!UICONTROL Create integration]**.
+11. Au bout de quelques secondes, dans l’écran *Intégration créée* , vérifiez que le message suivant s’affiche :
 
    `Your integration has been created.`
 
-11. Cliquez sur **[!UICONTROL Continue to integration details]** (Nouvelle propriété).
+12. La page des détails de l’intégration s’affiche avec le nom de l’intégration en haut.
 
-   Un aperçu de votre intégration avec la clé d’API, l’ID de votre organisation, l’ID de compte technique et d’autres détails sur vos intégrations s’affichent.
+   L’ **[!UICONTROL Overview]** onglet s’affiche par défaut et affiche la clé d’API, l’ID de votre organisation, l’ID de compte technique et d’autres détails sur vos intégrations.
 
 ### Enregistrer l’ID d’organisation et la clé d’API
 
-1. Sur l’ **[!UICONTROL Services]** onglet, vérifiez que **[!UICONTROL Places]** s’affiche.
+1. Dans la page des détails de l’intégration, cliquez sur l’ **[!UICONTROL Services]** onglet et vérifiez que **[!UICONTROL Places]** l’élément est affiché sous **[!UICONTROL Configured Services]**.
 2. Dans l’ **[!UICONTROL Overview]** onglet, recherchez et enregistrez la clé d’API (ID client) et l’ID d’organisation.
 
    Ces identifiants sont nécessaires pour chaque requête d’API REST Places.
@@ -127,7 +133,7 @@ Pour créer une intégration Places :
 
 ### Générer un jeton JWT
 
-Sur l’ **[!UICONTROL JWT]** onglet, la console d’E/S Adobe vous permet de tester votre intégration en générant un fichier JWT et en fournissant l’URL d’échange.
+Dans la page des détails de l’intégration, cliquez sur l’ **[!UICONTROL JWT]** onglet afin de pouvoir tester votre intégration en générant un fichier JWT et en fournissant l’URL d’échange.
 
 Pour générer un jeton JWT :
 
@@ -142,4 +148,4 @@ Pour générer un jeton JWT :
 
 >[!IMPORTANT]
 >
->Les jetons d’accès Adobe sont valides **uniquement** pendant 24 heures. Enregistrez donc l’exemple de commande CURL (étape 5). Si le jeton d’accès n’est plus valide, vous devez générer de nouveau le jeton.
+>Les jetons d’accès Adobe sont valides **uniquement** pendant 24 heures. Enregistrez donc l’exemple de commande CURL (étape 5). Si le jeton d’accès n’est plus valide, vous devez régénérer le jeton.
