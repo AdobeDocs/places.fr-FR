@@ -4,7 +4,7 @@ seo-title: Prise en main
 description: Prise en main du service d’emplacement.
 seo-description: Prise en main du service d’emplacement.
 translation-type: tm+mt
-source-git-commit: fb8bfc92f7af5ee30da395b7ee2d9c4eb2a87c09
+source-git-commit: accfa6ba009ad3419481d9bd3b498143228099fc
 
 ---
 
@@ -15,9 +15,11 @@ Voici une vidéo utile pour obtenir un aperçu des services de localisation :
 
 >[!VIDEO](https://www.youtube.com/watch?v=aV6i_ayxWCw)
 
+## Utilisation du service d’emplacement
+
 Pour utiliser le service d’emplacement, procédez comme suit :
 
-## 1. Assurez-vous que votre utilisateur est configuré pour utiliser le service d’emplacement.
+### 1. Assurez-vous que votre utilisateur est configuré pour utiliser le service d’emplacement.
 
 Le contexte du produit Service d’emplacement est disponible pour toutes les organisations Experience Cloud.
 
@@ -30,7 +32,7 @@ Le contexte du produit Service d’emplacement est disponible pour toutes les or
    Pour utiliser la surveillance régionale fournie par Adobe pour vos clôtures géographiques, installez l’extension Places Monitor. Pour plus d’informations, reportez-vous à la section [Places monitor extension](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md).
 
 
-## 2. Création de vos points d’intérêt
+### 2. Création de vos points d’intérêt
 
 Les points ciblés sont des clôtures géographiques que vous créez pour vos organisations et vous pouvez créer des points ciblés de l’une des manières suivantes :
 
@@ -43,7 +45,7 @@ Les points ciblés sont des clôtures géographiques que vous créez pour vos or
    Pour plus d’informations, voir API [Service](/help/web-service-api/places-web-services.md)Web.
 
 
-## 3. Configuration de l’extension Places et de l’extension Places Monitor
+### 3. Configuration de l’extension Places et de l’extension Places Monitor
 
 Pour plus d’informations sur la configuration de l’extension Places et de l’extension Monitor, voir les informations suivantes :
 
