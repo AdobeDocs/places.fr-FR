@@ -4,12 +4,12 @@ seo-title: Présentation de l’intégration des E/S Adobe
 description: Informations sur la création d’une intégration d’E/S Adobe.
 seo-description: Informations sur la création d’une intégration d’E/S Adobe.
 translation-type: tm+mt
-source-git-commit: f99930325a3d94bcc60595e69306c51d6b81caa6
+source-git-commit: 95c29df19f61e7854e39b47e39471f7f1e94b736
 
 ---
 
 
-# Intégration des E/S Adobe {#adobeio-integration}
+# Présentation de l’intégration et conditions préalables {#integration-prereqs}
 
 Ces informations vous montrent comment créer une intégration d’E/S Adobe et d’emplacements.
 
