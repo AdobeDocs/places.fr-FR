@@ -4,7 +4,7 @@ seo-title: POI de téléchargement en masse
 description: Cette section fournit des informations sur la manière de télécharger en masse vos points d’intérêt.
 seo-description: Cette section fournit des informations sur la manière de télécharger en masse vos points d’intérêt.
 translation-type: tm+mt
-source-git-commit: 3a9653dcc7f5d18b717c4bb59424b8cad7104dd7
+source-git-commit: 31462861efa807583c245963d8496eecdd3cf92e
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: 3a9653dcc7f5d18b717c4bb59424b8cad7104dd7
 
 Un ensemble de scripts Python a été créé afin de simplifier l’importation par lots des points d’intérêt à partir d’un fichier .csv dans une base de données POI à l’aide des API de service Web. Ces scripts peuvent être téléchargés à partir de ce repo [git](https://github.com/adobe/places-scripts)open source.
 
-Avant d’exécuter ces scripts, pour vous assurer que vous avez accès aux API des services Web, voir *Conditions préalables à l’accès* des utilisateurs dans la présentation [de l’intégration des E/S](/help/web-service-api/adobe-i-o-integration.md)Adobe.
+Avant d’exécuter ces scripts, pour accéder aux API des services Web, voir *Conditions préalables à l’accès* des utilisateurs dans la présentation [de l’intégration des E/S](/help/web-service-api/adobe-i-o-integration.md)Adobe.
 
 Voici quelques informations sur les scripts :
 
@@ -23,7 +23,7 @@ Voici quelques informations sur les scripts :
 
 ## Fichier CSV
 
-Un exemple de fichier .csv `places_sample.csv`fait partie de ce package et comprend les en-têtes requis et une ligne d’exemples de données. Ces en-têtes sont tous en minuscules et correspondent aux clés de métadonnées réservées utilisées dans la base de données Places. Lorsque vous ajoutez des en-têtes, les colonnes supplémentaires sont ajoutées à la base de données du point d’accès dans une section de métadonnées distincte pour chaque point d’accès sous forme de paires clé/valeur.
+Un exemple de fichier .csv `places_sample.csv`fait partie de ce package et comprend les en-têtes requis et une ligne d’exemples de données. Ces en-têtes sont tous en minuscules et correspondent aux clés de métadonnées réservées utilisées dans la base de données Places. Les colonnes que vous ajoutez au fichier .csv sont ajoutées à la base de données du point d’accès dans une section de métadonnées distincte pour chaque point d’accès sous forme de paires clé/valeur, et la valeur d’en-tête est utilisée comme clé.
 
 Voici une liste des colonnes et des valeurs à utiliser :
 
@@ -55,17 +55,18 @@ Les valeurs des colonnes suivantes sont utilisées dans l’interface utilisateu
    * Les valeurs valides sont "", #3E76D0, #AA99E8, #DC2ABA, #FC685B, #FC962E, #F6C436, #BECE5D, #61B56B et #3DC8DE.
    * Si la valeur n’est pas renseignée, l’interface utilisateur du service d’emplacement utilise le bleu comme couleur par défaut.
 
-      Les valeurs correspondent respectivement au bleu, au violet, au fuschia, à l’orange, au jaune, au vert clair, au vert foncé et au bleu clair.
+      Les valeurs correspondent au bleu (#3E76D0), au violet (#AA99E8), au fuschia (#DC2ABA), à l’orange (#FC685B), à l’orange clair (#FC962E), au jaune (#F6C436), au vert clair (#BECE5D), au vert (#61B 56B) et bleu clair (#3DC8DE), respectivement.
 
 * qui est utilisée comme icône sur l’épingle représentant l’emplacement de la zone cliquable sur le mappage de l’interface utilisateur du service d’emplacement.
-   * Les valeurs valides sont "", anchor, beaker, bell, browse, book, brush, building, building, calculateur, appareil photo, shoppingCart, clock, box, flashlight, continue, bid, ruban, éducation, marteau, coeur, maison, clé, boîte aux lettres, mâle, promotion, argent, jeu, cadeau, lancement, étoile, ampoule, pin, cible, théière, thumbDown, umbUp, mallette, trophée, femelle et clé à molette.
+
+   * Les valeurs valides sont "", boutique, hotelbed, voiture, avion, train, navire, stade, parc d'attraction, ancrage, beaker, cloche, bid, boîte, mallette, fenêtre, navigation, brosse, bâtiment, calculatrice, appareil photo, horloge, éducation, lampe de poche, suivre, jeu, femelle, mâle, cadeau, marteau, coeur, maison, clé, lancement, ampoule, boîte aux lettres, épingle, promouvoir, ruban, panier, étoile, cible, théière, pouceBas, pouceHaut, piège, trophée, clé à molette.
    * Si la valeur n’est pas renseignée, l’interface utilisateur utilise étoile comme icône par défaut.
 
 * Les colonnes qui ne sont pas mentionnées peuvent rester vides.
 
 ## Exécution du script
 
-1. Téléchargez les fichiers dans le répertoire approprié.
+1. Téléchargez des fichiers depuis le référentiel [git](https://github.com/adobe/places-scripts) vers votre répertoire local.
 1. Dans un éditeur de texte, ouvrez le `config.py` fichier et procédez comme suit :
 
    a. Modifiez les valeurs de variable suivantes en tant que chaînes :
@@ -76,15 +77,15 @@ Les valeurs des colonnes suivantes sont utilisées dans l’interface utilisateu
 
    * `access_code`
 
-      Il s’agit du code d’accès obtenu à partir de l’appel à Adobe IMS.
+      Il s’agit du code d’accès obtenu à partir de l’appel à Adobe IMS. Pour plus d’informations sur la façon d’obtenir ce code d’accès, voir [Conditions requises pour l’accès](/help/web-service-api/adobe-i-o-integration.md) utilisateur.
 
    * `org_id`
 
-      ID d’organisation Experience Cloud dans lequel les points d’intérêt doivent être importés.
+      ID d’organisation Experience Cloud dans lequel les points d’intérêt doivent être importés. Pour plus d’informations sur la manière d’obtenir l’ID d’organisation, voir [Conditions requises pour l’accès utilisateur.](/help/web-service-api/adobe-i-o-integration.md).
 
    * `api_key`
 
-      Il s’agit de la clé de l’API REST Places qui a été obtenue à partir de votre intégration des emplacements d’E/S Adobe.
+      Il s’agit de votre clé d’API REST Places obtenue à partir de votre intégration des emplacements d’E/S Adobe. Pour plus d'informations sur la manière d'obtenir la clé d'API, consultez [Conditions requises pour l'accès utilisateur.](/help/web-service-api/adobe-i-o-integration.md).
    b. Enregistrez vos modifications.
 
 1. Dans une fenêtre de terminal, accédez au `…/places-scripts/import/` répertoire.
@@ -112,6 +113,3 @@ Si des erreurs sont détectées, le script imprime les erreurs et est abandonné
 ## Tests unitaires
 
 Les tests unitaires se trouvent dans le `tests.py` fichier, doivent être exécutés avant chaque demande d’extraction et doivent tous réussir. Des tests supplémentaires doivent être ajoutés avec un nouveau code. Pour exécuter les tests, accédez au `…/places-scripts/import/` répertoire, puis entrez `python ./places_import.py` dans le terminal.
-
-
-
