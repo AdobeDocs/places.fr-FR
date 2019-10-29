@@ -8,9 +8,9 @@ getting-started-url: https://www.adobe.com/fr
 tutorials-title: Tutoriels
 tutorials-url: https://www.adobe.com/fr
 git-repo: https://git.corp.adobe.com/AdobeDocs/places.en
-index: false
+index: true
 translation-type: tm+mt
-source-git-commit: befe48b14946d047f331d07d7707cb070af5ff46
+source-git-commit: 39374c1457d33f4cd4014c78fb8daaaa59e5d62d
 
 ---
 
