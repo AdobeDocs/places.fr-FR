@@ -4,7 +4,7 @@ seo-title: Messages in-app avec le service d’emplacement
 description: Cette section fournit des informations sur l’utilisation de la messagerie Push dans Campaign Standard avec des messages in-app dans Campaign Standard.
 seo-description: 'Cette section fournit des informations sur la manière d’utiliser "Messagerie Push dans Campaign Standard" avec les messages in-app dans Campaign Standard. '
 translation-type: tm+mt
-source-git-commit: fd98249c01fba93250dc7111798c76f3c96c6e20
+source-git-commit: 95c29df19f61e7854e39b47e39471f7f1e94b736
 
 ---
 
@@ -54,6 +54,4 @@ Ces informations vous aident à comprendre comment utiliser les informations du 
 
 L’utilisation des services de localisation avec Adobe Campaign Standard vous offre un outil puissant pour segmenter et cibler vos messages sur les utilisateurs en fonction des entrées et des sorties de géolocalisation. Cette simple intégration ouvre la porte à la création de cas d'utilisation plus personnalisés et contextuels.
 
-## Créer différents déclencheurs dans Campaign Standard en fonction des métadonnées Places
-
-(Ces informations arrivent-elles ?)
+>[!VIDEO](https://www.youtube.com/watch?v=ikiTTQw9c-o)
