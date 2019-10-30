@@ -10,7 +10,7 @@ tutorials-url: https://experienceleague.adobe.com/
 git-repo: https://git.corp.adobe.com/AdobeDocs/places.en
 index: true
 translation-type: tm+mt
-source-git-commit: 35353d02b791bcb234a45b612b0bc481b604afdf
+source-git-commit: 8b9b84a12c40e93ecd1aea1cee5d44c37dc439e8
 
 ---
 
@@ -31,7 +31,7 @@ Le fichier metadata.md comprend des métadonnées de niveau référentiel qui so
 | tutorials-title | Rarement utilisé lorsque les tutoriels ne sont pas appropriés. |
 | tutorials-url | Lien vers des tutoriels vidéo : tutoriels helpx ou KT. |
 | mini-toc-levels | Détermine le nombre de niveaux d’en-tête qui apparaissent dans le rail de droite. La valeur par défaut est 2. |
-| git-repo | Indique l’emplacement du référentiel de collaboration. Utilisez le miroir github.com pour les documents publics. |
+| git-repo | https://github.com/AdobeDocs/places.en |
 | index | Définit l’index = pas pour les prélancements |
 
 Dans le fichier TOC.md
