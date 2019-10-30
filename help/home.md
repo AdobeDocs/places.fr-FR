@@ -4,7 +4,7 @@ seo-title: Adobe Experience Platform Location Service
 description: 'Le service d’emplacement est un contexte important pour comprendre l’engagement des utilisateurs mobiles. En utilisant ce contexte, les développeurs d’applications mobiles peuvent améliorer la conception de l’application et en faire une expérience plus personnalisée et plus attrayante. '
 seo-description: 'Le service d’emplacement est un contexte important pour comprendre l’engagement des utilisateurs mobiles. En utilisant ce contexte, les développeurs d’applications mobiles peuvent améliorer la conception de l’application et en faire une expérience plus personnalisée et plus attrayante. '
 translation-type: tm+mt
-source-git-commit: fd98249c01fba93250dc7111798c76f3c96c6e20
+source-git-commit: a5eee2378475885a2aef9867ff2c38a8881c9bbe
 
 ---
 
@@ -19,7 +19,7 @@ Le service d’emplacement vous permet d’effectuer les opérations suivantes :
 * Associez des métadonnées personnalisées aux points d’intérêt pour les rendre plus riches et plus significatives en spécifiant des attributs supplémentaires.
 * Visualisez les points d’intérêt sur une carte pour comprendre facilement le contexte spatial et ajouter/modifier des attributs de métadonnées.
 * Configurez le SDK dans Adobe Experience Platform Launch pour définir vos règles déclenchées par l’emplacement et vos conditions basées sur les métadonnées.
-* Réduisez le code que vous devez écrire sur l’emplacement du périphérique du moniteur et utilisez le moniteur d’emplacement d’Adobe pour déclencher automatiquement les règles spécifiques à l’emplacement.
+* Réduisez le code que vous devez écrire sur l’emplacement du périphérique du moniteur et utilisez l’extension Places pour déclencher automatiquement les règles spécifiques à l’emplacement.
 
 Cela vous permettra d'agir à partir des signaux d'emplacement en temps réel, quand et où cela importe. Le contexte approprié offre une expérience d’engagement mobile plus enrichissante.
 
@@ -76,7 +76,7 @@ Voici quelques termes courants utilisés dans cette documentation :
 
 * Une **bibliothèque** est une collection d’objets d’intérêt regroupés pour associer facilement des règles à un ensemble plutôt qu’à un seul objet d’intérêt.
 
-* Une **extension** SDK est l’extension de lancement de plateforme d’expérience requise pour intégrer le SDK Places dans vos applications mobiles.
+* L’ **extension Places SDK** est l’extension Experience Platform Launch requise pour intégrer le SDK Places dans vos applications mobiles.
 
    Extension utilisée avec les autres SDK mobiles pour ajouter un contexte d’emplacement à vos expériences.
 
