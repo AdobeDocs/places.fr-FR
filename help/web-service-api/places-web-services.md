@@ -4,7 +4,7 @@ seo-title: 'Présentation de l’API des services Web '
 description: Places est l’ensemble de services qui permet aux clients d’Adobe d’hydrater plus facilement les solutions Adobe Experience Cloud et Adobe Experience Platform avec des données d’emplacement et une expérience appropriée pour la personne appropriée au bon moment et au bon endroit.
 seo-description: Places est l’ensemble de services qui permet aux clients d’Adobe d’hydrater plus facilement les solutions Adobe Experience Cloud et Adobe Experience Platform avec des données d’emplacement et une expérience appropriée pour la personne appropriée au bon moment et au bon endroit.
 translation-type: tm+mt
-source-git-commit: e899cde6230353c8b34090c793983dc570e8115e
+source-git-commit: e2070c629b5a4e4bcf3a364023e0f87b526ed4cb
 
 ---
 
@@ -29,11 +29,11 @@ Avant d’utiliser l’API des services Web, assurez-vous que les conditions sui
 
 * Les emplacements sont configurés dans votre organisation et vous disposez d’un accès approprié en tant qu’utilisateur.
 
-   Pour plus d’informations, voir la section Conditions requises *pour l’* organisation ci-dessous.
+   Pour plus d’informations, voir *Conditions préalables requises pour l’accès* des utilisateurs dans Présentation de l’ [intégration et Conditions préalables](/help/web-service-api/adobe-i-o-integration.md).
 
 * Une fois que Places a été configurée dans votre organisation et que vous avez accès à cette fonctionnalité, créez une intégration Adobe pour Places.
 
-   Pour plus d’informations, voir *Création d’une intégration* de lieux dans la présentation [de l’intégration des E/S](/help/web-service-api/adobe-i-o-integration.md)Adobe.
+   Pour plus d’informations, voir *Création d’une intégration* de lieux dans Présentation de l’ [intégration et Conditions préalables](/help/web-service-api/adobe-i-o-integration.md).
 
 Informations supplémentaires:
 
