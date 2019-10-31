@@ -1,21 +1,23 @@
 ---
-title: 'Utiliser des lieux sans surveillance active des régions '
-seo-title: 'Utiliser des lieux sans surveillance active des régions '
-description: Cette section fournit des informations sur la manière dont utiliser des lieux sans surveillance active des régions.
-seo-description: Cette section fournit des informations sur la manière d’utiliser des emplacements sans surveillance active des régions.
+title: 'Utiliser le service d''emplacement sans surveillance active de la région '
+seo-title: 'Utiliser le service d''emplacement sans surveillance active de la région '
+description: Cette section fournit des informations sur l'utilisation de Location ServicePlaces sans surveillance active des régions.
+seo-description: Cette section fournit des informations sur l’utilisation du service d’emplacement sans surveillance active de la région.
 translation-type: tm+mt
-source-git-commit: ba918bfdb989ba4037409b17d799ef596064b676
+source-git-commit: 84b23934a6e9f9fd61c068693bae3daca24de253
 
 ---
 
 
-# Utiliser des lieux sans surveillance active des régions {#use-places-without-active-monitoring}
+# Utiliser le service d'emplacement sans surveillance active de la région {#use-places-without-active-monitoring}
 
 Les cas d’utilisation de votre application peuvent ne pas nécessiter une surveillance de région active. Adobe Places permet toujours d’intégrer les données d’emplacement de vos utilisateurs à d’autres produits de la plateforme d’expérience.
 
 Cette section explique comment effectuer une vérification de l’appartenance à un point d’accès uniquement au moment de la collecte de l’emplacement de l’utilisateur (latitude et longitude).
 
-****Condition préalable :
+## Condition requise
+
+
 Le développeur collectera l’emplacement du périphérique à l’aide des API fournies par le système d’exploitation de la plateforme cible.
 
 >[!TIP]
@@ -81,7 +83,6 @@ public class LocationBroadcastReceiver extends BroadcastReceiver {
     }
 }
 ```
-
 
 ### Objective-C
 
@@ -230,9 +231,11 @@ func handleUpdatedPOIs(_ nearbyPois:[ACPPlacesPoi]) {
 
 ## Terminer l’exemple de mise en oeuvre
 
-Les exemples de code suivants montrent comment récupérer l’emplacement actuel du périphérique, déclencher les événements nécessaires et vous assurer que vous n’obtenez pas plusieurs entrées pour le même emplacement lors d’une visite :
+Les exemples de code ci-dessous vous montrent comment récupérer l’emplacement actuel du périphérique, déclencher les événements nécessaires et vous assurer que vous n’obtenez pas plusieurs entrées pour le même emplacement lors d’une visite.
 
 >[!IMPORTANT]
+>
+>
 Ces fragments ne sont **que** des exemples. Les développeurs doivent déterminer comment ils souhaitent implémenter la fonctionnalité et la décision doit prendre en compte les meilleures pratiques recommandées par le système d’exploitation cible.
 
 ### Android
