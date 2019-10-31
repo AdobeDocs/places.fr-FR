@@ -4,14 +4,14 @@ seo-title: Création d’une règle pour la propriété Places
 description: 'Le SDK Places surveille l’emplacement actuel, surveille les points d’intérêt configurés autour de l’emplacement actuel et suit les événements d’entrée et de sortie pour ces points d’intérêt. '
 seo-description: 'Le SDK Places surveille l’emplacement actuel, surveille les points d’intérêt configurés autour de l’emplacement actuel et suit les événements d’entrée et de sortie pour ces points d’intérêt. '
 translation-type: tm+mt
-source-git-commit: 9feb88f1ccec83c96d08ac5bd48e43d7d9c247c8
+source-git-commit: 84b23934a6e9f9fd61c068693bae3daca24de253
 
 ---
 
 
 # Création de règles d’entrée et de sortie {#create-entry-exit-rules}
 
-Une fois les extensions Places et Places Monitor installées dans votre application mobile, vous pouvez créer dans Adobe Experience Platform Launch des règles qui sont des données d’emplacement déclenchées ou conditionnées, y compris les événements d’entrée et de sortie d’emplacement Places.
+Une fois les extensions Places et Places Monitor installées dans votre application mobile, vous pouvez créer dans Adobe Experience Platform Launch des règles qui sont des données d’emplacement déclenchées ou conditionnées, y compris les événements d’entrée et de sortie d’emplacement.
 
 ## Règles
 
@@ -54,7 +54,7 @@ Les actions définissent ce que l’application fera en réponse à la condition
 
 >[!CAUTION]
 >
->Cet exemple suppose que vous avez créé une bibliothèque d’API de tous les cafés des États-Unis. Pour plus d’informations sur la création de points d’intérêt et de bibliothèques, voir [Création d’un point d’intérêt](https://placesdocs.com/places-services-by-adobe-documentation/places-database-management-1/managing-pois-in-the-places-ui#create-a-poi) et [Création d’une bibliothèque](https://placesdocs.com/places-services-by-adobe-documentation/places-database-management-1/manage-libraries#create-a-library).
+>Cet exemple suppose que vous avez créé une bibliothèque d’API de tous les cafés des États-Unis. Pour plus d’informations sur la création de bibliothèques et d’API, voir [Création d’un API](/help/poi-mgmt-ui/create-a-poi-ui.md) et *Création d’une bibliothèque* dans [Gestion de plusieurs bibliothèques](https://docs.adobe.com/content/help/en/places/using/poi-mgmt-ui/manage-libraries-in-the-places-ui.html).
 
 La procédure suivante est un exemple de création d’une règle qui renvoie une publication à Slack lorsque vous entrez dans un café à San Francisco.
 
@@ -128,6 +128,6 @@ Pour créer un élément de données dans Experience Platform Launch :
 
 ### Penser au-delà des entrées et des sorties
 
-L’utilisation des entrées et des sorties de géolocalisation Places pour déclencher des règles dans Lancement est extrêmement puissante, mais vous pouvez également utiliser les données d’emplacement comme condition de déclenchement d’autres événements. Par exemple, vous pouvez avoir un déclencheur d’événement d’action de suivi principal mobile prêt à se déclencher en fonction d’un événement d’appel trackAction particulier dans votre application. En fonction de cet événement, vous pouvez placer des conditions d’emplacement supplémentaires dans l’événement avant qu’une action ne soit exécutée. Par exemple, ouvrez une enquête intégrée lorsqu'un `trackAction` événement d'achat se produit, mais **uniquement** si l'emplacement actuel de l'utilisateur inclut des métadonnées spécifiques du service d'emplacement.
+L’utilisation d’entrées et de sorties de géolocalisation du service d’emplacement pour déclencher des règles dans le lancement de la plate-forme d’expérience est extrêmement puissante, mais vous pouvez également utiliser les données d’emplacement comme condition pour que d’autres événements se déclenchent. Par exemple, vous pouvez avoir un déclencheur d’événement d’action de suivi principal mobile prêt à se déclencher en fonction d’un événement d’appel trackAction particulier dans votre application. En fonction de cet événement, vous pouvez placer des conditions d’emplacement supplémentaires dans l’événement avant qu’une action ne soit exécutée. Par exemple, ouvrez une enquête intégrée lorsqu'un `trackAction` événement d'achat se produit, mais **uniquement** si l'emplacement actuel de l'utilisateur inclut des métadonnées spécifiques du service d'emplacement.
 
 ![créer une condition](/help/assets/places-condition.png)
