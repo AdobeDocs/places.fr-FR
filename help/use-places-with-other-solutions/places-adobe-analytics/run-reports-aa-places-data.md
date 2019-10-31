@@ -4,7 +4,7 @@ seo-title: Exécution de rapports dans Adobe Analytics qui incluent des données
 description: Cette section fournit des informations sur la manière d’exécuter des rapports dans Analytics qui incluent des données Places.
 seo-description: Cette section fournit des informations sur la manière d’exécuter des rapports dans Analytics qui incluent des données Places.
 translation-type: tm+mt
-source-git-commit: 0612e2fb06e45ff25ad580e3336be3eb48bb39b9
+source-git-commit: a76e91775efd92ce56f2dc5cbdcc65786855b5c3
 
 ---
 
@@ -22,14 +22,14 @@ Une fois les événements d’entrée et de sortie envoyés, vous pouvez créer 
 1. Sur l’ **[!UICONTROL Rules]** onglet, cliquez sur **[!UICONTROL Create New Rule]**.
 
    À noter :
-   * Si vous ne disposez pas de règles existantes pour cette propriété, le bouton se trouve au milieu de l’écran.
-   * Si votre propriété comporte des règles, le bouton se trouve en haut à droite de l’écran.
+   * Si vous n’avez pas de règles existantes pour cette propriété, le **[!UICONTROL Create New Rule]** bouton se trouve au milieu de l’écran.
+   * Si votre propriété comporte des règles, le **[!UICONTROL Create New Rule]** bouton se trouve en haut à droite de l’écran.
 
-## 1.Sélectionner un événement
+## 1. Sélection d’un événement
 
 1. Attribuez un nom significatif à votre règle afin qu’elle soit facilement reconnaissable dans votre liste de règles.
 
-   Dans cet exemple, la règle est nommée **Joindre des données aux événements** d’action de suivi Analytics.
+   Dans cet exemple, la règle est nommée **[!UICONTROL Attach Places Data to Analytics Track Action Events]**.
 
 2. Sous la **[!UICONTROL Events]** section, cliquez sur **[!UICONTROL Add]**.
 
@@ -46,7 +46,7 @@ Vous pouvez maintenant déterminer les déclencheurs à inclure pour cette règl
 
 >[!IMPORTANT]
 >
->Suivez cette étape si vous souhaitez ajouter des conditions à votre règle. Sinon, passez à la section *Définir l’action* ci-dessous.
+>Suivez cette procédure pour ajouter des conditions à votre règle. Sinon, passez à la section *Définir l’action* ci-dessous.
 
 Dans cet exemple, une condition est créée, qui entraîne le déclenchement de la règle uniquement pour les clients AT&amp;T.
 
