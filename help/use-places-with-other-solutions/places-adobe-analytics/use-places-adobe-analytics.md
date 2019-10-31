@@ -4,7 +4,7 @@ seo-title: Envoyer des données de lieux à Adobe Analytics
 description: Cette section fournit des informations sur la manière d’envoyer des données Places à Analytics.
 seo-description: 'Cette section fournit des informations sur la manière d’envoyer des données Places à Analytics. '
 translation-type: tm+mt
-source-git-commit: a76e91775efd92ce56f2dc5cbdcc65786855b5c3
+source-git-commit: fc1dd9e36bf45a2e7c17c3d9dbbed66b28cb8b07
 
 ---
 
@@ -41,7 +41,7 @@ Une fois que Places a envoyé les événements d’entrée et de sortie, vous po
 
 5. Cliquez sur **[!UICONTROL Keep Changes]** (Nouvelle propriété).
 
-   !["sélectionner un événement"](/help/assets/pt-selectEvent.png)
+   !["sélectionner un événement"](/help/assets/ad-setEvent.png)
 
 
 ## 3. Ajouter des conditions
@@ -81,13 +81,13 @@ Dans cet exemple, une condition est créée, qui provoque le déclenchement de l
 
    Dans l’exemple suivant, un `TrackAction` appel est envoyé à Analytics avec des données contextuelles supplémentaires `poi.name` égales au nom de l’API qui a déclenché cet événement d’entrée :
 
-   !["définir une action"](/help/assets/pt-setAction.png)
+   !["définir une action"](/help/assets/ad-setAction.png)
 
 ## 5. Enregistrez la règle et recréez votre propriété.
 
 Une fois la configuration terminée, vérifiez que votre règle ressemble à l’image suivante :
 
-!["règle créée"](/help/assets/pt-ruleComplete.png)
+!["règle créée"](/help/assets/ad-ruleComplete.png)
 
 1. Cliquez sur **[!UICONTROL Save]** (Conserver les modifications).
 
