@@ -4,7 +4,7 @@ seo-title: Envoyer des données de lieux à Adobe Analytics
 description: Cette section fournit des informations sur la manière d’envoyer des données Places à Analytics.
 seo-description: 'Cette section fournit des informations sur la manière d’envoyer des données Places à Analytics. '
 translation-type: tm+mt
-source-git-commit: fc1dd9e36bf45a2e7c17c3d9dbbed66b28cb8b07
+source-git-commit: 7ca51580a4cfa9c00431ad3972bd10e2a12dfbd1
 
 ---
 
@@ -41,7 +41,7 @@ Une fois que Places a envoyé les événements d’entrée et de sortie, vous po
 
 5. Cliquez sur **[!UICONTROL Keep Changes]** (Nouvelle propriété).
 
-   !["sélectionner un événement"](/help/assets/ad-setEvent.png)
+   !["sélectionner un événement"](/help/assets/ad-setEvent_use-analytics-data.png)
 
 
 ## 3. Ajouter des conditions
@@ -62,7 +62,7 @@ Dans cet exemple, une condition est créée, qui provoque le déclenchement de l
 
 5. Cliquez sur **[!UICONTROL Keep Changes]** (Nouvelle propriété).
 
-   !["set a condition"](/help/assets/ad-setCondition.png)
+   !["set a condition"](/help/assets/ad-setCondition_use-analytics-data.png)
 
 
 ## 4. Définir l'action
@@ -81,13 +81,13 @@ Dans cet exemple, une condition est créée, qui provoque le déclenchement de l
 
    Dans l’exemple suivant, un `TrackAction` appel est envoyé à Analytics avec des données contextuelles supplémentaires `poi.name` égales au nom de l’API qui a déclenché cet événement d’entrée :
 
-   !["définir une action"](/help/assets/ad-setAction.png)
+   !["définir une action"](/help/assets/ad-setAction_use-analytics-data.png)
 
 ## 5. Enregistrez la règle et recréez votre propriété.
 
 Une fois la configuration terminée, vérifiez que votre règle ressemble à l’image suivante :
 
-!["règle créée"](/help/assets/ad-ruleComplete.png)
+!["règle créée"](/help/assets/ad-ruleComplete_use-analytics-data.png)
 
 1. Cliquez sur **[!UICONTROL Save]** (Conserver les modifications).
 
