@@ -4,12 +4,12 @@ seo-title: Gestion des bibliothèques dans l’interface utilisateur Lieux
 description: Gérez vos bibliothèques à l’aide de l’interface utilisateur Lieux.
 seo-description: Gérez vos bibliothèques à l’aide de l’interface utilisateur Lieux.
 translation-type: tm+mt
-source-git-commit: fd1b37a0f50d93de1efff4cb38fc23253f02d517
+source-git-commit: 84b23934a6e9f9fd61c068693bae3daca24de253
 
 ---
 
 
-# Gestion des bibliothèques dans l’interface utilisateur Lieux {#manage-libraries-places-ui}
+# Manage libraries {#manage-libraries-places-ui}
 
 Une bibliothèque est une collection d’objets d’intérêt. Vous pouvez avoir jusqu’à 150 000 points d’intérêt dans une bibliothèque et jusqu’à 100 bibliothèques par organisation Experience Cloud.
 
