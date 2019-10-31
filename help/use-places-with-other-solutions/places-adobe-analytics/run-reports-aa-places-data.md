@@ -4,7 +4,7 @@ seo-title: Exécution de rapports dans Adobe Analytics qui incluent des données
 description: Cette section fournit des informations sur la manière d’exécuter des rapports dans Analytics qui incluent des données Places.
 seo-description: Cette section fournit des informations sur la manière d’exécuter des rapports dans Analytics qui incluent des données Places.
 translation-type: tm+mt
-source-git-commit: a76e91775efd92ce56f2dc5cbdcc65786855b5c3
+source-git-commit: fc1dd9e36bf45a2e7c17c3d9dbbed66b28cb8b07
 
 ---
 
@@ -39,7 +39,7 @@ Une fois les événements d’entrée et de sortie envoyés, vous pouvez créer 
 
 Vous pouvez maintenant déterminer les déclencheurs à inclure pour cette règle. Dans cet exemple, le déclencheur est basé sur tous les `TrackAction` appels. Après avoir configuré l’événement, cliquez sur **[!UICONTROL Keep Changes]**.
 
-!["créer un événement"](/help/assets/ad-setEvent.png)
+!["créer un événement"](/help/assets/pt-selectEvent.png)
 
 
 ## 2. Ajouter des conditions
@@ -60,7 +60,7 @@ Dans cet exemple, une condition est créée, qui entraîne le déclenchement de 
 
 5. Cliquez sur **[!UICONTROL Keep Changes]** (Nouvelle propriété).
 
-!["create a condition"](/help/assets/ad-setCondition.png)
+!["create a condition"](/help/assets/pt-setCondition.png)
 
 ## 3. Définir l'action
 
