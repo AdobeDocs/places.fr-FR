@@ -4,7 +4,7 @@ seo-title: Adobe Target
 description: Cette section fournit des informations sur l’utilisation du service d’emplacement avec Adobe Target.
 seo-description: 'Cette section fournit des informations sur l’utilisation du service d’emplacement avec Adobe Target. '
 translation-type: tm+mt
-source-git-commit: ba918bfdb989ba4037409b17d799ef596064b676
+source-git-commit: 7ca51580a4cfa9c00431ad3972bd10e2a12dfbd1
 
 ---
 
@@ -38,7 +38,7 @@ Une fois que l’extension Places envoie des événements pour les entrées et l
 
 5. Cliquez sur **[!UICONTROL Keep Changes]** (Nouvelle propriété).
 
-![ajouter un événement](/help/assets/ad-addEvent.png)
+![ajouter un événement](/help/assets/ad-setEvent_target.png)
 
 ## 3. Ajouter des conditions
 
@@ -58,7 +58,7 @@ Dans l’exemple suivant, une condition est créée, qui provoque le déclenchem
 
 5. Cliquez sur **[!UICONTROL Keep Changes]** (Nouvelle propriété).
 
-![ajouter un événement](/help/assets/ad-setCondition.png)
+![ajouter un événement](/help/assets/ad-setCondition_target.png)
 
 ## 4. Définir l'action
 
@@ -82,13 +82,13 @@ Dans l’exemple suivant, `poiCity` et `poiName` sont ajoutées à la **[!UICONT
 >
 >La notation de `request[*]` peut être lue à haute voix sous la forme _pour chaque objet du `request` tableau.
 
-![ajouter un événement](/help/assets/ad-setAction.png)
+![ajouter un événement](/help/assets/ad-setCondition_target.png)
 
 ## 5. Enregistrez la règle et recréez votre propriété
 
 Une fois la configuration terminée, vérifiez que votre règle ressemble à l’image suivante :
 
-![règle terminée](/help/assets/ad-ruleComplete.png)
+![règle terminée](/help/assets/ad-ruleComplete_target.png)
 
 1. Cliquez sur **[!UICONTROL Save]** (Conserver les modifications).
 
