@@ -4,7 +4,7 @@ seo-title: Notifications in-app
 description: Cette section explique comment utiliser Places avec la messagerie in-app.
 seo-description: Cette section explique comment utiliser Places avec la messagerie in-app.
 translation-type: tm+mt
-source-git-commit: 95c29df19f61e7854e39b47e39471f7f1e94b736
+source-git-commit: a76e91775efd92ce56f2dc5cbdcc65786855b5c3
 
 ---
 
@@ -29,7 +29,7 @@ Voici la liste des types de messagerie in-app disponibles :
 * Alerte
 * Notifications locales
 
-Ces types sont des messages in-app, car ils sont déclenchés par le SDK. Les notifications locales ressemblent aux notifications Push, car elles apparaissent lorsque l’application est en arrière-plan. Ces notifications fournissent également des notifications en temps réel lorsque les utilisateurs entrent dans vos points d’intérêt ou en sortent lorsque l’application est en arrière-plan. Pour plus d’informations, voir [Extension du moniteur de lieux.](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md)
+Ces types sont des messages in-app, car ils sont déclenchés par le SDK. Les notifications locales ressemblent aux notifications Push, car elles apparaissent lorsque l’application est en arrière-plan. Ces notifications fournissent également des notifications en temps réel lorsque les utilisateurs entrent dans vos points d’intérêt ou en sortent lorsque l’application est en arrière-plan. Pour plus d’informations, voir [Extension](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md)du moniteur de lieux.
 
 ### Conditions préalables
 
@@ -51,18 +51,18 @@ Une fois la règle configurée avec les paramètres d’événement et de condit
 
 ## Créer une action
 
-Pour ce faire :
+Pour créer une action :
 
 1. Sélectionnez l’extension **.[!UICONTROL Adobe Analytics]**
 1. Dans la liste **[!UICONTROL Action type]** déroulante, sélectionnez **[!UICONTROL Track.]**
 1. Entrez le nom de votre action.
-1. Dans le volet de droite, dans **[!UICONTROL Context Data]**, sélectionnez la paire clé/valeur pour définir les données contextuelles qui seront envoyées à Analytics.
+1. Dans le volet de droite, dans **[!UICONTROL Context Data]**, sélectionnez la paire clé-valeur pour définir les données contextuelles qui seront envoyées à Analytics.
 
-Par exemple, vous pouvez sélectionner **[!UICONTROL poiname]** comme clé et **[!UICONTROL `{%%Last Entered POI Name}`.]
+Par exemple, vous pouvez sélectionner `poiname` comme clé et `{%%Last Entered POI Name}` comme valeur.
 
 >[!TIP]
 >
->Les règles de traitement Analytics peuvent être définies pour sélectionner ces données contextuelles. For more information, see [Processing Rules](https://docs.adobe.com/content/help/en/analytics/implementation/analytics-basics/ref-processing-rules.html). Dans l’exemple de *Création d’une action*, l’action envoie le `poiname` sous forme de contexte pour décrire l’événement POIentry envoyé à Analytics.
+>Les règles de traitement Analytics peuvent être définies pour sélectionner ces données contextuelles. For more information, see [Processing Rules](https://docs.adobe.com/content/help/en/analytics/implementation/analytics-basics/ref-processing-rules.html). Dans l’exemple de *Création d’une action*, l’action envoie le `poiname` sous forme de contexte pour décrire l’événement d’entrée d’API qui est envoyé à Analytics.
 
 ![création d’une action](/help/assets/configure-action.png)
 
@@ -70,7 +70,7 @@ Voici un exemple de règle complète :
 
 ![règle terminée](/help/assets/create-a-rule.png)
 
-## Création d’un message in-app dans AMS
+## Création d’un message in-app dans Mobile Services
 
 Dans le cadre des paramètres de déclenchement, vous pouvez créer l’audience du message avec les données du service d’emplacement de l’une des manières suivantes :
 
@@ -83,4 +83,6 @@ Dans le cadre des paramètres de déclenchement, vous pouvez créer l’audience
 
    ![paramètres de déclenchement](/help/assets/trigger-parameters.png)
 
-* Les paramètres des en-têtes Places de la page *Déclencheurs et caractéristiques* de Mobile Services ne fonctionnent pas avec les données du service d’emplacement. Ces paramètres concernent uniquement la base de données Places héritée créée dans Mobile Services.
+* Les paramètres des en-têtes Places de la page *Déclencheurs et caractéristiques* de Mobile Services ne fonctionnent pas avec les données du service d’emplacement.
+
+   Ces paramètres concernent uniquement la base de données Places héritée créée dans Mobile Services.
