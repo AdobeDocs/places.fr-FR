@@ -4,7 +4,7 @@ seo-title: Exécution de rapports dans Adobe Analytics qui incluent des données
 description: Cette section fournit des informations sur la manière d’exécuter des rapports dans Analytics qui incluent des données Places.
 seo-description: Cette section fournit des informations sur la manière d’exécuter des rapports dans Analytics qui incluent des données Places.
 translation-type: tm+mt
-source-git-commit: fc1dd9e36bf45a2e7c17c3d9dbbed66b28cb8b07
+source-git-commit: 7ca51580a4cfa9c00431ad3972bd10e2a12dfbd1
 
 ---
 
@@ -25,7 +25,7 @@ Une fois les événements d’entrée et de sortie envoyés, vous pouvez créer 
    * Si vous n’avez pas de règles existantes pour cette propriété, le **[!UICONTROL Create New Rule]** bouton se trouve au milieu de l’écran.
    * Si votre propriété comporte des règles, le **[!UICONTROL Create New Rule]** bouton se trouve en haut à droite de l’écran.
 
-## 1. Sélection d’un événement
+## 2.Sélectionner un événement
 
 1. Attribuez un nom significatif à votre règle afin qu’elle soit facilement reconnaissable dans votre liste de règles.
 
@@ -42,7 +42,7 @@ Vous pouvez maintenant déterminer les déclencheurs à inclure pour cette règl
 !["créer un événement"](/help/assets/pt-selectEvent.png)
 
 
-## 2. Ajouter des conditions
+## 3. Ajouter des conditions
 
 >[!IMPORTANT]
 >
@@ -62,7 +62,7 @@ Dans cet exemple, une condition est créée, qui entraîne le déclenchement de 
 
 !["create a condition"](/help/assets/pt-setCondition.png)
 
-## 3. Définir l'action
+## 4. Définir l'action
 
 1. Sous la **[!UICONTROL Actions]** section, cliquez sur **[!UICONTROL Add]**.
 
@@ -80,7 +80,7 @@ Dans l’exemple suivant, `poi.city` des valeurs et `poi.name` des valeurs sont 
 
 !["créer une action"](/help/assets/pt-setAction.png)
 
-## 4. Enregistrez la règle et recréez votre propriété.
+## 5. Enregistrez la règle et recréez votre propriété.
 
 Une fois la configuration terminée, vérifiez que votre règle ressemble à l’image suivante :
 
