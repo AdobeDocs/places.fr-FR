@@ -4,14 +4,12 @@ seo-title: Notes de mise à jour
 description: Notes de mise à jour du service d’emplacement d’Adobe Experience Platform.
 seo-description: Notes de mise à jour du service d’emplacement d’Adobe Experience Platform.
 translation-type: tm+mt
-source-git-commit: 6ff72eb72ce3ae1abf805b7b542721a7e4915824
+source-git-commit: a5e5d5792d1a0368936f5f54e86a7ce9726a9122
 
 ---
 
 
 # Notes de mise à jour {#release-notes}
-
-Voici les notes de mise à jour :
 
 ## 9 octobre 2019
 
