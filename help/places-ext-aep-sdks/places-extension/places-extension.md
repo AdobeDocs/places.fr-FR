@@ -4,7 +4,7 @@ seo-title: Extension Places
 description: L’extension Places vous permet d’agir en fonction de l’emplacement de vos utilisateurs.
 seo-description: L’extension Places vous permet d’agir en fonction de l’emplacement de vos utilisateurs.
 translation-type: tm+mt
-source-git-commit: fd1b37a0f50d93de1efff4cb38fc23253f02d517
+source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
 
 ---
 
@@ -16,13 +16,13 @@ L’extension Places vous permet d’agir en fonction de l’emplacement de vos 
 ## Installation de l’extension Places dans Adobe Experience Platform Launch
 
 1. Dans le lancement de la plateforme d’expérience, cliquez sur l’ **[!UICONTROL Extensions]** onglet.
-2. Dans l’ **[!UICONTROL Catalog]** onglet, recherchez l’ **[!UICONTROL Places]** extension, puis cliquez sur **[!UICONTROL Install]**.
-3. Sélectionnez les bibliothèques Places que vous souhaitez utiliser dans cette propriété. Ce sont les bibliothèques qui seront accessibles dans votre application.
-4. Cliquez sur **[!UICONTROL Save]** (Nouvelle propriété).
+1. Dans l’ **[!UICONTROL Catalog]** onglet, recherchez l’ **[!UICONTROL Places]** extension, puis cliquez sur **[!UICONTROL Install]**.
+1. Sélectionnez les bibliothèques Places que vous souhaitez utiliser dans cette propriété. Ce sont les bibliothèques qui seront accessibles dans votre application.
+1. Cliquez sur **[!UICONTROL Save]** (Nouvelle propriété).
 
    Lorsque vous cliquez sur **[!UICONTROL Save]**, le SDK de la plate-forme d’expérience recherche des points d’accès dans les services Places dans les bibliothèques que vous avez sélectionnées. Les données d’API ne sont pas incluses dans le téléchargement de la bibliothèque lorsque vous créez l’application, mais un sous-ensemble d’API basé sur l’emplacement est téléchargé sur le périphérique de l’utilisateur final au moment de l’exécution et est basé sur les coordonnées GPS de l’utilisateur.
 
-5. Terminez le processus de publication pour mettre à jour la configuration du SDK.
+1. Terminez le processus de publication pour mettre à jour la configuration du SDK.
 
    Pour plus d’informations sur la publication dans Experience Platform Launch, voir [Publication](https://docs.adobelaunch.com/launch-reference/publishing).
 
@@ -45,7 +45,7 @@ Pour ajouter l’extension Places à votre application à l’aide de Java :
    implementation 'com.adobe.marketing.mobile:sdk-core:1.+'
    ```
 
-2. Importez l’extension Places dans l’activité principale de votre application.
+1. Importez l’extension Places dans l’activité principale de votre application.
 
    ```java
    import com.adobe.marketing.mobile.Places;
@@ -65,13 +65,13 @@ Pour ajouter l'extension Places à votre application à l'aide de Objective-C ou
 
    Sinon, si vous n'utilisez pas Cocoapods, vous pouvez inclure manuellement les bibliothèques Mobile Core et Places de notre page [](https://github.com/Adobe-Marketing-Cloud/acp-sdks/releases/) de publication sur Github.
 
-2. Mettez à jour vos Cocoapods :
+1. Mettez à jour vos Cocoapods :
 
    ```objective-c
    pod update
    ```
 
-3. Ouvrez Xcode et, dans la classe AppDelegate, importez les en-têtes Core et Places :
+1. Ouvrez Xcode et, dans la classe AppDelegate, importez les en-têtes Core et Places :
 
    **Objective-C**
 
