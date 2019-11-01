@@ -4,7 +4,7 @@ seo-title: Utilisation de l’extension Places Monitor
 description: Informations sur l’installation, la configuration et l’utilisation de l’extension Places Monitor.
 seo-description: 'Informations sur l’installation, la configuration et l’utilisation de l’extension Places Monitor. '
 translation-type: tm+mt
-source-git-commit: ef720c112bc0de386e070094629c5bab69938e76
+source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
 
 ---
 
@@ -16,9 +16,9 @@ Pour utiliser l’extension Places Monitor, procédez comme suit :
 ## Installation de l’extension Places Monitor dans Experience Platform Launch
 
 1. Dans le lancement de la plateforme d’expérience, cliquez sur l’ **[!UICONTROL Extensions]** onglet.
-2. Dans l’ **[!UICONTROL Catalog]** onglet, recherchez l’ **[!UICONTROL Places Monitor]** extension, puis cliquez sur **Installer**.
-3. Cliquez sur **[!UICONTROL Save]** (Nouvelle propriété).
-4. Suivez le processus de publication pour mettre à jour la configuration du SDK.
+1. Dans l’ **[!UICONTROL Catalog]** onglet, recherchez l’ **[!UICONTROL Places Monitor]** extension, puis cliquez sur **Installer**.
+1. Cliquez sur **[!UICONTROL Save]** (Nouvelle propriété).
+1. Suivez le processus de publication pour mettre à jour la configuration du SDK.
 
 ### Configuration de l’extension Places Monitor {#configure-places-monitor-extension}
 
@@ -38,7 +38,7 @@ Dans Android, procédez comme suit :
 
 1. Ajoutez l’extension Places Monitor et l’extension Places à votre projet à l’aide du fichier de nivellement de votre application.
 
-2. Incluez également les derniers services Google Location dans le fichier de classification.
+1. Incluez également les derniers services Google Location dans le fichier de classification.
 
    ```java
    implementation 'com.adobe.marketing.mobile:places:1.+'
@@ -47,7 +47,7 @@ Dans Android, procédez comme suit :
    implementation 'com.google.android.gms:play-services-location:16.0.0'
    ```
 
-3. Importez l’extension Places Monitor dans l’activité principale de votre application.
+1. Importez l’extension Places Monitor dans l’activité principale de votre application.
 
    ```java
    import com.adobe.marketing.mobile.PlacesMonitor;
@@ -58,7 +58,7 @@ Dans Android, procédez comme suit :
 Sous iOS, procédez comme suit :
 
 1. Ajoutez la bibliothèque à votre projet via votre Cocoapods `Podfile` en ajoutant `pod 'ACPPlacesMonitor'`.
-2. Importez les bibliothèques du moniteur Lieux et Lieux :
+1. Importez les bibliothèques du moniteur Lieux et Lieux :
 
 #### Objective-C
 
