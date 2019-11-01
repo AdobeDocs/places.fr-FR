@@ -4,7 +4,7 @@ seo-title: Messages in-app avec le service d’emplacement
 description: Cette section fournit des informations sur l’utilisation de la messagerie Push dans Campaign Standard avec des messages in-app dans Campaign Standard.
 seo-description: 'Cette section fournit des informations sur la manière d’utiliser "Messagerie Push dans Campaign Standard" avec les messages in-app dans Campaign Standard. '
 translation-type: tm+mt
-source-git-commit: a76e91775efd92ce56f2dc5cbdcc65786855b5c3
+source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
 
 ---
 
@@ -29,9 +29,9 @@ Avant de commencer, effectuez les tâches suivantes :
 ## Envoi d’un message in-app basé sur une entrée ou une sortie de géolocalisation
 
 1. Dans votre instance Adobe Campaign Standard, cliquez sur **[!UICONTROL Create In-App message]**.
-2. Pour le type de message, sélectionnez **[!UICONTROL Target all users of a Mobile application]**.
-3. Cliquez sur **[!UICONTROL Next]** et saisissez les détails généraux.
-4. Dans le volet de gauche, vérifiez que vous pouvez utiliser divers déclencheurs liés aux services de localisation.
+1. Pour le type de message, sélectionnez **[!UICONTROL Target all users of a Mobile application]**.
+1. Cliquez sur **[!UICONTROL Next]** et saisissez les détails généraux.
+1. Dans le volet de gauche, vérifiez que vous pouvez utiliser divers déclencheurs liés aux services de localisation.
 
    * Vous pouvez choisir d’afficher le message in-app si l’utilisateur a saisi une clôture d’accès aux données d’identification géographique.
    * Vous pouvez également utiliser des métadonnées définies dans l’interface utilisateur des services d’emplacement pour filtrer l’audience.
@@ -39,7 +39,7 @@ Avant de commencer, effectuez les tâches suivantes :
 
    !["Métadonnées de place des messages in-app"](/help/assets/last-entered-vacation.png)
 
-5. Cliquez sur **[!UICONTROL Next]** pour terminer la création du message in-app en vue de sa diffusion.
+1. Cliquez sur **[!UICONTROL Next]** pour terminer la création du message in-app en vue de sa diffusion.
 
    !["créer un événement"](/help/assets/prepare-ACS.png)
 
