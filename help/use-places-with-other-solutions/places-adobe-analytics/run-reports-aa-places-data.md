@@ -4,7 +4,7 @@ seo-title: Exécution de rapports dans Adobe Analytics qui incluent des données
 description: Cette section fournit des informations sur la manière d’exécuter des rapports dans Analytics qui incluent des données Places.
 seo-description: Cette section fournit des informations sur la manière d’exécuter des rapports dans Analytics qui incluent des données Places.
 translation-type: tm+mt
-source-git-commit: 7ca51580a4cfa9c00431ad3972bd10e2a12dfbd1
+source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
 
 ---
 
@@ -31,11 +31,11 @@ Une fois les événements d’entrée et de sortie envoyés, vous pouvez créer 
 
    Dans cet exemple, la règle est nommée **[!UICONTROL Attach Places Data to Analytics Track Action Events]**.
 
-2. Sous la **[!UICONTROL Events]** section, cliquez sur **[!UICONTROL Add]**.
+1. Sous la **[!UICONTROL Events]** section, cliquez sur **[!UICONTROL Add]**.
 
-3. Dans la liste **[!UICONTROL Extension]** déroulante, sélectionnez **[!UICONTROL Mobile Core]**.
+1. Dans la liste **[!UICONTROL Extension]** déroulante, sélectionnez **[!UICONTROL Mobile Core]**.
 
-4. Dans la liste **[!UICONTROL Event Type]** déroulante, sélectionnez **[!UICONTROL Track Action]**.
+1. Dans la liste **[!UICONTROL Event Type]** déroulante, sélectionnez **[!UICONTROL Track Action]**.
 
 Vous pouvez maintenant déterminer les déclencheurs à inclure pour cette règle. Dans cet exemple, le déclencheur est basé sur tous les `TrackAction` appels. Après avoir configuré l’événement, cliquez sur **[!UICONTROL Keep Changes]**.
 
@@ -52,13 +52,13 @@ Dans cet exemple, une condition est créée, qui entraîne le déclenchement de 
 
 1. Sous la **[!UICONTROL Conditions]** section, cliquez sur **[!UICONTROL Add]**.
 
-2. Dans la liste **[!UICONTROL Extension]** déroulante, sélectionnez **[!UICONTORL Mobile Core]**.
+1. Dans la liste **[!UICONTROL Extension]** déroulante, sélectionnez **[!UICONTORL Mobile Core]**.
 
-3. Dans la liste **[!UICONTROL Condition Type]** déroulante, sélectionnez **[!UICONTROL Carrier Name]**.
+1. Dans la liste **[!UICONTROL Condition Type]** déroulante, sélectionnez **[!UICONTROL Carrier Name]**.
 
-4. Dans la fenêtre de droite, cochez la **[!UICONTROL AT&T]** case.
+1. Dans la fenêtre de droite, cochez la **[!UICONTROL AT&T]** case.
 
-5. Cliquez sur **[!UICONTROL Keep Changes]** (Nouvelle propriété).
+1. Cliquez sur **[!UICONTROL Keep Changes]** (Nouvelle propriété).
 
 !["create a condition"](/help/assets/pt-setCondition.png)
 
@@ -66,13 +66,13 @@ Dans cet exemple, une condition est créée, qui entraîne le déclenchement de 
 
 1. Sous la **[!UICONTROL Actions]** section, cliquez sur **[!UICONTROL Add]**.
 
-2. Dans la liste **[!UICONTROL Extension]** déroulante, sélectionnez **[!UICONTROL Mobile Core]**.
+1. Dans la liste **[!UICONTROL Extension]** déroulante, sélectionnez **[!UICONTROL Mobile Core]**.
 
-3. Dans la liste **[!UICONTROL Action Type]** déroulante, sélectionnez **[!UICONTROL Attach Data]**.
+1. Dans la liste **[!UICONTROL Action Type]** déroulante, sélectionnez **[!UICONTROL Attach Data]**.
 
-4. Dans le volet de droite, dans le **[!UICONTROL JSON Payload]** champ, saisissez les données qui seront ajoutées à cet événement.
+1. Dans le volet de droite, dans le **[!UICONTROL JSON Payload]** champ, saisissez les données qui seront ajoutées à cet événement.
 
-5. Cliquez sur **[!UICONTROL Keep Changes]** (Nouvelle propriété).
+1. Cliquez sur **[!UICONTROL Keep Changes]** (Nouvelle propriété).
 
 Dans le volet de droite, vous pouvez ajouter une charge JSON à structure libre qui ajoute des données à un événement SDK avant qu’une extension qui écoute cet événement n’entende l’événement. Dans cet exemple, certaines données contextuelles sont ajoutées à cet événement avant que l’extension Analytics ne les traite. Les données contextuelles ajoutées se trouvent désormais dans l’accès Analytics sortant.
 
@@ -88,4 +88,4 @@ Une fois la configuration terminée, vérifiez que votre règle ressemble à l�
 
 1. Cliquez sur **[!UICONTROL Save]** (Conserver les modifications).
 
-2. Reconstruisez votre propriété Launch et déployez-la dans l’environnement approprié.
+1. Reconstruisez votre propriété Launch et déployez-la dans l’environnement approprié.
