@@ -4,7 +4,7 @@ seo-title: Adobe Target
 description: Cette section fournit des informations sur l’utilisation du service d’emplacement avec Adobe Target.
 seo-description: 'Cette section fournit des informations sur l’utilisation du service d’emplacement avec Adobe Target. '
 translation-type: tm+mt
-source-git-commit: 84b23934a6e9f9fd61c068693bae3daca24de253
+source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
 
 ---
 
@@ -30,13 +30,13 @@ Une fois que l’extension Places envoie des événements pour les entrées et l
 
    Dans cet exemple, la règle est nommée **[!UICONTROL Attach Places Data to Target Content Requested]**.
 
-2. Sous la **[!UICONTROL Events]** section, cliquez sur **[!UICONTROL Add]**.
+1. Sous la **[!UICONTROL Events]** section, cliquez sur **[!UICONTROL Add]**.
 
-3. Dans la liste **[!UICONTROL Extension]** déroulante, sélectionnez **[!UICONTROL Adobe Target]**.
+1. Dans la liste **[!UICONTROL Extension]** déroulante, sélectionnez **[!UICONTROL Adobe Target]**.
 
-4. Dans la liste **[!UICONTROL Event Type]** déroulante, sélectionnez **[!UICONTROL Content Requested]**.
+1. Dans la liste **[!UICONTROL Event Type]** déroulante, sélectionnez **[!UICONTROL Content Requested]**.
 
-5. Cliquez sur **[!UICONTROL Keep Changes]** (Nouvelle propriété).
+1. Cliquez sur **[!UICONTROL Keep Changes]** (Nouvelle propriété).
 
 ![ajouter un événement](/help/assets/ad-setEvent_target.png)
 
@@ -50,13 +50,13 @@ Dans l’exemple suivant, une condition est créée, qui provoque le déclenchem
 
 1. Sous la **[!UICONTROL Conditions]** section, cliquez sur **[!UICONTROL Add]**.
 
-2. Dans la liste **[!UICONTROL Extension]** déroulante, sélectionnez **[!UICONTROL Mobile Core]**.
+1. Dans la liste **[!UICONTROL Extension]** déroulante, sélectionnez **[!UICONTROL Mobile Core]**.
 
-3. Dans la liste **[!UICONTROL Condition Type]** déroulante, sélectionnez **[!UICONTROL Launches]**.
+1. Dans la liste **[!UICONTROL Condition Type]** déroulante, sélectionnez **[!UICONTROL Launches]**.
 
-4. Dans le volet de droite, modifiez la liste déroulante et les contrôles de nombre afin que la condition indique **[!UICONTROL User a lancé l’application plus de 5 fois** ou plus.
+1. Dans le volet de droite, modifiez la liste déroulante et les contrôles de nombre afin que la condition indique **[!UICONTROL User a lancé l’application plus de 5 fois** ou plus.
 
-5. Cliquez sur **[!UICONTROL Keep Changes]** (Nouvelle propriété).
+1. Cliquez sur **[!UICONTROL Keep Changes]** (Nouvelle propriété).
 
 ![ajouter un événement](/help/assets/ad-setCondition_target.png)
 
@@ -64,13 +64,13 @@ Dans l’exemple suivant, une condition est créée, qui provoque le déclenchem
 
 1. Sous la **[!UICONTROL Actions]** section, cliquez sur **[!UICONTROL Add]**.
 
-2. Dans la liste **[!UICONTROL Extension]** déroulante, sélectionnez **[!UICONTROL Mobile Core]**.
+1. Dans la liste **[!UICONTROL Extension]** déroulante, sélectionnez **[!UICONTROL Mobile Core]**.
 
-3. Dans la liste **[!UICONTROL Action Type]** déroulante, sélectionnez **[!UICONTROL Attach Data]**.
+1. Dans la liste **[!UICONTROL Action Type]** déroulante, sélectionnez **[!UICONTROL Attach Data]**.
 
-4. Dans le volet de droite, dans le **[!UICONTROL JSON Payload]** champ, saisissez les données qui seront ajoutées à cet événement.
+1. Dans le volet de droite, dans le **[!UICONTROL JSON Payload]** champ, saisissez les données qui seront ajoutées à cet événement.
 
-5. Cliquez sur **[!UICONTROL Keep Changes]** (Nouvelle propriété).
+1. Cliquez sur **[!UICONTROL Keep Changes]** (Nouvelle propriété).
 
 Dans le volet de droite, vous pouvez ajouter une charge JSON à structure libre qui ajoute des données à un événement SDK avant que les extensions qui écoutent cet événement ne l’entendent.
 
@@ -92,4 +92,4 @@ Une fois la configuration terminée, vérifiez que votre règle ressemble à l�
 
 1. Cliquez sur **[!UICONTROL Save]** (Conserver les modifications).
 
-2. Reconstruisez votre propriété Launch et déployez-la dans l’environnement approprié.
+1. Reconstruisez votre propriété Launch et déployez-la dans l’environnement approprié.
