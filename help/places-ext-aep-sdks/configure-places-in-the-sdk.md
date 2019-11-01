@@ -4,7 +4,7 @@ seo-title: Configuration du SDK avec l’extension Places
 description: 'Vous pouvez configurer le SDK avec l’extension Places pour activer la prise en compte de l’emplacement dans votre application mobile. '
 seo-description: 'Vous pouvez configurer le SDK avec l’extension Places pour activer la prise en compte de l’emplacement dans votre application mobile. '
 translation-type: tm+mt
-source-git-commit: fd1b37a0f50d93de1efff4cb38fc23253f02d517
+source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
 
 ---
 
@@ -37,14 +37,14 @@ Pour configurer l’extension Places Monitor dans Launch :
 
    Pour plus d’informations, voir *Configuration de l’extension Places Monitoring dans Launch*.
 
-2. Ajoutez l’extension Places Monitor à votre application mobile.
+1. Ajoutez l’extension Places Monitor à votre application mobile.
 
    Pour plus d’informations, voir *Ajout de l’extension Places Monitor à votre application*.
 
-3. Enregistrez le moniteur de lieux avec l’extension Mobile Core.
+1. Enregistrez le moniteur de lieux avec l’extension Mobile Core.
 
    Pour plus d’informations, voir Enregistrement du moniteur *des lieux avec Mobile Core*.
 
-4. Activez les mises à jour d’emplacement en arrière-plan.
+1. Activez les mises à jour d’emplacement en arrière-plan.
 
    Pour plus d’informations, voir *Activation des mises à jour d’emplacement en arrière-plan*.
