@@ -4,7 +4,7 @@ seo-title: Définition des éléments de données
 description: Cette section fournit des informations sur la création, l’utilisation et la publication d’éléments de données dans le lancement de la plateforme d’expérience pour les emplacements.
 seo-description: 'Cette section fournit des informations sur la création, l’utilisation et la publication d’éléments de données dans le lancement de la plateforme d’expérience pour les emplacements. '
 translation-type: tm+mt
-source-git-commit: 5d438fdd712c85101d546ed82f8ad155010cfb91
+source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
 
 ---
 
@@ -44,17 +44,17 @@ Chaque API contient les références de données suivantes :
 
 1. Dans la page Propriétés de votre application, cliquez sur l’ **[!UICONTROL Data Elements]** onglet.
 
-2. Cliquez sur **[!UICONTROL Create New Data Element]** (Nouvelle propriété).
+1. Cliquez sur **[!UICONTROL Create New Data Element]** (Nouvelle propriété).
 
-3. Dans la liste des extensions installées, recherchez **[!UICONTROL Places]**.
+1. Dans la liste des extensions installées, recherchez **[!UICONTROL Places]**.
 
-4. Dans la liste **[!UICONTROL Data Element Type]** déroulante, sélectionnez une référence de données pour cet élément de données.
+1. Dans la liste **[!UICONTROL Data Element Type]** déroulante, sélectionnez une référence de données pour cet élément de données.
 
-5. Sélectionnez une cible d’API.
+1. Sélectionnez une cible d’API.
 
-6. Si cet élément de données est une référence de métadonnées personnalisée, sélectionnez une clé de métadonnées.
+1. Si cet élément de données est une référence de métadonnées personnalisée, sélectionnez une clé de métadonnées.
 
-7. Saisissez le nom de l’élément de données, puis cliquez sur **[!UICONTROL Save]**.
+1. Saisissez le nom de l’élément de données, puis cliquez sur **[!UICONTROL Save]**.
 
    ![Créer un élément de données](/help/assets/create-de-7-v3.png)
 
