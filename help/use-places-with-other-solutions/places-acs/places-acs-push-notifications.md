@@ -4,7 +4,7 @@ seo-title: Notifications Push
 description: Cette section fournit des informations sur l’utilisation des emplacements avec des notifications Push dans Campaign Standard.
 seo-description: 'Cette section fournit des informations sur l’utilisation des emplacements avec des notifications Push dans Campaign Standard. '
 translation-type: tm+mt
-source-git-commit: a76e91775efd92ce56f2dc5cbdcc65786855b5c3
+source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
 
 ---
 
@@ -34,15 +34,15 @@ Après avoir vérifié que le moniteur des lieux et des lieux pour les extension
 Pour créer un élément de données :
 
 1. Dans votre propriété mobile de lancement de plateforme d’expérience, cliquez sur l’ **[!UICONTROL Data Elements]** onglet et sur **[!UICONTROLAAjouter un élément]** de données.
-2. Dans la liste **[!UICONTROL Extension]** déroulante, sélectionnez **[!UICONTROL Places]**.
-3. Dans la liste **[!UICONTROL Data Element Type]** déroulante, sélectionnez **[!UICONTROL Name]**.
-4. Dans le volet de droite, vous pouvez sélectionner **[!UICONTROL Current POI]** qui récupère le nom de l’API dans laquelle se trouve actuellement l’utilisateur.
+1. Dans la liste **[!UICONTROL Extension]** déroulante, sélectionnez **[!UICONTROL Places]**.
+1. Dans la liste **[!UICONTROL Data Element Type]** déroulante, sélectionnez **[!UICONTROL Name]**.
+1. Dans le volet de droite, vous pouvez sélectionner **[!UICONTROL Current POI]** qui récupère le nom de l’API dans laquelle se trouve actuellement l’utilisateur.
 
    **[!UICONTROL Last Entered]** récupère le nom de l’API que l’utilisateur a saisi pour la dernière fois et **[!UICONTROL Last Exited]** fournit le nom de l’API qu’il a quitté pour la dernière fois. Dans cet exemple, nous allons sélectionner **[!UICONTROL Last Entered]** et taper le nom de l’élément de données, par exemple **[!UICONTROL Last Entered POI Name]** et en cliquant **[!UICONTROL Save]**.
 
    !["Messagerie push dans Campaign Standard"](/help/assets/ACS_Push1.png)
 
-5. Répétez les étapes 1 à 4 ci-dessus et créez des éléments de données pour la latitude *du point d’entrée* dernier, la longitude *du point d’entrée* dernier et le rayon ** du point d’entrée dernier.
+1. Répétez les étapes 1 à 4 ci-dessus et créez des éléments de données pour la latitude *du point d’entrée* dernier, la longitude *du point d’entrée* dernier et le rayon ** du point d’entrée dernier.
 
 Outre les éléments de données du service d’emplacement, veillez à créer des éléments de données principaux pour Mobile pour l’ID ** d’application et l’ID ** Experience Cloud.
 
@@ -51,22 +51,22 @@ Outre les éléments de données du service d’emplacement, veillez à créer d
 Les règles de lancement de plate-forme d’expérience vous permettent de créer des processus complexes et multisolutions basés sur des déclencheurs d’événement. Les règles vous permettent de créer de nouvelles règles ou de modifier des règles existantes et de déployer dynamiquement les mises à jour sur vos applications mobiles. Dans l’exemple suivant, la règle est déclenchée lorsqu’un utilisateur entre dans un point d’accès géoclôturé. Une fois la règle déclenchée, une mise à jour est envoyée à Campaign Standard afin d’enregistrer une entrée dans une API spécifique pour un utilisateur particulier en fonction de l’ID d’expérience Cloud.
 
 1. Dans la propriété Launch mobile, sur l’ **[!UICONTROL Rules]** onglet, cliquez sur **[!UICONTROL Add Rule]**.
-2. Sous la **[!UICONTROL Events]** section, cliquez sur **[!UICONTROL +]** et sélectionnez **[!UICONTROL Places]** comme extension.
-3. For the **[!UICONTROL Event Type]**, select **[!UICONTROL Enter POI]**.
-4. Attribuez un nom à la règle, par exemple, **l’utilisateur a saisi l’API**.
-5. Cliquez sur **[!UICONTROL Keep Changes]** (Nouvelle propriété).
-6. Laissez la **[!UICONTROL Conditions]** section vide.
+1. Sous la **[!UICONTROL Events]** section, cliquez sur **[!UICONTROL +]** et sélectionnez **[!UICONTROL Places]** comme extension.
+1. For the **[!UICONTROL Event Type]**, select **[!UICONTROL Enter POI]**.
+1. Attribuez un nom à la règle, par exemple, **l’utilisateur a saisi l’API**.
+1. Cliquez sur **[!UICONTROL Keep Changes]** (Nouvelle propriété).
+1. Laissez la **[!UICONTROL Conditions]** section vide.
 
    Cette section vous permet de filtrer ou d’imposer des restrictions sur le moment où cette règle doit se déclencher.
 
-7. Sous la **[!UICONTROL Actions]** section, cliquez sur **[!UICONTROL +]**.
-8. Dans la liste **[!UICONTROL Extension]** déroulante, sélectionnez **[!UICONTROL Mobile Core]** , puis, dans la **[!UICONTROL Action Type]** liste déroulante, sélectionnez **[!UICONTROL Send Postback]**.
-9. Dans **[!UICONTROL URL]**, vous devez construire votre point de fin d’emplacements Campaign Standard.
+1. Sous la **[!UICONTROL Actions]** section, cliquez sur **[!UICONTROL +]**.
+1. Dans la liste **[!UICONTROL Extension]** déroulante, sélectionnez **[!UICONTROL Mobile Core]** , puis, dans la **[!UICONTROL Action Type]** liste déroulante, sélectionnez **[!UICONTROL Send Postback]**.
+1. Dans **[!UICONTROL URL]**, vous devez construire votre point de fin d’emplacements Campaign Standard.
 
    L’URL doit ressembler à `https:///rest/head/mobileAppV5//locations/`.
 Assurez-vous d’utiliser les éléments de données corrects que vous avez créés précédemment pour votre serveur Campaign et votre clé pKey.
 
-10. Cliquez sur la zone pour ajouter un corps de publication et envoyer les éléments suivants :
+1. Cliquez sur la zone pour ajouter un corps de publication et envoyer les éléments suivants :
 
    ```
    {
@@ -81,9 +81,9 @@ Assurez-vous d’utiliser les éléments de données corrects que vous avez cré
    }
    ```
 
-11. Veillez à utiliser les éléments de données que vous avez créés dans la section précédente.
-12. Dans **[!UICONTROL Content Type]**, saisissez **[!UICONTROL application/json]**.
-13. Cliquez sur **[!UICONTROL Keep Changes]** (Nouvelle propriété).
+1. Veillez à utiliser les éléments de données que vous avez créés dans la section précédente.
+1. Dans **[!UICONTROL Content Type]**, saisissez **[!UICONTROL application/json]**.
+1. Cliquez sur **[!UICONTROL Keep Changes]** (Nouvelle propriété).
 
 >[!IMPORTANT]
 >
@@ -98,16 +98,16 @@ Assurez-vous d’utiliser les éléments de données corrects que vous avez cré
 Maintenant que les données d’emplacement sont renseignées dans Campaign, nous pouvons utiliser les points d’intérêt comme outil de segmentation de l’audience.
 
 1. Dans votre instance Adobe Campaign Standard, cliquez sur **[!UICONTROL Create Push Notification]**.
-2. Pour le type de notification Push, sélectionnez **[!UICONTROL Send push to Campaign profiles]**.
-3. Cliquez sur **[!UICONTROL Next]** et saisissez les détails généraux.
-4. Dans l’écran Public, cliquez sur **[!UICONTROL Count]** pour déterminer le nombre estimé d’utilisateurs qui recevront la notification Push.
+1. Pour le type de notification Push, sélectionnez **[!UICONTROL Send push to Campaign profiles]**.
+1. Cliquez sur **[!UICONTROL Next]** et saisissez les détails généraux.
+1. Dans l’écran Public, cliquez sur **[!UICONTROL Count]** pour déterminer le nombre estimé d’utilisateurs qui recevront la notification Push.
 
    >[!TIP]
    >
    >Dans cet exemple, le nombre sera de 3, car il existe trois périphériques installés sur lesquels l’application est en cours de test.
 
-5. Dans le volet de gauche, développez l’ **[!UICONTROL Profile]** onglet et faites glisser le **[!UICONTROL POI location]** filtre vers la zone principale.
-6. Dans la fenêtre de filtre d’API, entrez le nom exact de l’API que vous souhaitez cibler.
+1. Dans le volet de gauche, développez l’ **[!UICONTROL Profile]** onglet et faites glisser le **[!UICONTROL POI location]** filtre vers la zone principale.
+1. Dans la fenêtre de filtre d’API, entrez le nom exact de l’API que vous souhaitez cibler.
 
    >[!TIP]
    >
@@ -115,12 +115,12 @@ Maintenant que les données d’emplacement sont renseignées dans Campaign, nou
 
    !["Messagerie push 2 in ACS"](/help/assets/ACS_push2.png)
 
-7. Cliquez sur **[!UICONTROL Confirm]** (Nouvelle propriété).
-8. Exécutez à nouveau le compte en haut pour voir la taille de votre audience changer.
+1. Cliquez sur **[!UICONTROL Confirm]** (Nouvelle propriété).
+1. Exécutez à nouveau le compte en haut pour voir la taille de votre audience changer.
 
    Si vous ne voyez pas la mise à jour de votre compte, vous avez peut-être saisi un nom d’API pour lequel aucun périphérique n’a déclenché une entrée. Le crochet Web Slack devient intéressant dans cette situation, car vous pouvez voir la liste des entrées d’API de différents périphériques de test.
-9. Vous pouvez faire glisser d’autres filtres d’emplacement de point d’intérêt pour inclure plusieurs points d’intérêt dans votre message.
-10. Cliquez sur **[!UICONTROL Next]** pour terminer la création de la notification Push en vue de la remise.
+1. Vous pouvez faire glisser d’autres filtres d’emplacement de point d’intérêt pour inclure plusieurs points d’intérêt dans votre message.
+1. Cliquez sur **[!UICONTROL Next]** pour terminer la création de la notification Push en vue de la remise.
 
    !["Messagerie push 3 in ACS"](/help/assets/ACS_push3.html)
 
