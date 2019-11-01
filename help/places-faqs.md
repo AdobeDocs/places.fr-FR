@@ -4,7 +4,7 @@ seo-title: Questions fréquentes
 description: Cette rubrique fournit des informations supplémentaires sur certaines questions fréquentes.
 seo-description: Cette rubrique fournit des informations supplémentaires sur certaines questions fréquentes.
 translation-type: tm+mt
-source-git-commit: 6ae0c8d90cad4c437e1db7f562a0bc9c6b072ce6
+source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
 
 ---
 
@@ -91,7 +91,7 @@ Pour configurer le profil et ajouter les autorisations :
 
       Si vous avez précédemment ajouté des utilisateurs au lancement de la plateforme d’expérience, plusieurs profils peuvent s’afficher.
 
-2. Sélectionnez le profil correct :
+1. Sélectionnez le profil correct :
 
    a. Cliquez sur le nom du profil par défaut.
 
@@ -145,7 +145,7 @@ Pour ajouter un utilisateur à vos profils de lancement du service d’emplaceme
 
    g. Cliquez sur **[!UICONTROL Save]**.
 
-2. Ajoutez un utilisateur à **[!UICONTROL Places Core Services]**.
+1. Ajoutez un utilisateur à **[!UICONTROL Places Core Services]**.
 
    >[!TIP]
    >
