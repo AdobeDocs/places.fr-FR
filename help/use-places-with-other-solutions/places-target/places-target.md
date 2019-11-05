@@ -4,7 +4,7 @@ seo-title: Adobe Target
 description: Cette section fournit des informations sur l’utilisation du service d’emplacement avec Adobe Target.
 seo-description: Cette section fournit des informations sur l’utilisation du service d’emplacement avec Adobe Target.
 translation-type: tm+mt
-source-git-commit: 95dd010db8a860ebf489d04c7a70ec9cda8b3fb1
+source-git-commit: d12dae0e30fab8639260c2c55accb4b79096382d
 
 ---
 
@@ -58,7 +58,7 @@ Dans l’exemple suivant, une condition est créée, qui provoque le déclenchem
 
 1. Cliquez sur **[!UICONTROL Keep Changes]** (Nouvelle propriété).
 
-![ajouter un événement](/help/assets/ad-setCondition_target.png)
+![ajouter une condition](/help/assets/ad-setCondition_target.png)
 
 ## 4. Définir l'action
 
@@ -82,7 +82,7 @@ Dans l’exemple suivant, `poiCity` et `poiName` sont ajoutées à la **[!UICONT
 >
 >La notation de `request[*]` peut être lue à haute voix comme _pour chaque objet du`request`tableau_.
 
-![ajouter un événement](/help/assets/ad-setAction_target.png)
+![définir l'action](/help/assets/ad-setAction_target.png)
 
 ## 5. Enregistrez la règle et recréez votre propriété
 
