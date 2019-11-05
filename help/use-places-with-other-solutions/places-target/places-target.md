@@ -2,9 +2,9 @@
 title: Adobe Target
 seo-title: Adobe Target
 description: Cette section fournit des informations sur l’utilisation du service d’emplacement avec Adobe Target.
-seo-description: 'Cette section fournit des informations sur l’utilisation du service d’emplacement avec Adobe Target. '
+seo-description: Cette section fournit des informations sur l’utilisation du service d’emplacement avec Adobe Target.
 translation-type: tm+mt
-source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
+source-git-commit: 95dd010db8a860ebf489d04c7a70ec9cda8b3fb1
 
 ---
 
@@ -54,7 +54,7 @@ Dans l’exemple suivant, une condition est créée, qui provoque le déclenchem
 
 1. Dans la liste **[!UICONTROL Condition Type]** déroulante, sélectionnez **[!UICONTROL Launches]**.
 
-1. Dans le volet de droite, modifiez la liste déroulante et les contrôles de nombre afin que la condition indique **[!UICONTROL User a lancé l’application plus de 5 fois** ou plus.
+1. Dans le volet de droite, modifiez la liste déroulante et les contrôles de numéro afin que la condition soit lue **[!UICONTROL User has launched the app greater than or equal to 5 times]**.
 
 1. Cliquez sur **[!UICONTROL Keep Changes]** (Nouvelle propriété).
 
@@ -76,11 +76,11 @@ Dans le volet de droite, vous pouvez ajouter une charge JSON à structure libre 
 
 Dans l’exemple suivant, `poiCity` et `poiName` sont ajoutées à la **[!UICONTROL mboxparameters]** requête pour chaque requête traitée dans l’événement Target. Les valeurs des nouvelles clés sont déterminées dynamiquement par le SDK au moment du traitement de cet événement.
 
->[!TIP
->]
+>[!TIP]
+>
 >Cette charge JSON utilise une notation spéciale pour l’ `request` objet. Dans l’événement d’origine, `request` est un tableau d’objets anonymes. Lorsque vous associez des données à tous les objets d’un tableau à l’aide de l’option Joindre les données, la `[*]` notation d’une clé connue pour contenir un tableau entraîne l’application de la charge utile à tous les objets de ce tableau.
 >
->La notation de `request[*]` peut être lue à haute voix sous la forme _pour chaque objet du `request` tableau.
+>La notation de `request[*]` peut être lue à haute voix comme _pour chaque objet du`request`tableau_.
 
 ![ajouter un événement](/help/assets/ad-setAction_target.png)
 
