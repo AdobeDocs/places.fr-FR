@@ -1,10 +1,10 @@
 ---
 title: Utilisation de votre propre moniteur
 seo-title: Utilisation de votre propre moniteur
-description: 'Vous pouvez également utiliser vos services de surveillance et vous intégrer à Places à l’aide des API d’extension Places. '
-seo-description: 'Vous pouvez également utiliser vos services de surveillance et vous intégrer à Places à l’aide des API d’extension Places. '
+description: Vous pouvez également utiliser vos services de surveillance et vous intégrer à Places à l’aide des API d’extension Places.
+seo-description: Vous pouvez également utiliser vos services de surveillance et vous intégrer à Places à l’aide des API d’extension Places.
 translation-type: tm+mt
-source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
+source-git-commit: 95dd010db8a860ebf489d04c7a70ec9cda8b3fb1
 
 ---
 
@@ -27,11 +27,9 @@ Sous iOS, procédez comme suit :
 
    ```objective-c
    - (void) locationManager: (CLLocationManager*) manager didUpdateLocations: (NSArray<CLLocation*>*) locations {
-   
-          [ACPPlaces getNearbyPointsOfInterest:currentLocation limit:10 callback: ^ (NSArray<ACPPlacesPoi*>* _Nullable nearbyPoi) {
-              [self startMonitoringGeoFences:nearbyPoi];
-      }];
-   
+       [ACPPlaces getNearbyPointsOfInterest:currentLocation limit:10 callback: ^ (NSArray<ACPPlacesPoi*>* _Nullable nearbyPoi) {
+           [self startMonitoringGeoFences:nearbyPoi];
+       }];
    }
    ```
 
