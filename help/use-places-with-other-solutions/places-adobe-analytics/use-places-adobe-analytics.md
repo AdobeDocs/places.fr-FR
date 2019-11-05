@@ -2,9 +2,9 @@
 title: Envoyer des données de lieux à Adobe Analytics
 seo-title: Envoyer des données de lieux à Adobe Analytics
 description: Cette section fournit des informations sur la manière d’envoyer des données Places à Analytics.
-seo-description: 'Cette section fournit des informations sur la manière d’envoyer des données Places à Analytics. '
+seo-description: Cette section fournit des informations sur la manière d’envoyer des données Places à Analytics.
 translation-type: tm+mt
-source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
+source-git-commit: 95dd010db8a860ebf489d04c7a70ec9cda8b3fb1
 
 ---
 
@@ -41,7 +41,7 @@ Une fois que Places a envoyé les événements d’entrée et de sortie, vous po
 
 1. Cliquez sur **[!UICONTROL Keep Changes]** (Nouvelle propriété).
 
-   !["sélectionner un événement"](/help/assets/ad-setEvent_use-analytics-data.png)
+   !["sélectionner un événement"](/help/assets/pt-selectEvent.png)
 
 
 ## 3. Ajouter des conditions
@@ -62,7 +62,7 @@ Dans cet exemple, une condition est créée, qui provoque le déclenchement de l
 
 1. Cliquez sur **[!UICONTROL Keep Changes]** (Nouvelle propriété).
 
-   !["set a condition"](/help/assets/ad-setCondition_use-analytics-data.png)
+   !["set a condition"](/help/assets/pt-setCondition.png)
 
 
 ## 4. Définir l'action
@@ -81,15 +81,14 @@ Dans cet exemple, une condition est créée, qui provoque le déclenchement de l
 
    Dans l’exemple suivant, un `TrackAction` appel est envoyé à Analytics avec des données contextuelles supplémentaires `poi.name` égales au nom de l’API qui a déclenché cet événement d’entrée :
 
-   !["définir une action"](/help/assets/ad-setAction_use-analytics-data.png)
+   !["définir une action"](/help/assets/pt-setAction.png)
 
 ## 5. Enregistrez la règle et recréez votre propriété.
 
 Une fois la configuration terminée, vérifiez que votre règle ressemble à l’image suivante :
 
-!["règle créée"](/help/assets/ad-ruleComplete_use-analytics-data.png)
+!["règle créée"](/help/assets/pt-ruleComplete.png)
 
 1. Cliquez sur **[!UICONTROL Save]** (Conserver les modifications).
 
 1. Reconstruisez votre propriété Launch et déployez-la dans l’environnement approprié.
-
