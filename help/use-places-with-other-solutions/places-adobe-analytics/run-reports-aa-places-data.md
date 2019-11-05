@@ -4,7 +4,7 @@ seo-title: Exécution de rapports dans Adobe Analytics qui incluent des données
 description: Cette section fournit des informations sur la manière d’exécuter des rapports dans Analytics qui incluent des données Places.
 seo-description: Cette section fournit des informations sur la manière d’exécuter des rapports dans Analytics qui incluent des données Places.
 translation-type: tm+mt
-source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
+source-git-commit: 95dd010db8a860ebf489d04c7a70ec9cda8b3fb1
 
 ---
 
@@ -39,7 +39,7 @@ Une fois les événements d’entrée et de sortie envoyés, vous pouvez créer 
 
 Vous pouvez maintenant déterminer les déclencheurs à inclure pour cette règle. Dans cet exemple, le déclencheur est basé sur tous les `TrackAction` appels. Après avoir configuré l’événement, cliquez sur **[!UICONTROL Keep Changes]**.
 
-!["créer un événement"](/help/assets/pt-selectEvent.png)
+!["créer un événement"](/help/assets/ad-setEvent_use-analytics-data.png)
 
 
 ## 3. Ajouter des conditions
@@ -60,7 +60,7 @@ Dans cet exemple, une condition est créée, qui entraîne le déclenchement de 
 
 1. Cliquez sur **[!UICONTROL Keep Changes]** (Nouvelle propriété).
 
-!["create a condition"](/help/assets/pt-setCondition.png)
+!["create a condition"](/help/assets/ad-setCondition_use-analytics-data.png)
 
 ## 4. Définir l'action
 
@@ -78,13 +78,13 @@ Dans le volet de droite, vous pouvez ajouter une charge JSON à structure libre 
 
 Dans l’exemple suivant, `poi.city` des valeurs et `poi.name` des valeurs sont ajoutées aux données contextuelles de l’événement Analytics. Les valeurs des nouvelles clés sont déterminées dynamiquement par le SDK lorsque cet événement se produit.
 
-!["créer une action"](/help/assets/pt-setAction.png)
+!["créer une action"](/help/assets/ad-setAction_use-analytics-data.png)
 
 ## 5. Enregistrez la règle et recréez votre propriété.
 
 Une fois la configuration terminée, vérifiez que votre règle ressemble à l’image suivante :
 
-!["la règle est terminée."](/help/assets/pt-ruleComplete.png)
+!["la règle est terminée."](/help/assets/ad-ruleComplete_use-analytics-data.png)
 
 1. Cliquez sur **[!UICONTROL Save]** (Conserver les modifications).
 
