@@ -4,7 +4,7 @@ seo-title: Adobe Target
 description: Cette section fournit des informations sur l’utilisation du service d’emplacement avec Adobe Target.
 seo-description: Cette section fournit des informations sur l’utilisation du service d’emplacement avec Adobe Target.
 translation-type: tm+mt
-source-git-commit: 2169bcdc5957c2542dd11875223ea96c3d10b0bc
+source-git-commit: 27f4e5397caf14e24bcbc4a2d276647e72a6d115
 
 ---
 
@@ -82,7 +82,7 @@ Dans l’exemple suivant, `poiCity` et `poiName` sont ajoutées à la **[!UICONT
 >
 >La notation de `request[*]` peut être lue à haute voix comme _pour chaque objet du`request`tableau_.
 
-![définir l'action](/help/assets/ad-setAction_target.png)
+![définir l'action](/help/assets/ad-setAction-target.png)
 
 ## 5. Enregistrez la règle et recréez votre propriété
 
