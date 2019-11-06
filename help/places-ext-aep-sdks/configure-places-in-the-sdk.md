@@ -4,14 +4,14 @@ seo-title: Configuration du SDK avec l’extension Places
 description: 'Vous pouvez configurer le SDK avec l’extension Places pour activer la prise en compte de l’emplacement dans votre application mobile. '
 seo-description: 'Vous pouvez configurer le SDK avec l’extension Places pour activer la prise en compte de l’emplacement dans votre application mobile. '
 translation-type: tm+mt
-source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
+source-git-commit: 61256ee0f01775bf09a3aee06b6e7253527fc383
 
 ---
 
 
 # Configuration du SDK avec l’extension Places {#configure-sdk-places-extension}
 
-Pour activer la connaissance de l’emplacement dans votre application mobile, configurez le SDK avec les extensions Places et, éventuellement, l’extension Surveillance des lieux. Pour plus d’informations, y compris la configuration du SDK, voir [Places (bêta) extension](/help/configure-places-in-the sdk/places-extension/places-extension.md).
+Pour activer la sensibilisation aux emplacements dans votre application mobile, configurez le SDK avec l’extension Places et, en option, avec l’extension Surveillance des Places. For more information including SDK configuration, see [Places (Beta) extension](/help/places-ext-aep-sdks/places-extension/places-extension.md).
 
 ## Configuration de l’extension Places
 
