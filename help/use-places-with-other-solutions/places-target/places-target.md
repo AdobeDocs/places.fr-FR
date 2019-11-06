@@ -4,7 +4,7 @@ seo-title: Adobe Target
 description: Cette section fournit des informations sur l’utilisation du service d’emplacement avec Adobe Target.
 seo-description: Cette section fournit des informations sur l’utilisation du service d’emplacement avec Adobe Target.
 translation-type: tm+mt
-source-git-commit: d12dae0e30fab8639260c2c55accb4b79096382d
+source-git-commit: 2169bcdc5957c2542dd11875223ea96c3d10b0bc
 
 ---
 
@@ -88,7 +88,7 @@ Dans l’exemple suivant, `poiCity` et `poiName` sont ajoutées à la **[!UICONT
 
 Une fois la configuration terminée, vérifiez que votre règle ressemble à l’image suivante :
 
-![règle terminée](/help/assets/ad-ruleComplete_target.png)
+![règle terminée](/help/assets/ad-ruleComplete-target.png)
 
 1. Cliquez sur **[!UICONTROL Save]** (Conserver les modifications).
 
