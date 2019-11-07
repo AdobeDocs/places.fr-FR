@@ -4,7 +4,7 @@ seo-title: Utilisation de votre propre moniteur
 description: Vous pouvez également utiliser vos services de surveillance et vous intégrer à Places à l’aide des API d’extension Places.
 seo-description: Vous pouvez également utiliser vos services de surveillance et vous intégrer à Places à l’aide des API d’extension Places.
 translation-type: tm+mt
-source-git-commit: d12dae0e30fab8639260c2c55accb4b79096382d
+source-git-commit: 419df41a0abeac1ac2a77f32bfa818b4edf3baeb
 
 ---
 
@@ -30,8 +30,9 @@ Sous iOS, procédez comme suit :
        [ACPPlaces getNearbyPointsOfInterest:currentLocation limit:10 callback: ^ (NSArray<ACPPlacesPoi*>* _Nullable nearbyPoi) {
            [self startMonitoringGeoFences:nearbyPoi];
        }];
-   }```
-   
+   }
+   ```
+
 1. Extrayez les informations des `ACPPlacesPOI` objets obtenus et commencez à surveiller ces points d’intérêt.
 
    ```objective-c
@@ -42,13 +43,14 @@ Sous iOS, procédez comme suit :
        for (ACPPlacesPoi * currentRegion in newGeoFences) {
            // make the circular region
            CLLocationCoordinate2D center = CLLocationCoordinate2DMake(currentRegion.latitude, currentRegion.longitude);
-           CLCircularRegion* currentCLRegion = [[CLCircularRegion alloc] initWithCenter:center                                                                                                                              radius:currentRegion.radius                                                                                                                    identifier:currentRegion.identifier];
+           CLCircularRegion* currentCLRegion = [[CLCircularRegion alloc] initWithCenter:center
+                                                                                 radius:currentRegion.radius
+                                                                             identifier:currentRegion.identifier];
            currentCLRegion.notifyOnExit = YES;
            currentCLRegion.notifyOnEntry = YES;
    
            // start monitoring the new region
            [_locationManager startMonitoringForRegion:currentCLRegion];
-   
        }
    }
    ```
@@ -57,23 +59,22 @@ Sous iOS, procédez comme suit :
 
 1. Transmettez les mises à jour d’emplacement obtenues des services Google Play ou Android aux services d’emplacement Places Extension.
 
-1. Utilisez l’API `getNearbyPointsOfInterest` Places Extension pour obtenir la liste des n objets `PlacesPoi` autour de l’emplacement actuel.
+1. Utilisez l’API `getNearbyPointsOfInterest` Places Extension pour obtenir la liste des `PlacesPoi` objets autour de l’emplacement actuel.
 
    ```java
-       LocationCallback callback = new LocationCallback() {
-               @Override
-               public void onLocationResult(LocationResult locationResult) {
-                   super.onLocationResult(locationResult);
+   LocationCallback callback = new LocationCallback() {
+       @Override
+       public void onLocationResult(LocationResult locationResult) {
+           super.onLocationResult(locationResult);
    
-                   Places.getNearbyPointsOfInterest(currentLocation, 10, new            AdobeCallback<List<PlacesPOI>>() {
+           Places.getNearbyPointsOfInterest(currentLocation, 10, new AdobeCallback<List<PlacesPOI>>() {
                @Override
-               public void call(List<PlacesPOI> pois)
+               public void call(List<PlacesPOI> pois) {
                    starMonitoringGeofence(pois);
                }
            });
-   
-               }
-           };
+       }
+   };
    ```
 
 1. Extrayez les données des `PlacesPOI` objets obtenus et commencez à surveiller ces points d’intérêt.
@@ -82,21 +83,21 @@ Sous iOS, procédez comme suit :
    private void startMonitoringFences(final List<PlacesPOI> nearByPOIs) {
        // check for location permission
        for (PlacesPOI poi : nearByPOIs) {
-               final Geofence fence = new Geofence.Builder()
+           final Geofence fence = new Geofence.Builder()
                .setRequestId(poi.getIdentifier())
                .setCircularRegion(poi.getLatitude(), poi.getLongitude(), poi.getRadius())
                .setExpirationDuration(Geofence.NEVER_EXPIRE)
                .setTransitionTypes(Geofence.GEOFENCE_TRANSITION_ENTER |
                                    Geofence.GEOFENCE_TRANSITION_EXIT)
                .build();
-               geofences.add(fence);
-           }
+           geofences.add(fence);
+       }
    
-           GeofencingRequest.Builder builder = new GeofencingRequest.Builder();
-           builder.setInitialTrigger(GeofencingRequest.INITIAL_TRIGGER_ENTER);
-           builder.addGeofences(geofences);
-           builder.build();
-           geofencingClient.addGeofences(builder.build(), geoFencePendingIntent)
+       GeofencingRequest.Builder builder = new GeofencingRequest.Builder();
+       builder.setInitialTrigger(GeofencingRequest.INITIAL_TRIGGER_ENTER);
+       builder.addGeofences(geofences);
+       builder.build();
+       geofencingClient.addGeofences(builder.build(), geoFencePendingIntent)
    }
    ```
 
@@ -120,5 +121,30 @@ Sous iOS, appelez l’API `processGeofenceEvent` Places dans le `CLLocationManag
 
 - (void) locationManager:(CLLocationManager *)manager didExitRegion:(CLRegion *)region {
     [ACPPlaces processRegionEvent:region forRegionEventType:ACPRegionEventTypeExit];
+}
+```
+
+### Android
+
+Dans Android, appelez la `processGeofence` méthode avec l’événement de transition approprié dans votre récepteur de diffusion Geofence. Vous pouvez traiter la liste des références reçues pour éviter les entrées/sorties en double.
+
+```java
+void onGeofenceReceived(final Intent intent) {
+    // do appropriate validation steps for the intent
+    ...
+
+    // get GeofencingEvent from intent
+    GeofencingEvent geoEvent = GeofencingEvent.fromIntent(intent);
+
+    // get the transition type (entry or exit)
+    int transitionType = geoEvent.getGeofenceTransition();
+
+    // validate your geoEvent and get the necessary Geofences from the list
+    List<Geofence> myGeofences = geoEvent.getTriggeringGeofences();
+
+    // process region events for your geofences
+    for (Geofence geofence : myGeofences) {
+        Places.processGeofence(geofence, transitionType);
+    }
 }
 ```
