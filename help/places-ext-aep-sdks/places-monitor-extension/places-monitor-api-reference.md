@@ -1,10 +1,10 @@
 ---
 title: Référence à l’API du moniteur de lieux
 seo-title: Référence à l’API du moniteur de lieux
-description: 'Liste des API du moniteur des lieux. '
+description: Liste des API du moniteur des lieux.
 seo-description: 'Liste des API du moniteur des lieux.  '
 translation-type: tm+mt
-source-git-commit: ef720c112bc0de386e070094629c5bab69938e76
+source-git-commit: 7609711db8b53dfbf0a387632c47133e9b9d0f07
 
 ---
 
@@ -149,7 +149,7 @@ PlacesMonitor.start();
 >
 >Si votre appel à démarrer la surveillance est effectué avant l’initialisation du SDK, il se peut qu’il soit ignoré.
 
-Vous pouvez vous assurer que le SDK a terminé l’initialisation en appelant `start` depuis le rappel fourni à `ACPCore::start:`.
+Vous pouvez vous assurer que le SDK a terminé l’initialisation en appelant `start` à partir du rappel fourni à `ACPCore::start:`.
 
 Voici la syntaxe et l’exemple de code pour cette API :
 
@@ -323,7 +323,7 @@ Le niveau d’autorisation peut être défini sur l’une des valeurs suivantes 
 
 * `ACPPlacesRequestMonitorAuthorizationLevelAlways`
 
-   Utilisez cet énumérateur pour demander des services d’emplacement même lorsque l’application est en arrière-plan. Vous devez avoir les clés `NSLocationAlwaysUsageDescription` et `NSLocationWhenInUseUsageDescription` les clés dans Info.plist de votre application. Ces touches définissent le texte qui apparaîtra à l’invite de l’utilisateur. Pour plus d’informations, consultez la documentation [Apple sur request waysautorisation](https://developer.apple.com/documentation/corelocation/cllocationmanager/1620551-requestalwaysauthorization).
+   Utilisez cet énumérateur pour demander des services d’emplacement même lorsque l’application est en arrière-plan. Vous devez avoir les clés `NSLocationAlwaysUsageDescription` et `NSLocationWhenInUseUsageDescription` les clés dans Info.plist de votre application. Ces touches définissent le texte qui apparaîtra à l’invite de l’utilisateur. Pour plus d’informations, consultez la documentation [Apple sur requestAlwaysAuthorization](https://developer.apple.com/documentation/corelocation/cllocationmanager/1620551-requestalwaysauthorization).
 
 `ACPPlacesRequestAuthorizationLevelAlways` est la valeur d’autorisation de requête par défaut.
 
@@ -336,7 +336,7 @@ Voici la syntaxe et l’exemple de code pour cette API :
 #### Syntaxe
 
 ```objective-c
-+ (void) setRequestAuthorizationLevel: (ACPPlacesRequestAuthorizationLevel) requestAuthorizationLevel
++ (void) setRequestAuthorizationLevel: (ACPPlacesRequestAuthorizationLevel) requestAuthorizationLevel;
 ```
 
 #### Exemple
@@ -354,7 +354,7 @@ Pour mettre à niveau vers `ACPPlacesRequestAuthorizationLevelAlways` l’autori
 
 ```objective-c
 // set the request authorization level
-[ACPPlacesMonitor setRequestAuthorizationLevel: ACPPlacesRequestAuthorizationLevelAlways]
+[ACPPlacesMonitor setRequestAuthorizationLevel: ACPPlacesRequestAuthorizationLevelAlways];
 ```
 
 ## Mode de surveillance (iOS uniquement)
