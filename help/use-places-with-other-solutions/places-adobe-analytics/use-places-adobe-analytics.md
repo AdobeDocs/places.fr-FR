@@ -1,20 +1,20 @@
 ---
-title: Envoyer des données de lieux à Adobe Analytics
-seo-title: Envoyer des données de lieux à Adobe Analytics
-description: Cette section fournit des informations sur la manière d’envoyer des données Places à Analytics.
-seo-description: Cette section fournit des informations sur la manière d’envoyer des données Places à Analytics.
+title: Envoyer les données d’entrée et de sortie du point d’accès à Analytics
+seo-title: Envoyer les données d’entrée et de sortie du point d’accès à Analytics
+description: Cette section fournit des informations sur la manière d’envoyer les données d’entrée et de sortie du point d’accès à Analytics.
+seo-description: Cette section fournit des informations sur la manière d’envoyer les données d’entrée et de sortie du point d’accès à Analytics.
 translation-type: tm+mt
-source-git-commit: 95dd010db8a860ebf489d04c7a70ec9cda8b3fb1
+source-git-commit: 7609711db8b53dfbf0a387632c47133e9b9d0f07
 
 ---
 
 
-# Envoyer des données de lieux à Adobe Analytics {#places-data-analytics}
+# Envoyer les données d’entrée et de sortie du point d’accès à Analytics {#places-data-analytics}
 
 
 >[!IMPORTANT]
 >
->Cette section suppose que votre application met en oeuvre des emplacements. Pour plus d’informations sur l’implémentation de lieux, voir [Lieux étendus](/help/places-ext-aep-sdks/places-extension/places-extension.md).
+>Cette section suppose que votre application met en oeuvre des emplacements. Pour plus d’informations sur l’implémentation de lieux, voir [Lieux extensions](/help/places-ext-aep-sdks/places-extension/places-extension.md).
 
 Une fois que Places a envoyé les événements d’entrée et de sortie, vous pouvez créer des règles dans le lancement de la plate-forme d’expérience pour envoyer les données Places à Adobe Analytics. Pour créer ce type de règle, sélectionnez votre propriété dans Lancer et procédez comme suit :
 
