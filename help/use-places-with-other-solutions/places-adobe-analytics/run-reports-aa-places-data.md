@@ -1,15 +1,15 @@
 ---
-title: Exécution de rapports dans Adobe Analytics qui incluent des données Places
-seo-title: Exécution de rapports dans Adobe Analytics qui incluent des données Places
-description: Cette section fournit des informations sur la manière d’exécuter des rapports dans Analytics qui incluent des données Places.
-seo-description: Cette section fournit des informations sur la manière d’exécuter des rapports dans Analytics qui incluent des données Places.
+title: Ajout d’un contexte d’emplacement aux requêtes Analytics
+seo-title: Ajout d’un contexte d’emplacement aux requêtes Analytics
+description: Cette section explique comment ajouter un contexte d’emplacement aux requêtes Analytics.
+seo-description: Cette section explique comment ajouter un contexte d’emplacement aux requêtes Analytics.
 translation-type: tm+mt
-source-git-commit: 95dd010db8a860ebf489d04c7a70ec9cda8b3fb1
+source-git-commit: 7609711db8b53dfbf0a387632c47133e9b9d0f07
 
 ---
 
 
-# Exécution de rapports dans Adobe Analytics qui incluent des données Places {#run-reports-aa-locserv-data}
+# Ajout d’un contexte d’emplacement aux requêtes Analytics {#run-reports-aa-locserv-data}
 
 >[!IMPORTANT]
 >
