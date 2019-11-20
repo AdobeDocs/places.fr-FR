@@ -4,7 +4,7 @@ seo-title: POI de téléchargement en masse
 description: Cette section fournit des informations sur la manière de télécharger en masse vos points d’intérêt.
 seo-description: Cette section fournit des informations sur la manière de télécharger en masse vos points d’intérêt.
 translation-type: tm+mt
-source-git-commit: a76e91775efd92ce56f2dc5cbdcc65786855b5c3
+source-git-commit: 3e2bf2ce011f9770209af08bd0abf0b16f84fbc0
 
 ---
 
@@ -45,7 +45,7 @@ Voici une liste des colonnes et des valeurs à utiliser :
 
 * `radius`
 
-   Valeur comprise entre 10 et 2000.
+   Valeur comprise entre 10 et 20 000.
 
 ### Valeurs de colonne
 
