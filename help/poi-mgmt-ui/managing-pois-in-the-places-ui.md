@@ -4,12 +4,12 @@ seo-title: Gestion des points d’intérêt existants
 description: Dans l’interface utilisateur du service d’emplacement, vous pouvez modifier, supprimer ou filtrer les points d’intérêt existants.
 seo-description: Dans l’interface utilisateur du service d’emplacement, vous pouvez modifier, supprimer ou filtrer les points d’intérêt existants.
 translation-type: tm+mt
-source-git-commit: 32c670773421406591ba85a628760553ce6ad840
+source-git-commit: 8d6b796326c5fbb3f2af996766fc9c05046ec653
 
 ---
 
 
-# Gestion des points d’intérêt existants
+# Gestion des points d’intérêt existants {#managing-existing-pois}
 
 Les points d’accès et les bibliothèques sont créés et gérés dans la base de données Places à l’aide de l’interface utilisateur Places.
 
