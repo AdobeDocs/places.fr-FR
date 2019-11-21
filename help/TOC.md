@@ -3,7 +3,7 @@ product: Adobe Experience Platform Location Service
 audience: end-user
 user-guide-title: Adobe Experience Platform Location Service
 translation-type: tm+mt
-source-git-commit: 7609711db8b53dfbf0a387632c47133e9b9d0f07
+source-git-commit: a5ac49b0a18ce52fb71b2920d04918539b35294b
 
 ---
 
@@ -14,7 +14,8 @@ source-git-commit: 7609711db8b53dfbf0a387632c47133e9b9d0f07
 + [Notes de mise à jour](release-notes.md)
 + [Prise en main](getting-started.md)
 + Interface de gestion du point d’intérêt {#poi-mgmt-ui}
-   + [Créer un nouveau POI](poi-mgmt-ui/create-a-poi-ui.md)
+   + [Présentation de l'interface de gestion des points d'intérêt](poi-mgmt-ui/poi-mgmt-ui-overview.md)
+   + [Créer un POI](poi-mgmt-ui/create-a-poi-ui.md)
    + [Gestion des points d’accès créés précédemment](poi-mgmt-ui/managing-pois-in-the-places-ui.md)
    + [Stratégies d’utilisation des métadonnées avec des points d’intérêt](poi-mgmt-ui/metadata-with-pois.md)
    + [Téléchargement en masse des points d’intérêt](poi-mgmt-ui/bulk-upload-pois.md)
@@ -23,6 +24,7 @@ source-git-commit: 7609711db8b53dfbf0a387632c47133e9b9d0f07
    + [Présentation de l’API de service Web](web-service-api/places-web-services.md)
    + [Conditions préalables à l’intégration](web-service-api/adobe-i-o-integration.md)
    + Utilisation des API {#api-usage}
+      + [Présentation de l’utilisation des API](web-service-api/api-usage/api-usage-overview.md)
       + [En-têtes et paramètres](web-service-api/api-usage/headers-and-parameters.md)
       + Manage libraries {#manage-libraries}
          + [Présentation de la gestion des bibliothèques](web-service-api/api-usage/manage-libraries/manage-libraries.md)
