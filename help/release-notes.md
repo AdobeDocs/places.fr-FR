@@ -4,12 +4,21 @@ seo-title: Notes de mise à jour
 description: Notes de mise à jour du service d’emplacement d’Adobe Experience Platform.
 seo-description: Notes de mise à jour du service d’emplacement d’Adobe Experience Platform.
 translation-type: tm+mt
-source-git-commit: a5e5d5792d1a0368936f5f54e86a7ce9726a9122
+source-git-commit: 7fd44ab0135ec77f4b235cc65b943b40d535717c
 
 ---
 
 
 # Notes de mise à jour {#release-notes}
+
+## 22 novembre 2019
+
+* **PlacesMonitor 2.1.1**
+
+   * **Android**
+
+      * Le moniteur reconnaît désormais le démarrage d’un périphérique Android et, si nécessaire, enregistre à nouveau les géoofences avec le système d’exploitation en fonction de l’emplacement actuel du périphérique.
+      * Correction d’une condition de concurrence en raison de laquelle les événements d’entrée/sortie étaient parfois ignorés.
 
 ## 9 octobre 2019
 
@@ -128,7 +137,7 @@ Les mises à jour suivantes ont été effectuées dans cette version :
 
 * Correction d’un problème qui empêchait un événement d’entrée pour les points d’intérêt lors du démarrage de la surveillance Places.
 
-## 28 mai 2019
+## 28 mai 2019
 
 Correction des problèmes suivants dans l’interface utilisateur Lieux :
 
@@ -154,7 +163,7 @@ Le moniteur de lieux gère les API d’emplacement au niveau du système d’exp
 Pour plus d'informations sur le moniteur des lieux, cliquez ici.
 
 
-## 2 mai 2019
+## 2 mai 2019
 
 **Android Places 1.1.0**
 
@@ -175,7 +184,7 @@ Les mises à jour suivantes ont été effectuées dans cette version :
 * Intégration CI (CircleCI)
 * Intégration de la couverture du code (codecov)
 
-## 25 mars 2019
+## 25 mars 2019
 
 iOS Places Monitor 1.0.0
 
@@ -183,7 +192,7 @@ Version initiale de Places Monitor pour iOS.
 
 Le moniteur de lieux gère les API d’emplacement au niveau du système d’exploitation et communique directement avec l’extension Places. Avec les deux extensions installées, les clients peuvent avoir une surveillance de région prête à l’emploi dans leur application. Pour plus d’informations sur le moniteur de lieux, voir [Extension](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md)du moniteur de lieux.
 
-## 28 février 2019
+## 28 février 2019
 
 ### Version bêta
 
@@ -210,7 +219,7 @@ Dans l’extension Places :
 * Evénements de règle qui se déclenchent lors de l’entrée ou de la sortie d’un point d’accès.
 * Créez des éléments de données qui pointent vers le point d’intérêt actuel de l’utilisateur.
 
-Pour plus d’informations sur l’extension Places, voir [Extension](/help/places-ext-aep-sdks/places-extension/places-extension.md)Places.
+For more information about the Places extension, see [Places extension](/help/places-ext-aep-sdks/places-extension/places-extension.md).
 
 #### Utilise des API
 
