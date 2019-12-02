@@ -4,20 +4,20 @@ seo-title: Notifications Push
 description: Cette section fournit des informations sur l’utilisation des emplacements avec des notifications Push dans Campaign Standard.
 seo-description: 'Cette section fournit des informations sur l’utilisation des emplacements avec des notifications Push dans Campaign Standard. '
 translation-type: tm+mt
-source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
+source-git-commit: 4ee8adb73f6dec15030a160c27edbeca71d3507b
 
 ---
 
 
-# Notifications Push avec le service d’emplacement de plateforme d’expérience {#push-notifications}
+# Notifications Push avec le service d’emplacement {#push-notifications}
 
 Ce guide explique comment utiliser les informations historiques de géolocalisation pour cibler les notifications Push diffusées via Adobe Campaign Standard.
 
-## Conditions préalables
+## Conditions préalables 
 
 Avant de commencer, effectuez les tâches suivantes :
 
-* Configurez une application mobile avec le SDK mobile Adobe Experience Platform, y compris l’extension [](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard)Adobe Campaign Standard.
+* Disposez d’une application mobile configurée avec le SDK mobile Adobe Experience Platform, y compris l’extension [](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard)Adobe Campaign Standard.
 
 * Intégrez le SDK [mobile](https://aep-sdks.gitbook.io/docs/getting-started/get-the-sdk) Adobe Experience Platform à votre application.
 * Ajoutez [Adobe Campaign Standard Extension](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard) à la configuration de votre application mobile.
@@ -29,7 +29,7 @@ Avant de commencer, effectuez les tâches suivantes :
 
 ## Création d’éléments de données dans Experience Platform Launch
 
-Après avoir vérifié que le moniteur des lieux et des lieux pour les extensions du service d’emplacement fonctionne correctement dans votre application, créez des éléments de données dans le lancement de la plateforme d’expérience. Les éléments de données vous permettent de lire les informations fournies par les extensions provenant du concentrateur d’événements Mobile SDK et d’agir comme un alias pour récupérer les données de l’application cliente. Pour récupérer les données des extensions Lieux et envoyer les informations Lieux à Campaign, vous devez créer quelques éléments de données.
+Après avoir vérifié que le moniteur des lieux et des lieux pour les extensions du service d’emplacement fonctionne correctement dans votre application, créez des éléments de données dans le lancement de la plateforme d’expérience. Les éléments de données vous permettent de lire les informations fournies par les extensions provenant du concentrateur d’événements SDK Mobile et d’agir comme un alias pour récupérer les données de l’application cliente. Pour récupérer les données des extensions Lieux et envoyer les informations Lieux à Campaign, vous devez créer quelques éléments de données.
 
 Pour créer un élément de données :
 
@@ -42,7 +42,7 @@ Pour créer un élément de données :
 
    !["Messagerie push dans Campaign Standard"](/help/assets/ACS_Push1.png)
 
-1. Répétez les étapes 1 à 4 ci-dessus et créez des éléments de données pour la latitude *du point d’entrée* dernier, la longitude *du point d’entrée* dernier et le rayon ** du point d’entrée dernier.
+1. Repeat the steps 1-4 above and create data elements for *Last Entered POI Latitude*, *Last Entered POI Longitude*, and *Last Entered POI Radius*.
 
 Outre les éléments de données du service d’emplacement, veillez à créer des éléments de données principaux pour Mobile pour l’ID ** d’application et l’ID ** Experience Cloud.
 
@@ -120,7 +120,7 @@ Maintenant que les données d’emplacement sont renseignées dans Campaign, nou
 
    Si vous ne voyez pas la mise à jour de votre compte, vous avez peut-être saisi un nom d’API pour lequel aucun périphérique n’a déclenché une entrée. Le crochet Web Slack devient intéressant dans cette situation, car vous pouvez voir la liste des entrées d’API de différents périphériques de test.
 1. Vous pouvez faire glisser d’autres filtres d’emplacement de point d’intérêt pour inclure plusieurs points d’intérêt dans votre message.
-1. Cliquez sur **[!UICONTROL Next]** pour terminer la création de la notification Push en vue de la remise.
+1. Click **[!UICONTROL Next]** to finish creating the push notification for delivery.
 
    !["Messagerie push 3 in ACS"](/help/assets/ACS_push3.html)
 
