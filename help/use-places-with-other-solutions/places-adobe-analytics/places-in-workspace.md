@@ -4,16 +4,16 @@ seo-title: Rapport sur les données d’emplacement dans Analytics Workspace
 description: Cette section fournit des informations sur la manière de créer des rapports sur les données d’emplacement dans Analytics Workspace.
 seo-description: Cette section fournit des informations sur la manière de créer des rapports sur les données d’emplacement dans Analytics Workspace.
 translation-type: tm+mt
-source-git-commit: 7609711db8b53dfbf0a387632c47133e9b9d0f07
+source-git-commit: 4ee8adb73f6dec15030a160c27edbeca71d3507b
 
 ---
 
 
 # Rapport sur les données d’emplacement dans Analytics Workspace {#places-in-workspace}
 
-Ce document présente un exemple de rapport sur les données de votre emplacement dans Analytics Workspace. Chaque étape contiendra un résumé de haut niveau, avec des détails fournis par référence à d'autres pages de la documentation.
+Ce document présente un exemple de rapport sur les données de votre emplacement dans Analytics Workspace. Chaque étape contiendra un résumé de haut niveau, avec les détails fournis en référençant d'autres pages de documentation.
 
-## Conditions préalables
+## Conditions préalables 
 
 Ce document suppose ce qui suit :
 
