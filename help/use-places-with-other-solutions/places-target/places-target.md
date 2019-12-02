@@ -4,12 +4,12 @@ seo-title: Adobe Target
 description: Cette section fournit des informations sur l’utilisation du service d’emplacement avec Adobe Target.
 seo-description: Cette section fournit des informations sur l’utilisation du service d’emplacement avec Adobe Target.
 translation-type: tm+mt
-source-git-commit: 27f4e5397caf14e24bcbc4a2d276647e72a6d115
+source-git-commit: 4ee8adb73f6dec15030a160c27edbeca71d3507b
 
 ---
 
 
-# Adobe Target {#places-target}
+# Utiliser le service d’emplacement avec Adobe Target {#places-target}
 
 Ce document suppose que l’extension Places est implémentée dans votre application. Si vous avez besoin d’aide pour implémenter l’extension Places, voir [Extensions](/help/places-ext-aep-sdks/places-extension/places-extension.md)Lieux.
 
