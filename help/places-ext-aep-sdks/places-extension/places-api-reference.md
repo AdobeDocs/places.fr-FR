@@ -4,7 +4,7 @@ seo-title: Référence de l’API Places
 description: Informations sur les références API dans Places.
 seo-description: Informations sur les références API dans Places.
 translation-type: tm+mt
-source-git-commit: 69173bdbd1a69ae1b75ba70e775a4603d1f1b8fc
+source-git-commit: 77bd510506d950348452eb26386cd25fe570fa65
 
 ---
 
@@ -347,4 +347,39 @@ Voici l’exemple de code pour cette méthode :
 
 ```objectivec
 [ACPPlaces clear];
+```
+
+## Définir le statut d'autorisation de l'emplacement
+
+### setAuthorizationStatus (Android)
+
+Bientôt disponible
+
+### setAuthorizationStatus (iOS)
+
+_[Disponible à partir de ACPPlaces v1.3.0]_
+
+Définit l’état d’autorisation dans l’extension Places.
+
+L’état fourni est stocké dans l’état partagé Lieux et est fourni à titre de référence uniquement.
+L’appel de cette méthode n’a aucune incidence sur l’état d’autorisation d’emplacement réel pour ce périphérique.
+
+Lorsque l’état d’autorisation du périphérique change, la `locationManager:didChangeAuthorizationStatus:` méthode de votre `CLLocationManagerDelegate` périphérique est appelée. Dans cette méthode, vous devez transmettre la nouvelle `CLAuthorizationStatus` valeur à l’API ACPPlaces `setAuthorizationStatus:` .
+
+**Syntaxe**
+
+Voici la syntaxe de cette méthode :
+
+```objectivec
++ (void) setAuthorizationStatus: (CLAuthorizationStatus) status;
+```
+
+**Exemple**
+
+Voici l’exemple de code pour cette méthode :
+
+```objectivec
+- (void) locationManager: (CLLocationManager*) manager didChangeAuthorizationStatus: (CLAuthorizationStatus) status {    
+    [ACPPlaces setAuthorizationStatus:status];
+}
 ```
