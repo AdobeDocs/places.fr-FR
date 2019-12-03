@@ -4,12 +4,20 @@ seo-title: Notes de mise à jour
 description: Notes de mise à jour du service d’emplacement d’Adobe Experience Platform.
 seo-description: Notes de mise à jour du service d’emplacement d’Adobe Experience Platform.
 translation-type: tm+mt
-source-git-commit: 7fd44ab0135ec77f4b235cc65b943b40d535717c
+source-git-commit: ef129b7b168444edaf58ef55331efdf2f55a993f
 
 ---
 
 
 # Notes de mise à jour {#release-notes}
+
+## 3 décembre 2019
+
+* **ACPPlaces 1.3.0**
+
+   * **iOS**
+
+      * Ajout d’une nouvelle API `setAuthorizationStatus`, pour définir l’état d’autorisation du périphérique pour les services d’emplacement. La valeur est stockée et utilisée dans l’état Lieux partagés.
 
 ## 22 novembre 2019
 
@@ -229,7 +237,7 @@ Vous pouvez utiliser les API Places pour effectuer les opérations suivantes :
 * Créez votre propre interface utilisateur ou intégrez-la à une base de données d’API existante.
 * Utilisez les points de fin de lot de l’API Places pour effectuer une importation en masse des points d’intérêt.
 
-   Un utilitaire python est fourni avec les API.
+   Vous pouvez utiliser l'utilitaire Python fourni pour terminer l'importation en masse.
 
 Pour plus d’informations sur les API Places, voir API [de service](/help/web-service-api/places-web-services.md)Web.
 
@@ -238,4 +246,3 @@ Pour plus d’informations sur les API Places, voir API [de service](/help/web-s
 #### Intégration    Analytics
 
 L’extension Analytics est en cours de mise à jour afin d’ajouter automatiquement des données contextuelles d’emplacement de votre base de données Places à tous les appels Analytics sortants lorsqu’un utilisateur se trouve dans une API (appels passifs). Cette mise à jour permet également à la création de règles de déclencher les appels de suivi Analytics directement à l’entrée ou à la sortie de l’API (appels actifs).
-
