@@ -1,10 +1,8 @@
 ---
 title: Définition des éléments de données
-seo-title: Définition des éléments de données
 description: Cette section fournit des informations sur la création, l’utilisation et la publication d’éléments de données dans le lancement de la plateforme d’expérience pour les emplacements.
-seo-description: 'Cette section fournit des informations sur la création, l’utilisation et la publication d’éléments de données dans le lancement de la plateforme d’expérience pour les emplacements. '
 translation-type: tm+mt
-source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
