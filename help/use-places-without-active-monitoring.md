@@ -1,10 +1,8 @@
 ---
 title: Utiliser le service d'emplacement sans surveillance active de la région
-seo-title: Utiliser le service d'emplacement sans surveillance active de la région
 description: Cette section fournit des informations sur l'utilisation de Location ServicePlaces sans surveillance active des régions.
-seo-description: Cette section fournit des informations sur l’utilisation du service d’emplacement sans surveillance active de la région.
 translation-type: tm+mt
-source-git-commit: 419df41a0abeac1ac2a77f32bfa818b4edf3baeb
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
@@ -16,7 +14,6 @@ Les cas d’utilisation de votre application peuvent ne pas nécessiter une surv
 Cette section explique comment effectuer une vérification de l’appartenance à un point d’accès uniquement au moment de la collecte de l’emplacement de l’utilisateur (latitude et longitude).
 
 ## Condition requise
-
 
 Le développeur collectera l’emplacement du périphérique à l’aide des API fournies par le système d’exploitation de la plateforme cible.
 
@@ -236,8 +233,7 @@ Les exemples de code ci-dessous vous montrent comment récupérer l’emplacemen
 
 >[!IMPORTANT]
 >
->
-Ces fragments ne sont **que** des exemples. Les développeurs doivent déterminer comment ils souhaitent implémenter la fonctionnalité et la décision doit prendre en compte les meilleures pratiques recommandées par le système d’exploitation cible.
+>Ces fragments ne sont **que** des exemples. Les développeurs doivent déterminer comment ils souhaitent implémenter la fonctionnalité et la décision doit prendre en compte les meilleures pratiques recommandées par le système d’exploitation cible.
 
 ### Android
 
