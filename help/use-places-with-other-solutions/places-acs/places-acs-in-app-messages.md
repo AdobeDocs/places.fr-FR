@@ -1,10 +1,8 @@
 ---
 title: Messages in-app avec le service d’emplacement
-seo-title: Messages in-app avec le service d’emplacement
 description: Cette section fournit des informations sur l’utilisation de la messagerie Push dans Campaign Standard avec des messages in-app dans Campaign Standard.
-seo-description: 'Cette section fournit des informations sur la manière d’utiliser "Messagerie Push dans Campaign Standard" avec les messages in-app dans Campaign Standard. '
 translation-type: tm+mt
-source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
@@ -13,11 +11,11 @@ source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
 
 Ces informations vous aident à comprendre comment utiliser les informations du service d’emplacement de la plate-forme Adobe Experience Platform pour envoyer des messages in-app ou des notifications locales.
 
-## Conditions préalables
+## Conditions préalables 
 
 Avant de commencer, effectuez les tâches suivantes :
 
-* Configurez une application mobile avec le SDK mobile Adobe Experience Platform, y compris l’extension [](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard)Adobe Campaign Standard.
+* Disposez d’une application mobile configurée avec le SDK mobile Adobe Experience Platform, y compris l’extension [](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard)Adobe Campaign Standard.
 
 * Intégrez le SDK [mobile](https://aep-sdks.gitbook.io/docs/getting-started/get-the-sdk) Adobe Experience Platform à votre application.
 * Ajoutez [Adobe Campaign Standard Extension](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard) à la configuration de votre application mobile.
@@ -39,7 +37,7 @@ Avant de commencer, effectuez les tâches suivantes :
 
    !["Métadonnées de place des messages in-app"](/help/assets/last-entered-vacation.png)
 
-1. Cliquez sur **[!UICONTROL Next]** pour terminer la création du message in-app en vue de sa diffusion.
+1. Click the **[!UICONTROL Next]** to finish creating the In-app message for delivery.
 
    !["créer un événement"](/help/assets/prepare-ACS.png)
 
