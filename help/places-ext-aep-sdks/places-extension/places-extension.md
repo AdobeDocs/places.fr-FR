@@ -1,10 +1,8 @@
 ---
 title: Extension Places
-seo-title: Extension Places
 description: L’extension Places vous permet d’agir en fonction de l’emplacement de vos utilisateurs.
-seo-description: L’extension Places vous permet d’agir en fonction de l’emplacement de vos utilisateurs.
 translation-type: tm+mt
-source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
@@ -15,7 +13,7 @@ L’extension Places vous permet d’agir en fonction de l’emplacement de vos 
 
 ## Installation de l’extension Places dans Adobe Experience Platform Launch
 
-1. Dans le lancement de la plateforme d’expérience, cliquez sur l’ **[!UICONTROL Extensions]** onglet.
+1. In Experience Platform Launch, click the **[!UICONTROL Extensions]** tab.
 1. Dans l’ **[!UICONTROL Catalog]** onglet, recherchez l’ **[!UICONTROL Places]** extension, puis cliquez sur **[!UICONTROL Install]**.
 1. Sélectionnez les bibliothèques Places que vous souhaitez utiliser dans cette propriété. Ce sont les bibliothèques qui seront accessibles dans votre application.
 1. Cliquez sur **[!UICONTROL Save]** (Nouvelle propriété).
