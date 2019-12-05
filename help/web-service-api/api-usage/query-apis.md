@@ -1,10 +1,8 @@
 ---
 title: Aperçu
-seo-title: API de requête
 description: Compréhension et utilisation des API de requête.
-seo-description: Compréhension et utilisation des API de requête.
 translation-type: tm+mt
-source-git-commit: e2070c629b5a4e4bcf3a364023e0f87b526ed4cb
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
@@ -14,7 +12,7 @@ source-git-commit: e2070c629b5a4e4bcf3a364023e0f87b526ed4cb
 
 Méthode GET qui vous permet d’interroger les points d’intérêt les plus proches de l’appelant.
 
-## Demande
+## Requête
 
 ```text
 GET https://query.places.adobe.com/placesedgequery
@@ -108,7 +106,7 @@ Voici un exemple du format JSON renvoyé avec succès :
 }
 ```
 
-Les points d’intérêt sous `places.pois` sont triés par distance entre l’appelant et le bord des points d’intérêt. Les points d’intérêt sous `places.userWithin` contiennent l’appelant, et ces points d’intérêt sont classés par rang, puis par augmentation du rayon.
+Les points d’intérêt sous `places.pois` sont triés par distance entre l’appelant et le bord des points d’intérêt. Les points d’intérêt sous `places.userWithin` contiennent l’appelant, et ces points d’intérêt sont classés par rang puis par augmentation du rayon.
 
 ## Exemple d’appel
 
