@@ -4,7 +4,7 @@ seo-title: Prise en main
 description: Prise en main du service d’emplacement.
 seo-description: Prise en main du service d’emplacement.
 translation-type: tm+mt
-source-git-commit: 1c5a63b6f7eb56be2240756c31d6ca03a0bfb0da
+source-git-commit: 879c367ea24d8bd0e1f5595a88a97bb1ff47c6da
 
 ---
 
@@ -25,7 +25,7 @@ Le contexte du produit Service d’emplacement est disponible pour toutes les or
 
 * Vérifiez que vous êtes répertorié en tant qu’utilisateur sous les contextes de produit Location Service et Experience Platform Launch dans la Console d’administration.
 
-   Pour plus d’informations, voir *Ajout d’un utilisateur au service* de localisation et de lancement de plateforme d’expérience dans [Obtenir un accès au service](/help/places-gain-access.md)de localisation.
+   Pour plus d’informations, voir *Ajout d’un utilisateur au service* de lancement et d’emplacement de la plate-forme d’expérience dans les questions [](/help/places-gain-access.md)fréquentes.
 
 
 ### 2. Création de vos points d’intérêt
