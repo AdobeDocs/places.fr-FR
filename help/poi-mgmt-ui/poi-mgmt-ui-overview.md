@@ -1,10 +1,8 @@
 ---
 title: Présentation de l'interface de gestion des points d'intérêt
-seo-title: Présentation de l'interface de gestion des points d'intérêt
 description: Cette section fournit des informations sur la création et la gestion des bibliothèques et des points d’intérêt via l’interface utilisateur du service d’emplacement.
-seo-description: Cette section fournit des informations sur la création et la gestion des bibliothèques et des points d’intérêt via l’interface utilisateur du service d’emplacement.
 translation-type: tm+mt
-source-git-commit: 8d6b796326c5fbb3f2af996766fc9c05046ec653
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
