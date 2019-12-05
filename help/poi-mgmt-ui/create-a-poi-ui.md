@@ -1,10 +1,8 @@
 ---
 title: Créer un POI
-seo-title: Créer un POI
 description: Créez un point d’accès à l’aide de l’interface utilisateur Lieux.
-seo-description: Créez un point d’accès à l’aide de l’interface utilisateur Lieux.
 translation-type: tm+mt
-source-git-commit: 58218dac5df3fdb1ff660368af52e43409f99c95
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
@@ -25,16 +23,16 @@ Un point d’intérêt (POI) est un emplacement ou un point sur une carte qui es
 1. Étapes facultatives :
 1. Les étapes suivantes sont facultatives :
 
-   1.  Sélectionnez une icône pour votre point d’accès.
-   1.  Sélectionnez une couleur pour l’icône.
-   1.  Spécifiez une catégorie pour votre point d’accès.
+   1. Sélectionnez une icône pour votre point d’accès.
+   1. Sélectionnez une couleur pour l’icône.
+   1. Spécifiez une catégorie pour votre point d’accès.
 
 1. Expand the **[!UICONTROL Location]** section.
 
-   1.  Entrez une adresse.
-   1.  Tapez la ville.
-   1.  Tapez le nom de l'état.
-   1.  Entrez le nom du pays.
+   1. Entrez une adresse.
+   1. Tapez la ville.
+   1. Tapez le nom de l'état.
+   1. Entrez le nom du pays.
    1. Sélectionnez ou entrez une latitude ou une longitude (obligatoire).
    1. Cliquez sur **[!UICONTROL Drop Pin on Map]** (Nouvelle propriété).
    Si vous ne connaissez pas la latitude et la longitude exactes, il est utile de déposer une épingle.
@@ -43,7 +41,7 @@ Un point d’intérêt (POI) est un emplacement ou un point sur une carte qui es
 
    Les métadonnées peuvent vous aider à définir un emplacement plus précis et peuvent être utilisées dans d’autres processus de solution Adobe pour affiner davantage votre audience.
 
-   1.  Tapez le nom de la clé.
-   1.  Tapez la valeur de clé.
+   1. Tapez le nom de la clé.
+   1. Tapez la valeur de clé.
 
 1. Cliquez sur **[!UICONTROL  Save]** (Nouvelle propriété).
