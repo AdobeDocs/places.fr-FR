@@ -1,10 +1,8 @@
 ---
 title: Création de plusieurs points d’intérêt
-seo-title: Création de plusieurs points d’intérêt
 description: Utilisez les API par lot pour créer plusieurs points d’intérêt.
-seo-description: Utilisez les API par lot pour créer plusieurs points d’intérêt.
 translation-type: tm+mt
-source-git-commit: 6ae0c8d90cad4c437e1db7f562a0bc9c6b072ce6
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
@@ -13,7 +11,7 @@ source-git-commit: 6ae0c8d90cad4c437e1db7f562a0bc9c6b072ce6
 
 Méthode POST qui permet de créer plusieurs points d’intérêt.
 
-## Demande
+## Requête
 
 ```text
 POST https://api-places.adobe.io/places/placesapi/v1/pois/batchCreate
