@@ -1,10 +1,8 @@
 ---
 title: Eléments de données de lancement de plateforme d’expérience avec des données d’emplacement
-seo-title: Eléments de données de lancement de plateforme d’expérience avec des données d’emplacement
 description: 'Les éléments de données sont les blocs de construction de votre dictionnaire de données (ou mappage de données). '
-seo-description: 'Les éléments de données sont les blocs de construction de votre dictionnaire de données (ou mappage de données). '
 translation-type: tm+mt
-source-git-commit: ef3d77eba407013e1f701ed001ef9ab7b3818e07
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
