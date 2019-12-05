@@ -4,7 +4,7 @@ seo-title: Prise en main
 description: Prise en main du service d’emplacement.
 seo-description: Prise en main du service d’emplacement.
 translation-type: tm+mt
-source-git-commit: accfa6ba009ad3419481d9bd3b498143228099fc
+source-git-commit: 66472aa1800bcf36fb1d7f7129da70a573f355ab
 
 ---
 
@@ -26,10 +26,6 @@ Le contexte du produit Service d’emplacement est disponible pour toutes les or
 * Vérifiez que vous êtes répertorié en tant qu’utilisateur sous les contextes de produit Location Service et Experience Platform Launch dans la Console d’administration.
 
    Pour plus d’informations, voir *Ajout d’un utilisateur au service* de lancement et d’emplacement de la plate-forme d’expérience dans les questions [](/help/places-faqs.md)fréquentes.
-
-* Assurez-vous que l’extension Places est installée sur la propriété de votre application mobile dans le lancement de la plateforme d’expérience.
-
-   Pour utiliser la surveillance régionale fournie par Adobe pour vos clôtures géographiques, installez l’extension Places Monitor. Pour plus d’informations, reportez-vous à la section [Places monitor extension](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md).
 
 
 ### 2. Création de vos points d’intérêt
