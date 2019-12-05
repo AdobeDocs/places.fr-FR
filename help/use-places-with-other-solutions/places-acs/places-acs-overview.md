@@ -1,10 +1,8 @@
 ---
 title: 'Utiliser le service d’emplacement avec Adobe Campaign Standard '
-seo-title: Utiliser le service d’emplacement avec Adobe Campaign Standard
 description: 'Cette section présente un aperçu de l’utilisation du service d’emplacement avec Campaign Standard. '
-seo-description: Cette section présente un aperçu de l’utilisation du service d’emplacement avec Campaign Standard.
 translation-type: tm+mt
-source-git-commit: 4ee8adb73f6dec15030a160c27edbeca71d3507b
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
