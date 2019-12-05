@@ -1,10 +1,8 @@
 ---
 title: Adobe Experience Platform Location Service
-seo-title: Adobe Experience Platform Location Service
 description: 'Le service d’emplacement est un contexte important pour comprendre l’engagement des utilisateurs mobiles. En utilisant ce contexte, les développeurs d’applications mobiles peuvent améliorer la conception de l’application et en faire une expérience plus personnalisée et plus attrayante. '
-seo-description: 'Le service d’emplacement est un contexte important pour comprendre l’engagement des utilisateurs mobiles. En utilisant ce contexte, les développeurs d’applications mobiles peuvent améliorer la conception de l’application et en faire une expérience plus personnalisée et plus attrayante. '
 translation-type: tm+mt
-source-git-commit: ecb059400d9203884faab6fd2f627251eeaeea38
+source-git-commit: c20e720d23121970bb2fa1c63a2fd1e81c84b977
 
 ---
 
