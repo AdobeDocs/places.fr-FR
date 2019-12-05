@@ -1,10 +1,8 @@
 ---
 title: Tester et valider des lieux
-seo-title: Tester et valider des lieux
 description: Cette section fournit des informations sur la manière dont vous pouvez tester et valider des lieux.
-seo-description: Cette section fournit des informations sur la manière dont vous pouvez tester et valider des lieux.
 translation-type: tm+mt
-source-git-commit: 181185d441a6a4740b2e8770adcb71e81e2e816e
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
