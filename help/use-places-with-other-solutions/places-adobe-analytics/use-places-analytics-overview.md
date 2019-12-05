@@ -1,10 +1,8 @@
 ---
 title: Utiliser le service d’emplacement avec Adobe Analytics
-seo-title: Utiliser le service d’emplacement avec Adobe Analytics
 description: Cette section fournit des informations sur l’utilisation du service d’emplacement avec Adobe Analytics.
-seo-description: Cette section fournit des informations sur l’utilisation du service d’emplacement avec Adobe Analytics.
 translation-type: tm+mt
-source-git-commit: 4ee8adb73f6dec15030a160c27edbeca71d3507b
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
