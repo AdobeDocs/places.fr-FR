@@ -1,10 +1,8 @@
 ---
 title: Notifications in-app
-seo-title: Notifications in-app
 description: Cette section explique comment utiliser Places avec la messagerie in-app.
-seo-description: Cette section explique comment utiliser Places avec la messagerie in-app.
 translation-type: tm+mt
-source-git-commit: a76e91775efd92ce56f2dc5cbdcc65786855b5c3
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
@@ -31,7 +29,7 @@ Voici la liste des types de messagerie in-app disponibles :
 
 Ces types sont des messages in-app, car ils sont déclenchés par le SDK. Les notifications locales ressemblent aux notifications Push, car elles apparaissent lorsque l’application est en arrière-plan. Ces notifications fournissent également des notifications en temps réel lorsque les utilisateurs entrent dans vos points d’intérêt ou en sortent lorsque l’application est en arrière-plan. Pour plus d’informations, voir [Extension](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md)du moniteur de lieux.
 
-### Conditions préalables
+### Conditions préalables 
 
 Avant de commencer, vous devez comprendre comment envoyer et créer un message in-app dans Mobile Services et comment fonctionnent les déclencheurs. Pour plus d’informations, voir [Création d’un message in-app.](https://docs.adobe.com/content/help/en/mobile-services/using/messaging-ug/inapp-messages/t-in-app-message.html)
 
@@ -62,7 +60,7 @@ Par exemple, vous pouvez sélectionner `poiname` comme clé et `{%%Last Entered 
 
 >[!TIP]
 >
->Les règles de traitement Analytics peuvent être définies pour sélectionner ces données contextuelles. For more information, see [Processing Rules](https://docs.adobe.com/content/help/en/analytics/implementation/analytics-basics/ref-processing-rules.html). Dans l’exemple de *Création d’une action*, l’action envoie le `poiname` sous forme de contexte pour décrire l’événement d’entrée d’API qui est envoyé à Analytics.
+>Les règles de traitement Analytics peuvent être définies pour sélectionner ces données contextuelles. Pour plus d’informations, reportez-vous à la section [Règles de traitement](https://docs.adobe.com/content/help/en/analytics/implementation/analytics-basics/ref-processing-rules.html). Dans l’exemple de *Création d’une action*, l’action envoie le `poiname` sous forme de contexte pour décrire l’événement d’entrée d’API qui est envoyé à Analytics.
 
 ![création d’une action](/help/assets/configure-action.png)
 
