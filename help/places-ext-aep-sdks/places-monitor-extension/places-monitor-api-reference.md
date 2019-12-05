@@ -1,10 +1,8 @@
 ---
 title: Référence à l’API du moniteur de lieux
-seo-title: Référence à l’API du moniteur de lieux
 description: Liste des API du moniteur des lieux.
-seo-description: 'Liste des API du moniteur des lieux.  '
 translation-type: tm+mt
-source-git-commit: 7609711db8b53dfbf0a387632c47133e9b9d0f07
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
@@ -149,7 +147,7 @@ PlacesMonitor.start();
 >
 >Si votre appel à démarrer la surveillance est effectué avant l’initialisation du SDK, il se peut qu’il soit ignoré.
 
-Vous pouvez vous assurer que le SDK a terminé l’initialisation en appelant `start` à partir du rappel fourni à `ACPCore::start:`.
+Vous pouvez vous assurer que le SDK a terminé l’initialisation en appelant `start` depuis le rappel fourni à `ACPCore::start:`.
 
 Voici la syntaxe et l’exemple de code pour cette API :
 
