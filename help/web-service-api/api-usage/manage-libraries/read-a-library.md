@@ -1,10 +1,8 @@
 ---
 title: Lecture d’une bibliothèque
-seo-title: Lecture d’une bibliothèque
 description: Lisez une bibliothèque à l’aide de l’API REST Places.
-seo-description: Lisez une bibliothèque à l’aide de l’API REST Places.
 translation-type: tm+mt
-source-git-commit: 6ae0c8d90cad4c437e1db7f562a0bc9c6b072ce6
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
@@ -14,7 +12,7 @@ source-git-commit: 6ae0c8d90cad4c437e1db7f562a0bc9c6b072ce6
 
 Méthode GET qui renvoie les détails d’une bibliothèque.
 
-## Demande
+## Requête
 
 ```text
 GET https://api-places.adobe.io/places/placesapi/v1/libraries/<LIBRARYID>
