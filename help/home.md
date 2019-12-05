@@ -4,12 +4,14 @@ seo-title: Adobe Experience Platform Location Service
 description: 'Le service d’emplacement est un contexte important pour comprendre l’engagement des utilisateurs mobiles. En utilisant ce contexte, les développeurs d’applications mobiles peuvent améliorer la conception de l’application et en faire une expérience plus personnalisée et plus attrayante. '
 seo-description: 'Le service d’emplacement est un contexte important pour comprendre l’engagement des utilisateurs mobiles. En utilisant ce contexte, les développeurs d’applications mobiles peuvent améliorer la conception de l’application et en faire une expérience plus personnalisée et plus attrayante. '
 translation-type: tm+mt
-source-git-commit: 9fd6c1fdd740a021d7612aa33693c392bff53994
+source-git-commit: ecb059400d9203884faab6fd2f627251eeaeea38
 
 ---
 
 
 # Présentation du service d’emplacement d’Adobe Experience Platform {#home}
+
+!["Adobe Experience Platform Location Service"](/help/assets/LocationHeader.png)
 
 L’emplacement est un contexte important pour comprendre et interagir avec les utilisateurs mobiles. En utilisant ce contexte, les développeurs d’applications mobiles peuvent améliorer la conception de l’application et en faire une expérience plus personnalisée et plus attrayante.
 
@@ -17,7 +19,7 @@ Le service d’emplacement d’Adobe Experience Platform (Location Service) est 
 
 Le service d’emplacement vous permet d’effectuer les opérations suivantes :
 
-* Créez et gérez une base de données des points d’intérêt qui peut être exploitée avec d’autres solutions Adobe Experience Cloud.
+* Créez et gérez une base de données des points d’intérêt pouvant être exploitée avec d’autres solutions Adobe Experience Cloud.
 * Associez des métadonnées personnalisées aux points d’intérêt pour les rendre plus riches et plus significatives en spécifiant des attributs supplémentaires.
 * Visualisez les points d’intérêt sur une carte pour comprendre facilement le contexte spatial et ajouter/modifier des attributs de métadonnées.
 * Configurez le SDK dans Adobe Experience Platform Launch pour définir vos règles déclenchées par l’emplacement et vos conditions basées sur les métadonnées.
@@ -72,17 +74,17 @@ Voici quelques termes courants utilisés dans cette documentation :
 
    Ce type d'interface est un périphérique physique qui représente un emplacement en émettant un signal Bluetooth à faible puissance. La prise en charge des balises sera disponible dans une prochaine version.
 
-* Une **bibliothèque** est une collection d’objets d’intérêt regroupés pour associer facilement des règles à un ensemble plutôt qu’à un seul objet d’intérêt.
+* Une **bibliothèque** est une collection de POI permettant l’association plus simple de règles à un ensemble de POI plutôt qu’à un POI unique.
 
 * Une **extension** est l’extension Experience Platform Launch requise pour intégrer le SDK Places dans vos applications mobiles.
 
    Extension utilisée avec les autres SDK mobiles pour ajouter un contexte d’emplacement à vos expériences.
 
-* Une **organisation** est l’entité Adobe qui identifie votre entreprise dans Adobe Experience Cloud.
+* Une **organisation** est l’entité Adobe qui identifie votre société dans Adobe Experience Cloud.
 
    En règle générale, une organisation est le nom de votre société. Cependant, une entreprise peut avoir plusieurs organisations. L’administrateur de l’organisation peut configurer des groupes et des utilisateurs et configurer la fonctionnalité de connexion unique.
 
-* L’ **orgID** est l’identifiant qui représente votre organisation dans Adobe Experience Platform.
+* L’**orgID** est l’identifiant représentant votre organisation dans Adobe Experience Platform.
 
    Pour plus d’informations, voir [Recherche de votre orgID](https://forums.adobe.com/thread/2339895).
 
