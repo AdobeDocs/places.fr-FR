@@ -1,10 +1,8 @@
 ---
 title: POI de téléchargement en masse
-seo-title: POI de téléchargement en masse
 description: Cette section fournit des informations sur la manière de télécharger en masse vos points d’intérêt.
-seo-description: Cette section fournit des informations sur la manière de télécharger en masse vos points d’intérêt.
 translation-type: tm+mt
-source-git-commit: 3e2bf2ce011f9770209af08bd0abf0b16f84fbc0
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
