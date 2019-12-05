@@ -1,10 +1,8 @@
 ---
 title: Prise en main
-seo-title: Prise en main
 description: Prise en main du service d’emplacement.
-seo-description: Prise en main du service d’emplacement.
 translation-type: tm+mt
-source-git-commit: 879c367ea24d8bd0e1f5595a88a97bb1ff47c6da
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
