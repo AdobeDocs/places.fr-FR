@@ -1,10 +1,8 @@
 ---
 title: Utilisation du service d’emplacement avec d’autres solutions Adobe
-seo-title: Utilisation du service d’emplacement avec d’autres solutions Adobe
 description: Cette section explique comment utiliser le service d’emplacement avec d’autres solutions Adobe.
-seo-description: Cette section explique comment utiliser le service d’emplacement avec d’autres solutions Adobe.
 translation-type: tm+mt
-source-git-commit: 299afc48c5962c3180578d5352b97096ad0395dc
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
