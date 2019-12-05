@@ -1,10 +1,8 @@
 ---
 title: Lire toutes les bibliothèques de votre entreprise
-seo-title: Lire toutes les bibliothèques de votre entreprise
 description: Lisez toutes les bibliothèques de votre entreprise à l’aide de l’API REST Places.
-seo-description: Lisez toutes les bibliothèques de votre entreprise à l’aide de l’API REST Places.
 translation-type: tm+mt
-source-git-commit: 6ae0c8d90cad4c437e1db7f562a0bc9c6b072ce6
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
@@ -13,7 +11,7 @@ source-git-commit: 6ae0c8d90cad4c437e1db7f562a0bc9c6b072ce6
 
 Méthode GET qui renvoie les détails de toutes les bibliothèques de votre organisation.
 
-## Demande
+## Requête
 
 ```text
 GET https://api-places.adobe.io/places/placesapi/v1/libraries
