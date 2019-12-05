@@ -1,10 +1,8 @@
 ---
 title: Présentation de l’utilisation des API
-seo-title: Présentation de l’utilisation des API
 description: Cette section fournit des informations sur les API REST disponibles pour le service d’emplacement.
-seo-description: Cette section fournit des informations sur les API REST disponibles pour le service d’emplacement.
 translation-type: tm+mt
-source-git-commit: 885cc8c9b306cf6e25381a355898a0229670a696
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
