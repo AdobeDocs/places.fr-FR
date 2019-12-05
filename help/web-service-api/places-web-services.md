@@ -1,10 +1,8 @@
 ---
 title: 'Présentation de l’API des services Web '
-seo-title: 'Présentation de l’API des services Web '
 description: Places est l’ensemble de services qui permet aux clients d’Adobe d’hydrater plus facilement les solutions Adobe Experience Cloud et Adobe Experience Platform avec des données d’emplacement et une expérience appropriée pour la personne appropriée au bon moment et au bon endroit.
-seo-description: Places est l’ensemble de services qui permet aux clients d’Adobe d’hydrater plus facilement les solutions Adobe Experience Cloud et Adobe Experience Platform avec des données d’emplacement et une expérience appropriée pour la personne appropriée au bon moment et au bon endroit.
 translation-type: tm+mt
-source-git-commit: e2070c629b5a4e4bcf3a364023e0f87b526ed4cb
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
