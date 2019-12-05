@@ -1,10 +1,8 @@
 ---
 title: Configuration du SDK avec l’extension Places
-seo-title: Configuration du SDK avec l’extension Places
 description: 'Vous pouvez configurer le SDK avec l’extension Places pour activer la prise en compte de l’emplacement dans votre application mobile. '
-seo-description: 'Vous pouvez configurer le SDK avec l’extension Places pour activer la prise en compte de l’emplacement dans votre application mobile. '
 translation-type: tm+mt
-source-git-commit: 61256ee0f01775bf09a3aee06b6e7253527fc383
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
