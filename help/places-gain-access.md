@@ -1,10 +1,8 @@
 ---
 title: Accès au service d’emplacement d’Adobe Experience Platform
-seo-title: Accès au service d’emplacement d’Adobe Experience Platform
 description: Cette section fournit des informations sur la manière d’ajouter un utilisateur au service d’emplacement et au lancement de la plateforme d’expérience, afin que l’utilisateur puisse accéder au service d’emplacement.
-seo-description: Cette section fournit des informations sur la manière d’ajouter un utilisateur au service d’emplacement et au lancement de la plateforme d’expérience, afin que l’utilisateur puisse accéder au service d’emplacement.
 translation-type: tm+mt
-source-git-commit: 1b4482c8e4cf825c0182421fe00f8b86b411c11b
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
