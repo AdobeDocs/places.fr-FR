@@ -127,14 +127,12 @@ Pour ajouter un utilisateur à vos profils de lancement du service d’emplaceme
 
       Si le point sur le côté droit est noir, vous ne pouvez ajouter que des développeurs. Pour ajouter un utilisateur, cliquez sur le point à gauche.
    c. Cliquez sur **[!UICONTROL + Add Users]**.
-
    
-d. Saisissez l’ID Adobe de l’utilisateur.
+   d. Saisissez l’ID Adobe de l’utilisateur.
 
    e. Effectuez l’une des étapes suivantes :
-
-   * Si vous ajoutez un nouvel utilisateur, cliquez sur **[!UICONTROL New user]**, puis saisissez son prénom et son nom.
-   * Si vous ajoutez un utilisateur existant, cliquez sur son nom.
+    * Si vous ajoutez un nouvel utilisateur, cliquez sur **[!UICONTROL New user]**, puis saisissez son prénom et son nom.
+    * Si vous ajoutez un utilisateur existant, cliquez sur son nom.
    f. Dans la liste **[!UICONTROL Please select a profile for this product]** déroulante, sélectionnez le profil que vous avez modifié précédemment.
 
    g. Cliquez sur **[!UICONTROL Save]**.
@@ -153,11 +151,10 @@ d. Saisissez l’ID Adobe de l’utilisateur.
 
    c. Saisissez l’ID Adobe de l’utilisateur.
 
-   
-d. Effectuez l’une des étapes suivantes :
+   d. Effectuez l’une des étapes suivantes :
 
-   * Si vous ajoutez un nouvel utilisateur, cliquez sur **[!UICONTROL New user]**, puis saisissez son prénom et son nom.
-   * Si vous ajoutez un utilisateur existant, cliquez sur son nom.
+    * Si vous ajoutez un nouvel utilisateur, cliquez sur **[!UICONTROL New user]**, puis saisissez son prénom et son nom.
+    * Si vous ajoutez un utilisateur existant, cliquez sur son nom.
    e. Dans la liste **[!UICONTROL Please select a profile for this product]** déroulante, sélectionnez le profil Lieux.
 
    f. Cliquez sur **[!UICONTROL Save]**.
