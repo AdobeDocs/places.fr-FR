@@ -9,7 +9,7 @@ source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 # Rapport sur les données d’emplacement dans Analytics Workspace {#places-in-workspace}
 
-Ce document présente un exemple de rapport sur les données de votre emplacement dans Analytics Workspace. Chaque étape contiendra un résumé de haut niveau, avec les détails fournis en référençant d'autres pages de documentation.
+Ce document présente un exemple de rapport sur les données de votre emplacement dans Analytics Workspace. Chaque étape contiendra un résumé de haut niveau, avec les détails fournis en référençant d&#39;autres pages de documentation.
 
 ## Conditions préalables 
 
@@ -28,27 +28,27 @@ Créez une règle qui fera en sorte que le SDK envoie des données à Analytics 
 
 Dans cet exemple, les valeurs suivantes sont définies pour la requête Analytics pour l’action de la règle :
 
-* **[!UICONTROL Action]** est fournie avec la valeur de **[!UICONTROL Places Entry]**.
+* **[!UICONTROL Action]**est fournie avec la valeur de**[!UICONTROL Places Entry]**.
 
-* La clé de données contextuelles **[!UICONTROL poi.name]** est définie sur la valeur de l’élément de données **[!UICONTROL {%%POI Name%%}]**.
+* La clé de données contextuelles **[!UICONTROL poi.name]**est définie sur la valeur de l’élément de données**[!UICONTROL {%%POI Name%%}]**.
 
-!["définir une action"](/help/assets/pt-setAction.png)
+![&quot;définir une action&quot;](/help/assets/pt-setAction.png)
 
 ## 2. Création de variables Analytics
 
 Pour mapper les données contextuelles (envoyées à l’étape 1), les variables doivent d’abord être créées pour la suite de rapports Analytics. Pour plus d’informations sur la création de variables dans Analytics, voir Variables de [conversion \(eVars\)](https://docs.adobe.com/content/help/en/analytics/implementation/analytics-basics/ref-conversion-variables-evar.html).
 
-Dans cet exemple, une variable de conversion **[!UICONTROL Evar2]** a été créée et nommée **[!UICONTROL Places POI Name]**. D’autres variables devront être créées pour chaque variable d’emplacement à exposer dans les rapports.
+Dans cet exemple, une variable de conversion **[!UICONTROL Evar2]**a été créée et nommée**[!UICONTROL Places POI Name]**. D’autres variables devront être créées pour chaque variable d’emplacement à exposer dans les rapports.
 
-!["création d’une variable d’analyse"](/help/assets/aa-evar.png)
+![&quot;création d’une variable d’analyse&quot;](/help/assets/aa-evar.png)
 
 ## 3. Création de règles de traitement
 
 Cette étape est nécessaire pour mapper les données contextuelles (étape 1) aux variables Analytics (étape 2). For more information on creating processing rules, see [Processing rules overview](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules.html).
 
-Dans cet exemple, une règle de traitement a été créée pour mapper la valeur des données contextuelles **[!UICONTROL poi.name]** dans **[!UICONTROL Places POI Name \(eVar2\)]**. Des règles de traitement supplémentaires devront être créées pour chaque variable d’emplacement créée.
+Dans cet exemple, une règle de traitement a été créée pour mapper la valeur des données contextuelles **[!UICONTROL poi.name]**dans**[!UICONTROL Places POI Name \(eVar2\)]**. Des règles de traitement supplémentaires devront être créées pour chaque variable d’emplacement créée.
 
-!["créer une règle de traitement"](/help/assets/aa-processing-rule.png)
+![&quot;créer une règle de traitement&quot;](/help/assets/aa-processing-rule.png)
 
 ## 4. Générer un rapport dans Workspace
 
@@ -56,10 +56,10 @@ Cette étape présente un rapport de base dans Analytics Workspace pour afficher
 
 Dans cet exemple, le rapport comporte les paramètres suivants :
 
-* Metric - **[!UICONTROL Occurrences]**
+* Mesure - **[!UICONTROL Occurrences]**
 
 * Dimension - **[!UICONTROL Action Name]**
 
    * Répartition par dimension - **[!UICONTROL Places POI Name]**
 
-!["créer un rapport dans l’espace de travail"](/help/assets/aa-workspace.png)
+![&quot;créer un rapport dans l’espace de travail&quot;](/help/assets/aa-workspace.png)
