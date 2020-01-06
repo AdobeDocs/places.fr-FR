@@ -51,8 +51,8 @@ Une fois la règle configurée avec les paramètres d’événement et de condit
 
 Pour créer une action :
 
-1. Sélectionnez l’extension **.[!UICONTROL Adobe Analytics]**
-1. Dans la liste **[!UICONTROL Action type]** déroulante, sélectionnez **[!UICONTROL Track.]**
+1. Sélectionnez l’extension **[!UICONTROL Adobe Analytics]**.
+1. Dans la liste **[!UICONTROL Action type]**déroulante, sélectionnez**[!UICONTROL Track.]**
 1. Entrez le nom de votre action.
 1. Dans le volet de droite, dans **[!UICONTROL Context Data]**, sélectionnez la paire clé-valeur pour définir les données contextuelles qui seront envoyées à Analytics.
 
@@ -77,7 +77,7 @@ Dans le cadre des paramètres de déclenchement, vous pouvez créer l’audience
 
    Cette option peut être utilisée avec une action spécifique à un emplacement, telle qu’une entrée, ou peut être utilisée comme contexte à un autre événement, tel qu’un lancement ou un clic sur un bouton.
 
-   Voici un exemple de configuration d’un message in-app afin d’accueillir les utilisateurs qui entrent dans un point d’accès qui porte **[!UICONTROL Adobe]** le nom :
+   Voici un exemple de configuration d’un message in-app afin d’accueillir les utilisateurs qui entrent dans un point d’accès qui porte **[!UICONTROL Adobe]**le nom :
 
    ![paramètres de déclenchement](/help/assets/trigger-parameters.png)
 
