@@ -16,4 +16,4 @@ Vous pouvez utiliser les API REST Places pour effectuer les tâches suivantes :
 * [Suppression d’une bibliothèque](/help/web-service-api/api-usage/manage-libraries/delete-a-library.md)
 * [Lire toutes les bibliothèques de votre entreprise](/help/web-service-api/api-usage/manage-libraries/read-all-libraries-in-your-organization.md)
 * [Définir un rang sur vos bibliothèques](/help/web-service-api/api-usage/manage-libraries/set-a-ran-on-your-libraries.md)
-* [Obtenir le rang d'une bibliothèque](/help/web-service-api/api-usage/manage-libraries/delete-a-library.md)
+* [Obtenir le rang d&#39;une bibliothèque](/help/web-service-api/api-usage/manage-libraries/delete-a-library.md)
