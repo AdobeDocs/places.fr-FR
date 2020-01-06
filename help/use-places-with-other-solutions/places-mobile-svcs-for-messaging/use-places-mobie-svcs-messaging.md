@@ -11,7 +11,7 @@ source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 Avant d’utiliser l’extension Mobile Services pour la messagerie, vérifiez les conditions préalables suivantes :
 
-* Des points d’intérêt ont été créés dans le service d’emplacement. Si nécessaire, voir Documentation. (lien vers la création d’un point d’accès) Remarque : Le service d’emplacement comprend une nouvelle base de données de points d’intérêt améliorée pour votre entreprise qui existe en dehors de l’interface AMS héritée. Les points d’intérêt trouvés dans la navigation "Gérer les lieux" d’AMS ne fonctionneront que pour la version 4 du SDK.
+* Des points d’intérêt ont été créés dans le service d’emplacement. Si nécessaire, voir Documentation. (lien vers la création d’un point d’accès) Remarque : Le service d’emplacement comprend une nouvelle base de données de points d’intérêt améliorée pour votre entreprise qui existe en dehors de l’interface AMS héritée. Les points d’intérêt trouvés dans la navigation &quot;Gérer les lieux&quot; d’AMS ne fonctionneront que pour la version 4 du SDK.
    * Voici l’interface héritée de gestion des points d’accès aux emplacements dans AMS pour les anciennes versions du SDK :
 
       ![Interface utilisateur héritée](/help/assets/legacy-location-v4-ui.png)
