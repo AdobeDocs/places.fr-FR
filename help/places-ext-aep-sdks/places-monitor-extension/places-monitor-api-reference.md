@@ -9,7 +9,7 @@ source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 # Référence à l’API du moniteur de lieux {#places-api-reference}
 
-## Enregistrer l'extension d'écran Places
+## Enregistrer l&#39;extension d&#39;écran Places
 
 Enregistre l’extension Places Monitor dans le concentrateur d’événements principaux.
 
@@ -147,7 +147,7 @@ PlacesMonitor.start();
 >
 >Si votre appel à démarrer la surveillance est effectué avant l’initialisation du SDK, il se peut qu’il soit ignoré.
 
-Vous pouvez vous assurer que le SDK a terminé l’initialisation en appelant `start` depuis le rappel fourni à `ACPCore::start:`.
+Vous pouvez vous assurer que le SDK a terminé l’initialisation en appelant `start` à partir du rappel fourni à `ACPCore::start:`.
 
 Voici la syntaxe et l’exemple de code pour cette API :
 
@@ -291,7 +291,7 @@ public static void setLocationPermission(final PlacesMonitorLocationPermission p
 
 #### Exemple
 
-Pour demander l' `WHILE_USING_APP` autorisation :
+Pour demander l&#39; `WHILE_USING_APP` autorisation :
 
 ```java
 // set the location permission
@@ -339,7 +339,7 @@ Voici la syntaxe et l’exemple de code pour cette API :
 
 #### Exemple
 
-Pour demander l' `ACPPlacesRequestAuthorizationLevelWhenInUse` autorisation :
+Pour demander l&#39; `ACPPlacesRequestAuthorizationLevelWhenInUse` autorisation :
 
 ```objective-c
 // set the request authorization level
