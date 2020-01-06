@@ -111,7 +111,7 @@ public class GeofenceTransitionsIntentService extends IntentService {
 }
 ```
 
-## Récupérez les points d'intérêt voisins
+## Récupérez les points d&#39;intérêt voisins
 
 Renvoie une liste ordonnée des points d’intérêt voisins dans un rappel. Une version surchargée de cette méthode renvoie un code d’erreur si un problème est survenu avec l’appel réseau résultant.
 
@@ -347,7 +347,7 @@ Voici l’exemple de code pour cette méthode :
 [ACPPlaces clear];
 ```
 
-## Définir le statut d'autorisation de l'emplacement
+## Définir le statut d&#39;autorisation de l&#39;emplacement
 
 ### setAuthorizationStatus (Android)
 
