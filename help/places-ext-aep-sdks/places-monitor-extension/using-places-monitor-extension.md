@@ -13,9 +13,9 @@ Pour utiliser l’extension Places Monitor, procédez comme suit :
 
 ## Installation de l’extension Places Monitor dans Experience Platform Launch
 
-1. In Experience Platform Launch, click the **[!UICONTROL Extensions]** tab.
-1. Dans l’ **[!UICONTROL Catalog]** onglet, recherchez l’ **[!UICONTROL Places Monitor]** extension, puis cliquez sur **Installer**.
-1. Cliquez sur **[!UICONTROL Save]** (Nouvelle propriété).
+1. In Experience Platform Launch, click the **[!UICONTROL Extensions]**tab.
+1. Dans l’ **[!UICONTROL Catalog]**onglet, recherchez l’**[!UICONTROL Places Monitor]** extension, puis cliquez sur **Installer**.
+1. Cliquez sur **[!UICONTROL Save]**(Exécuter des tests d’Auditor).
 1. Suivez le processus de publication pour mettre à jour la configuration du SDK.
 
 ### Configuration de l’extension Places Monitor {#configure-places-monitor-extension}
@@ -158,7 +158,7 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 
 **Java**
 
-Pour toutes les versions d’Android, pour déclarer que votre application a besoin d’une autorisation d’emplacement, ajoutez un `<uses-permission>` élément dans le manifeste de votre application, en tant qu’enfant de l’ `<manifest>` élément de niveau supérieur. Pour les applications Android qui ciblent les API Niveau 29 et supérieur, pour permettre à l'application d'accéder à l'emplacement en arrière-plan, incluez l'autorisation ACCESS_BACKGROUND_LOCATION.
+Pour toutes les versions d’Android, pour déclarer que votre application a besoin d’une autorisation d’emplacement, ajoutez un `<uses-permission>` élément dans le manifeste de votre application, en tant qu’enfant de l’ `<manifest>` élément de niveau supérieur. Pour les applications Android qui ciblent les API Niveau 29 et supérieur, pour permettre à l&#39;application d&#39;accéder à l&#39;emplacement en arrière-plan, incluez l&#39;autorisation ACCESS_BACKGROUND_LOCATION.
 
 ```java
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.adobe.placesapp">
