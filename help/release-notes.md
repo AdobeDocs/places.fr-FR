@@ -166,7 +166,7 @@ Les mises à jour suivantes ont été effectuées dans cette version :
 Version initiale de Places Monitor pour Android.
 
 Le moniteur de lieux gère les API d’emplacement au niveau du système d’exploitation et communique directement avec l’extension Places. Avec les deux extensions installées, les clients peuvent avoir une surveillance de région prête à l’emploi dans leur application.
-Pour plus d'informations sur le moniteur des lieux, cliquez ici.
+Pour plus d&#39;informations sur le moniteur des lieux, cliquez ici.
 
 
 ## 2 mai 2019
@@ -198,7 +198,7 @@ Version initiale de Places Monitor pour iOS.
 
 Le moniteur de lieux gère les API d’emplacement au niveau du système d’exploitation et communique directement avec l’extension Places. Avec les deux extensions installées, les clients peuvent avoir une surveillance de région prête à l’emploi dans leur application. Pour plus d’informations sur le moniteur de lieux, voir [Extension](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md)du moniteur de lieux.
 
-## 28 février 2019
+## 28 février 2019
 
 ### Version bêta
 
@@ -235,7 +235,7 @@ Vous pouvez utiliser les API Places pour effectuer les opérations suivantes :
 * Créez votre propre interface utilisateur ou intégrez-la à une base de données d’API existante.
 * Utilisez les points de fin de lot de l’API Places pour effectuer une importation en masse des points d’intérêt.
 
-   Vous pouvez utiliser l'utilitaire Python fourni pour terminer l'importation en masse.
+   Vous pouvez utiliser l&#39;utilitaire Python fourni pour terminer l&#39;importation en masse.
 
 Pour plus d’informations sur les API Places, voir API [de service](/help/web-service-api/places-web-services.md)Web.
 
