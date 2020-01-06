@@ -13,9 +13,9 @@ source-git-commit: c88c8f8e7e3bb9ea3af85948e682e75e894ad782
 + [Présentation du service d’emplacement d’Adobe Experience Platform](home.md)
 + [Notes de mise à jour](release-notes.md)
 + [Prise en main](getting-started.md)
-+ [Obtenir l'accès au service d'emplacement](places-gain-access.md)
++ [Obtenir l&#39;accès au service d&#39;emplacement](places-gain-access.md)
 + Interface de gestion du point d’intérêt {#poi-mgmt-ui}
-   + [Présentation de l'interface de gestion des points d'intérêt](poi-mgmt-ui/poi-mgmt-ui-overview.md)
+   + [Présentation de l&#39;interface de gestion des points d&#39;intérêt](poi-mgmt-ui/poi-mgmt-ui-overview.md)
    + [Créer un POI](poi-mgmt-ui/create-a-poi-ui.md)
    + [Gestion des points d’accès créés précédemment](poi-mgmt-ui/managing-pois-in-the-places-ui.md)
    + [Stratégies d’utilisation des métadonnées avec des points d’intérêt](poi-mgmt-ui/metadata-with-pois.md)
@@ -35,7 +35,7 @@ source-git-commit: c88c8f8e7e3bb9ea3af85948e682e75e894ad782
          + [Suppression d’une bibliothèque](web-service-api/api-usage/manage-libraries/delete-a-library.md)
          + [Lire toutes les bibliothèques de votre entreprise](web-service-api/api-usage/manage-libraries/read-all-libraries-in-your-organization.md)
          + [Définir un rang sur vos bibliothèques](web-service-api/api-usage/manage-libraries/set-a-ran-on-your-libraries.md)
-         + [Obtenir le rang d'une bibliothèque](web-service-api/api-usage/manage-libraries/get-a-librarys-rank.md)
+         + [Obtenir le rang d&#39;une bibliothèque](web-service-api/api-usage/manage-libraries/get-a-librarys-rank.md)
       + Gestion des points ciblés{#manage-pois}
          + [Présentation de la gestion des points d’intérêt](web-service-api/api-usage/manage-pois/manage-pois.md)
          + [Créer un POI](web-service-api/api-usage/manage-pois/create-a-poi.md)
@@ -61,7 +61,7 @@ source-git-commit: c88c8f8e7e3bb9ea3af85948e682e75e894ad782
       + [Utilisation de l’extension Places Monitor](places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.md)
       + [Référence à l’API du moniteur de lieux](places-ext-aep-sdks/places-monitor-extension/places-monitor-api-reference.md)
 + [Utiliser le service d’emplacement avec votre propre solution de surveillance](using-your-own-monitor.md)
-+ [Utiliser le service d'emplacement sans surveillance active de la région](use-places-without-active-monitoring.md)
++ [Utiliser le service d&#39;emplacement sans surveillance active de la région](use-places-without-active-monitoring.md)
 + Utilisation du service d’emplacement dans le cadre du processus de lancement de la plateforme d’expérience {#use-places-launch-workflow}
    + [Utilisation du service d’emplacement dans le cadre du processus de lancement de la plateforme d’expérience](use-places-launch-workflow/places-launch-workflow.md)
    + [Définition des éléments de données](use-places-launch-workflow/define-data-elements.md)
@@ -76,7 +76,7 @@ source-git-commit: c88c8f8e7e3bb9ea3af85948e682e75e894ad782
       + [Adobe Mobile Services](use-places-with-other-solutions/places-mobile-svcs-for-messaging/use-places-mobie-svcs-messaging.md)
       + [Notifications Push](use-places-with-other-solutions/places-mobile-svcs-for-messaging/mobile-svcs-messaging-push.md)
       + [Notifications in-app](use-places-with-other-solutions/places-mobile-svcs-for-messaging/mobile-svcs-messaging-inapp.md)
-   + Adobe Campaign Standard {#places-acs}
+   + Adobe Campaign Standard {#places-acs}
       + [Utiliser le service d’emplacement avec Adobe Campaign Standard](use-places-with-other-solutions/places-acs/places-acs-overview.md)
       + [Notifications Push](use-places-with-other-solutions/places-acs/places-acs-push-notifications.md)
       + [Messages in-app](use-places-with-other-solutions/places-acs/places-acs-in-app-messages.md)
