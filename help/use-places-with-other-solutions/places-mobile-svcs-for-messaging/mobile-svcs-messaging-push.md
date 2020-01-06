@@ -27,10 +27,10 @@ Avant de commencer, vérifiez que vous avez effectué les tâches suivantes :
 
 ## Envoyer une notification
 
-Dans l’ **[!UICONTROL Audience]** onglet du flux de travail *Créer une notification* Push, vous pouvez créer l’audience pour ce message de l’une des manières suivantes :
+Dans l’ **[!UICONTROL Audience]**onglet du flux de travail *Créer une notification*Push, vous pouvez créer l’audience pour ce message de l’une des manières suivantes :
 
-* Dans la liste **[!UICONTROL Analytics Segments]** déroulante, sélectionnez un segment Adobe Analytics créé précédemment.
+* Dans la liste **[!UICONTROL Analytics Segments]**déroulante, sélectionnez un segment Adobe Analytics créé précédemment.
 
-* Dans la **[!UICONTROL Custom Segment]** section, créez une audience à l’aide des paramètres de segment personnalisé disponibles.
+* Dans la **[!UICONTROL Custom Segment]**section, créez une audience à l’aide des paramètres de segment personnalisé disponibles.
 
 ![configuration d’un message push](/help/assets/push-set-up.png)
