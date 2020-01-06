@@ -15,7 +15,7 @@ Une fois que l’extension Places envoie des événements pour les entrées et l
 
 ## 1. Création d’une règle
 
-1. Sur l’ **[!UICONTROL Rules]** onglet, cliquez sur **[!UICONTROL Create New Rule]**.
+1. Sur l’ **[!UICONTROL Rules]**onglet, cliquez sur**[!UICONTROL Create New Rule]**.
 
    À noter :
 
@@ -28,13 +28,13 @@ Une fois que l’extension Places envoie des événements pour les entrées et l
 
    Dans cet exemple, la règle est nommée **[!UICONTROL Attach Places Data to Target Content Requested]**.
 
-1. Sous la **[!UICONTROL Events]** section, cliquez sur **[!UICONTROL Add]**.
+1. Sous la **[!UICONTROL Events]**section, cliquez sur**[!UICONTROL Add]**.
 
-1. Dans la liste **[!UICONTROL Extension]** déroulante, sélectionnez **[!UICONTROL Adobe Target]**.
+1. Dans la liste **[!UICONTROL Extension]**déroulante, sélectionnez**[!UICONTROL Adobe Target]**.
 
-1. Dans la liste **[!UICONTROL Event Type]** déroulante, sélectionnez **[!UICONTROL Content Requested]**.
+1. Dans la liste **[!UICONTROL Event Type]**déroulante, sélectionnez**[!UICONTROL Content Requested]**.
 
-1. Cliquez sur **[!UICONTROL Keep Changes]** (Nouvelle propriété).
+1. Cliquez sur **[!UICONTROL Keep Changes]**(Exécuter des tests d’Auditor).
 
 ![ajouter un événement](/help/assets/ad-setEvent_target.png)
 
@@ -46,33 +46,33 @@ Une fois que l’extension Places envoie des événements pour les entrées et l
 
 Dans l’exemple suivant, une condition est créée, qui provoque le déclenchement de la règle uniquement pour les utilisateurs qui ont lancé l’application cinq fois ou plus.
 
-1. Sous la **[!UICONTROL Conditions]** section, cliquez sur **[!UICONTROL Add]**.
+1. Sous la **[!UICONTROL Conditions]**section, cliquez sur**[!UICONTROL Add]**.
 
-1. Dans la liste **[!UICONTROL Extension]** déroulante, sélectionnez **[!UICONTROL Mobile Core]**.
+1. Dans la liste **[!UICONTROL Extension]**déroulante, sélectionnez**[!UICONTROL Mobile Core]**.
 
-1. Dans la liste **[!UICONTROL Condition Type]** déroulante, sélectionnez **[!UICONTROL Launches]**.
+1. Dans la liste **[!UICONTROL Condition Type]**déroulante, sélectionnez**[!UICONTROL Launches]**.
 
 1. Dans le volet de droite, modifiez la liste déroulante et les contrôles de numéro afin que la condition soit lue **[!UICONTROL User has launched the app greater than or equal to 5 times]**.
 
-1. Cliquez sur **[!UICONTROL Keep Changes]** (Nouvelle propriété).
+1. Cliquez sur **[!UICONTROL Keep Changes]**(Exécuter des tests d’Auditor).
 
 ![ajouter une condition](/help/assets/ad-setCondition_target.png)
 
-## 4. Définir l'action
+## 4. Définir l&#39;action
 
-1. Sous la **[!UICONTROL Actions]** section, cliquez sur **[!UICONTROL Add]**.
+1. Sous la **[!UICONTROL Actions]**section, cliquez sur**[!UICONTROL Add]**.
 
-1. Dans la liste **[!UICONTROL Extension]** déroulante, sélectionnez **[!UICONTROL Mobile Core]**.
+1. Dans la liste **[!UICONTROL Extension]**déroulante, sélectionnez**[!UICONTROL Mobile Core]**.
 
-1. Dans la liste **[!UICONTROL Action Type]** déroulante, sélectionnez **[!UICONTROL Attach Data]**.
+1. Dans la liste **[!UICONTROL Action Type]**déroulante, sélectionnez**[!UICONTROL Attach Data]**.
 
-1. Dans le volet de droite, dans le **[!UICONTROL JSON Payload]** champ, saisissez les données qui seront ajoutées à cet événement.
+1. Dans le volet de droite, dans le **[!UICONTROL JSON Payload]**champ, saisissez les données qui seront ajoutées à cet événement.
 
-1. Cliquez sur **[!UICONTROL Keep Changes]** (Nouvelle propriété).
+1. Cliquez sur **[!UICONTROL Keep Changes]**(Exécuter des tests d’Auditor).
 
 Dans le volet de droite, vous pouvez ajouter une charge JSON à structure libre qui ajoute des données à un événement SDK avant que les extensions qui écoutent cet événement ne l’entendent.
 
-Dans l’exemple suivant, `poiCity` et `poiName` sont ajoutées à la **[!UICONTROL mboxparameters]** requête pour chaque requête traitée dans l’événement Target. Les valeurs des nouvelles clés sont déterminées dynamiquement par le SDK au moment du traitement de cet événement.
+Dans l’exemple suivant, `poiCity` et `poiName` sont ajoutées à la **[!UICONTROL mboxparameters]**requête pour chaque requête traitée dans l’événement Target. Les valeurs des nouvelles clés sont déterminées dynamiquement par le SDK au moment du traitement de cet événement.
 
 >[!TIP]
 >
@@ -80,7 +80,7 @@ Dans l’exemple suivant, `poiCity` et `poiName` sont ajoutées à la **[!UICONT
 >
 >La notation de `request[*]` peut être lue à haute voix comme _pour chaque objet du`request`tableau_.
 
-![définir l'action](/help/assets/ad-setAction-target.png)
+![définir l&#39;action](/help/assets/ad-setAction-target.png)
 
 ## 5. Enregistrez la règle et recréez votre propriété
 
@@ -88,6 +88,6 @@ Une fois la configuration terminée, vérifiez que votre règle ressemble à l�
 
 ![règle terminée](/help/assets/ad-ruleComplete-target.png)
 
-1. Cliquez sur **[!UICONTROL Save]** (Conserver les modifications).
+1. Cliquez sur **[!UICONTROL Save]**
 
 1. Reconstruisez votre propriété Launch et déployez-la dans l’environnement approprié.
