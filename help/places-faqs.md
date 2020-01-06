@@ -15,7 +15,7 @@ Voici quelques informations et des questions fréquentes sur le service d’empl
 
 Important à noter pour toutes les géofinitions utilisées dans la surveillance de région à partir d’une application mobile, indépendamment de l’utilisation d’Adobe ou d’un autre service. Les systèmes d’exploitation recommandent certains paramètres à garder à l’esprit lors de la création de géoofences. Pour une fiabilité maximale, les clôtures doivent avoir un rayon d’au moins 100 mètres. Il est possible de créer de petites grilles, mais les événements d’entrée et de sortie peuvent ne pas être générés ou être générés une fois que l’utilisateur a cessé de se déplacer pendant une période donnée.
 
-En outre, la précision et la fiabilité peuvent être réduites en fonction de conditions matérielles telles que l'arrêt ou l'indisponibilité du Wi-Fi, et en fonction de l'emplacement de l'appareil par rapport à l'obstacle des signaux GPS. Par exemple, les zones montagneuses, les zones urbaines et les zones intérieures peuvent réduire la précision de l’emplacement à partir des systèmes d’exploitation iOS et Android.
+En outre, la précision et la fiabilité peuvent être réduites en fonction de conditions matérielles telles que l&#39;arrêt ou l&#39;indisponibilité du Wi-Fi, et en fonction de l&#39;emplacement de l&#39;appareil par rapport à l&#39;obstacle des signaux GPS. Par exemple, les zones montagneuses, les zones urbaines et les zones intérieures peuvent réduire la précision de l’emplacement à partir des systèmes d’exploitation iOS et Android.
 
 ## Comment se déclenche un événement de sortie ?
 
