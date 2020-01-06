@@ -9,7 +9,7 @@ source-git-commit: c20e720d23121970bb2fa1c63a2fd1e81c84b977
 
 # Présentation du service d’emplacement d’Adobe Experience Platform {#home}
 
-!["Adobe Experience Platform Location Service"](/help/assets/LocationHeader.png)
+![&quot;Adobe Experience Platform Location Service&quot;](/help/assets/LocationHeader.png)
 
 L’emplacement est un contexte important pour comprendre et interagir avec les utilisateurs mobiles. En utilisant ce contexte, les développeurs d’applications mobiles peuvent améliorer la conception de l’application et en faire une expérience plus personnalisée et plus attrayante.
 
@@ -23,11 +23,11 @@ Le service d’emplacement vous permet d’effectuer les opérations suivantes :
 * Configurez le SDK dans Adobe Experience Platform Launch pour définir vos règles déclenchées par l’emplacement et vos conditions basées sur les métadonnées.
 * Réduisez le code que vous devez écrire pour surveiller l’emplacement d’un périphérique et utilisez l’extension Places pour déclencher automatiquement les règles spécifiques à l’emplacement.
 
-Cela vous permettra d'agir à partir des signaux d'emplacement en temps réel, quand et où cela importe. Le contexte approprié offre une expérience d’engagement mobile plus enrichissante.
+Cela vous permettra d&#39;agir à partir des signaux d&#39;emplacement en temps réel, quand et où cela importe. Le contexte approprié offre une expérience d’engagement mobile plus enrichissante.
 
 Voici quelques-unes des méthodes d’utilisation de Places :
 
-* Envoyez une notification en temps réel quand quelqu'un entre dans un point d'intérêt, *"Hé...bienvenue au stade."*
+* Envoyez une notification en temps réel quand quelqu&#39;un entre dans un point d&#39;intérêt, *&quot;Hé...bienvenue au stade.&quot;*
 * Analysez le trafic de pied de vos propres magasins par rapport à celui de vos concurrents.
 * Segmentez une audience en fonction du comportement hors ligne en utilisant des profils d’audience avec contexte d’emplacement.
 * Ciblez un utilisateur avec une expérience en magasin, le cas échéant.
@@ -64,13 +64,13 @@ Voici quelques termes courants utilisés dans cette documentation :
 
    Vous pouvez définir des points d’intérêt avec des attributs tels que le nom, le rayon, l’adresse, la catégorie et les balises de métadonnées.
 
-* Une **géofence** est un type de point d'intérêt.
+* Une **géofence** est un type de point d&#39;intérêt.
 
    Ce type d’IPE est une limite géographique virtuelle définie par les coordonnées de latitude et de longitude.
 
 * Une **balise** est un type de point d’intérêt.
 
-   Ce type d'interface est un périphérique physique qui représente un emplacement en émettant un signal Bluetooth à faible puissance. La prise en charge des balises sera disponible dans une prochaine version.
+   Ce type d&#39;interface est un périphérique physique qui représente un emplacement en émettant un signal Bluetooth à faible puissance. La prise en charge des balises sera disponible dans une prochaine version.
 
 * Une **bibliothèque** est une collection de POI permettant l’association plus simple de règles à un ensemble de POI plutôt qu’à un POI unique.
 
