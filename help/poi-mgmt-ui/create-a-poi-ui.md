@@ -27,21 +27,21 @@ Un point d’intérêt (POI) est un emplacement ou un point sur une carte qui es
    1. Sélectionnez une couleur pour l’icône.
    1. Spécifiez une catégorie pour votre point d’accès.
 
-1. Expand the **[!UICONTROL Location]** section.
+1. Expand the **[!UICONTROL Location]**section.
 
    1. Entrez une adresse.
    1. Tapez la ville.
-   1. Tapez le nom de l'état.
+   1. Tapez le nom de l&#39;état.
    1. Entrez le nom du pays.
    1. Sélectionnez ou entrez une latitude ou une longitude (obligatoire).
-   1. Cliquez sur **[!UICONTROL Drop Pin on Map]** (Nouvelle propriété).
+   1. Cliquez sur **[!UICONTROL Drop Pin on Map]**(Exécuter des tests d’Auditor).
    Si vous ne connaissez pas la latitude et la longitude exactes, il est utile de déposer une épingle.
 
-1. Développez la **[!UICONTROL Metadata]** section et cliquez sur **[!UICONTROL Add Metadata]**.
+1. Développez la **[!UICONTROL Metadata]**section et cliquez sur**[!UICONTROL Add Metadata]**.
 
    Les métadonnées peuvent vous aider à définir un emplacement plus précis et peuvent être utilisées dans d’autres processus de solution Adobe pour affiner davantage votre audience.
 
    1. Tapez le nom de la clé.
    1. Tapez la valeur de clé.
 
-1. Cliquez sur **[!UICONTROL  Save]** (Nouvelle propriété).
+1. Cliquez sur **[!UICONTROL  Save]**(Exécuter des tests d’Auditor).
