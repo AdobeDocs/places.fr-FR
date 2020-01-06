@@ -27,26 +27,26 @@ Avec l’extension Places, vous pouvez référencer des valeurs à partir des ci
 
 Chaque API contient les références de données suivantes :
 
-* **[!UICONTROL Category]**: catégorie de l'IPE
+* **[!UICONTROL Category]**: catégorie de l&#39;IPE
 * **[!UICONTROL City]**: ville de la POI
-* **[!UICONTROL Country]**: pays de la période d'enquête
+* **[!UICONTROL Country]**: pays de la période d&#39;enquête
 * **[!UICONTROL Latitude]**: latitude du POI
-* **[!UICONTROL Longitude]**: longitude de de l'IPE
+* **[!UICONTROL Longitude]**: longitude de de l&#39;IPE
 * **[!UICONTROL Metadata]**: métadonnées personnalisées de l’API
 * **[!UICONTROL Name]**: région du POI
 * **[!UICONTROL Radius]**: rayon de l’objet ciblé
 * **[!UICONTROL Region ID]**: ID du point d’accès
-* **[!UICONTROL Region/State]**: région, province ou état de la période d'enquête
+* **[!UICONTROL Region/State]**: région, province ou état de la période d&#39;enquête
 
 ### Créer un élément de données
 
-1. Dans la page Propriétés de votre application, cliquez sur l’ **[!UICONTROL Data Elements]** onglet.
+1. Dans la page Propriétés de votre application, cliquez sur l’ **[!UICONTROL Data Elements]**onglet.
 
-1. Cliquez sur **[!UICONTROL Create New Data Element]** (Nouvelle propriété).
+1. Cliquez sur **[!UICONTROL Create New Data Element]**(Exécuter des tests d’Auditor).
 
 1. Dans la liste des extensions installées, recherchez **[!UICONTROL Places]**.
 
-1. Dans la liste **[!UICONTROL Data Element Type]** déroulante, sélectionnez une référence de données pour cet élément de données.
+1. Dans la liste **[!UICONTROL Data Element Type]**déroulante, sélectionnez une référence de données pour cet élément de données.
 
 1. Sélectionnez une cible d’API.
 
@@ -63,8 +63,8 @@ Après la création d’un élément de données, si un sélecteur d’élément
 
 ![Utilisation de l’élément de données](/help/assets/use-de-v2.png)
 
-Si un sélecteur d’éléments de données n’est pas présent dans le composant de règle, vous pouvez utiliser l’élément de données en enveloppant le nom de l’élément de données avec les **[!UICONTROL %%]** jetons.
-Par exemple, si le nom de l’élément de données est **[!UICONTROL Last POI City]**, vous pouvez ajouter **[!UICONTROL LAST POI City]** à une entrée de texte.
+Si un sélecteur d’éléments de données n’est pas présent dans le composant de règle, vous pouvez utiliser l’élément de données en enveloppant le nom de l’élément de données avec les **[!UICONTROL %%]**jetons.
+Par exemple, si le nom de l’élément de données est**[!UICONTROL Last POI City]**, vous pouvez ajouter **[!UICONTROL LAST POI City]**à une entrée de texte.
 
 
 ## Publication des éléments de données
