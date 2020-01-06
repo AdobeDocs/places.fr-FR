@@ -40,14 +40,14 @@ Voici les détails relatifs aux en-têtes et aux paramètres disponibles dans l�
 | `id` | ID du point d’accès | affecté | n/d | réponse | `"id": "1455462b-7f9c-4220-9f42-5bbce777a0d1"` |
 | `name` | Nom du point d’intérêt | string | 512 caractères | les deux, facultatif\* | `"name": "My Favorite Place"` |
 | `description` | Description de l’API | string | 512 caractères | les deux, facultatif\* | `"description": "This is a very good place."` |
-| `location` | Tableau du type et des coordonnées de l'IPE | tableau (mixte) | n/d | both | `"location": {"type": "Point", "coordinates": [-122.201007, 37.604713]` |
-| `type` | Type d’IPE | string | seul "Point" actuellement pris en charge | les deux, requis dans la demande | `"type": "Point"` |
+| `location` | Tableau du type et des coordonnées de l&#39;IPE | tableau (mixte) | n/d | both | `"location": {"type": "Point", "coordinates": [-122.201007, 37.604713]` |
+| `type` | Type d’IPE | string | seul &quot;Point&quot; actuellement pris en charge | les deux, requis dans la demande | `"type": "Point"` |
 | `coordinates` | Tableau de longitude et de latitude de la POI | tableau (float) | longitude : -180 à 180, latitude -85 à 85 | les deux, requis dans la demande | `"coordinates": [-122.201007, 37.604713]` |
-| `radius` | Taille de la géofence circulaire autour de l'IPE | flotter | 10 à 2 000 mètres | les deux, requis dans la demande | `"radius": 100` |
-| `country` | Pays pour la période d'enquête | string | 32 caractères | les deux, facultatif* | `"country": "United States"` |
-| `state` | État de l'IPE | string | 32 caractères | les deux, facultatif* | `"state": "California"` |
+| `radius` | Taille de la géofence circulaire autour de l&#39;IPE | flotter | 10 à 2 000 mètres | les deux, requis dans la demande | `"radius": 100` |
+| `country` | Pays pour la période d&#39;enquête | string | 32 caractères | les deux, facultatif* | `"country": "United States"` |
+| `state` | État de l&#39;IPE | string | 32 caractères | les deux, facultatif* | `"state": "California"` |
 | `city` | Ville de l’API | string | 32 caractères | les deux, facultatif* | `"city": "San Jose"` |
-| `street` | Adresse de rue du point d'entrée | string | 256 caractères | les deux, facultatif* | `"street": "122 Woz Way"` |
+| `street` | Adresse de rue du point d&#39;entrée | string | 256 caractères | les deux, facultatif* | `"street": "122 Woz Way"` |
 | `category` | Catégorie de l’API | string | 100 caractères | les deux, facultatif* | `"category": "cafe"` |
 | `icon` | Icône de l’API | string | 50 caractères | les deux, facultatif* | `"icon": "star"` |
 | `color` | Couleur de la zone cliquable | string | 8 caractères | les deux, facultatif* | `"color": "blue"` |
