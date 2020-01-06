@@ -17,7 +17,7 @@ Les points d’accès et les bibliothèques sont créés et gérés dans la base
 1. Connectez-vous au service Places à l’aide de votre Adobe ID.
 1. Dans le coin supérieur droit, cliquez sur l’icône qui ressemble à une liste à puces.
 1. Localisez le point d’accès à modifier.
-1. Cliquez sur **[!UICONTROL ...]** puis sélectionnez **[!UICONTROL View Details]**.
+1. Cliquez sur **[!UICONTROL ...]**puis sélectionnez**[!UICONTROL View Details]**.
 1. Mettez à jour les informations, puis cliquez sur **[!UICONTROL Save]**.
 
 ## Suppression d’un point d’intérêt
@@ -26,7 +26,7 @@ Les points d’accès et les bibliothèques sont créés et gérés dans la base
 1. Connectez-vous au service Places à l’aide de votre Adobe ID.
 1. Dans le coin supérieur droit, cliquez sur l’icône qui ressemble à une liste à puces.
 1. Localisez le point d’accès à supprimer.
-1. Cliquez sur **[!UICONTROL ...]** puis sélectionnez **[!UICONTROL Delete]**.
+1. Cliquez sur **[!UICONTROL ...]**puis sélectionnez**[!UICONTROL Delete]**.
 
 ## Filtrage des points d’intérêt par ville, état, pays ou métadonnées
 
@@ -42,11 +42,11 @@ Les points d’accès et les bibliothèques sont créés et gérés dans la base
 
    * Par propriété :
 
-      a. Dans la liste déroulante Propriété, sélectionnez **[!UICONTROL Country]**, **[!UICONTROL State]** ou **[!UICONTROL City]**.
+      a. Dans la liste déroulante Propriété, sélectionnez **[!UICONTROL Country]**,**[!UICONTROL State]** ou **[!UICONTROL City]**.
 
       b. Dans la ligne suivante, entrez une valeur.
 
-      Par exemple, vous pouvez sélectionner **[!UICONTROL State]** et saisir **[!UICONTROL California]**.
+      Par exemple, vous pouvez sélectionner **[!UICONTROL State]**et saisir**[!UICONTROL California]**.
 
    * Avec métadonnées :
 
@@ -66,8 +66,8 @@ Les Geofences sont un type d’API et sont définies dans la base de données en
 | Catégorie | Attribuez un cadre commun aux catégories communes à tous les points d’intérêt dans toutes les bibliothèques. | Non |
 | Adresse | Adresse. | Non |
 | Ville | Ville de la POI. | Non |
-| État/Région | État ou région de l'IPE. | Non |
-| Pays | Pays de la zone d'intérêt. | Non |
+| État/Région | État ou région de l&#39;IPE. | Non |
+| Pays | Pays de la zone d&#39;intérêt. | Non |
 | Latitude | Coordonnée de la latitude pour le centre du point d’intérêt. | Oui |
 | Longitude | Coordonnée de la longitude pour le centre du point d’intérêt. | Oui |
 | Métadonnées | Des paires clé/valeur personnalisées qui peuvent être attribuées aux points d’intérêt. Ces métadonnées rationalisent les flux de travaux futurs en vous permettant de regrouper les points d’intérêt entre les bibliothèques pour que chacune d’elles utilise des règles et des filtres dans les flux de travaux en aval, tels que l’envoi d’une notification Push lorsqu’une personne entre dans un point d’intérêt avec le paramètre Type = Concurrent. | Non |
