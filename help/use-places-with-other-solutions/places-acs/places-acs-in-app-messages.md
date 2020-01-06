@@ -28,22 +28,22 @@ Avant de commencer, effectuez les tâches suivantes :
 
 1. Dans votre instance Adobe Campaign Standard, cliquez sur **[!UICONTROL Create In-App message]**.
 1. Pour le type de message, sélectionnez **[!UICONTROL Target all users of a Mobile application]**.
-1. Cliquez sur **[!UICONTROL Next]** et saisissez les détails généraux.
+1. Cliquez sur **[!UICONTROL Next]**et saisissez les détails généraux.
 1. Dans le volet de gauche, vérifiez que vous pouvez utiliser divers déclencheurs liés aux services de localisation.
 
    * Vous pouvez choisir d’afficher le message in-app si l’utilisateur a saisi une clôture d’accès aux données d’identification géographique.
    * Vous pouvez également utiliser des métadonnées définies dans l’interface utilisateur des services d’emplacement pour filtrer l’audience.
    Dans l’exemple ci-dessous, vous pouvez déclencher un message in-app qui s’affiche uniquement pour les utilisateurs qui entrent dans l’un des centres de villégiature participant à un programme de boisson gratuite et vous souhaitez envoyer un bon à ces utilisateurs lorsqu’ils arrivent.
 
-   !["Métadonnées de place des messages in-app"](/help/assets/last-entered-vacation.png)
+   ![&quot;Métadonnées de place des messages in-app&quot;](/help/assets/last-entered-vacation.png)
 
-1. Click the **[!UICONTROL Next]** to finish creating the In-app message for delivery.
+1. Click the **[!UICONTROL Next]**to finish creating the In-app message for delivery.
 
-   !["créer un événement"](/help/assets/prepare-ACS.png)
+   ![&quot;créer un événement&quot;](/help/assets/prepare-ACS.png)
 
    Pour tester la remise des messages in-app, lancez l’application dans Xcode ou Android studio et utilisez le simulateur d’emplacement pour sélectionner un point d’accès correspondant aux critères de messagerie.
 
-   !["coupon de boisson"](/help/assets/drink-coupon-on-app.png)
+   ![&quot;coupon de boisson&quot;](/help/assets/drink-coupon-on-app.png)
 
 L’utilisation des services de localisation avec Adobe Campaign Standard vous offre un outil puissant pour segmenter et cibler vos messages sur les utilisateurs en fonction des entrées et des sorties de géolocalisation. Cette intégration vous permet de créer des cas d’utilisation plus personnalisés et contextuels.
 
