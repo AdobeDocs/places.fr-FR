@@ -80,46 +80,45 @@ Pour créer un élément de données dans Experience Platform Launch :
 
 ![création d’une règle](/help/assets/placesrule.png)
 
-1. In Experience Platform Launch, click the **[!UICONTROL Rules]** tab.
-1. Cliquez sur **[!UICONTROL Add Rule]** (Nouvelle propriété).
+1. In Experience Platform Launch, click the **[!UICONTROL Rules]**tab.
+1. Cliquez sur **[!UICONTROL Add Rule]**(Exécuter des tests d’Auditor).
 1. Tapez le nom de la règle, par exemple **[!UICONTROL Track entry for coffee shop in SF]**.
 
 ### Créez un événement
 
 1. Dans la section Evénements, cliquez sur **[!UICONTROL + Add]**. Les événements déterminent à quel moment la règle doit se déclencher.
-1. Dans la liste **[!UICONTROL Extension]** déroulante, sélectionnez **[!UICONTROL Places – Beta]**.
-1. Dans la liste **[!UICONTROL Event Type]** déroulante, sélectionnez **[!UICONTROL Enter POI]**.
-1. Dans **[!UICONTROL Name]**, saisissez un nom pour l’événement, par exemple **[!UICONTROL Entering a coffee shop]**.
-1. Cliquez sur **[!UICONTROL Keep Changes]** (Conserver les modifications).
+1. Dans la liste **[!UICONTROL Extension]**déroulante, sélectionnez**[!UICONTROL Places – Beta]**.
+1. Dans la liste **[!UICONTROL Event Type]**déroulante, sélectionnez**[!UICONTROL Enter POI]**.
+1. Dans **[!UICONTROL Name]**, saisissez un nom pour l’événement, par exemple**[!UICONTROL Entering a coffee shop]**.
+1. Cliquez sur **[!UICONTROL Keep Changes]**(Exécuter des tests d’Auditor).
 
 ### Créer une condition
 
-1. Dans la section Conditions, cliquez sur **[!UICONTROL +Add]**. Les conditions déterminent les critères à respecter pour que l'action soit entreprise.
+1. Dans la section Conditions, cliquez sur **[!UICONTROL +Add]**. Les conditions déterminent les critères à respecter pour que l&#39;action soit entreprise.
 1. In **[!UICONTROL Logic Type]**, select Regular, which allows actions to execute if the condition is met.
-1. Dans la liste **[!UICONTROL Extension]** déroulante, sélectionnez **[!UICONTROL Places – Beta]**.
-1. Dans **[!UICONTROL Condition Type]**, sélectionnez **[!UICONTROL City]**.
+1. Dans la liste **[!UICONTROL Extension]**déroulante, sélectionnez**[!UICONTROL Places – Beta]**.
+1. Dans **[!UICONTROL Condition Type]**, sélectionnez**[!UICONTROL City]**.
 1. Type a condition name, for example, **[!UICONTROL Coffee shop in SF]**.
-1. In the right pane, click **[!UICONTROL Current POI]**, and in the drop-down list, select **[!UICONTROL San Francisco]** as one of your cities.
-1. Cliquez sur **[!UICONTROL Keep Changes]** (Conserver les modifications).
+1. In the right pane, click **[!UICONTROL Current POI]**, and in the drop-down list, select**[!UICONTROL San Francisco]** as one of your cities.
+1. Cliquez sur **[!UICONTROL Keep Changes]**(Exécuter des tests d’Auditor).
 
 ### Créer une action
 
-1. In the **[!UICONTROL Actions]** section, click **[!UICONTROL + Add]**.
-1. Dans la liste **[!UICONTROL Extension]** déroulante, laissez l’ **[!UICONTROL Mobile Core]** option par défaut sélectionnée.
+1. In the **[!UICONTROL Actions]**section, click**[!UICONTROL + Add]**.
+1. Dans la liste **[!UICONTROL Extension]**déroulante, laissez l’**[!UICONTROL Mobile Core]** option par défaut sélectionnée.
 1. Sélectionnez un type d’action, par exemple **[!UICONTROL Send Postback]**.
 
-   a. Dans **[!UICONTROL URL]**, saisissez l’URL de postback pour Slack, par exemple `https://hooks.slack.com/services/`.
+   a. Dans **[!UICONTROL URL]**, saisissez l’URL de postback pour Slack, par exemple`https://hooks.slack.com/services/`.
 
-   b. Pour envoyer un corps de publication, activez la **[!UICONTROL Add Post Body]** case à cocher.
+   b. Pour envoyer un corps de publication, activez la **[!UICONTROL Add Post Body]**case à cocher.
 
-   c. Dans **[!UICONTROL Post Body]**, ajoutez le corps de la publication, par exemple : `{ "text": "A customer has entered" }`
+   c. Dans **[!UICONTROL Post Body]**, ajoutez le corps de la publication, par exemple :`{ "text": "A customer has entered" }`
 
    c. Entrez un type de contenu, par exemple **[!UICONTROL application/json]**.
 
-   
-d. Sélectionnez une valeur de délai d’expiration, par exemple **[!UICONTROL 5]**.
+   d. Sélectionnez une valeur de délai d’expiration, par exemple **[!UICONTROL 5]**.
 
-1. Cliquez sur **[!UICONTROL Keep Changes]** (Nouvelle propriété).
+1. Cliquez sur **[!UICONTROL Keep Changes]**(Exécuter des tests d’Auditor).
 
 ### Publication de la règle
 
@@ -127,6 +126,6 @@ d. Sélectionnez une valeur de délai d’expiration, par exemple **[!UICONTROL 
 
 ### Penser au-delà des entrées et des sorties
 
-L’utilisation d’entrées et de sorties de géolocalisation du service d’emplacement pour déclencher des règles dans le lancement de la plate-forme d’expérience est extrêmement puissante, mais vous pouvez également utiliser les données d’emplacement comme condition pour que d’autres événements se déclenchent. Par exemple, vous pouvez avoir un déclencheur d’événement d’action de suivi principal mobile prêt à se déclencher en fonction d’un événement d’appel trackAction particulier dans votre application. En fonction de cet événement, vous pouvez placer des conditions d’emplacement supplémentaires dans l’événement avant qu’une action ne soit exécutée. Par exemple, ouvrez une enquête intégrée lorsqu'un `trackAction` événement d'achat se produit, mais **uniquement** si l'emplacement actuel de l'utilisateur inclut des métadonnées spécifiques du service d'emplacement.
+L’utilisation d’entrées et de sorties de géolocalisation du service d’emplacement pour déclencher des règles dans le lancement de la plate-forme d’expérience est extrêmement puissante, mais vous pouvez également utiliser les données d’emplacement comme condition pour que d’autres événements se déclenchent. Par exemple, vous pouvez avoir un déclencheur d’événement d’action de suivi principal mobile prêt à se déclencher en fonction d’un événement d’appel trackAction particulier dans votre application. En fonction de cet événement, vous pouvez placer des conditions d’emplacement supplémentaires dans l’événement avant qu’une action ne soit exécutée. Par exemple, ouvrez une enquête intégrée lorsqu&#39;un `trackAction` événement d&#39;achat se produit, mais **uniquement** si l&#39;emplacement actuel de l&#39;utilisateur inclut des métadonnées spécifiques du service d&#39;emplacement.
 
 ![créer une condition](/help/assets/places-condition.png)
