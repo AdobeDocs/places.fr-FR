@@ -45,7 +45,7 @@ Cet événement est une requête pour obtenir les points d’intérêt proches e
 | :--- | :--- | :--- | :--- | :--- |
 | latitude | double | true | n/d | Contient la valeur de latitude pour le centre de la recherche des points d’intérêt proches. |
 | longitude | double | true | n/d | Contient la valeur de longitude pour le centre de la recherche des points d’intérêt proches. |
-| radius | integer | false | n/d | Rayon, en mètres, utilisé par la recherche des points d'intérêt proches. |
+| radius | integer | false | n/d | Rayon, en mètres, utilisé par la recherche des points d&#39;intérêt proches. |
 | count | integer | false | 10 | Nombre maximal de points d’intérêt à renvoyer dans l’événement de réponse résultant. |
 
 ## ProcessRegionEvent
@@ -65,7 +65,7 @@ L’extension Places traite alors un événement d’entrée ou de sortie de gé
 | Clé | Type de valeur | Obligatoire | Description |
 | :--- | :--- | :--- | :--- |
 | régionid | string | true | ID de la région qui génère l’événement. |
-| regioneventtype | int | true | Type d’événement de région généré. 1 pour l'entrée et 2 pour la sortie. |
+| regioneventtype | int | true | Type d’événement de région généré. 1 pour l&#39;entrée et 2 pour la sortie. |
 
 ## Evénements distribués par l’extension Places
 
