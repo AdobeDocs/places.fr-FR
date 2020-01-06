@@ -7,7 +7,7 @@ source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 ---
 
 
-# Obtenir le rang d'une bibliothèque
+# Obtenir le rang d&#39;une bibliothèque
 
 Méthode GET qui vous permet de classer les bibliothèques.
 
