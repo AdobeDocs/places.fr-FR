@@ -7,7 +7,7 @@ source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 ---
 
 
-# Présentation de l'interface de gestion des points d'intérêt {#management-ui-overview}
+# Présentation de l&#39;interface de gestion des points d&#39;intérêt {#management-ui-overview}
 
 Les points d’accès et les bibliothèques sont créés et gérés dans la base de données du service d’emplacement à l’aide de l’interface utilisateur du service d’emplacement.
 
