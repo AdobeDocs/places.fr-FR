@@ -9,14 +9,14 @@ source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 # Extension Places {#places-extension}
 
-L’extension Places vous permet d’agir en fonction de l’emplacement de vos utilisateurs. Cette extension est l'interface des API du service de requête Places. En écoutant les événements qui contiennent des coordonnées GPS et des événements de région de géofence, cette extension distribue les nouveaux événements qui sont traités par le moteur de règles. L’extension Places récupère et fournit également une liste des points d’intérêt les plus proches pour les données de l’application récupérées à partir des API. Les régions renvoyées par les API sont stockées dans le cache et la persistance, ce qui permet un traitement hors ligne limité.
+L’extension Places vous permet d’agir en fonction de l’emplacement de vos utilisateurs. Cette extension est l&#39;interface des API du service de requête Places. En écoutant les événements qui contiennent des coordonnées GPS et des événements de région de géofence, cette extension distribue les nouveaux événements qui sont traités par le moteur de règles. L’extension Places récupère et fournit également une liste des points d’intérêt les plus proches pour les données de l’application récupérées à partir des API. Les régions renvoyées par les API sont stockées dans le cache et la persistance, ce qui permet un traitement hors ligne limité.
 
 ## Installation de l’extension Places dans Adobe Experience Platform Launch
 
-1. In Experience Platform Launch, click the **[!UICONTROL Extensions]** tab.
-1. Dans l’ **[!UICONTROL Catalog]** onglet, recherchez l’ **[!UICONTROL Places]** extension, puis cliquez sur **[!UICONTROL Install]**.
+1. In Experience Platform Launch, click the **[!UICONTROL Extensions]**tab.
+1. Dans l’ **[!UICONTROL Catalog]**onglet, recherchez l’**[!UICONTROL Places]** extension, puis cliquez sur **[!UICONTROL Install]**.
 1. Sélectionnez les bibliothèques Places que vous souhaitez utiliser dans cette propriété. Ce sont les bibliothèques qui seront accessibles dans votre application.
-1. Cliquez sur **[!UICONTROL Save]** (Nouvelle propriété).
+1. Cliquez sur **[!UICONTROL Save]**(Exécuter des tests d’Auditor).
 
    Lorsque vous cliquez sur **[!UICONTROL Save]**, le SDK de la plate-forme d’expérience recherche des points d’accès dans les services Places dans les bibliothèques que vous avez sélectionnées. Les données d’API ne sont pas incluses dans le téléchargement de la bibliothèque lorsque vous créez l’application, mais un sous-ensemble d’API basé sur l’emplacement est téléchargé sur le périphérique de l’utilisateur final au moment de l’exécution et est basé sur les coordonnées GPS de l’utilisateur.
 
@@ -52,7 +52,7 @@ Pour ajouter l’extension Places à votre application à l’aide de Java :
 
 ### iOS
 
-Pour ajouter l'extension Places à votre application à l'aide de Objective-C ou Swift :
+Pour ajouter l&#39;extension Places à votre application à l&#39;aide de Objective-C ou Swift :
 
 1. Ajoutez les bibliothèques Places et [Mobile Core](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core) à votre projet. Vous devez ajouter les conteneurs suivants à votre `Podfile`:
 
@@ -61,7 +61,7 @@ Pour ajouter l'extension Places à votre application à l'aide de Objective-C ou
    pod 'ACPCore', '~> 2.0'    # minimum Core version for Places is 2.0.3
    ```
 
-   Sinon, si vous n'utilisez pas Cocoapods, vous pouvez inclure manuellement les bibliothèques Mobile Core et Places de notre page [](https://github.com/Adobe-Marketing-Cloud/acp-sdks/releases/) de publication sur Github.
+   Sinon, si vous n&#39;utilisez pas Cocoapods, vous pouvez inclure manuellement les bibliothèques Mobile Core et Places de notre page [](https://github.com/Adobe-Marketing-Cloud/acp-sdks/releases/) de publication sur Github.
 
 1. Mettez à jour vos Cocoapods :
 
