@@ -2,14 +2,23 @@
 title: Notes de mise à jour
 description: Notes de mise à jour du service d’emplacement d’Adobe Experience Platform.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 585bcde256c79b9178a04ff66aa04c92f093c432
 
 ---
 
 
 # Notes de mise à jour {#release-notes}
 
-## 3 décembre 2019
+## 9 janvier 2020
+
+* **ACPPlaces 1.4.0**
+
+   * **Android**
+
+      * Ajout d’une nouvelle API `setAuthorizationStatus`, pour définir l’état d’autorisation du périphérique pour les services d’emplacement. La valeur est stockée et utilisée dans l’état Lieux partagés.
+
+
+## 3 décembre 2019
 
 * **ACPPlaces 1.3.0**
 
