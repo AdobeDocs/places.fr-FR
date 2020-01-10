@@ -2,7 +2,7 @@
 title: Référence de l’API Places
 description: Informations sur les références API dans Places.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 23437e28bdfb12f664481d22f9f6df0ba6c30329
 
 ---
 
@@ -351,7 +351,28 @@ Voici l’exemple de code pour cette méthode :
 
 ### setAuthorizationStatus (Android)
 
-Bientôt disponible
+*Disponible à partir de Places v1.4.0*
+
+Définit l’état d’autorisation dans l’extension Places.
+
+L’état fourni est stocké dans l’état partagé Lieux et est fourni à titre de référence uniquement.
+L’appel de cette méthode n’a aucune incidence sur l’état d’autorisation d’emplacement réel pour ce périphérique.
+
+**Syntaxe**
+
+Voici la syntaxe de cette méthode :
+
+```java
+public static void setAuthorizationStatus(final PlacesAuthorizationStatus status);
+```
+
+**Exemple**
+
+Voici l’exemple de code pour cette méthode :
+
+```java
+Places.setAuthorizationStatus(PlacesAuthorizationStatus.ALWAYS);
+```
 
 ### setAuthorizationStatus (iOS)
 
