@@ -45,7 +45,7 @@ Une fois les événements d’emplacement correctement validés, les intégratio
 |  | **Test de la messagerie intégrée Adobe Campaign Standard avec le service d’emplacement.** |  |
 | 12 | Sur le tableau de bord de campagne principal, configurez un nouveau message in-app (type = diffusion). |  |
 | 12a | Dans les déclencheurs, sélectionnez **Places type d’événement - Entrée comme déclencheur**. |  |
-| 12b | Sélectionnez **[UICONTROL place les métadonnées]**personnalisées comme filtre supplémentaire - utilisez le type de point d’entrée = dernier point d’entrée.<br>Nous utilisons**[!UICONTROL Last Entered]** comme type de point d’accès car, dans la plupart des cas, **[!UICONTROL Last Entered]**il s’agit de la même valeur que**[!UICONTROL Current POI]**. <br><br>**[!UICONTROL Current POI]** ne doit être utilisée que dans les cas où des clôtures de point d’entrée se chevauchent. Dans ce cas, ces points d’intérêt doivent être classés, puis le **[!UICONTROL Current POI]**montre les points d’intérêt les plus classés parmi les 2 ou 3 géo-clôtures dans lesquelles un utilisateur peut se trouver actuellement. |  |
+| 12b | Sélectionnez **[UICONTROL place les métadonnées]** personnalisées comme filtre supplémentaire - utilisez le type de point d’entrée = dernier point d’entrée.<br>Nous utilisons **[!UICONTROL Last Entered]** comme type de point d’accès car, dans la plupart des cas, **[!UICONTROL Last Entered]** il s’agit de la même valeur que**[!UICONTROL Current POI]**. <br><br>**[!UICONTROL Current POI]** ne doit être utilisée que dans les cas où des clôtures de point d’entrée se chevauchent. Dans ce cas, ces points d’intérêt doivent être classés, puis le **[!UICONTROL Current POI]** montre les points d’intérêt les plus classés parmi les 2 ou 3 géo-clôtures dans lesquelles un utilisateur peut se trouver actuellement. |  |
 | 12c | Sélectionnez une clé de métadonnées personnalisée qui vous aidera à préciser les points de contact qui recevront un message. |  |
 | 12d | Pour la fréquence et la durée, ne restez qu’à un ou deux jours, de sorte que si vous n’aimez pas les critères, vous pouvez faire expirer le déclencheur dans un délai plus court. |  |
 | 12e | Pour un clic publicitaire Toujours/Une ou Jusqu’à, sélectionnez *TOUJOURS* pour que vous puissiez effectuer un test à plusieurs emplacements. | Un message intégré s’affiche TOUJOURS lorsque vous simulez un changement d’emplacement qui répond aux critères de métadonnées appropriés. |
@@ -55,14 +55,14 @@ Une fois les événements d’emplacement correctement validés, les intégratio
 | 14 | Dans votre application de développement, changez d’emplacement en utilisant les fichiers GPX précédemment créés. | Le message in-app doit s’afficher en fonction des critères définis précédemment. |
 | 15 | Pour le prochain test, nous copierons essentiellement les mêmes étapes qu&#39;avant, mais cette fois nous testerons la NOTIFICATION LOCALE. | Le résultat attendu est que les notifications locales sont affichées chaque fois que les critères correspondants sont satisfaits. |
 | 16 | Configurez un nouveau message intégré (type = diffusion). |  |
-| 16a | Dans les déclencheurs, sélectionnez **[!UICONTROL Places event type]**-**[!UICONTROL Entry as the trigger]**. |  |
-| 16b | Sélectionnez Places Custom metadata comme filtre supplémentaire - use **[!UICONTROL POI type]**=**[!UICONTROL Last Entered POI]**. |  |
+| 16a | Dans les déclencheurs, sélectionnez **[!UICONTROL Places event type]** - **[!UICONTROL Entry as the trigger]**. |  |
+| 16b | Sélectionnez Places Custom metadata comme filtre supplémentaire - use **[!UICONTROL POI type]** = **[!UICONTROL Last Entered POI]**. |  |
 | 16c | Sélectionnez une clé de métadonnées personnalisée qui vous aidera à préciser les points de contact qui recevront un message. |  |
 | 16d | Pour la fréquence et la durée, ne conservez qu’un ou deux jours, de sorte que si vous n’aimez pas les critères, vous pouvez faire expirer le déclencheur dans un délai plus court. |  |
 | 16e | Pour Toujours/Une ou Jusqu’au clic publicitaire, **[!UICONTROL ALWAYS]**. |  |
 | 16f | Pour le type d’affichage, sélectionnez **[!UICONTROL Local Notification]**. |  |
 | 16g | Préparez/confirmez et déployez le message in-app. |  |
-| 17 | Dans l’environnement du développeur, connectez votre périphérique et appuyez sur **[!UICONTROL Play]**la compilation. Une fois que vous avez établi que l’emplacement fonctionne, mettez l’application en arrière-plan et continuez à changer d’emplacement dans Xcode ou Android Studio. Les lectures de la console indiquent toujours le changement d’emplacement et les notifications locales s’affichent en fonction des critères définis dans votre déclencheur. (Il peut y avoir un délai de 1 à 2 secondes.) | Le résultat attendu est que les notifications locales sont affichées chaque fois que les critères correspondants sont satisfaits. |
+| 17 | Dans l’environnement du développeur, connectez votre périphérique et appuyez sur **[!UICONTROL Play]** la compilation. Une fois que vous avez établi que l’emplacement fonctionne, mettez l’application en arrière-plan et continuez à changer d’emplacement dans Xcode ou Android Studio. Les lectures de la console indiquent toujours le changement d’emplacement et les notifications locales s’affichent en fonction des critères définis dans votre déclencheur. (Il peut y avoir un délai de 1 à 2 secondes.) | Le résultat attendu est que les notifications locales sont affichées chaque fois que les critères correspondants sont satisfaits. |
 |  | **SOMMAIRE POINT** À <br>ce stade, nous devrions voir des entrées d’IPE dans notre environnement local. Nous devrions également voir les messages de la campagne basés sur le travail de l’API. En cas d’échec, vérifiez si une notification SBlack n’est pas sortie. S’il n’y a pas de message de panne, vérifiez la console d’application, car une nouvelle entrée d’emplacement n’a peut-être pas été enregistrée. Si les résultats sont réussis, nous pouvons être sûrs que l&#39;application fonctionne correctement et que le service de localisation et le service de messagerie de campagne fonctionnent également correctement. |  |
 |  | **TEST** SUR LE SITE <br>Pas grand chose ne devrait changer lors des tests sur place. Le fait de maintenir la barre oblique postback active devrait aider à comprendre si le périphérique obtient une entrée et une sortie pour l’emplacement. |  |
 | 18 | Effectuez des tests avec les périphériques commençant par le wifi et les appareils cellulaires désactivés, puis activez-les une fois dans la région de l’API. | En cas d’échec, notez si vous recevez une entrée et une notification de géolocalisation dans Spénurie. Quel est l’horodatage de la notification Slack ? |
@@ -72,7 +72,7 @@ Une fois les événements d’emplacement correctement validés, les intégratio
 
 ## Exemples de journaux
 
-**** Étape 8 : Journaux iOS et Android prévus lors d’une mise à jour d’emplacement
+** Étape 8 :** Journaux iOS et Android prévus lors d’une mise à jour d’emplacement
 
 **iOS**
 
@@ -100,7 +100,7 @@ PlacesMonitor - Attempting to Monitor POI with id <poi id> name <poi name> latit
 PlacesMonitor - Successfully added n fences for monitoring
 ```
 
-**** Étape 9 : Journaux iOS et Android prévus pendant un événement
+** Étape 9 :** Journaux iOS et Android prévus pendant un événement
 
 **iOS**
 
