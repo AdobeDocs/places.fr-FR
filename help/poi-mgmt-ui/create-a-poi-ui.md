@@ -1,8 +1,8 @@
 ---
 title: Créer un POI
-description: Créez un point d’accès à l’aide de l’interface utilisateur Lieux.
+description: Créez un point d’accès à l’aide de l’interface utilisateur du service Places.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 Un point d’intérêt (POI) est un emplacement ou un point sur une carte qui est important pour votre organisation ou votre entreprise. Il peut inclure des cafés, des restaurants, des commerces, des stades, etc. Les entreprises peuvent définir des points d’intérêt pour aider à personnaliser l’expérience mobile d’un utilisateur lorsqu’il est entré dans une région géodéfinie pour un point d’intérêt particulier. Au-delà des expériences personnalisées, les entreprises peuvent également créer des points d’intérêt pour les aider à analyser et à mieux comprendre les schémas de trafic localisé. Une grande chaîne de vente au détail peut choisir de créer des points d’intérêt pour tous les emplacements de ses magasins afin d’obtenir des analyses sur les utilisateurs qui possèdent leur application mobile ET de visiter un emplacement de magasin.
 
-1. Connectez-vous au service d’emplacement avec votre Adobe ID.
+1. Connectez-vous à l’interface utilisateur du service Places avec votre Adobe ID.
 1. Dans le coin supérieur droit, cliquez sur **[!UICONTROL New]**.
 1. Entrez le nom de votre point d’intérêt.
 1. Entrez ou sélectionnez un rayon.
