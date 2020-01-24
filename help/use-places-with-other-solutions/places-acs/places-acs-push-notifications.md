@@ -1,15 +1,15 @@
 ---
-title: Notifications Push
-description: Cette section fournit des informations sur l’utilisation des emplacements avec des notifications Push dans Campaign Standard.
+title: Notifications Push avec le service Places
+description: Cette section fournit des informations sur l’utilisation du service Places avec des notifications Push dans Campaign Standard.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 5a21e734c0ef56c815389a9f08b445bedaae557a
 
 ---
 
 
-# Notifications Push avec le service d’emplacement {#push-notifications}
+# Notifications Push avec le service Places {#push-notifications}
 
-Ce guide explique comment utiliser les informations historiques de géolocalisation pour cibler les notifications Push diffusées via Adobe Campaign Standard.
+Dans cette section, vous apprendrez à utiliser les informations de géolocalisation historiques pour cibler les notifications Push fournies par le biais d’Adobe Campaign Standard.
 
 ## Conditions préalables 
 
@@ -20,36 +20,36 @@ Avant de commencer, effectuez les tâches suivantes :
 * Intégrez le SDK [mobile](https://aep-sdks.gitbook.io/docs/getting-started/get-the-sdk) Adobe Experience Platform à votre application.
 * Ajoutez [Adobe Campaign Standard Extension](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard) à la configuration de votre application mobile.
 
-* [Créez un point d’accès](/help/poi-mgmt-ui/create-a-poi-ui.md) dans l’interface de gestion des points d’accès.
+* [Créez un point d’accès](/help/poi-mgmt-ui/create-a-poi-ui.md) dans l’interface de gestion des points d’accès du service Places.
 
 * Activez et installez l’extension [Places](/help/places-ext-aep-sdks/places-extension/places-extension.md).
 
 
 ## Création d’éléments de données dans Experience Platform Launch
 
-Après avoir vérifié que le moniteur des lieux et des lieux pour les extensions du service d’emplacement fonctionne correctement dans votre application, créez des éléments de données dans le lancement de la plateforme d’expérience. Les éléments de données vous permettent de lire les informations fournies par les extensions provenant du concentrateur d’événements SDK Mobile et d’agir comme un alias pour récupérer les données de l’application cliente. Pour récupérer les données des extensions Lieux et envoyer les informations Lieux à Campaign, vous devez créer quelques éléments de données.
+Après avoir vérifié que l’extension Places et l’extension Places Monitor fonctionnent correctement dans votre application, vous devez créer des éléments de données dans Experience Platform Launch. Les éléments de données vous permettent de lire les informations fournies par les extensions provenant du concentrateur d’événements SDK Mobile et d’agir comme un alias pour récupérer les données de l’application cliente. Pour récupérer les données des extensions Places et envoyer les informations du service Places à Campaign, vous devez créer quelques éléments de données.
 
 Pour créer un élément de données :
 
 1. Dans votre propriété mobile de lancement de plateforme d’expérience, cliquez sur l’ **[!UICONTROL Data Elements]**onglet et sur**[!UICONTROLA Ajouter un élément]**de données.
-1. Dans la liste **[!UICONTROL Extension]**déroulante, sélectionnez**[!UICONTROL Places]**.
+1. Dans la liste **[!UICONTROL Extension]**déroulante, sélectionnez**[!UICONTROL Places Service]**.
 1. Dans la liste **[!UICONTROL Data Element Type]**déroulante, sélectionnez**[!UICONTROL Name]**.
 1. Dans le volet de droite, vous pouvez sélectionner **[!UICONTROL Current POI]**qui récupère le nom de l’API dans laquelle se trouve actuellement l’utilisateur.
 
-   **[!UICONTROL Last Entered]**récupère le nom de l’API que l’utilisateur a saisi pour la dernière fois et**[!UICONTROL Last Exited]** fournit le nom de l’API qu’il a quitté pour la dernière fois. Dans cet exemple, nous allons sélectionner **[!UICONTROL Last Entered]**et taper le nom de l’élément de données, par exemple**[!UICONTROL Last Entered POI Name]** et en cliquant **[!UICONTROL Save]**.
+   **[!UICONTROL Last Entered]**récupère le nom de l’API que l’utilisateur a saisi pour la dernière fois et**[!UICONTROL Last Exited]** fournit le nom de l’API qu’il a quitté pour la dernière fois. Dans cet exemple, nous avons sélectionné **[!UICONTROL Last Entered]**et saisi un nom pour l’élément de données, par exemple**[!UICONTROL Last Entered POI Name]** et cliqué **[!UICONTROL Save]**.
 
    ![&quot;Messagerie push dans Campaign Standard&quot;](/help/assets/ACS_Push1.png)
 
 1. Repeat the steps 1-4 above and create data elements for *Last Entered POI Latitude*, *Last Entered POI Longitude*, and *Last Entered POI Radius*.
 
-Outre les éléments de données du service d’emplacement, veillez à créer des éléments de données principaux pour Mobile pour l’ID ** d’application et l’ID ** Experience Cloud.
+Outre les éléments de données du service Places, veillez à créer des éléments de données principaux pour Mobile pour l’ID ** d’application et l’ID ** Experience Cloud.
 
 ## Création d’une règle pour envoyer des données d’emplacement à Adobe Campaign Standard
 
 Les règles de lancement de plate-forme d’expérience vous permettent de créer des processus complexes et multisolutions basés sur des déclencheurs d’événement. Les règles vous permettent de créer de nouvelles règles ou de modifier des règles existantes et de déployer dynamiquement les mises à jour sur vos applications mobiles. Dans l’exemple suivant, la règle est déclenchée lorsqu’un utilisateur entre dans un point d’accès géoclôturé. Une fois la règle déclenchée, une mise à jour est envoyée à Campaign Standard afin d’enregistrer une entrée dans une API spécifique pour un utilisateur particulier en fonction de l’ID d’expérience Cloud.
 
-1. Dans la propriété Launch mobile, sur l’ **[!UICONTROL Rules]**onglet, cliquez sur**[!UICONTROL Add Rule]**.
-1. Sous la **[!UICONTROL Events]**section, cliquez sur**[!UICONTROL +]** et sélectionnez **[!UICONTROL Places]**comme extension.
+1. Dans votre propriété Experience Platform Launch mobile, sur l’ **[!UICONTROL Rules]**onglet, cliquez sur**[!UICONTROL Add Rule]**.
+1. Sous la **[!UICONTROL Events]**section, cliquez sur**[!UICONTROL +]** et sélectionnez **[!UICONTROL Places Service]**comme extension.
 1. For the **[!UICONTROL Event Type]**, select**[!UICONTROL Enter POI]**.
 1. Attribuez un nom à la règle, par exemple, **l’utilisateur a saisi l’API**.
 1. Cliquez sur **[!UICONTROL Keep Changes]**(Exécuter des tests d’Auditor).
@@ -85,10 +85,8 @@ Vérifiez que vous utilisez les éléments de données corrects que vous avez cr
 
 >[!IMPORTANT]
 >
->* Il peut s’avérer utile de configurer un crochet Web Slack comme action supplémentaire pour vérifier que les entrées sont déclenchées et que les données appropriées sont collectées.
-
-
->* N’oubliez pas de publier les modifications récentes apportées à votre application pour vous assurer que la règle et tous vos éléments de données sont déployés dans le cadre de votre configuration. Après publication, vous devez relancer l’application mobile pour obtenir les dernières mises à jour de configuration.
+>* Il peut s’avérer utile de configurer un crochet Web Slack en tant qu’action supplémentaire pour vérifier que les entrées sont déclenchées et que les données appropriées sont collectées.
+>* N’oubliez pas de publier les modifications récentes apportées à votre application pour vous assurer que la règle et tous vos éléments de données sont déployés dans le cadre de votre configuration. Après avoir publié, lancez de nouveau l’application mobile pour obtenir les dernières mises à jour de configuration.
 
 
 ## Utiliser des données d&#39;emplacement pour cibler des messages de campagne
@@ -117,9 +115,10 @@ Maintenant que les données d’emplacement sont renseignées dans Campaign, nou
 1. Exécutez à nouveau le compte en haut pour voir la taille de votre audience changer.
 
    Si vous ne voyez pas la mise à jour de votre compte, vous avez peut-être saisi un nom d’API pour lequel aucun périphérique n’a déclenché une entrée. Le crochet Web Slack devient intéressant dans cette situation, car vous pouvez voir la liste des entrées d’API de différents périphériques de test.
+
 1. Vous pouvez faire glisser d’autres filtres d’emplacement de point d’intérêt pour inclure plusieurs points d’intérêt dans votre message.
 1. Click **[!UICONTROL Next]**to finish creating the push notification for delivery.
 
-   ![&quot;Messagerie push 3 in ACS&quot;](/help/assets/ACS_push3.html)
+   ![&quot;Messagerie push 3 in ACS&quot;](/help/assets/ACS_push3.png)
 
-L’utilisation du service d’emplacement avec Adobe Campaign Standard vous offre un outil puissant pour segmenter et cibler vos messages sur les utilisateurs en fonction des entrées et des sorties de géolocalisation. Cette intégration vous aide à créer des cas d’utilisation plus personnalisés et contextuels.
+L’utilisation du service Places avec Adobe Campaign Standard vous offre un outil puissant pour segmenter et cibler vos messages sur les utilisateurs en fonction des entrées et des sorties de géolocalisation. Cette intégration vous aide à créer des cas d’utilisation plus personnalisés et contextuels.
