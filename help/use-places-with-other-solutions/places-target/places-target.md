@@ -1,17 +1,17 @@
 ---
 title: Adobe Target
-description: Cette section fournit des informations sur l’utilisation du service d’emplacement avec Adobe Target.
+description: Cette section fournit des informations sur l’utilisation du service Places avec Adobe Target.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
 
 ---
 
 
-# Utiliser le service d’emplacement avec Adobe Target {#places-target}
+# Utiliser le service Places avec Adobe Target {#places-target}
 
 Ce document suppose que l’extension Places est implémentée dans votre application. Si vous avez besoin d’aide pour implémenter l’extension Places, voir [Extensions](/help/places-ext-aep-sdks/places-extension/places-extension.md)Lieux.
 
-Une fois que l’extension Places envoie des événements pour les entrées et les sorties, vous pouvez utiliser les règles de lancement pour associer vos données Places à vos événements SDK Adobe Target. Lorsque la propriété de votre choix est sélectionnée dans Lancer, vous pouvez créer ce type de règle en procédant comme suit :
+Une fois que l’extension Places envoie des événements pour les entrées et les sorties, vous pouvez utiliser les règles de lancement pour associer vos données du service Places à vos événements SDK Adobe Target. Lorsque la propriété de votre choix est sélectionnée dans Lancer, vous pouvez créer ce type de règle en procédant comme suit :
 
 ## 1. Création d’une règle
 
@@ -26,7 +26,7 @@ Une fois que l’extension Places envoie des événements pour les entrées et l
 
 1. Attribuez un nom significatif à votre règle afin qu’elle soit facilement reconnaissable dans votre liste de règles.
 
-   Dans cet exemple, la règle est nommée **[!UICONTROL Attach Places Data to Target Content Requested]**.
+   Dans cet exemple, la règle est nommée **[!UICONTROL Attach Places Service Data to Target Content Requested]**.
 
 1. Sous la **[!UICONTROL Events]**section, cliquez sur**[!UICONTROL Add]**.
 
