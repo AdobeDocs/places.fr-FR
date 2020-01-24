@@ -2,12 +2,12 @@
 title: Lecture de tous les points d’intérêt dans une bibliothèque
 description: Lisez tous les points d’intérêt d’une bibliothèque à l’aide des API REST Places.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
 
 ---
 
 
-# Lecture de tous les points d’intérêt dans une bibliothèque
+# Lecture de tous les points d’intérêt dans une bibliothèque {#read-all-pois-library}
 
 Méthode GET qui renvoie tous les points d’intérêt dans une bibliothèque.
 
