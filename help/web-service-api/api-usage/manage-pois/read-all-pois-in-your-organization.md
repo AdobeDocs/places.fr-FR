@@ -2,12 +2,12 @@
 title: Lire tous les points d’intérêt de votre entreprise
 description: Lisez tous les points d’intérêt de votre entreprise à l’aide des API REST Places.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
 
 ---
 
 
-# Lire tous les points d’intérêt de votre entreprise
+# Lire tous les points d’intérêt de votre entreprise {#read-all-pois-org}
 
 Méthode GET qui renvoie tous les points d’intérêt de votre entreprise.
 
