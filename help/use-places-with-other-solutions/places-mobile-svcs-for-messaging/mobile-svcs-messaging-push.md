@@ -1,21 +1,21 @@
 ---
 title: Notifications Push
-description: Cette section explique comment utiliser Places avec des notifications Push.
+description: Cette section vous explique comment utiliser le service Places avec des notifications Push.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
 
 ---
 
 
 # Notifications Push
 
-Mobile Services vous permet d’envoyer des notifications Push aux segments Adobe Analytics. Dans le service d’emplacement, vous pouvez segmenter l’audience de votre message push en utilisant leurs interactions historiques avec vos points d’intérêt. Par exemple, vous pouvez envoyer un message aux utilisateurs qui se trouvent dans l’une de vos boutiques au cours des 30 derniers jours.
+Mobile Services vous permet d’envoyer des notifications Push aux segments Adobe Analytics. Dans le service Places, vous pouvez segmenter l’audience de votre message push en utilisant leurs interactions historiques avec vos points d’intérêt. Par exemple, vous pouvez envoyer un message aux utilisateurs qui se trouvent dans l’une de vos boutiques au cours des 30 derniers jours.
 
 Avant de commencer, vérifiez que vous avez effectué les tâches suivantes :
 
-* Les données du service d’emplacement ont été traitées par Adobe Analytics.
+* Les données du service Places ont été traitées par Adobe Analytics.
 
-   Cela signifie que votre application mobile a réussi à envoyer les données du service d’emplacement dans une suite de rapports et que les données sont disponibles pour la segmentation.
+   Cela signifie que votre application mobile a envoyé avec succès des données du service Places dans une suite de rapports et que les données sont disponibles pour la segmentation.
 
 * Le canal de notification Push dans Mobile Services est configuré.
 
