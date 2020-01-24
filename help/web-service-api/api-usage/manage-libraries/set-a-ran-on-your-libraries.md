@@ -2,12 +2,12 @@
 title: Définir un rang sur vos bibliothèques
 description: Définissez un classement sur vos bibliothèques à l’aide de l’API REST Places.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
 
 ---
 
 
-# Définir un rang sur vos bibliothèques
+# Définir un rang sur vos bibliothèques {#set-rank-on-libraries}
 
 Méthode PUT qui vous permet de définir un ordre de classement pour toutes vos bibliothèques.
 
