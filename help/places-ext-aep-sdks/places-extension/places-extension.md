@@ -2,7 +2,7 @@
 title: Extension Places
 description: L’extension Places vous permet d’agir en fonction de l’emplacement de vos utilisateurs.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 5a21e734c0ef56c815389a9f08b445bedaae557a
 
 ---
 
@@ -22,7 +22,7 @@ L’extension Places vous permet d’agir en fonction de l’emplacement de vos 
 
 1. Terminez le processus de publication pour mettre à jour la configuration du SDK.
 
-   Pour plus d’informations sur la publication dans Experience Platform Launch, voir [Publication](https://docs.adobelaunch.com/launch-reference/publishing).
+   Pour plus d’informations sur la publication dans Experience Platform Launch, voir [Publication](https://docs.adobe.com/content/help/en/launch/using/reference/publish/overview.html).
 
 ### Configure the Places extension {#configure-places-extension}
 
@@ -85,13 +85,13 @@ Pour ajouter l&#39;extension Places à votre application à l&#39;aide de Object
    import ACPPlaces
    ```
 
-### Enregistrer des emplacements avec Mobile Core {#register-places-mobile-core}
+### Enregistrement de l’extension Places avec Mobile Core {#register-places-mobile-core}
 
-Vous devez enregistrer Places avec Mobile Core dans Android et iOS.
+Vous devez enregistrer l’extension Places avec Mobile Core dans Android et iOS.
 
 #### Android
 
-Dans la `OnCreate` méthode de votre application, enregistrez les extensions des services de localisation :
+Dans la `OnCreate` méthode de votre application, enregistrez les extensions Places :
 
 ```java
 public class PlacesTestApp extends Application {
@@ -137,10 +137,10 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 
 ## Clés de configuration
 
-Pour mettre à jour la configuration du SDK par programmation au moment de l’exécution, utilisez les informations suivantes pour modifier les valeurs de configuration Places. Pour plus d’informations, voir Référence [sur les API](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/configuration/configuration-api-reference)de configuration.
+Pour mettre à jour la configuration du SDK par programmation au moment de l’exécution, utilisez les informations suivantes pour modifier les valeurs de configuration de l’extension Places. Pour plus d’informations, voir Référence [sur les API](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/configuration/configuration-api-reference)de configuration.
 
 | Clé | Obligatoire | Description |
 | :--- | :--- | :--- |
-| `places.libraries` | Oui | Place les bibliothèques pour l’application mobile. Il spécifie l’ID de bibliothèque et le nom de la bibliothèque que l’application mobile prend en charge. |
-| `places.endpoint` | Oui | Point de terminaison du service de requête d’emplacement de plateforme d’expérience par défaut, qui est utilisé pour obtenir des informations sur les bibliothèques et les points d’accès. |
+| `places.libraries` | Oui | Bibliothèques d’extensions Places pour l’application mobile. Il spécifie l’ID de bibliothèque et le nom de la bibliothèque que l’application mobile prend en charge. |
+| `places.endpoint` | Oui | Point de fin Places Query Service par défaut, utilisé pour obtenir des informations sur les bibliothèques et les points d’accès (POI). |
 
