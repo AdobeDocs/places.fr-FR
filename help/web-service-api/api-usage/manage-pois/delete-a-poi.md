@@ -2,12 +2,12 @@
 title: Suppression d’un point d’intérêt
 description: Supprimez un point d’intérêt en utilisant les API REST de lieux.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
 
 ---
 
 
-# Suppression d’un point d’intérêt
+# Suppression d’un point d’intérêt {#delete-a-poi}
 
 Méthode DELETE qui vous permet de supprimer un point d’intérêt.
 
