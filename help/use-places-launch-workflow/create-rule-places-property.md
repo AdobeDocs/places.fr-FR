@@ -1,15 +1,15 @@
 ---
-title: Création d’une règle pour la propriété Places
+title: Création d’une règle pour la propriété du service Places
 description: 'Le SDK Places surveille l’emplacement actuel, surveille les points d’intérêt configurés autour de l’emplacement actuel et suit les événements d’entrée et de sortie pour ces points d’intérêt. '
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: c22efc36f2eac6b20fc555d998c3988d8c31169e
 
 ---
 
 
 # Création de règles d’entrée et de sortie {#create-entry-exit-rules}
 
-Une fois les extensions Places et Places Monitor installées dans votre application mobile, vous pouvez créer dans Adobe Experience Platform Launch des règles qui sont des données d’emplacement déclenchées ou conditionnées, y compris les événements d’entrée et de sortie d’emplacement.
+Avec l’extension Places et les extensions Places Monitor installées dans votre application mobile, vous pouvez créer dans Adobe Experience Platform Launch des règles qui sont des données d’emplacement déclenchées ou conditionnées, y compris les événements d’entrée et de sortie d’emplacement.
 
 ## Règles
 
@@ -19,14 +19,14 @@ Vous pouvez configurer une règle, composée d’un événement, d’une conditi
 * (Facultatif) conditions
 * Une ou plusieurs actions
 
-### Evénements de lieux
+### Evénements du service Places
 
-Places offre les événements suivants sur lesquels vous pouvez exécuter une règle :
+Le service Places propose les événements suivants sur lesquels vous pouvez exécuter une règle :
 
 * **Entrez l’API**, qui est déclenchée par le kit Places SDK lorsque votre client entre dans le PDV que vous avez configuré.
 * **Quittez le point d’accès**, qui est déclenché par le SDK Places lorsque votre client quitte le point d’accès que vous avez configuré.
 
-### Conditions de place
+### Conditions du service Places
 
 Les conditions définissent les critères que les données associées à l’événement, ou l’état partagé d’une extension à cette instance, doivent respecter pour que l’action soit entreprise. Par exemple, vous pouvez définir une condition pour déclencher une action sur l’entrée d’un café dans la ville de San Francisco uniquement.
 
@@ -39,7 +39,7 @@ Le SDK Places conserve les états suivants :
 Chaque API contient les éléments de données suivants :
 
 * ID
-* Nom:
+* Nom
 * Latitude/longitude
 * Rayon
 * Métadonnées telles que ville, pays, état, catégorie
@@ -59,7 +59,7 @@ La procédure suivante est un exemple de création d’une règle qui renvoie un
 L’événement, la condition et l’action sont définis comme suit :
 
 * **Evénement**: Place l’événement d’entrée.
-* **Condition** : la ville du **POI actuel** est San Francisco
+* **Condition** : la ville du **Point ciblé actuel** est San Francisco
 * **Action**: Envoyez un postback à Slack pour connaître le nom du café que votre client a entré.
 
 ### Condition requise
@@ -76,7 +76,7 @@ Pour créer un élément de données dans Experience Platform Launch :
 1. Dans le volet de droite, sélectionnez **Actuel**.
 1. Cliquez sur **Enregistrer**.
 
-### Création d’une règle dans le lancement de la plateforme d’expérience pour les emplacements
+### Création d’une règle dans le service Experience Platform Launch for Places
 
 ![création d’une règle](/help/assets/placesrule.png)
 
@@ -122,10 +122,10 @@ Pour créer un élément de données dans Experience Platform Launch :
 
 ### Publication de la règle
 
-1. Pour activer la règle, vous devez la publier. Pour plus d’informations sur la publication de votre règle dans le lancement de la plateforme d’expérience, voir [Publication](https://docs.adobelaunch.com/launch-reference/publishing).
+1. Pour activer la règle, vous devez la publier. Pour plus d’informations sur la publication de votre règle dans le lancement de la plateforme d’expérience, voir [Publication](https://docs.adobe.com/content/help/en/launch/using/reference/publish/overview.html).
 
 ### Penser au-delà des entrées et des sorties
 
-L’utilisation d’entrées et de sorties de géolocalisation du service d’emplacement pour déclencher des règles dans le lancement de la plate-forme d’expérience est extrêmement puissante, mais vous pouvez également utiliser les données d’emplacement comme condition pour que d’autres événements se déclenchent. Par exemple, vous pouvez avoir un déclencheur d’événement d’action de suivi principal mobile prêt à se déclencher en fonction d’un événement d’appel trackAction particulier dans votre application. En fonction de cet événement, vous pouvez placer des conditions d’emplacement supplémentaires dans l’événement avant qu’une action ne soit exécutée. Par exemple, ouvrez une enquête intégrée lorsqu&#39;un `trackAction` événement d&#39;achat se produit, mais **uniquement** si l&#39;emplacement actuel de l&#39;utilisateur inclut des métadonnées spécifiques du service d&#39;emplacement.
+L’utilisation d’entrées et de sorties de géolocalisation du service Places pour déclencher des règles dans le lancement de la plate-forme d’expérience est extrêmement puissante, mais vous pouvez également utiliser les données d’emplacement comme condition pour que d’autres événements se déclenchent. Par exemple, vous pouvez avoir un déclencheur d’événement d’action de suivi principal mobile prêt à se déclencher en fonction d’un événement d’appel trackAction particulier dans votre application. En fonction de cet événement, vous pouvez placer des conditions d’emplacement supplémentaires dans l’événement avant qu’une action ne soit exécutée. Par exemple, ouvrez une enquête intégrée lorsqu&#39;un `trackAction` événement d&#39;achat se produit, mais **uniquement** si l&#39;emplacement actuel de l&#39;utilisateur inclut des métadonnées spécifiques du service Places.
 
 ![créer une condition](/help/assets/places-condition.png)
