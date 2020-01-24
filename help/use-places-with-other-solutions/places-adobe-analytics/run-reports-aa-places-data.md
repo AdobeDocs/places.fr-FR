@@ -1,8 +1,8 @@
 ---
 title: Ajout d’un contexte d’emplacement aux requêtes Analytics
-description: Cette section explique comment ajouter un contexte d’emplacement aux requêtes Analytics.
+description: Cette section fournit des informations sur la manière d’ajouter un contexte d’emplacement aux requêtes Analytics.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
 
 ---
 
@@ -11,9 +11,9 @@ source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 >[!IMPORTANT]
 >
->Ce document suppose que votre application met en oeuvre Adobe Places. Pour plus d’informations sur l’implémentation d’Adobe Places, voir [Places extensions](/help/places-ext-aep-sdks/places-extension/places-extension.md).
+>Ce document suppose que le service Places est mis en oeuvre dans votre application. Pour plus d’informations sur l’implémentation du service Places, voir [Places extensions](/help/places-ext-aep-sdks/places-extension/places-extension.md).
 
-Une fois les événements d’entrée et de sortie envoyés, vous pouvez créer des règles dans le lancement de la plateforme d’expérience et joindre vos données Places à tous les événements Adobe Analytics. Pour créer ce type de règle, sélectionnez votre propriété dans Lancer et procédez comme suit :
+Une fois les événements d’entrée et de sortie envoyés par le service Places, vous pouvez créer des règles dans le lancement de la plateforme d’expérience et joindre vos données du service Places à tous les événements Adobe Analytics. Pour créer ce type de règle, sélectionnez votre propriété dans Lancer et procédez comme suit :
 
 ## 1. Création d’une règle
 
@@ -27,7 +27,7 @@ Une fois les événements d’entrée et de sortie envoyés, vous pouvez créer 
 
 1. Attribuez un nom significatif à votre règle afin qu’elle soit facilement reconnaissable dans votre liste de règles.
 
-   Dans cet exemple, la règle est nommée **[!UICONTROL Attach Places Data to Analytics Track Action Events]**.
+   Dans cet exemple, la règle est nommée **[!UICONTROL Attach Places Service Data to Analytics Track Action Events]**.
 
 1. Sous la **[!UICONTROL Events]**section, cliquez sur**[!UICONTROL Add]**.
 
@@ -50,7 +50,7 @@ Dans cet exemple, une condition est créée, qui entraîne le déclenchement de 
 
 1. Sous la **[!UICONTROL Conditions]**section, cliquez sur**[!UICONTROL Add]**.
 
-1. Dans la liste **[!UICONTROL Extension]**déroulante, sélectionnez**[!UICONTORL  Mobile Core]**.
+1. Dans la liste **[!UICONTROL Extension]**déroulante, sélectionnez**[!UICONTROL Mobile Core]**.
 
 1. Dans la liste **[!UICONTROL Condition Type]**déroulante, sélectionnez**[!UICONTROL Carrier Name]**.
 
