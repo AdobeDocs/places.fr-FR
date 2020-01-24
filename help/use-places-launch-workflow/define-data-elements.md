@@ -2,7 +2,7 @@
 title: Définition des éléments de données
 description: Cette section fournit des informations sur la création, l’utilisation et la publication d’éléments de données dans le lancement de la plateforme d’expérience pour les emplacements.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: c22efc36f2eac6b20fc555d998c3988d8c31169e
 
 ---
 
@@ -33,7 +33,7 @@ Chaque API contient les références de données suivantes :
 * **[!UICONTROL Latitude]**: latitude du POI
 * **[!UICONTROL Longitude]**: longitude de de l&#39;IPE
 * **[!UICONTROL Metadata]**: métadonnées personnalisées de l’API
-* **[!UICONTROL Name]**: région du POI
+* **[!UICONTROL Name]**: nom du point d’intérêt
 * **[!UICONTROL Radius]**: rayon de l’objet ciblé
 * **[!UICONTROL Region ID]**: ID du point d’accès
 * **[!UICONTROL Region/State]**: région, province ou état de la période d&#39;enquête
