@@ -1,8 +1,8 @@
 ---
 title: Gestion des points d’intérêt existants
-description: Dans l’interface utilisateur du service d’emplacement, vous pouvez modifier, supprimer ou filtrer les points d’intérêt existants.
+description: Dans l’interface utilisateur du service Places, vous pouvez modifier, supprimer ou filtrer les points d’intérêt existants.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 5a21e734c0ef56c815389a9f08b445bedaae557a
 
 ---
 
@@ -32,7 +32,7 @@ Les points d’accès et les bibliothèques sont créés et gérés dans la base
 
 ![filtrage d’une API](/help/assets/filter_poi.png)
 
-1. Connectez-vous à l’interface utilisateur du service d’emplacement à l’aide de votre Adobe ID.
+1. Connectez-vous à l’interface utilisateur du service Places à l’aide de votre Adobe ID.
 1. Dans le coin supérieur droit, cliquez sur l’icône de filtrage.
 1. Vous pouvez filtrer les points d’intérêt de l’une des manières suivantes :
 
@@ -61,6 +61,7 @@ Les Geofences sont un type d’API et sont définies dans la base de données en
 | ID | Identifiant unique attribué à chaque point d’intérêt | Oui |
 | Nom | Nom convivial donné à la POI. | Oui |
 | Bibliothèque | Chaque point d’intérêt doit se voir attribuer une bibliothèque pour l’organisation. | Oui |
+| Rayon | Le rayon de votre point d’intérêt en mètres. | Oui |
 | Icône | Aide à la visualisation des points d’intérêt. | Oui (valeur par défaut affectée) |
 | Couleur | Aide à la visualisation des points d’intérêt. | Oui (valeur par défaut affectée) |
 | Catégorie | Attribuez un cadre commun aux catégories communes à tous les points d’intérêt dans toutes les bibliothèques. | Non |
