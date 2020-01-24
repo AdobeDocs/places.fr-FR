@@ -1,15 +1,15 @@
 ---
 title: En-têtes et paramètres
-description: En-têtes et paramètres disponibles dans les API REST Places.
+description: En-têtes et paramètres disponibles dans les API REST du service Places.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
 
 ---
 
 
 # En-têtes et paramètres {#headers-and-parameters}
 
-Voici les détails relatifs aux en-têtes et aux paramètres disponibles dans l’API REST Places :
+Voici les détails relatifs aux en-têtes et aux paramètres disponibles dans l’API REST du service Places :
 
 ## En-têtes pris en charge
 
