@@ -2,14 +2,14 @@
 title: Présentation de la gestion des points d’intérêt
 description: 'Comprendre les points d’intérêt et travailler avec eux. '
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
 
 ---
 
 
 # Présentation de la gestion des points d’intérêt {#manage-pois}
 
-Vous pouvez utiliser les API REST Places pour effectuer les tâches suivantes :
+Vous pouvez utiliser les API REST du service Places pour effectuer les tâches suivantes :
 
 * [Créer un POI](/help/web-service-api/api-usage/manage-pois/create-a-poi.md)
 * [Lecture d’un document d’intérêt](/help/web-service-api/api-usage/manage-pois/read-a-poi.md)
