@@ -2,12 +2,12 @@
 title: Créer une bibliothèque
 description: Créez une bibliothèque à l’aide de l’API REST Places.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
 
 ---
 
 
-# Créer une bibliothèque
+# Création d’une bibliothèque {#create-a-library}
 
 Méthode POST qui vous permet de créer une bibliothèque.
 
