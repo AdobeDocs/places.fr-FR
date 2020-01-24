@@ -2,7 +2,7 @@
 title: Envoyer les données d’entrée et de sortie du point d’accès à Analytics
 description: Cette section fournit des informations sur la manière d’envoyer les données d’entrée et de sortie du point d’accès à Analytics.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
 
 ---
 
@@ -12,9 +12,9 @@ source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 >[!IMPORTANT]
 >
->Cette section suppose que votre application met en oeuvre des emplacements. Pour plus d’informations sur l’implémentation de lieux, voir [Lieux extensions](/help/places-ext-aep-sdks/places-extension/places-extension.md).
+>Cette section suppose que le service Places est mis en oeuvre dans votre application. Pour plus d’informations sur l’implémentation du service Places, voir [Places extensions](/help/places-ext-aep-sdks/places-extension/places-extension.md).
 
-Une fois que Places a envoyé les événements d’entrée et de sortie, vous pouvez créer des règles dans le lancement de la plate-forme d’expérience pour envoyer les données Places à Adobe Analytics. Pour créer ce type de règle, sélectionnez votre propriété dans Lancer et procédez comme suit :
+Une fois les événements d’entrée et de sortie envoyés par le service Places, vous pouvez créer des règles dans le lancement de la plateforme d’expérience pour envoyer les données du service Places à Adobe Analytics. Pour créer ce type de règle, sélectionnez votre propriété dans Lancer et procédez comme suit :
 
 ## 1. Création d’une règle
 
@@ -33,7 +33,7 @@ Une fois que Places a envoyé les événements d’entrée et de sortie, vous po
 
 1. In the **[!UICONTROL Events]**section, click**[!UICONTROL Add]**.
 
-1. Dans la liste **[!UICONTROL Extension]**déroulante, sélectionnez**[!UICONTROL Places]**.
+1. Dans la liste **[!UICONTROL Extension]**déroulante, sélectionnez**[!UICONTROL Places Service]**.
 
 1. Dans la liste **[!UICONTROL Event Type]**déroulante, sélectionnez**[!UICONTROL Enter POI]**.
 
@@ -52,7 +52,7 @@ Dans cet exemple, une condition est créée, qui provoque le déclenchement de l
 
 1. Sous la **[!UICONTROL Conditions]**section, cliquez sur**[!UICONTROL Add]**.
 
-1. Dans la liste **[!UICONTROL Extension]**déroulante, sélectionnez**[!UICONTROL Places]**.
+1. Dans la liste **[!UICONTROL Extension]**déroulante, sélectionnez**[!UICONTROL Places Service]**.
 
 1. Dans la liste **[!UICONTROL Condition Type]**déroulante, sélectionnez**[!UICONTROL Name]**.
 
