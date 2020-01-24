@@ -1,15 +1,15 @@
 ---
 title: Utilisation de votre propre moniteur
-description: Vous pouvez également utiliser vos services de surveillance et vous intégrer à Places à l’aide des API d’extension Places.
+description: Vous pouvez également utiliser vos services de surveillance et vous intégrer au service Places en utilisant les API d’extension du service Places.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
 
 ---
 
 
 # Utilisation de votre propre moniteur {#using-your-monitor}
 
-Vous pouvez également utiliser vos services de surveillance et vous intégrer à Places à l’aide des API d’extension Places.
+Vous pouvez également utiliser vos services de surveillance et vous intégrer au service Places en utilisant les API d’extension Places.
 
 ## Enregistrement des références géographiques
 
