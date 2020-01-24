@@ -2,18 +2,18 @@
 title: Référence de l’API Places
 description: Informations sur les références API dans Places.
 translation-type: tm+mt
-source-git-commit: 23437e28bdfb12f664481d22f9f6df0ba6c30329
+source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
 
 ---
 
 
 # Référence de l’API Places {#places-api-reference}
 
-Voici des informations sur les références API dans Places :
+Voici des informations sur les références API dans l’extension Places :
 
 ## Traitement d’un événement de région
 
-Lorsqu’un périphérique franchit l’une des limites de région Places prédéfinies de votre application, la région et le type d’événement sont transmis au SDK en vue de leur traitement.
+Lorsqu’un périphérique franchit l’une des limites prédéfinies de la région du service Places de votre application, la région et le type d’événement sont transmis au SDK pour traitement.
 
 ### ProcessGeofence (Android)
 
@@ -309,7 +309,7 @@ Voici l’exemple de code pour cette méthode :
 
 ### Clear (Android)
 
-Efface les données côté client pour les emplacements dans l’état partagé, le stockage local et en mémoire.
+Efface les données côté client pour l’extension Places dans l’état partagé, le stockage local et en mémoire.
 
 **Syntaxe**
 
@@ -329,7 +329,7 @@ Places.clear();
 
 ### clear (iOS)
 
-Efface les données côté client pour les emplacements dans l’état partagé, le stockage local et en mémoire.
+Efface les données côté client pour l’extension Places dans l’état partagé, le stockage local et la mémoire.
 
 **Syntaxe**
 
