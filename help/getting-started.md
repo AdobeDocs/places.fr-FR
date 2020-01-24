@@ -1,38 +1,38 @@
 ---
 title: Prise en main
-description: Prise en main du service d’emplacement.
+description: Prise en main du service Places.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: c22efc36f2eac6b20fc555d998c3988d8c31169e
 
 ---
 
 
 # Prise en main {#getting-started}
 
-Voici une vidéo utile pour obtenir un aperçu des services de localisation :
+Voici une vidéo utile pour obtenir un aperçu des services Places :
 
 >[!VIDEO](https://www.youtube.com/watch?v=aV6i_ayxWCw)
 
-## Utilisation du service d’emplacement
+## Utilisation du service Places
 
-Pour utiliser le service d’emplacement, procédez comme suit :
+Pour utiliser le service Places, procédez comme suit :
 
-### 1. Assurez-vous que votre utilisateur est configuré pour utiliser le service d’emplacement.
+### 1. Assurez-vous que votre utilisateur est configuré pour utiliser le service Places.
 
-Le contexte du produit Service d’emplacement est disponible pour toutes les organisations Experience Cloud.
+Le contexte du produit du service Places est disponible pour toutes les organisations Experience Cloud.
 
-* Vérifiez que vous êtes répertorié en tant qu’utilisateur sous les contextes de produit Location Service et Experience Platform Launch dans la Console d’administration.
+* Assurez-vous que vous êtes répertorié en tant qu’utilisateur sous les contextes de produit Places Service et Experience Platform Launch dans la Console d’administration.
 
-   Pour plus d’informations, voir *Ajout d’un utilisateur au service* de lancement et d’emplacement de la plate-forme d’expérience dans les questions [](/help/places-gain-access.md)fréquentes.
+   Pour plus d’informations, voir *Ajout d’un utilisateur au service* Places et Lancement de plateforme d’expérience dans la [Foire aux questions](/help/places-gain-access.md).
 
 
 ### 2. Création de vos points d’intérêt
 
 Les points ciblés sont des clôtures géographiques que vous créez pour vos organisations et vous pouvez créer des points ciblés de l’une des manières suivantes :
 
-* Utilisation de l’interface utilisateur du service d’emplacement.
+* Utilisation de l’interface utilisateur du service Places.
 
-   Pour plus d’informations, voir Présentation [du service](/help/poi-mgmt-ui/places-services-overview.md)Places.
+   Pour plus d’informations, voir Présentation [du service](/help/poi-mgmt-ui/poi-mgmt-ui-overview.md)Places.
 
 * Utilisation des API du service Web Places.
 
@@ -44,4 +44,4 @@ Les points ciblés sont des clôtures géographiques que vous créez pour vos or
 Pour plus d’informations sur la configuration de l’extension Places et de l’extension Monitor, voir les informations suivantes :
 
 * [Extension Places](/help/places-ext-aep-sdks/places-extension/places-extension.md)
-* [Place l’extension](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md)Moniteur.
+* [Extension du moniteur des lieux](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md)
