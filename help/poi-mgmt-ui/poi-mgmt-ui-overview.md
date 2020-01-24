@@ -1,15 +1,15 @@
 ---
 title: Présentation de l'interface de gestion des points d'intérêt
-description: Cette section fournit des informations sur la création et la gestion des bibliothèques et des points d’intérêt via l’interface utilisateur du service d’emplacement.
+description: Cette section fournit des informations sur la création et la gestion des bibliothèques et des points d’accès via l’interface utilisateur du service Places.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: c22efc36f2eac6b20fc555d998c3988d8c31169e
 
 ---
 
 
-# Présentation de l&#39;interface de gestion des points d&#39;intérêt {#management-ui-overview}
+# Présentation de l’interface utilisateur du service Places {#management-ui-overview}
 
-Les points d’accès et les bibliothèques sont créés et gérés dans la base de données du service d’emplacement à l’aide de l’interface utilisateur du service d’emplacement.
+Les API et bibliothèques sont créées et gérées dans la base de données du service Places à l’aide de l’interface utilisateur du service Places.
 
 * Pour créer une bibliothèque ou gérer plusieurs bibliothèques, voir [Gestion des bibliothèques](/help/poi-mgmt-ui/manage-libraries-in-the-places-ui.md).
 * Pour créer une API, voir [Création d’une API](/help/poi-mgmt-ui/create-a-poi-ui.md).
