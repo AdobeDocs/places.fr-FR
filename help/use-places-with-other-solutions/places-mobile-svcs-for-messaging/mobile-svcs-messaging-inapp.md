@@ -1,15 +1,15 @@
 ---
 title: Notifications in-app
-description: Cette section explique comment utiliser Places avec la messagerie in-app.
+description: Cette section explique comment utiliser le service Places avec la messagerie in-app.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
 
 ---
 
 
-# Notifications in-app (#places-push-message)
+# Notifications in-app {#places-push-messaging}
 
-Les informations suivantes montrent comment configurer les messages in-app pour qu’ils se déclenchent à partir d’événements Places.
+Les informations suivantes montrent comment configurer les messages in-app pour qu’ils se déclenchent à partir des événements du service Places.
 
 >[!IMPORTANT]
 >
@@ -35,7 +35,7 @@ Avant de commencer, vous devez comprendre comment envoyer et créer un message i
 
 ## Règles dans Experience Platform Launch
 
-Vous pouvez créer des règles de lancement qui envoient les données que vous souhaitez utiliser dans le cadre de votre message intégré Déclencheur de règles vers Analytics. Vous pouvez utiliser les données des extensions Lieux dans vos règles de lancement comme des événements et/ou des conditions selon votre cas d’utilisation.
+Vous pouvez créer des règles de lancement de plateforme d’expérience qui envoient les données que vous souhaitez utiliser dans le cadre de vos règles Déclencheur de message in-app à Analytics. Vous pouvez utiliser les données des extensions Lieux dans vos règles de lancement de plateforme d’expérience comme des événements et/ou des conditions selon votre cas d’utilisation.
 
 * Utilisation des données d’emplacement comme événement de déclenchement.
 
@@ -43,7 +43,7 @@ Vous pouvez créer des règles de lancement qui envoient les données que vous s
 
 * Utilisation des données d’emplacement comme condition à un événement de déclenchement.
 
-   Par exemple, si vous avez créé une balise de métadonnées personnalisée dans le service d’emplacement pour la météo dans différents points d’intérêt, vous pouvez utiliser ces métadonnées comme paramètre pour votre condition de règle. Bien que vous puissiez utiliser cette condition avec un événement d’entrée d’API décrit précédemment, vous pouvez également utiliser la condition comme contexte pour tout événement.
+   Par exemple, si vous avez créé une balise de métadonnées personnalisée dans le service Places pour la météo dans différents points d’intérêt, vous pouvez utiliser ces métadonnées comme paramètre pour votre condition de règle. Bien que vous puissiez utiliser cette condition avec un événement d’entrée d’API décrit précédemment, vous pouvez également utiliser la condition comme contexte pour tout événement.
 
 Une fois la règle configurée avec les paramètres d’événement et de condition appropriés, terminez la configuration de la règle en configurant l’action pour envoyer des données à Analytics.
 
@@ -70,7 +70,7 @@ Voici un exemple de règle complète :
 
 ## Création d’un message in-app dans Mobile Services
 
-Dans le cadre des paramètres de déclenchement, vous pouvez créer l’audience du message avec les données du service d’emplacement de l’une des manières suivantes :
+Dans le cadre de vos paramètres Déclencheur, vous pouvez créer l’audience du message à l’aide des données du service Lieux de l’une des manières suivantes :
 
 * Utilisation d’actions spécifiques à un emplacement, telles qu’une entrée ou une sortie.
 * Utilisation de métadonnées de point d’accès envoyées en tant que données contextuelles pour restreindre la cible de votre audience.
@@ -81,6 +81,6 @@ Dans le cadre des paramètres de déclenchement, vous pouvez créer l’audience
 
    ![paramètres de déclenchement](/help/assets/trigger-parameters.png)
 
-* Les paramètres des en-têtes Places de la page *Déclencheurs et caractéristiques* de Mobile Services ne fonctionnent pas avec les données du service d’emplacement.
+* Les paramètres des en-têtes du service Places de la page *Triggers and Traits* de Mobile Services ne fonctionnent pas avec les données du service Places.
 
-   Ces paramètres concernent uniquement la base de données Places héritée créée dans Mobile Services.
+   Ces paramètres concernent uniquement la base de données Places Service héritée créée dans Mobile Services.
