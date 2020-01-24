@@ -1,8 +1,8 @@
 ---
 title: Notes de mise à jour
-description: Notes de mise à jour du service d’emplacement d’Adobe Experience Platform.
+description: Notes de mise à jour du service Places.
 translation-type: tm+mt
-source-git-commit: 585bcde256c79b9178a04ff66aa04c92f093c432
+source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: 585bcde256c79b9178a04ff66aa04c92f093c432
 
    * **Android**
 
-      * Ajout d’une nouvelle API `setAuthorizationStatus`, pour définir l’état d’autorisation du périphérique pour les services d’emplacement. La valeur est stockée et utilisée dans l’état Lieux partagés.
+      * Ajout d’une nouvelle API `setAuthorizationStatus`, pour définir l’état d’autorisation de l’appareil pour les services Places. La valeur est stockée et utilisée dans l’état Lieux partagés.
 
 
 ## 3 décembre 2019
@@ -24,7 +24,7 @@ source-git-commit: 585bcde256c79b9178a04ff66aa04c92f093c432
 
    * **iOS**
 
-      * Ajout d’une nouvelle API `setAuthorizationStatus`, pour définir l’état d’autorisation du périphérique pour les services d’emplacement. La valeur est stockée et utilisée dans l’état Lieux partagés.
+      * Ajout d’une nouvelle API `setAuthorizationStatus`, pour définir l’état d’autorisation de l’appareil pour les services Places. La valeur est stockée et utilisée dans l’état Lieux partagés.
 
 ## 22 novembre 2019
 
@@ -211,13 +211,13 @@ Le moniteur de lieux gère les API d’emplacement au niveau du système d’exp
 
 ### Version bêta
 
-Il s’agit de la première version de Places, un ensemble d’outils qui permet aux clients d’enrichir l’expérience de leurs utilisateurs avec des données d’emplacement réelles. Pour la première version, notre principal cas d’utilisation consiste à permettre aux applications mobiles de récupérer des données d’emplacement personnalisées et d’agir sur ces données par le biais d’Adobe Experience Platform Launch.
+Il s’agit de la première version de Places Service, un ensemble d’outils qui permet aux clients d’enrichir l’expérience de leurs utilisateurs avec des données de localisation dans le monde réel. Pour la première version, notre principal cas d’utilisation consiste à permettre aux applications mobiles de récupérer des données d’emplacement personnalisées et d’agir sur ces données par le biais d’Adobe Experience Platform Launch.
 
 ### Fonctionnalités clés
 
 Voici les principales fonctionnalités de cette version :
 
-#### Interface utilisateur du service d’emplacement
+#### Interface utilisateur du service Places
 
 Nous avons publié une interface utilisateur de gestion dans laquelle vous pouvez afficher et gérer vos points d’intérêt (POI). Vous pouvez également organiser vos points d’intérêt en bibliothèques. Outre les métadonnées standard telles que la ville, l’état et la catégorie, nous prenons également en charge la possibilité d’ajouter des métadonnées personnalisées à vos points d’intérêt.
 
@@ -226,7 +226,7 @@ Nous avons publié une interface utilisateur de gestion dans laquelle vous pouve
 
 #### Extension Places
 
-A l’aide de l’extension Places, vous pouvez ajouter vos bibliothèques Places à votre application mobile et agir sur leurs points d’intérêt. A l’aide du créateur de règles dans le lancement de la plateforme d’expérience, vous pouvez déclencher des actions pour déclencher le déclenchement lorsque les utilisateurs entrent et sortent des points d’accès.
+A l’aide de l’extension Places, vous pouvez ajouter vos bibliothèques du service Places à votre application mobile et agir sur leurs points d’intérêt. A l’aide du créateur de règles dans le lancement de la plateforme d’expérience, vous pouvez déclencher des actions pour déclencher le déclenchement lorsque les utilisateurs entrent et sortent des points d’accès.
 
 Dans l’extension Places :
 
@@ -252,4 +252,4 @@ Pour plus d’informations sur les API Places, voir API [de service](/help/web-s
 
 #### Intégration    Analytics
 
-L’extension Analytics est en cours de mise à jour afin d’ajouter automatiquement des données contextuelles d’emplacement de votre base de données Places à tous les appels Analytics sortants lorsqu’un utilisateur se trouve dans une API (appels passifs). Cette mise à jour permet également à la création de règles de déclencher les appels de suivi Analytics directement à l’entrée ou à la sortie de l’API (appels actifs).
+L’extension Analytics est en cours de mise à jour afin d’ajouter automatiquement des données contextuelles d’emplacement de votre base de données du service Places à tous les appels Analytics sortants lorsqu’un utilisateur se trouve dans une API (appels passifs). Cette mise à jour permet également à la création de règles de déclencher les appels de suivi Analytics directement à l’entrée ou à la sortie de l’API (appels actifs).
