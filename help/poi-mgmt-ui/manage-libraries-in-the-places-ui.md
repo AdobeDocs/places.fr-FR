@@ -1,8 +1,8 @@
 ---
-title: Gestion des bibliothèques dans l’interface utilisateur Lieux
-description: Gérez vos bibliothèques à l’aide de l’interface utilisateur Lieux.
+title: Gestion des bibliothèques dans l’interface utilisateur du service Places
+description: Gérez vos bibliothèques à l’aide de l’interface utilisateur du service Places.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 5a21e734c0ef56c815389a9f08b445bedaae557a
 
 ---
 
@@ -19,7 +19,7 @@ Les bibliothèques sont définies par les éléments suivants :
 | :--- | :--- |
 | ID | un identifiant unique affecté à la bibliothèque lors de sa création |
 | Nom | un nom convivial donné à une bibliothèque |
-| Classement | Ces classements peuvent être ignorés s’il n’y a aucune superposition de géofences dans votre organisation. En cas de superposition de POI, nous vous recommandons de placer chacune des clôtures virtuelles dans des bibliothèques distinctes afin qu’elles puissent être pondérées les unes par rapport aux autres. Un utilisateur ne peut se situer que dans une clôture virtuelle à la fois. <br><br>Le ranking le plus élevé de la clôture virtuelle dans laquelle se trouve un utilisateur détermine l’abonnement actuel de cet utilisateur à la clôture. Si les clôtures virtuelles d’un utilisateur ont le même ranking de bibliothèque, la plus petite clôture est celle dans laquelle cet utilisateur se trouve actuellement. <br><br>Le SDK est aussi informé du *Dernier POI d’entrée* et du *Dernier POI de sortie*. Vous contrôlez donc intégralement la manière dont vous souhaitez que vos règles se déclenchent en fonction de l’interaction de l’utilisateur avec vos POI. |
+| Classement | Ces classements peuvent être ignorés s’il n’y a aucune superposition de géofences dans votre organisation. En cas de superposition de POI, nous vous recommandons de placer chacune des clôtures virtuelles dans des bibliothèques distinctes afin qu’elles puissent être pondérées les unes par rapport aux autres. Un utilisateur ne peut se situer que dans une clôture virtuelle à la fois. <br><br>Le ranking le plus élevé de la clôture virtuelle dans laquelle se trouve un utilisateur détermine l’abonnement actuel de cet utilisateur à la clôture. S’il y a des géofences qui ont le même classement de bibliothèque, la plus petite géofence est la géofence actuelle de l’utilisateur. <br><br>Le SDK est aussi informé du *Dernier POI d’entrée* et du *Dernier POI de sortie*. Vous contrôlez donc intégralement la manière dont vous souhaitez que vos règles se déclenchent en fonction de l’interaction de l’utilisateur avec vos POI. |
 
 ## Créer une bibliothèque
 
