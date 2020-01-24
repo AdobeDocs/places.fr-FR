@@ -2,14 +2,14 @@
 title: Questions fréquentes
 description: Cette rubrique fournit des informations supplémentaires sur certaines questions fréquentes.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
 
 ---
 
 
 # Questions fréquentes
 
-Voici quelques informations et des questions fréquentes sur le service d’emplacement.
+Voici quelques informations et des questions fréquentes sur le service Places.
 
 ## Taille et fiabilité
 
