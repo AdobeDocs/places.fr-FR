@@ -1,21 +1,21 @@
 ---
-title: Adobe Experience Platform Location Service
-description: 'Le service d’emplacement est un contexte important pour comprendre l’engagement des utilisateurs mobiles. En utilisant ce contexte, les développeurs d’applications mobiles peuvent améliorer la conception de l’application et en faire une expérience plus personnalisée et plus attrayante. '
+title: Service Places
+description: 'Le service Places est un contexte important pour comprendre l’engagement des utilisateurs mobiles. En utilisant ce contexte, les développeurs d’applications mobiles peuvent améliorer la conception de l’application et en faire une expérience plus personnalisée et plus attrayante. '
 translation-type: tm+mt
-source-git-commit: c20e720d23121970bb2fa1c63a2fd1e81c84b977
+source-git-commit: 3b78f68d8c5eb79ccf842b629510cc60f4ac52d2
 
 ---
 
 
-# Présentation du service d’emplacement d’Adobe Experience Platform {#home}
+# Service Places {#home}
 
-![&quot;Adobe Experience Platform Location Service&quot;](/help/assets/LocationHeader.png)
+![&quot;Service Places&quot;](/help/assets/LocationHeader.png)
 
 L’emplacement est un contexte important pour comprendre et interagir avec les utilisateurs mobiles. En utilisant ce contexte, les développeurs d’applications mobiles peuvent améliorer la conception de l’application et en faire une expérience plus personnalisée et plus attrayante.
 
-Le service d’emplacement d’Adobe Experience Platform (Location Service) est un service de géolocalisation qui permet aux applications mobiles connaissant l’emplacement de comprendre le contexte de l’emplacement en utilisant des interfaces SDK riches et faciles à utiliser, accompagnées d’une base de données flexible de points d’intérêt (POI).
+Le service Places, précédemment appelé Adobe Experience Platform Location Service, est un service de géolocalisation qui permet aux applications mobiles connaissant l’emplacement de comprendre le contexte de l’emplacement en utilisant des interfaces SDK riches et faciles à utiliser, accompagnées d’une base de données flexible de points d’intérêt (POI).
 
-Le service d’emplacement vous permet d’effectuer les opérations suivantes :
+Le service Places vous permet d’effectuer les opérations suivantes :
 
 * Créez et gérez une base de données des points d’intérêt pouvant être exploitée avec d’autres solutions Adobe Experience Cloud.
 * Associez des métadonnées personnalisées aux points d’intérêt pour les rendre plus riches et plus significatives en spécifiant des attributs supplémentaires.
@@ -32,9 +32,9 @@ Voici quelques-unes des méthodes d’utilisation de Places :
 * Segmentez une audience en fonction du comportement hors ligne en utilisant des profils d’audience avec contexte d’emplacement.
 * Ciblez un utilisateur avec une expérience en magasin, le cas échéant.
 
-## Composants du service d’emplacement
+## Composants du service Places
 
-Le service d’emplacement comprend les composants suivants :
+Le service Places comprend les composants suivants :
 
 * **Service Web**
 
