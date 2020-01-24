@@ -1,27 +1,27 @@
 ---
-title: 'Accès au service d’emplacement d’Adobe Experience Platform '
-description: Cette section fournit des informations sur la manière d’ajouter un utilisateur au service d’emplacement et au lancement de la plateforme d’expérience, afin que l’utilisateur puisse accéder au service d’emplacement.
+title: 'Accès au service Places '
+description: Cette section fournit des informations sur la manière d’ajouter un utilisateur au service Places et au lancement de la plateforme d’expérience, afin que l’utilisateur puisse accéder au service Places.
 translation-type: tm+mt
-source-git-commit: e5d6c7f9ad1e2c9c37c1537aadc309ee20757156
+source-git-commit: 5a21e734c0ef56c815389a9f08b445bedaae557a
 
 ---
 
-# Obtenir l&#39;accès au service d&#39;emplacement {#adding-user-launch-places}
+# Accès au service Places {#adding-user-launch-places}
 
-Vous pouvez accéder au service d’emplacement de plateforme à partir du menu d’accès rapide sur la page d’accueil [d’](https://experience.adobe.com)Adobe Experience Cloud.
-Si votre ID utilisateur y a accès, l’icône Service d’emplacement s’affiche, comme indiqué ci-dessous :
+Vous pouvez accéder au service Places à partir du menu d’accès rapide sur la page d’accueil [d’](https://experience.adobe.com)Adobe Experience Cloud.
+Si votre ID utilisateur y a accès, l’icône du service Places s’affiche, comme indiqué ci-dessous :
 
 ![menu Accès rapide](/help/assets/quick-access.png)
 
-Vous pouvez également accéder au service d’emplacement de plateforme à partir du menu Adobe Experience Platform :
+Vous pouvez également accéder au service Places à partir du menu Adobe Experience Platform :
 
 ![Menu Plate-forme d’expérience](/help/assets/exp-platform-menu-sm.png)
 
-Si vous ne voyez pas le service d’emplacement de plateforme dans l’un de ces menus, vous devrez contacter un administrateur de votre organisation pour ajouter votre ID d’utilisateur au service Places Core dans la console d’administration.
+Si le service Places n’apparaît dans aucun de ces menus, contactez un administrateur de votre organisation pour ajouter votre ID d’utilisateur au service Places Core dans la console d’administration.
 
-## Ajout d’un utilisateur au service d’emplacement et au lancement de la plateforme d’expérience
+## Ajout d’un utilisateur au service Places et au lancement de la plateforme d’expérience
 
-Pour permettre aux utilisateurs d’accéder à l’interface utilisateur [du service de](https://places.adobe.com)lancement, ils doivent être ajoutés au service Places Core dans la console d’administration en tant qu’utilisateur. Pour permettre aux utilisateurs d’accéder au lancement de la plateforme d’expérience, de configurer les propriétés mobiles et d’utiliser Places avec le SDK Adobe Experience Platform, ils doivent être ajoutés au lancement de la plateforme d’expérience dans la console d’administration et bénéficier des autorisations suivantes pour le lancement de la plateforme d’expérience :
+Pour permettre aux utilisateurs d’accéder à l’interface utilisateur [de lancement de la plateforme](https://launch.adobe.com)d’expérience, ils doivent être ajoutés au service Places Core dans la console d’administration en tant qu’utilisateur. Pour permettre aux utilisateurs d’accéder au lancement de la plateforme d’expérience, de configurer les propriétés mobiles et d’utiliser Places avec le SDK Adobe Experience Platform, ils doivent être ajoutés au lancement de la plateforme d’expérience dans la console d’administration et bénéficier des autorisations suivantes pour le lancement de la plateforme d’expérience :
 
 * Tous les droits de propriété :
    * Développer
@@ -31,15 +31,13 @@ Pour permettre aux utilisateurs d’accéder à l’interface utilisateur [du se
    * Gestion des environnements
 * Autorisation de gestion des propriétés sous Droits d’entreprise
 
-S’il s’agit de la première fois que vous ajoutez un utilisateur, procédez comme suit pour ajouter des utilisateurs au service de localisation et de lancement de la plateforme d’expérience. Si vous avez déjà ajouté des utilisateurs, plusieurs profils peuvent s’afficher, assurez-vous donc de sélectionner le profil approprié.
+S’il s’agit de la première fois que vous ajoutez un utilisateur, procédez comme suit pour ajouter des utilisateurs au service Places et lancement de la plateforme d’expérience. Si vous avez déjà ajouté des utilisateurs, plusieurs profils peuvent s’afficher, assurez-vous donc de sélectionner le profil approprié.
 
 >[!IMPORTANT]
 >
 >Seuls les administrateurs de l’organisation peuvent accéder à la Console d’administration et ajouter les utilisateurs.
 
-### 1. Vérifiez que le service d’emplacement et le lancement de la plateforme d’expérience sont configurés.
-
-Pour vérifier que le service d’emplacement et le lancement de la plateforme d’expérience sont configurés :
+### 1. Vérifiez que le service Places et le lancement de la plateforme d’expérience sont configurés.
 
 1. Connectez-vous à votre organisation Experience Cloud.
 1. Dans le coin supérieur droit, cliquez sur le sélecteur de shell Experience Cloud.
@@ -64,12 +62,10 @@ Pour vérifier que le service d’emplacement et le lancement de la plateforme d
 
    ![](/help/assets/places_provisioned1.png)
 
-   S’ils sont affichés, le service d’emplacement et le lancement de la plateforme d’expérience ont été configurés pour votre entreprise. S’ils ne sont pas affichés, ils doivent être configurés pour votre entreprise.
+   S’ils sont affichés, le service Places et le lancement de la plateforme d’expérience ont été mis en service pour votre entreprise. S’ils ne sont pas affichés, ils doivent être configurés pour votre entreprise.
 
 
 ### 2. Configuration du profil et ajout des autorisations
-
-Pour configurer le profil et ajouter les autorisations :
 
 1. Configurez un profil de lancement de plateforme d’expérience, qui permet aux utilisateurs qui ont été ajoutés au profil d’utiliser le lancement de plateforme d’expérience et ses propriétés mobiles avec le SDK de plateforme d’expérience.
 
@@ -102,17 +98,17 @@ Pour configurer le profil et ajouter les autorisations :
 
 >[!IMPORTANT]
 >
->Pour le service d’emplacement, il existe un profil par défaut, mais vous n’avez pas à ajouter d’autorisations.
+>Pour le service Places, il existe un profil par défaut, mais vous n’avez pas à ajouter d’autorisations.
 
 Vous avez correctement ajouté des autorisations au profil que vous avez créé.
 
-### 3. Ajout d’un utilisateur ou d’un développeur à vos profils de lancement du service d’emplacement et de plateforme d’expérience
+### 3. Ajout d’un utilisateur ou d’un développeur à vos profils Places Service et Experience Platform Launch
 
-Vous pouvez ajouter un utilisateur et/ou un développeur à vos profils de lancement de service d’emplacement et de plateforme d’expérience.
+Vous pouvez ajouter un utilisateur et/ou un développeur à vos profils Places Service et Experience Platform Launch.
 
 ### Ajout d’un utilisateur
 
-Pour ajouter un utilisateur à vos profils de lancement du service d’emplacement et de la plateforme d’expérience :
+Pour ajouter un utilisateur à vos profils Places Service et Experience Platform Launch :
 
 1. Ajoutez un utilisateur au profil de lancement de plateforme d’expérience.
 
@@ -140,7 +136,7 @@ Pour ajouter un utilisateur à vos profils de lancement du service d’emplaceme
 
    >[!TIP]
    >
-   >Actuellement, tous les utilisateurs du service d’emplacement disposent des mêmes autorisations. Il n’est donc pas nécessaire de modifier ces autorisations.
+   >Actuellement, tous les utilisateurs du service Places disposent des mêmes autorisations. Vous n’avez donc pas besoin de modifier ces autorisations.
 
    a. Sur la **[!UICONTROL Places Core Services]**carte, vérifiez les éléments suivants :
 
@@ -178,8 +174,8 @@ Pour ajouter un développeur :
    * Si vous ajoutez un nouvel utilisateur, cliquez sur **[!UICONTROL New user]**et saisissez son prénom et son nom.
    * Si vous ajoutez un utilisateur existant, cliquez sur son nom.
 
-1. Dans la liste **[!UICONTROL Please select a profile for this product]**déroulante, sélectionnez le profil Service d’emplacement.
+1. Dans la liste **[!UICONTROL Please select a profile for this product]**déroulante, sélectionnez le profil Service Lieux.
 
 1. Cliquez sur **Enregistrer**.
 
-Les utilisateurs reçoivent un e-mail leur indiquant qu’ils ont accès à Experience Platform Launch. Ils peuvent se connecter aux interfaces utilisateur [Experience Platform Launch](https://launch.adobe.com) ou [Places](https://places.adobe.com) pour cette organisation. Si vous effectuez l’étape 4 de la procédure **Ajouter un développeur**, l’utilisateur peut aussi se connecter à la [console Adobe I/O](https://console.adobe.io) pour créer une intégration des Places et utiliser l’API REST Places.
+Les utilisateurs reçoivent un e-mail leur indiquant qu’ils ont accès à Experience Platform Launch. They can can log in to the [Experience Platform Launch](https://launch.adobe.com) or the [Places Service](https://places.adobe.com) UIs for this organization. Si vous effectuez l’étape 4 de la procédure **Ajouter un développeur**, l’utilisateur peut aussi se connecter à la [console Adobe I/O](https://console.adobe.io) pour créer une intégration des Places et utiliser l’API REST Places.
