@@ -2,7 +2,7 @@
 title: Référence à l’API du moniteur de lieux
 description: Liste des API du moniteur des lieux.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 5a21e734c0ef56c815389a9f08b445bedaae557a
 
 ---
 
@@ -139,7 +139,7 @@ PlacesMonitor.start();
 >
 >Pour commencer la surveillance, le service de localisation doit avoir l’autorisation nécessaire :
 >
->* Si l’autorisation du service d’emplacement n’a pas été fournie à l’application, le premier appel à l’ `start` API demande l’autorisation d’utiliser le service d’emplacement tel que configuré pour l’application.
+>* Si l’autorisation du service Places n’a pas été fournie à l’application, le premier appel à l’ `start` API demande l’autorisation d’utiliser le service Places tel que configuré pour l’application.
 >* Selon les capacités de votre périphérique, si l’autorisation a été fournie, le moniteur des lieux effectue le suivi de l’emplacement de l’utilisateur en fonction de l’emplacement actuellement défini `ACPPlacesMonitorMode`. Par défaut, le moniteur utilise `ACPPlacesMonitorModeSignificantChanges`.
 
 
@@ -245,7 +245,7 @@ PlacesMonitor.updateLocation();
 
 ## Autorisation d’emplacement de l’application
 
-Vous pouvez utiliser cette API pour définir le type d’autorisation d’emplacement que l’utilisateur est invité à utiliser et autorisé à utiliser pour les services d’emplacement.
+Vous pouvez utiliser cette API pour définir le type d’autorisation d’emplacement que l’utilisateur est invité à utiliser pour le service Places.
 
 ### SetLocationPermission (Android)
 
@@ -317,17 +317,17 @@ Le niveau d’autorisation peut être défini sur l’une des valeurs suivantes 
 
 * `ACPPlacesRequestAuthorizationLevelWhenInUse`
 
-   Demande à l’utilisateur l’autorisation d’utiliser les services d’emplacement pendant l’utilisation de l’application. L’invite de l’utilisateur contient le texte de la `NSLocationWhenInUseUsageDescription` clé dans le fichier Info.plist de votre application, et la présence de cette clé est requise lors de l’appel de cette méthode. Pour plus d’informations, consultez la documentation [Apple sur requestWhenInUseAuthorization](https://developer.apple.com/documentation/corelocation/cllocationmanager/1620562-requestwheninuseauthorization).
+   Demande à l’utilisateur l’autorisation d’utiliser le service Places pendant que l’application est en cours d’utilisation. L’invite de l’utilisateur contient le texte de la `NSLocationWhenInUseUsageDescription` clé dans le fichier Info.plist de votre application, et la présence de cette clé est requise lors de l’appel de cette méthode. Pour plus d’informations, consultez la documentation [Apple sur requestWhenInUseAuthorization](https://developer.apple.com/documentation/corelocation/cllocationmanager/1620562-requestwheninuseauthorization).
 
 * `ACPPlacesRequestMonitorAuthorizationLevelAlways`
 
-   Utilisez cet énumérateur pour demander des services d’emplacement même lorsque l’application est en arrière-plan. Vous devez avoir les clés `NSLocationAlwaysUsageDescription` et `NSLocationWhenInUseUsageDescription` les clés dans Info.plist de votre application. Ces touches définissent le texte qui apparaîtra à l’invite de l’utilisateur. Pour plus d’informations, consultez la documentation [Apple sur requestAlwaysAuthorization](https://developer.apple.com/documentation/corelocation/cllocationmanager/1620551-requestalwaysauthorization).
+   Utilisez cet énumérateur pour demander Places Service même lorsque l’application est en arrière-plan. Vous devez avoir les clés `NSLocationAlwaysUsageDescription` et `NSLocationWhenInUseUsageDescription` les clés dans Info.plist de votre application. Ces touches définissent le texte qui apparaîtra à l’invite de l’utilisateur. Pour plus d’informations, consultez la documentation [Apple sur requestAlwaysAuthorization](https://developer.apple.com/documentation/corelocation/cllocationmanager/1620551-requestalwaysauthorization).
 
 `ACPPlacesRequestAuthorizationLevelAlways` est la valeur d’autorisation de requête par défaut.
 
 >[!IMPORTANT]
 >
->L’application qui a autorisé l’utilisation de l’ `ACPPlacesRequestAuthorizationLevelWhenInUse` autorisation ne pourra pas déclencher d’événements d’entrée/sortie dans les régions qui se trouvent en arrière-plan.
+>L’application qui a autorisé l’utilisation de l’ `ACPPlacesRequestAuthorizationLevelWhenInUse` autorisation ne déclenchera pas d’événements d’entrée/sortie dans les régions qui se produisent en arrière-plan.
 
 Voici la syntaxe et l’exemple de code pour cette API :
 
