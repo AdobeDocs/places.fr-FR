@@ -1,15 +1,15 @@
 ---
-title: Utiliser le service d'emplacement sans surveillance active de la région
-description: Cette section fournit des informations sur l'utilisation de Location ServicePlaces sans surveillance active des régions.
+title: Utiliser le service Places sans surveillance active des régions
+description: Cette section fournit des informations sur l’utilisation du service Places sans surveillance active des régions.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 5a21e734c0ef56c815389a9f08b445bedaae557a
 
 ---
 
 
-# Utiliser le service d'emplacement sans surveillance active de la région {#use-places-without-active-monitoring}
+# Utiliser le service Places sans surveillance active des régions {#use-places-without-active-monitoring}
 
-Les cas d’utilisation de votre application peuvent ne pas nécessiter une surveillance de région active. Adobe Places permet toujours d’intégrer les données d’emplacement de vos utilisateurs à d’autres produits de la plateforme d’expérience.
+Les cas d’utilisation de votre application peuvent ne pas nécessiter une surveillance de région active. Le service Places peut toujours être utilisé pour intégrer les données d’emplacement de vos utilisateurs à d’autres produits Experience Platform.
 
 Cette section explique comment effectuer une vérification de l’appartenance à un point d’accès uniquement au moment de la collecte de l’emplacement de l’utilisateur (latitude et longitude).
 
@@ -19,9 +19,9 @@ Le développeur collectera l’emplacement du périphérique à l’aide des API
 
 >[!TIP]
 >
->Si les cas d’utilisation de votre application nécessitent une surveillance active de la région, lisez [l’extension](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md)du moniteur de lieux.
+>Si les cas d’utilisation de votre application nécessitent une surveillance de région active, voir [Utilisation de l’extension](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md)Places Monitor.
 
-Pour utiliser des emplacements sans surveillance active des régions :
+Pour utiliser le service Places sans surveillance active des régions :
 
 ## 1. Collecte de l’emplacement de l’utilisateur
 
@@ -396,6 +396,6 @@ func handleUpdatedPOIs(_ nearbyPois:[ACPPlacesPoi]) {
 }
 ```
 
-Outre le déclenchement des événements d’entrée Places dans le SDK, en raison des événements d’entrée de déclenchement, toutes les données qui définissent vos points d’intérêt peuvent être utilisées par le reste du SDK via `data elements` Lancement. Avec Launch `rules`, vous pouvez associer dynamiquement les données Places aux événements entrants qui sont traités par le SDK. Vous pouvez, par exemple, joindre les métadonnées d’un point d’accès dans lequel se trouve l’utilisateur et envoyer les données à Analytics en tant que données contextuelles.
+Outre le déclenchement des événements d’entrée du service Places dans le SDK, en raison des événements d’entrée de déclenchement, toutes les données qui définissent vos points d’intérêt peuvent être utilisées par le reste du SDK via `data elements` le lancement de la plateforme d’expérience. Avec Experience Platform Launch `rules`, vous pouvez associer dynamiquement les données du service Places aux événements entrants qui sont traités par le SDK. Vous pouvez, par exemple, joindre les métadonnées d’un point d’accès dans lequel se trouve l’utilisateur et envoyer les données à Analytics en tant que données contextuelles.
 
-Pour plus d’informations, voir [Utilisation de lieux avec d’autres solutions](/help/use-places-with-other-solutions/use-places-with-other-solutions.md)Adobe.
+Pour plus d’informations, voir [Utilisation du service Places avec d’autres solutions](/help/use-places-with-other-solutions/use-places-with-other-solutions.md)Adobe.
