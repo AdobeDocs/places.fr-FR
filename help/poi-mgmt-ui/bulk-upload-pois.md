@@ -2,7 +2,7 @@
 title: POI de téléchargement en masse
 description: Cette section fournit des informations sur la manière de télécharger en masse vos points d’intérêt.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
 
 ---
 
@@ -47,15 +47,15 @@ Voici une liste des colonnes et des valeurs à utiliser :
 
 ### Valeurs de colonne
 
-Les valeurs des colonnes suivantes sont utilisées dans l’interface utilisateur du service d’emplacement :
+Les valeurs des colonnes suivantes sont utilisées dans l’interface utilisateur du service Places :
 
-* color, qui est utilisée comme couleur de la broche qui représente l’emplacement de l’interface utilisateur du service d’emplacement.
+* color, qui est utilisée comme couleur de la broche qui représente l’emplacement de l’interface utilisateur du service Places.
    * Les valeurs valides sont &quot;&quot;, #3E76D0, #AA99E8, #DC2ABA, #FC685B, #FC962E, #F6C436, #BECE5D, #61B56B, #3DC8DE et &quot;&quot;.
-   * Si la valeur n’est pas renseignée, l’interface utilisateur du service d’emplacement utilise le bleu comme couleur par défaut.
+   * Si la valeur n’est pas renseignée, l’interface utilisateur du service Places utilise le bleu comme couleur par défaut.
 
       Les valeurs correspondent au bleu (#3E76D0), au violet (#AA99E8), au fuschia (#DC2ABA), à l’orange (#FC685B), à l’orange clair (#FC962E), au jaune (#F6C436), au vert clair (#BECE5D), au vert (#61B 56B) et bleu clair (#3DC8DE), respectivement.
 
-* qui est utilisée comme icône sur l’épingle représentant l’emplacement de la zone cliquable sur le mappage de l’interface utilisateur du service d’emplacement.
+* qui est utilisée comme icône sur l’épingle représentant l’emplacement de l’objet d’enquête sur la carte de l’interface utilisateur du service Places.
 
    * Les valeurs valides sont &quot;&quot;, boutique, hotelbed, voiture, avion, train, navire, stade, parc d&#39;attraction, ancrage, beaker, cloche, bid, boîte, mallette, fenêtre, navigation, brosse, bâtiment, calculatrice, appareil photo, horloge, éducation, lampe de poche, suivre, jeu, femelle, mâle, cadeau, marteau, coeur, maison, clé, lancement, ampoule, boîte aux lettres, épingle, promouvoir, ruban, panier, étoile, cible, théière, pouceBas, pouceHaut, piège, trophée, clé à molette.
 
