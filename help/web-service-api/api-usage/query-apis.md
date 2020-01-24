@@ -2,7 +2,7 @@
 title: Aperçu
 description: Compréhension et utilisation des API de requête.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
 
 ---
 
@@ -20,7 +20,7 @@ GET https://query.places.adobe.com/placesedgequery
 
 Avec l’entrée suivante, le service renvoie une liste des points d’intérêt les plus proches de l’appelant :
 
-* Position de l’appelant \(latitude, longitude\).
+* Position de l’appelant (latitude, longitude).
 * ID des bibliothèques d’API à inclure dans la recherche.
 * Nombre maximal de points d’intérêt à renvoyer.  La valeur par défaut est 100.
 
