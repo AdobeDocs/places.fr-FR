@@ -1,8 +1,8 @@
 ---
-title: Utilisation de lieux avec Mobile Services pour la messagerie
-description: Cette section explique comment utiliser Places avec Mobile Services pour la messagerie.
+title: Utilisation du service Places avec Mobile Services pour la messagerie
+description: Cette section explique comment utiliser Places Service avec Mobile Services pour la messagerie.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 5a21e734c0ef56c815389a9f08b445bedaae557a
 
 ---
 
@@ -11,33 +11,49 @@ source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 Avant d’utiliser l’extension Mobile Services pour la messagerie, vérifiez les conditions préalables suivantes :
 
-* Des points d’intérêt ont été créés dans le service d’emplacement. Si nécessaire, voir Documentation. (lien vers la création d’un point d’accès) Remarque : Le service d’emplacement comprend une nouvelle base de données de points d’intérêt améliorée pour votre entreprise qui existe en dehors de l’interface AMS héritée. Les points d’intérêt trouvés dans la navigation &quot;Gérer les lieux&quot; d’AMS ne fonctionneront que pour la version 4 du SDK.
-   * Voici l’interface héritée de gestion des points d’accès aux emplacements dans AMS pour les anciennes versions du SDK :
+* Des points d&#39;intérêt ont été créés dans Places Service. For more information, see [Create a POI](/help/poi-mgmt-ui/create-a-poi-ui.md).
 
-      ![Interface utilisateur héritée](/help/assets/legacy-location-v4-ui.png)
+   >[!IMPORTANT]
+   >
+   >Le service Places comprend une nouvelle base de données d’API améliorée pour votre entreprise, qui existe en dehors de l’interface utilisateur héritée de Mobile Services. Les points d’accès situés sur la page *Gérer les emplacements* de Mobile Service ne fonctionnent que pour la version 4 du SDK.
 
-   * Voici l’interface de gestion des points d’accès du service d’emplacement :
+* Voici la page de gestion des emplacements ** Gérer les emplacements dans l’interface utilisateur héritée de Mobile Services pour les versions plus anciennes du SDK :
 
-      ![Interface utilisateur de gestion des points d’accès du service Emplacement](/help/assets/places-ui.png)
+   ![Interface utilisateur héritée](/help/assets/legacy-location-v4-ui.png)
 
-* Le SDK ACP est correctement configuré avec les extensions Places et/ou Places Monitor. Cela signifie que les données sont disponibles en tant qu’événements et/ou conditions dans le moteur des règles de lancement pour votre application mobile. Consultez la documentation si nécessaire. (https://aep-sdks.gitbook.io/docs/beta/adobe-places)
+* Voici l’interface utilisateur du service Places :
 
-* Familiarisez-vous avec la création et la publication de règles de lancement dans le SDK ACP dans votre application mobile. Consultez la documentation si nécessaire. (https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/rules-engine)
+   ![Interface utilisateur de gestion des points d’accès du service Places](/help/assets/places-ui.png)
 
-* Les éléments de données de lancement sont créés à partir des données d’extension Places SDK qui seront utilisées dans les règles. Voir la documentation (https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/rules-engine#data-elements).
+* Le SDK ACP est correctement configuré avec le service Places et/ou les extensions du moniteur Places.
+
+   Cela signifie que les données sont disponibles sous forme d’événements et/ou de conditions dans le moteur de règles de lancement de plateforme d’expérience pour votre application mobile. Pour plus d’informations, voir [Extension](/help/places-ext-aep-sdks/places-extension/places-extension.md) Lieux ou Extension [du moniteur](/help/places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.md)Lieux.
+
+* Familiarisez-vous avec la création et la publication de règles de lancement de plateforme d’expérience sur le SDK ACP dans votre application mobile.
+
+   For more information, see [Rules engine](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/rules-engine).
+
+* Les éléments de données de lancement de plateforme d’expérience sont créés à partir des données de l’extension Places qui seront utilisées dans le moteur de règles.
+
+   For more information, see [Data elements](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/rules-engine#data-elements).
 
 ## Création de rapports
 
 Avant d’utiliser les rapports, remplissez les conditions préalables suivantes :
 
-* Envoi réussi des données du service d’emplacement dans la suite de rapports Adobe Analytics. Si nécessaire, consultez la documentation d’Adobe Analytics (lien vers les documents de Steve).
-* Familier avec les rapports AMS. Veuillez consulter la documentation si nécessaire (https://docs.adobe.com/content/help/en/mobile-services/using/reports-ug/usage.html).
+* Envoi réussi des données du service Places dans la suite de rapports Adobe Analytics.
+
+   Pour plus d’informations, voir [Utilisation du service Lieux avec Adobe Analytics](/help/use-places-with-other-solutions/places-adobe-analytics/use-places-adobe-analytics.md).
+
+* Familiarisez-vous avec les rapports Mobile Services.
+
+   For more information, see [Reports](https://docs.adobe.com/content/help/en/mobile-services/using/reports-ug/usage.html).
 
 ## Visualisation des rapports
 
-Vous pouvez exécuter des rapports AMS à l’aide des données du service d’emplacement envoyées à Adobe Analytics. Par exemple, j’ai envoyé des événements lorsque des utilisateurs ont des entrées dans l’une de mes API. Dans ce rapport, j’ai ajouté un filtre de l’événement d’entrée d’API en plus de mon rapport utilisateur prêt à l’emploi :
+Vous pouvez exécuter des rapports Service mobile à l’aide de données Service Places qui sont envoyées à Adobe Analytics. Dans l’exemple suivant, des événements sont envoyés lorsque les utilisateurs ont des entrées dans l’une des API. Dans ce rapport, un filtre de l’événement d’entrée d’API a été ajouté sur le rapport utilisateur prêt à l’emploi :
 
 ![Visualisation des rapports](/help/assets/report-visualize.png)
 
-Une plus grande flexibilité dans la visualisation des données du service d’emplacement est disponible dans les interfaces Adobe Analytics.
+Une flexibilité supplémentaire dans la visualisation des données du service Places est disponible dans les interfaces Adobe Analytics.
 
