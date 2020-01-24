@@ -2,7 +2,7 @@
 title: Rapport sur les données d’emplacement dans Analytics Workspace
 description: Cette section fournit des informations sur la manière de créer des rapports sur les données d’emplacement dans Analytics Workspace.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
 
 ---
 
@@ -15,11 +15,17 @@ Ce document présente un exemple de rapport sur les données de votre emplacemen
 
 Ce document suppose ce qui suit :
 
-1. L’extension Adobe Places est implémentée dans votre application. Pour plus d’informations sur l’implémentation d’Adobe Places, voir [Places extensions](/help/places-ext-aep-sdks/places-extension/places-extension.md).
+1. L’extension Places est implémentée dans votre application.
 
-1. L’utilisateur d’Adobe Analytics est un administrateur et a accès aux règles de traitement. Pour plus d’informations sur les règles de traitement, voir l’[Aperçu des règles de traitement](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules.html).
+   Pour plus d’informations sur l’implémentation de l’extension Lieux, voir [Extensions](/help/places-ext-aep-sdks/places-extension/places-extension.md)Lieux.
 
-1. Dans la propriété Launch, des éléments de données ont été créés pour les variables de service d’emplacement souhaitées. Pour plus d’informations sur les éléments de données dans Lancement, voir [Définition d’un élément](/help/use-places-launch-workflow/define-data-elements.md)de données.
+1. L’utilisateur d’Adobe Analytics est un administrateur et a accès aux règles de traitement.
+
+   Pour plus d’informations sur les règles de traitement, voir l’[Aperçu des règles de traitement](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules.html).
+
+1. Dans la propriété Launch, des éléments de données ont été créés pour les variables de service Places que vous souhaitez.
+
+   Pour plus d’informations sur les éléments de données dans Lancement, voir [Définition d’un élément](/help/use-places-launch-workflow/define-data-elements.md)de données.
 
 
 ## 1. Création d’une règle de lancement
@@ -36,7 +42,7 @@ Dans cet exemple, les valeurs suivantes sont définies pour la requête Analytic
 
 ## 2. Création de variables Analytics
 
-Pour mapper les données contextuelles (envoyées à l’étape 1), les variables doivent d’abord être créées pour la suite de rapports Analytics. Pour plus d’informations sur la création de variables dans Analytics, voir Variables de [conversion \(eVars\)](https://docs.adobe.com/content/help/en/analytics/implementation/analytics-basics/ref-conversion-variables-evar.html).
+Pour mapper les données contextuelles (envoyées à l’étape 1), vous devez d’abord créer des variables pour la suite de rapports Analytics. Pour plus d’informations sur la création de variables dans Analytics, voir Variables de [conversion (eVars)](https://docs.adobe.com/content/help/en/analytics/implementation/analytics-basics/ref-conversion-variables-evar.html).
 
 Dans cet exemple, une variable de conversion **[!UICONTROL Evar2]**a été créée et nommée**[!UICONTROL Places POI Name]**. D’autres variables devront être créées pour chaque variable d’emplacement à exposer dans les rapports.
 
@@ -46,7 +52,7 @@ Dans cet exemple, une variable de conversion **[!UICONTROL Evar2]**a été cré�
 
 Cette étape est nécessaire pour mapper les données contextuelles (étape 1) aux variables Analytics (étape 2). For more information on creating processing rules, see [Processing rules overview](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules.html).
 
-Dans cet exemple, une règle de traitement a été créée pour mapper la valeur des données contextuelles **[!UICONTROL poi.name]**dans**[!UICONTROL Places POI Name \(eVar2\)]**. Des règles de traitement supplémentaires devront être créées pour chaque variable d’emplacement créée.
+Dans cet exemple, une règle de traitement a été créée pour mapper la valeur des données contextuelles **[!UICONTROL poi.name]**dans**[!UICONTROL Places POI Name (eVar2)]**. Des règles de traitement supplémentaires devront être créées pour chaque variable d’emplacement créée.
 
 ![&quot;créer une règle de traitement&quot;](/help/assets/aa-processing-rule.png)
 
