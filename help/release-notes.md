@@ -2,12 +2,21 @@
 title: Notes de mise à jour
 description: Notes de mise à jour du service Places.
 translation-type: tm+mt
-source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
+source-git-commit: 04644763a40898432c4b821ca24366c19dda0437
 
 ---
 
 
 # Notes de mise à jour {#release-notes}
+
+## 27 janvier 2020
+
+* **PlacesMonitor 2.2.0**
+
+   * **Android**
+
+      * Appelez la nouvelle API Places pour collecter l’état d’autorisation d’emplacement au lancement de l’application et lorsque l’autorisation est modifiée pendant l’exécution de l’application.
+      * Ajout de l’API setRequestLocationPermission et de l’API setLocationPermission obsolète.
 
 ## 9 janvier 2020
 
@@ -17,6 +26,13 @@ source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
 
       * Ajout d’une nouvelle API `setAuthorizationStatus`, pour définir l’état d’autorisation de l’appareil pour les services Places. La valeur est stockée et utilisée dans l’état Lieux partagés.
 
+## 4 décembre 2019
+
+* **PlacesMonitor 2.1.2**
+
+   * **iOS**
+
+      * Appelez l’API Places pour collecter CLAuthorizationStatus du périphérique lorsqu’il change.
 
 ## 3 décembre 2019
 
@@ -25,6 +41,14 @@ source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
    * **iOS**
 
       * Ajout d’une nouvelle API `setAuthorizationStatus`, pour définir l’état d’autorisation de l’appareil pour les services Places. La valeur est stockée et utilisée dans l’état Lieux partagés.
+
+## 25 novembre 2019
+
+* **PlacesMonitor 2.1.1**
+
+   * **iOS**
+
+      * Correction des instructions d’importation pour les projets Cocoapods à l’aide de l’option de projets de plusieurs conteneurs.
 
 ## 22 novembre 2019
 
