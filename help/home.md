@@ -2,14 +2,14 @@
 title: Service Places
 description: 'Le service Places est un contexte important pour comprendre l’engagement des utilisateurs mobiles. En utilisant ce contexte, les développeurs d’applications mobiles peuvent améliorer la conception de l’application et en faire une expérience plus personnalisée et plus attrayante. '
 translation-type: tm+mt
-source-git-commit: 0341e1c818bf61bee01e02c91a67f184c7778c0d
+source-git-commit: 05b4d29aa7925f7a43e70c644e3cb88045cbe446
 
 ---
 
 
 # Service Places {#home}
 
-![&quot;Service Places&quot;](/help/assets/LocationHeader.png)
+![&quot;Service Places&quot;](/help/assets/places-service-header.png)
 
 L’emplacement est un contexte important pour comprendre et interagir avec les utilisateurs mobiles. En utilisant ce contexte, les développeurs d’applications mobiles peuvent améliorer la conception de l’application et en faire une expérience plus personnalisée et plus attrayante.
 
