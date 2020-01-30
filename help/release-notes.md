@@ -2,7 +2,7 @@
 title: Notes de mise à jour
 description: Notes de mise à jour du service Places.
 translation-type: tm+mt
-source-git-commit: 04644763a40898432c4b821ca24366c19dda0437
+source-git-commit: 4038972cc56c144c0e7d702d0f80c7f76f275aa4
 
 ---
 
@@ -170,7 +170,7 @@ Les mises à jour suivantes ont été effectuées dans cette version :
 * Correction d’un problème en raison duquel, après un premier lancement, les événements Places étaient parfois perdus en raison de mauvaises conditions réseau.
 * Correction d’un problème en raison duquel, lors du traitement des événements d’entrée d’un point d’entrée, le remplacement de jeton par le biais du moteur de règles faisait parfois référence à un point d’entrée incorrect.
 
-## 30 mai 2019 (Lieux)
+## 30 mai 2019
 
 **Android Places Monitor 1.0.1**
 
@@ -185,7 +185,7 @@ Correction des problèmes suivants dans l’interface utilisateur Lieux :
 * Augmentation à 10 mètres du rayon minimal autorisé dans l’interface utilisateur.
 * Correction d’un problème en raison duquel, si vous supprimez tous les nombres du champ, le champ de rayon était rétabli à 20 mètres.
 
-## 17 mai 2019 (Lieux)
+## 17 mai 2019
 
 Les mises à jour suivantes ont été effectuées dans cette version :
 
