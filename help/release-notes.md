@@ -2,12 +2,25 @@
 title: Notes de mise à jour
 description: Notes de mise à jour du service Places.
 translation-type: tm+mt
-source-git-commit: 4038972cc56c144c0e7d702d0f80c7f76f275aa4
+source-git-commit: 36ea8616aa05f5b825a2a4c791a00c5b3f332e9f
 
 ---
 
 
 # Notes de mise à jour {#release-notes}
+
+## 20 février 2020
+
+* **ACPPlaces 1.3.1 (iOS)**
+
+   * L’extension Places signale désormais les informations de version au concentrateur d’événements dans le SDK principal.
+   * Les informations d’appartenance à l’API du périphérique comportent désormais un délai de vie par défaut d’une heure à compter du moment où elles sont collectées. Pour plus d’informations, reportez-vous à la section [Modification de la durée de vie de l’abonnement aux emplacements.](places-ext-aep-sdks/places-extension/places-extension.md#places-ttl)
+
+
+* **Places 1.4.1 (Android)**
+
+   * L’extension Places signale désormais les informations de version au concentrateur d’événements dans le SDK principal.
+   * Les informations d’appartenance à l’API du périphérique comportent désormais un délai de vie par défaut d’une heure à compter du moment où elles sont collectées. Pour plus d’informations, reportez-vous à la section [Modification de la durée de vie de l’abonnement aux emplacements.](places-ext-aep-sdks/places-extension/places-extension.md#places-ttl)
 
 ## 27 janvier 2020
 
@@ -20,7 +33,7 @@ source-git-commit: 4038972cc56c144c0e7d702d0f80c7f76f275aa4
 
 ## 9 janvier 2020
 
-* **ACPPlaces 1.4.0**
+* **Places 1.4.0**
 
    * **Android**
 
@@ -50,7 +63,7 @@ source-git-commit: 4038972cc56c144c0e7d702d0f80c7f76f275aa4
 
       * Correction des instructions d’importation pour les projets Cocoapods à l’aide de l’option de projets de plusieurs conteneurs.
 
-## 22 novembre 2019
+## 22 novembre 2019
 
 * **PlacesMonitor 2.1.1**
 
