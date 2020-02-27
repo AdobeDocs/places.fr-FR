@@ -2,7 +2,7 @@
 title: Extension Places
 description: L’extension Places vous permet d’agir en fonction de l’emplacement de vos utilisateurs.
 translation-type: tm+mt
-source-git-commit: 5a21e734c0ef56c815389a9f08b445bedaae557a
+source-git-commit: 36ea8616aa05f5b825a2a4c791a00c5b3f332e9f
 
 ---
 
@@ -13,10 +13,10 @@ L’extension Places vous permet d’agir en fonction de l’emplacement de vos 
 
 ## Installation de l’extension Places dans Adobe Experience Platform Launch
 
-1. In Experience Platform Launch, click the **[!UICONTROL Extensions]**tab.
-1. Dans l’ **[!UICONTROL Catalog]**onglet, recherchez l’**[!UICONTROL Places]** extension, puis cliquez sur **[!UICONTROL Install]**.
+1. In Experience Platform Launch, click the **[!UICONTROL Extensions]** tab.
+1. Dans l’ **[!UICONTROL Catalog]** onglet, recherchez l’ **[!UICONTROL Places]** extension, puis cliquez sur **[!UICONTROL Install]**.
 1. Sélectionnez les bibliothèques Places que vous souhaitez utiliser dans cette propriété. Ce sont les bibliothèques qui seront accessibles dans votre application.
-1. Cliquez sur **[!UICONTROL Save]**(Exécuter des tests d’Auditor).
+1. Cliquez sur **[!UICONTROL Save]** (Exécuter des tests d’Auditor).
 
    Lorsque vous cliquez sur **[!UICONTROL Save]**, le SDK de la plate-forme d’expérience recherche des points d’accès dans les services Places dans les bibliothèques que vous avez sélectionnées. Les données d’API ne sont pas incluses dans le téléchargement de la bibliothèque lorsque vous créez l’application, mais un sous-ensemble d’API basé sur l’emplacement est téléchargé sur le périphérique de l’utilisateur final au moment de l’exécution et est basé sur les coordonnées GPS de l’utilisateur.
 
@@ -135,6 +135,88 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 }
 ```
 
+### Modification de la durée de vie de l’abonnement aux emplacements {#places-ttl}
+
+Les données d’emplacement peuvent rapidement devenir obsolètes, en particulier si le périphérique ne reçoit pas de mises à jour d’emplacement en arrière-plan.
+
+Contrôlez la durée de vie des données d’adhésion Places sur le périphérique en définissant le paramètre de `places.membershipttl` configuration. La valeur transmise représente le nombre de secondes pendant lesquelles l’état Places reste valide pour le périphérique.
+
+#### Android
+
+Dans le rappel de `MobileCore.start()` mettre à jour la configuration avec les modifications nécessaires avant d’appeler `lifecycleStart`:
+
+```java
+public class PlacesTestApp extends Application {
+
+    @Override
+    public void onCreate() {
+        super.onCreate();
+        MobileCore.setApplication(this);
+
+        try {
+            Places.registerExtension();
+            MobileCore.start(new AdobeCallback() {
+                @Override
+                public void call(Object o) {
+                    // switch to your App ID from Launch
+                    MobileCore.configureWithAppID("my-app-id");
+
+                    final Map<String, Object> config = new HashMap<>();
+                    config.put("places.membershipttl", 30);
+                    MobileCore.updateConfiguration(config);
+
+                    MobileCore.lifecycleStart(null);
+                }
+            });
+        } catch (Exception e) {
+            Log.e("PlacesTestApp", e.getMessage());
+        }
+    }
+}
+```
+
+#### iOS
+
+Sur la première ligne du rappel de la `ACPCore`méthode de `start:` la variable, appelez `updateConfiguration:`
+
+**Objective-C**
+
+```objective-c
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    // make other sdk registration calls
+
+    const UIApplicationState appState = application.applicationState;
+    [ACPCore start:^{
+        [ACPCore updateConfiguration:@{@"places.membershipttl":@(30)}];
+
+        if (appState != UIApplicationStateBackground) {
+            [ACPCore lifecycleStart:nil];            
+        }
+    }];
+
+    return YES;
+}
+```
+
+**Swift**
+
+```swift
+func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+    // make other sdk registration calls
+
+    let appState = application.applicationState;            
+    ACPCore.start {
+        ACPCore.updateConfiguration(["places.membershipttl" : 30])
+
+        if appState != .background {
+            ACPCore.lifecycleStart(nil)
+        }    
+    }
+
+    return true;
+}
+```
+
 ## Clés de configuration
 
 Pour mettre à jour la configuration du SDK par programmation au moment de l’exécution, utilisez les informations suivantes pour modifier les valeurs de configuration de l’extension Places. Pour plus d’informations, voir Référence [sur les API](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/configuration/configuration-api-reference)de configuration.
@@ -143,4 +225,4 @@ Pour mettre à jour la configuration du SDK par programmation au moment de l’e
 | :--- | :--- | :--- |
 | `places.libraries` | Oui | Bibliothèques d’extensions Places pour l’application mobile. Il spécifie l’ID de bibliothèque et le nom de la bibliothèque que l’application mobile prend en charge. |
 | `places.endpoint` | Oui | Point de fin Places Query Service par défaut, utilisé pour obtenir des informations sur les bibliothèques et les points d’accès (POI). |
-
+| `places.membershipttl` | Non | Valeur par défaut : 3 600 (secondes dans une heure). Indique la durée, en secondes, pendant laquelle les informations d’adhésion Places pour le périphérique resteront valides. |
