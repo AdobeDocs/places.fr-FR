@@ -1,8 +1,8 @@
 ---
 title: Utiliser le service Places sans surveillance active des régions
-description: Cette section fournit des informations sur l’utilisation du service Places sans surveillance active des régions.
+description: Cette section fournit des informations sur l’utilisation du service Places sans surveillance active de la région.
 translation-type: tm+mt
-source-git-commit: 5a21e734c0ef56c815389a9f08b445bedaae557a
+source-git-commit: d123d16c822c48d8727de3c0c22bff8ea7c66981
 
 ---
 
@@ -15,7 +15,7 @@ Cette section explique comment effectuer une vérification de l’appartenance �
 
 ## Condition requise
 
-Le développeur collectera l’emplacement du périphérique à l’aide des API fournies par le système d’exploitation de la plateforme cible.
+Le développeur collectera l’emplacement du périphérique à l’aide des API fournies par le système d’exploitation de la plate-forme .
 
 >[!TIP]
 >
@@ -34,7 +34,7 @@ Pour plus d’informations, voir la documentation suivante :
 
 ## 2. Récupérez les points d’intérêt voisins à partir du SDK
 
-Une fois que vous avez obtenu l’emplacement de l’utilisateur, vous pouvez le transmettre au kit SDK afin de récupérer la liste des points d’intérêt voisins.
+Une fois que vous avez obtenu l’emplacement de l’utilisateur, vous pouvez le transmettre au kit SDK afin de récupérer un des points d’intérêt voisins.
 
 ### Android
 
@@ -114,15 +114,15 @@ func locationManager(_ manager: CLLocationManager, didUpdateLocations locations:
 }
 ```
 
-## 3. Déclencher des événements d’entrée lorsque l’utilisateur se trouve dans une API
+## 3. Déclencher le d’entrée lorsque l’utilisateur se trouve dans un point d’accès
 
-Le SDK renvoie une liste des points d’intérêt voisins, indiquant si l’utilisateur se trouve actuellement dans chaque point d’intérêt. Si l’utilisateur se trouve dans un point d’accès, vous pouvez faire en sorte que le SDK déclenche un événement d’entrée pour cette région.
+Le kit SDK renvoie un  d’API à proximité, indiquant si l’utilisateur se trouve actuellement dans chaque API. Si l’utilisateur se trouve dans un point d’accès, vous pouvez faire en sorte que le SDK déclenche un d’entrée pour cette région.
 
 >[!IMPORTANT]
 >
->Pour empêcher votre application de déclencher plusieurs événements d’entrée au cours d’une visite, conservez la liste des régions dans lesquelles vous savez que l’utilisateur est entré. Lors du traitement de la réponse des points d’intérêt voisins à partir du SDK, déclenchez un événement d’entrée uniquement lorsque la région ne figure pas dans votre liste.
+>Pour empêcher votre application de déclencher plusieurs  d’entrée au cours d’une visite, conservez un des régions dans lesquelles vous savez que l’utilisateur est entré. Lors du traitement de la réponse des points d’intérêt voisins à partir du SDK, déclenchez un d’entrée uniquement lorsque la région n’est pas dans votre  de.
 >
->Dans l’exemple de code suivant, `NSUserDefaults` (iOS) et `SharedPreferences` (Android) sont utilisés pour gérer la liste des régions :
+>Dans l’exemple de code suivant, `NSUserDefaults` (iOS) et `SharedPreferences` (Android) sont utilisés pour gérer le  des régions :
 
 ### Android
 
@@ -229,11 +229,11 @@ func handleUpdatedPOIs(_ nearbyPois:[ACPPlacesPoi]) {
 
 ## Terminer l’exemple de mise en oeuvre
 
-Les exemples de code ci-dessous vous montrent comment récupérer l’emplacement actuel du périphérique, déclencher les événements nécessaires et vous assurer que vous n’obtenez pas plusieurs entrées pour le même emplacement lors d’une visite.
+Les exemples de code ci-dessous vous montrent comment récupérer l’emplacement actuel du périphérique, déclencher les  de nécessaires et vous assurer que vous n’obtenez pas plusieurs entrées pour le même emplacement lors d’une visite.
 
 >[!IMPORTANT]
 >
->Ces fragments ne sont **que** des exemples. Les développeurs doivent déterminer comment ils souhaitent implémenter la fonctionnalité et la décision doit prendre en compte les meilleures pratiques recommandées par le système d’exploitation cible.
+>Ces fragments ne sont **que** des exemples. Les développeurs doivent déterminer comment ils souhaitent implémenter la fonctionnalité et la décision doit prendre en compte les meilleures pratiques recommandées par le système d’exploitation .
 
 ### Android
 
@@ -396,6 +396,6 @@ func handleUpdatedPOIs(_ nearbyPois:[ACPPlacesPoi]) {
 }
 ```
 
-Outre le déclenchement des événements d’entrée du service Places dans le SDK, en raison des événements d’entrée de déclenchement, toutes les données qui définissent vos points d’intérêt peuvent être utilisées par le reste du SDK via `data elements` le lancement de la plateforme d’expérience. Avec Experience Platform Launch `rules`, vous pouvez associer dynamiquement les données du service Places aux événements entrants qui sont traités par le SDK. Vous pouvez, par exemple, joindre les métadonnées d’un point d’accès dans lequel se trouve l’utilisateur et envoyer les données à Analytics en tant que données contextuelles.
+Outre le déclenchement des  d’entrée du service Places dans le SDK, en raison du d’entrée de déclenchement, toutes les données qui définissent vos points d’intérêt peuvent être utilisées par le reste du SDK via le lancement de la plateforme `data elements` d’expérience. Avec Experience Platform Launch `rules`, vous pouvez associer dynamiquement les données du service Places aux  entrants qui sont traités par le SDK. Vous pouvez, par exemple, joindre les métadonnées d’un point d’accès dans lequel se trouve l’utilisateur et envoyer les données à Analytics en tant que données contextuelles.
 
-Pour plus d’informations, voir [Utilisation du service Places avec d’autres solutions](/help/use-places-with-other-solutions/use-places-with-other-solutions.md)Adobe.
+Pour plus d’informations, voir [Utilisation du service Places avec d’autres solutions](/help/use-places-with-other-solutions/places-adobe-analytics/use-places-analytics-overview.md)Adobe.
