@@ -1,49 +1,56 @@
 ---
 title: Extension Places
-description: L’extension Places vous permet d’agir en fonction de l’emplacement de vos utilisateurs.
+description: L'extension Places vous permet d'agir en fonction de l'emplacement de vos utilisateurs.
 translation-type: tm+mt
-source-git-commit: 36ea8616aa05f5b825a2a4c791a00c5b3f332e9f
+source-git-commit: 0a9a4a713e7e7a49495d11cf26da8981e91b8ed2
+workflow-type: tm+mt
+source-wordcount: '676'
+ht-degree: 5%
 
 ---
 
 
 # Extension Places {#places-extension}
 
-L’extension Places vous permet d’agir en fonction de l’emplacement de vos utilisateurs. Cette extension est l&#39;interface des API du service de requête Places. En écoutant les événements qui contiennent des coordonnées GPS et des événements de région de géofence, cette extension distribue les nouveaux événements qui sont traités par le moteur de règles. L’extension Places récupère et fournit également une liste des points d’intérêt les plus proches pour les données de l’application récupérées à partir des API. Les régions renvoyées par les API sont stockées dans le cache et la persistance, ce qui permet un traitement hors ligne limité.
+L&#39;extension Places vous permet d&#39;agir en fonction de l&#39;emplacement de vos utilisateurs. Cette extension est l&#39;interface des API du service de Requête des emplacements. En écoutant les événements qui contiennent des coordonnées GPS et des événements de région de géofence, cette extension envoie de nouveaux événements qui sont traités par le moteur de règles. L’extension Places récupère également et fournit une liste de l’API la plus proche pour les données de l’application qui sont récupérées à partir des API. Les régions renvoyées par les API sont stockées dans le cache et la persistance, ce qui permet un traitement hors ligne limité.
 
 ## Installation de l’extension Places dans Adobe Experience Platform Launch
 
 1. In Experience Platform Launch, click the **[!UICONTROL Extensions]** tab.
 1. Dans l’ **[!UICONTROL Catalog]** onglet, recherchez l’ **[!UICONTROL Places]** extension, puis cliquez sur **[!UICONTROL Install]**.
-1. Sélectionnez les bibliothèques Places que vous souhaitez utiliser dans cette propriété. Ce sont les bibliothèques qui seront accessibles dans votre application.
-1. Cliquez sur **[!UICONTROL Save]** (Exécuter des tests d’Auditor).
+1. Sélectionnez les bibliothèques de lieux que vous souhaitez utiliser dans cette propriété. Il s’agit des bibliothèques qui seront accessibles dans votre application.
+1. Cliquez sur **[!UICONTROL Save]**.
 
-   Lorsque vous cliquez sur **[!UICONTROL Save]**, le SDK de la plate-forme d’expérience recherche des points d’accès dans les services Places dans les bibliothèques que vous avez sélectionnées. Les données d’API ne sont pas incluses dans le téléchargement de la bibliothèque lorsque vous créez l’application, mais un sous-ensemble d’API basé sur l’emplacement est téléchargé sur le périphérique de l’utilisateur final au moment de l’exécution et est basé sur les coordonnées GPS de l’utilisateur.
+   Lorsque vous cliquez sur **[!UICONTROL Save]**, le SDK de la plate-forme d’expérience recherche des points d’accès dans les services Places, dans les bibliothèques que vous avez sélectionnées. Les données d’API ne sont pas incluses dans le téléchargement de la bibliothèque lorsque vous créez l’application, mais un sous-ensemble d’API basé sur l’emplacement est téléchargé sur le périphérique de l’utilisateur final au moment de l’exécution et est basé sur les coordonnées GPS de l’utilisateur.
 
 1. Terminez le processus de publication pour mettre à jour la configuration du SDK.
 
-   Pour plus d’informations sur la publication dans Experience Platform Launch, voir [Publication](https://docs.adobe.com/content/help/en/launch/using/reference/publish/overview.html).
+   Pour plus d’informations sur la publication dans le lancement de la plateforme d’expérience, voir [Publication](https://docs.adobe.com/content/help/fr-FR/launch/using/reference/publish/overview.html).
 
 ### Configure the Places extension {#configure-places-extension}
 
 ![](//help/assets/places-extension.png)
 
-## Ajout de l’extension Places à votre application {#add-places-to-app}
+## Ajouter l’extension Places à votre application {#add-places-to-app}
 
-Vous pouvez ajouter l’extension Places à vos applications Android et iOS.
+Vous pouvez ajouter l’extension Places à vos applications Android et iOS. Vous trouverez ci-dessous la procédure à suivre pour ajouter des emplacements à votre application iOS ou Android. Des places sont également disponibles pour Cordova et React Native. Pour ajouter des emplacements à votre application lors du développement avec l’une de ces plateformes, consultez les liens suivants :
+
+**Cordova ACPPlaces**: https://github.com/adobe/cordova-acpplaces/blob/master/README.md
+
+**Réagir aux emplacements ACPP** natifs : https://github.com/adobe/react-native-acpplaces/blob/master/README.md
 
 ### Android
 
 Pour ajouter l’extension Places à votre application à l’aide de Java :
 
-1. Ajoutez l’extension Places à votre projet à l’aide du fichier de nivellement de votre application.
+1. Ajoutez l’extension Places sur votre projet à l’aide du fichier de nivellement de votre application.
 
    ```java
    implementation 'com.adobe.marketing.mobile:places:1.+'
    implementation 'com.adobe.marketing.mobile:sdk-core:1.+'
    ```
 
-1. Importez l’extension Places dans l’activité principale de votre application.
+1. Importez l&#39;extension Places dans l&#39;activité principale de votre application.
 
    ```java
    import com.adobe.marketing.mobile.Places;
@@ -54,14 +61,14 @@ Pour ajouter l’extension Places à votre application à l’aide de Java :
 
 Pour ajouter l&#39;extension Places à votre application à l&#39;aide de Objective-C ou Swift :
 
-1. Ajoutez les bibliothèques Places et [Mobile Core](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core) à votre projet. Vous devez ajouter les conteneurs suivants à votre `Podfile`:
+1. Ajoutez les bibliothèques Places et Core [](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core) Mobile à votre projet. Vous devez ajouter les modules suivants à votre `Podfile`:
 
    ```objective-c
    pod 'ACPPlaces', '~> 1.0'
    pod 'ACPCore', '~> 2.0'    # minimum Core version for Places is 2.0.3
    ```
 
-   Sinon, si vous n&#39;utilisez pas Cocoapods, vous pouvez inclure manuellement les bibliothèques Mobile Core et Places de notre page [](https://github.com/Adobe-Marketing-Cloud/acp-sdks/releases/) de publication sur Github.
+   Sinon, si vous n&#39;utilisez pas Cocoapods, vous pouvez inclure manuellement les bibliothèques Mobile Core et Places dans la page [](https://github.com/Adobe-Marketing-Cloud/acp-sdks/releases/) de publication de Github.
 
 1. Mettez à jour vos Cocoapods :
 
@@ -69,7 +76,7 @@ Pour ajouter l&#39;extension Places à votre application à l&#39;aide de Object
    pod update
    ```
 
-1. Ouvrez Xcode et, dans la classe AppDelegate, importez les en-têtes Core et Places :
+1. Ouvrez Xcode et dans la classe AppDelegate, importez les en-têtes Core et Places :
 
    **Objective-C**
 
@@ -87,7 +94,7 @@ Pour ajouter l&#39;extension Places à votre application à l&#39;aide de Object
 
 ### Enregistrement de l’extension Places avec Mobile Core {#register-places-mobile-core}
 
-Vous devez enregistrer l’extension Places avec Mobile Core dans Android et iOS.
+Vous devez enregistrer l’extension Places avec Mobile Core sous Android et iOS.
 
 #### Android
 
@@ -135,15 +142,15 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 }
 ```
 
-### Modification de la durée de vie de l’abonnement aux emplacements {#places-ttl}
+### Modification des lieux où la durée de vie de l’abonnement {#places-ttl}
 
 Les données d’emplacement peuvent rapidement devenir obsolètes, en particulier si le périphérique ne reçoit pas de mises à jour d’emplacement en arrière-plan.
 
-Contrôlez la durée de vie des données d’adhésion Places sur le périphérique en définissant le paramètre de `places.membershipttl` configuration. La valeur transmise représente le nombre de secondes pendant lesquelles l’état Places reste valide pour le périphérique.
+Contrôlez la durée de vie des données d’adhésion Places sur le périphérique en définissant le paramètre de `places.membershipttl` configuration. La valeur transmise représente le nombre de secondes pendant lesquelles l’état Lieux reste valide pour le périphérique.
 
 #### Android
 
-Dans le rappel de `MobileCore.start()` mettre à jour la configuration avec les modifications nécessaires avant d’appeler `lifecycleStart`:
+Dans le rappel de `MobileCore.start()` mise à jour de la configuration avec les modifications nécessaires avant d&#39;appeler `lifecycleStart`:
 
 ```java
 public class PlacesTestApp extends Application {
@@ -177,7 +184,7 @@ public class PlacesTestApp extends Application {
 
 #### iOS
 
-Sur la première ligne du rappel de la `ACPCore`méthode de `start:` la variable, appelez `updateConfiguration:`
+Sur la première ligne du rappel de la `ACPCore`méthode `start:` de, appelez `updateConfiguration:`
 
 **Objective-C**
 
@@ -223,6 +230,6 @@ Pour mettre à jour la configuration du SDK par programmation au moment de l’e
 
 | Clé | Obligatoire | Description |
 | :--- | :--- | :--- |
-| `places.libraries` | Oui | Bibliothèques d’extensions Places pour l’application mobile. Il spécifie l’ID de bibliothèque et le nom de la bibliothèque que l’application mobile prend en charge. |
-| `places.endpoint` | Oui | Point de fin Places Query Service par défaut, utilisé pour obtenir des informations sur les bibliothèques et les points d’accès (POI). |
-| `places.membershipttl` | Non | Valeur par défaut : 3 600 (secondes dans une heure). Indique la durée, en secondes, pendant laquelle les informations d’adhésion Places pour le périphérique resteront valides. |
+| `places.libraries` | Oui | Bibliothèques d’extensions Places pour l’application mobile. Il spécifie l’ID de bibliothèque et le nom de la bibliothèque pris en charge par l’application mobile. |
+| `places.endpoint` | Oui | Point de terminaison Service de Requête de lieux par défaut, qui est utilisé pour obtenir des informations sur les bibliothèques et les points d’intérêt. |
+| `places.membershipttl` | Non | Valeur par défaut : 3 600 (secondes dans une heure). Indique la durée, en secondes, pendant laquelle les informations d&#39;adhésion de l&#39;appareil restent valides. |
