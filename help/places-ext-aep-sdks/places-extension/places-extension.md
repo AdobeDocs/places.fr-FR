@@ -2,9 +2,9 @@
 title: Extension Places
 description: L'extension Places vous permet d'agir en fonction de l'emplacement de vos utilisateurs.
 translation-type: tm+mt
-source-git-commit: 0a9a4a713e7e7a49495d11cf26da8981e91b8ed2
+source-git-commit: 0ac139fce666540b36a8c82fe4c05974e12e987f
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '678'
 ht-degree: 5%
 
 ---
@@ -14,18 +14,18 @@ ht-degree: 5%
 
 L&#39;extension Places vous permet d&#39;agir en fonction de l&#39;emplacement de vos utilisateurs. Cette extension est l&#39;interface des API du service de Requête des emplacements. En écoutant les événements qui contiennent des coordonnées GPS et des événements de région de géofence, cette extension envoie de nouveaux événements qui sont traités par le moteur de règles. L’extension Places récupère également et fournit une liste de l’API la plus proche pour les données de l’application qui sont récupérées à partir des API. Les régions renvoyées par les API sont stockées dans le cache et la persistance, ce qui permet un traitement hors ligne limité.
 
-## Installation de l’extension Places dans Adobe Experience Platform Launch
+## Installer l&#39;extension Places dans le lancement d&#39;Adobe Experience Platform
 
 1. In Experience Platform Launch, click the **[!UICONTROL Extensions]** tab.
 1. Dans l’ **[!UICONTROL Catalog]** onglet, recherchez l’ **[!UICONTROL Places]** extension, puis cliquez sur **[!UICONTROL Install]**.
 1. Sélectionnez les bibliothèques de lieux que vous souhaitez utiliser dans cette propriété. Il s’agit des bibliothèques qui seront accessibles dans votre application.
 1. Cliquez sur **[!UICONTROL Save]**.
 
-   Lorsque vous cliquez sur **[!UICONTROL Save]**, le SDK de la plate-forme d’expérience recherche des points d’accès dans les services Places, dans les bibliothèques que vous avez sélectionnées. Les données d’API ne sont pas incluses dans le téléchargement de la bibliothèque lorsque vous créez l’application, mais un sous-ensemble d’API basé sur l’emplacement est téléchargé sur le périphérique de l’utilisateur final au moment de l’exécution et est basé sur les coordonnées GPS de l’utilisateur.
+   Lorsque vous cliquez sur **[!UICONTROL Save]**, le SDK Experience Platform recherche les points d’accès dans les services de lieux dans les bibliothèques que vous avez sélectionnées. Les données d’API ne sont pas incluses dans le téléchargement de la bibliothèque lorsque vous créez l’application, mais un sous-ensemble d’API basé sur l’emplacement est téléchargé sur le périphérique de l’utilisateur final au moment de l’exécution et est basé sur les coordonnées GPS de l’utilisateur.
 
 1. Terminez le processus de publication pour mettre à jour la configuration du SDK.
 
-   Pour plus d’informations sur la publication dans le lancement de la plateforme d’expérience, voir [Publication](https://docs.adobe.com/content/help/fr-FR/launch/using/reference/publish/overview.html).
+   Pour plus d’informations sur la publication dans l’Experience Platform Launch, voir [Publication](https://docs.adobe.com/content/help/fr-FR/launch/using/reference/publish/overview.html).
 
 ### Configure the Places extension {#configure-places-extension}
 
@@ -35,9 +35,9 @@ L&#39;extension Places vous permet d&#39;agir en fonction de l&#39;emplacement d
 
 Vous pouvez ajouter l’extension Places à vos applications Android et iOS. Vous trouverez ci-dessous la procédure à suivre pour ajouter des emplacements à votre application iOS ou Android. Des places sont également disponibles pour Cordova et React Native. Pour ajouter des emplacements à votre application lors du développement avec l’une de ces plateformes, consultez les liens suivants :
 
-**Cordova ACPPlaces**: https://github.com/adobe/cordova-acpplaces/blob/master/README.md
+**[Plug-in Cordova Places](https://github.com/adobe/cordova-acpplaces/blob/master/README.md)**
 
-**Réagir aux emplacements ACPP** natifs : https://github.com/adobe/react-native-acpplaces/blob/master/README.md
+**[Module externe Réagir aux emplacements natifs](https://github.com/adobe/react-native-acpplaces/blob/master/README.md)**
 
 ### Android
 
