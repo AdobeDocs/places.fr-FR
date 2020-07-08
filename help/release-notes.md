@@ -2,15 +2,31 @@
 title: Notes de mise à jour
 description: Notes de mise à jour du service Places.
 translation-type: tm+mt
-source-git-commit: f5fa6005396e3c5b5b8eb92c7c920d2d0d974743
+source-git-commit: 3f986697179eb9c0af1d9b54daf67793a99b8491
 workflow-type: tm+mt
-source-wordcount: '1419'
-ht-degree: 3%
+source-wordcount: '1503'
+ht-degree: 4%
 
 ---
 
 
 # Notes de mise à jour {#release-notes}
+
+## 8 juillet 2020
+
+* **Lieux et emplacements des extensions Moniteur**
+
+   * Des emplacements et des emplacements ont été ajoutés pour les applications [React natives.](https://aep-sdks.gitbook.io/docs/resources/upgrading-to-aep/current-sdk-versions#react-native)
+   * Des emplacements et des emplacements ont été ajoutés aux extensions du moniteur pour les applications [Cordova.](https://aep-sdks.gitbook.io/docs/resources/upgrading-to-aep/current-sdk-versions#cordova)
+   * Pour plus d&#39;informations, voir : [Utilisation de l&#39;extension Places](https://docs.adobe.com/content/help/fr-FR/places/using/places-ext-aep-sdks/places-extension/places-extension.html)
+
+
+## 12 mai 2020
+
+* **Places Service**
+
+   * Importer en bloc les points d’intérêt d’un fichier CSV à l’aide du bouton &quot;Importer les points d’intérêt&quot;
+   * Sélection de plusieurs points d’intérêt et modification en masse ou ajout de valeurs de métadonnées
 
 ## 6 mai 2020
 
@@ -42,22 +58,22 @@ ht-degree: 3%
    * L’extension Places signale désormais les informations de version au concentrateur de événements dans le SDK principal.
    * Les informations d’adhésion à l’API du périphérique comportent désormais une durée de vie par défaut d’une heure à partir du moment où elles sont collectées. Pour plus d’informations, voir [Modification de lieux d’adhésion durée de vie](places-ext-aep-sdks/places-extension/places-extension.md#places-ttl)
 
-## 27 janvier 2020
+## 27 janvier 2020
 
 * **PlacesMonitor 2.2.0**
 
    * **Android**
 
       * Appelez la nouvelle API Places pour collecter l’état d’autorisation de l’emplacement au lancement de l’application et lorsque l’autorisation est modifiée pendant l’exécution de l’application.
-      * Ajout de l’API setRequestLocationPermission et de l’API setLocationPermission obsolète.
+      * API setRequestLocationPermission Ajoutée et API setLocationPermission obsolète.
 
-## 9 janvier 2020
+## 9 janvier 2020
 
 * **Lieux 1.4.0**
 
    * **Android**
 
-      * Ajout d’une nouvelle API `setAuthorizationStatus`pour définir l’état d’autorisation de l’appareil pour les services Places. La valeur est stockée et utilisée dans l’état Lieux partagés.
+      * Ajouté une nouvelle API `setAuthorizationStatus`, pour définir l&#39;état d&#39;autorisation de l&#39;appareil pour Places Services. La valeur est stockée et utilisée dans l’état Lieux partagés.
 
 ## 4 décembre 2019
 
@@ -73,7 +89,7 @@ ht-degree: 3%
 
    * **iOS**
 
-      * Ajout d’une nouvelle API `setAuthorizationStatus`pour définir l’état d’autorisation de l’appareil pour les services Places. La valeur est stockée et utilisée dans l’état Lieux partagés.
+      * Ajouté une nouvelle API `setAuthorizationStatus`, pour définir l&#39;état d&#39;autorisation de l&#39;appareil pour Places Services. La valeur est stockée et utilisée dans l’état Lieux partagés.
 
 ## 25 novembre 2019
 
@@ -92,16 +108,16 @@ ht-degree: 3%
       * Le Moniteur reconnaît désormais le démarrage d’un périphérique Android et, si nécessaire, enregistre à nouveau les géoofences avec le système d’exploitation en fonction de l’emplacement actuel du périphérique.
       * Correction d’une condition de concurrence en raison de laquelle les événements d’entrée/sortie étaient parfois ignorés.
 
-## 9 octobre 2019
+## 9 octobre 2019
 
 * **PlacesMonitor 2.1.0**
 
    * **iOS**
 
-      * Ajout d’une nouvelle API `setRequestAuthorizationLevel`, afin de définir le type de demande d’autorisation d’emplacement pour laquelle l’utilisateur sera invité à répondre.
+      * Ajouté une nouvelle API `setRequestAuthorizationLevel`, afin de définir le type de demande d’autorisation d’emplacement pour laquelle l’utilisateur sera invité.
    * **Android**
 
-      * Ajout d’une nouvelle API `setLocationPermission`, afin de définir le type de demande d’autorisation d’emplacement pour laquelle l’utilisateur sera invité.
+      * Ajouté une nouvelle API `setLocationPermission`, afin de définir le type de demande d’autorisation d’emplacement pour laquelle l’utilisateur sera invité.
       * Le moniteur de lieux prend désormais en charge Android 10.
 
 
@@ -116,18 +132,18 @@ Voici une liste des mises à jour apportées à l’interface utilisateur Lieux 
 
 #### Nouvelles fonctionnalités
 
-* Ajout d’une nouvelle vue de liste qui affiche les points d’intérêt sans la carte.
-* Ajout d’options de filtrage des points d’intérêt pour la ville, l’état, le pays et les métadonnées.
+* Ajouté une nouvelle vue de liste qui montre les points d’intérêt sans la carte.
+* Options de filtrage POI Ajoutées pour la ville, l’état, le pays et les métadonnées.
 * La première bibliothèque d’une organisation est automatiquement créée.
-* Ajout d’un tri POI à la Vue de Liste.
+* Ajouté le tri des points d’intérêt sur la Vue de Liste.
 
 #### Mises à jour de l’interface utilisateur
 
 * Déplacement du panneau liste et détails sur le côté droit de l’interface utilisateur.
-* Ajout d’un nouveau panneau de recherche en haut de l’interface utilisateur.
+* Ajouté un nouveau panneau de recherche en haut de l’interface utilisateur.
 * Si une seule bibliothèque est présente, cette bibliothèque est automatiquement sélectionnée lors de la création d’une API.
 * Déplacement de la gestion des bibliothèques dans une fenêtre contextuelle.
-* Ajout d’un nombre de points d’intérêt en regard des filtres.
+* Ajouté un nombre de points d’intérêt en regard des filtres.
 
 ## 6 août 2019
 
@@ -171,7 +187,7 @@ Les mises à jour suivantes ont été apportées à cette version :
 
 ### Android Places 1.3.0
 
-* Ajout d’une nouvelle API qui efface toutes les données relatives aux emplacements de l’état partagé, de la mémoire in-app et de la préférence partagée.
+* Ajouté une nouvelle API qui efface toutes les données relatives aux emplacements de l’état partagé, de la mémoire in-app et de la préférence partagée.
 * Correction d’un problème en raison duquel l’état partagé n’était pas mis à jour pendant le début de l’application.
 * Correction d’un bogue en raison duquel le `getNearbyPointsOfInterest` rappel renvoyait du code d’erreur `SERVER_RESPONSE_ERROR instead of CONNECTIVITY_ERROR` sur Internet.
 * `getNearbyPointsOfInterest` L&#39;API (sans errorCallback) aura l&#39; `successCallback` appel avec une liste de point vide, en cas d&#39;erreur de récupération des points d&#39;intérêt proches.
@@ -182,7 +198,7 @@ Les mises à jour suivantes ont été apportées à cette version :
 
 **iOS Places 1.2.0**
 
-Ajout d’une nouvelle API qui efface toutes les données relatives aux emplacements de l’état partagé, de la mémoire in-app et `NSUserDefaults`.
+Ajouté une nouvelle API qui efface toutes les données relatives aux emplacements de l’état partagé, de la mémoire in-app et `NSUserDefaults`.
 
 ## 25 juin 2019
 
@@ -198,33 +214,33 @@ Les mises à jour suivantes ont été apportées à cette version :
 
 **iOS Places 1.1.0**
 
-* Ajout d’une nouvelle API pour renvoyer un code d’erreur en cas d’échec de récupération des emplacements voisins.
+* Ajouté une nouvelle API pour renvoyer un code d&#39;erreur en cas d&#39;échec de récupération des emplacements voisins.
 * Lorsque l’état de confidentialité est défini sur l’exclusion, toutes les données relatives aux emplacements sont désormais effacées du périphérique.
 * Correction d’un problème en raison duquel, après un premier lancement, les événements Places étaient parfois perdus en raison de mauvaises conditions réseau.
 * Correction d’un problème en raison duquel, lors du traitement des événements d’entrée POI en succession rapide, le remplacement de jetons via le moteur de règles référençait parfois un point d’entrée incorrect.
 
-## 30 mai 2019
+## 30 mai 2019
 
 **Android Places Monitor 1.0.1**
 
 * Correction d’un problème qui empêchait un événement d’entrée pour les points d’intérêt lorsque la surveillance Places était lancée.
 
-## 28 mai 2019
+## 28 mai 2019
 
 Correction des problèmes suivants dans l’interface utilisateur Lieux :
 
-* Mise à jour du commutateur de solutions dans les emplacements afin de l’aligner sur le reste d’Experience Cloud.
+* Mise à jour du commutateur de solutions en emplacements afin de l’aligner sur le reste de l’Experience Cloud.
 * Correction d’un problème en raison duquel le classement était enregistré dans les cas où aucun changement de classement n’était effectué.
 * Augmentation à 10 mètres du rayon minimum autorisé dans l’interface utilisateur.
 * Correction d’un problème en raison duquel, si vous supprimez tous les nombres du champ, le champ de rayon était rétabli à 20 mètres.
 
-## 17 mai 2019
+## 17 mai 2019
 
 Les mises à jour suivantes ont été apportées à cette version :
 
 **Android Places 1.2.0**
 
-* Ajout d’une nouvelle API permettant de traiter une Geofence individuelle.
+* Ajouté une nouvelle API pour traiter une Geofence individuelle.
 * Correction de bogues pour empêcher plusieurs événements d’entrée consécutifs.
 
 **Android Places Monitor 1.0.0**
@@ -235,13 +251,13 @@ Le moniteur de lieux gère les API d&#39;emplacement au niveau du système d&#39
 Pour plus d&#39;informations sur le Moniteur des lieux, cliquez ici.
 
 
-## 2 mai 2019
+## 2 mai 2019
 
 **Android Places 1.1.0**
 
 * Introduction d&#39;une nouvelle API pour getNearByPlaces, qui comporte un errorCallback et est appelée avec un errorCode qui indique la raison de l&#39;erreur.
 * L&#39;extension Places met maintenant les événements en file d&#39;attente jusqu&#39;à ce qu&#39;une configuration soit obtenue.
-* Ajout de la prise en charge des configurations tenant compte des environnements.
+* Prise en charge Ajoutée des configurations prenant en charge les environnements.
 * Correctif : correction des clés des événements d&#39;entrée/sortie de la région
 * L’Enregistrement du dernier emplacement connu respecte désormais correctement l’état de confidentialité de l’utilisateur.
 
@@ -252,7 +268,7 @@ Les mises à jour suivantes ont été apportées à cette version :
 
 **iOS Places Monitor 1.0.1**
 
-* Ajout de la couverture complète des tests unitaires.
+* Couverture d&#39;essai de l&#39;unité complète Ajoutée.
 * Intégration CI (CircleCI)
 * Intégration de la couverture du code (codecov)
 
@@ -268,7 +284,7 @@ Le moniteur de lieux gère les API d&#39;emplacement au niveau du système d&#39
 
 ### Version bêta
 
-Il s&#39;agit de la première version du service Places, un ensemble d&#39;outils qui permet aux clients d&#39;enrichir l&#39;expérience de leurs utilisateurs avec des données de localisation dans le monde réel. Pour la première version, notre principal cas d’utilisation consiste à permettre aux applications mobiles de récupérer des données d’emplacement personnalisées et d’agir sur ces données par le biais d’Adobe Experience Platform Launch.
+Il s&#39;agit de la première version du service Places, un ensemble d&#39;outils qui permet aux clients d&#39;enrichir l&#39;expérience de leurs utilisateurs avec des données de localisation dans le monde réel. Pour la première version, notre principal cas d’utilisation consiste à permettre aux applications mobiles de récupérer des données d’emplacement personnalisées et d’agir sur ces données par le biais du lancement d’Adobe Experience Platform.
 
 ### Fonctionnalités clés
 
@@ -283,7 +299,7 @@ Nous avons publié une interface utilisateur de gestion dans laquelle vous pouve
 
 #### Place l&#39;extension
 
-A l’aide de l’extension Places, vous pouvez ajouter vos bibliothèques du service Places à votre application mobile et agir sur leurs points d’accès. A l’aide du créateur de règles dans le lancement de la plate-forme d’expérience, vous pouvez déclencher des actions lorsque les utilisateurs entrent et sortent des points d’accès.
+A l’aide de l’extension Places, vous pouvez ajouter vos bibliothèques du service Places à votre application mobile et agir sur leurs points d’accès. En utilisant le créateur de règles dans l’Experience Platform Launch, vous pouvez déclencher des actions lorsque les utilisateurs entrent et sortent des points d’intérêt.
 
 Dans l&#39;extension Places :
 
@@ -309,4 +325,4 @@ Pour plus d’informations sur les API de lieux, voir API [de service](/help/web
 
 #### Intégration    Analytics
 
-L’extension Analytics est en cours de mise à jour afin d’ajouter automatiquement des données contextuelles d’emplacement de votre base de données du service Places à tous les appels Analytics sortants lorsqu’un utilisateur est dans un point d’accès (appels passifs). Cette mise à jour permet également à la création de règles de déclencher les appels de suivi Analytics directement à l’entrée ou à la sortie de l’API (appels actifs).
+L’extension Analytics est en cours de mise à jour afin d’ajouter automatiquement des données contextuelles d’emplacement de votre base de données du service Places à tous les appels Analytics sortants lorsqu’un utilisateur se trouve dans un point d’accès (appels passifs). Cette mise à jour permet également à la création de règles de déclencher les appels de suivi Analytics directement à l’entrée ou à la sortie de l’API (appels actifs).
