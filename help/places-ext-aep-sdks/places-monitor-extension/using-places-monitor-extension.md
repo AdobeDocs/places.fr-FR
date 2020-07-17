@@ -2,41 +2,52 @@
 title: Utilisation de l’extension Places Monitor
 description: Informations sur l’installation, la configuration et l’utilisation de l’extension Places Monitor.
 translation-type: tm+mt
-source-git-commit: ac1d410a676557064d5390f8392f402541754478
+source-git-commit: 7fdaace59886225b7fd9b0eba8cc6c2a139fa2d7
+workflow-type: tm+mt
+source-wordcount: '491'
+ht-degree: 8%
 
 ---
 
 
 # Utilisation de l’extension Places Monitor {#using-places-monitor-extension}
 
-Pour utiliser l’extension Places Monitor, procédez comme suit :
+Pour utiliser l&#39;extension Places Monitor, effectuez les tâches suivantes :
 
-## Installation de l’extension Places Monitor dans Experience Platform Launch
+## Installer l&#39;extension Places Monitor dans l&#39;Experience Platform Launch
 
-1. In Experience Platform Launch, click the **[!UICONTROL Extensions]**tab.
-1. Dans l’ **[!UICONTROL Catalog]**onglet, recherchez l’**[!UICONTROL Places Monitor]** extension, puis cliquez sur **Installer**.
-1. Cliquez sur **[!UICONTROL Save]**(Exécuter des tests d’Auditor).
+1. In Experience Platform Launch, click the **[!UICONTROL Extensions]** tab.
+1. Dans l’ **[!UICONTROL Catalog]** onglet, recherchez l’ **[!UICONTROL Places Monitor]** extension, puis cliquez sur **Installer**.
+1. Cliquez sur **[!UICONTROL Save]**.
 1. Suivez le processus de publication pour mettre à jour la configuration du SDK.
 
 ### Configuration de l’extension Places Monitor {#configure-places-monitor-extension}
 
-Il n’existe aucune tâche de configuration pour l’extension Places Monitor.
+Il n&#39;existe aucune tâche de configuration pour l&#39;extension du moniteur de lieux.
 
-![configuration du moniteur](/help/assets/configure_places_monitor.png)Places ‌
+![configuration du moniteur](/help/assets/configure_places_monitor.png)de lieux ‌
 
-## Ajout de l’extension Places Monitor à votre application {#add-monitor-extension-to-app}
+## Ajouter l&#39;extension Places Monitor à votre application {#add-monitor-extension-to-app}
 
-Vous devez ajouter l’extension Places Monitor à votre application Android ou iOS.
+Vous trouverez ci-dessous les instructions concernant l’ajout de l’extension Places Monitor à votre application Android ou iOS.
+
+La prise en charge des plates-formes supplémentaires pour l&#39;extension Places Monitor inclut :
+**[Moniteur des emplacements Cordova](https://github.com/adobe/cordova-acpplaces-monitor/blob/master/README.md)**
+
+**[Réagir à l&#39;écran des emplacements natifs](https://github.com/adobe/react-native-acpplaces-monitor/blob/master/README.md)**
+
+**[Écran de battage](https://github.com/adobe/flutter_acpplaces_monitor/blob/master/README.md)**
+
 
 ### Android
 
-Dans Android, procédez comme suit :
+Sous Android, procédez comme suit :
 
 #### Java
 
 1. Ajoutez l’extension Places Monitor et l’extension Places à votre projet à l’aide du fichier de nivellement de votre application.
 
-1. Incluez également les derniers services Google Location dans le fichier de classification.
+1. Incluez également les derniers services Google Location dans le fichier de classement.
 
    ```java
    implementation 'com.adobe.marketing.mobile:places:1.+'
@@ -55,8 +66,8 @@ Dans Android, procédez comme suit :
 
 Sous iOS, procédez comme suit :
 
-1. Ajoutez la bibliothèque à votre projet via votre Cocoapods `Podfile` en ajoutant `pod 'ACPPlacesMonitor'`.
-1. Importez les bibliothèques du moniteur Lieux et Lieux :
+1. Ajoutez la bibliothèque à votre projet via votre `Podfile` Cocoapods en ajoutant le `pod 'ACPPlacesMonitor'`.
+1. Importez les bibliothèques d’écran Lieux et Lieux :
 
 #### Objective-C
 
@@ -75,17 +86,17 @@ import ACPPlacesMonitor
 ```
 
 
-## Enregistrement et démarrage du moniteur de lieux {#register-start-places-monitor}
+## Enregistrement et début du moniteur des lieux {#register-start-places-monitor}
 
-Vous devez vous enregistrer et démarrer Places Monitor sous Android ou iOS.
+Vous devez enregistrer et début le moniteur de lieux sur Android ou iOS.
 
 ## Android
 
-Dans Android, procédez comme suit :
+Sous Android, procédez comme suit :
 
 ### Java
 
-Dans la `OnCreate` méthode de votre application, enregistrez les extensions du moniteur de lieux :
+Dans la `OnCreate` méthode de votre application, enregistrez les extensions du moniteur d’emplacements :
 
 ```java
 public class MobileApp extends Application {
@@ -108,11 +119,11 @@ public class MobileApp extends Application {
 
 >[!IMPORTANT]
 >
->La surveillance des lieux dépend de l’extension Places. Lorsque vous installez manuellement l’extension Surveiller les Places, veillez à ajouter également la bibliothèque `places.aar` à votre projet.
+>La surveillance des lieux dépend de l&#39;extension Places. Lorsque vous installez manuellement l’extension Surveiller les Places, veillez à ajouter également la bibliothèque `places.aar` à votre projet.
 
 ## iOS
 
-Dans les`application:didFinishLaunchingWithOptions`applications iOS, inscrivez-vous `PlacesMonitor` et emplacements avec Mobile Core :
+Dans votre application`application:didFinishLaunchingWithOptions`iOS, inscrivez-vous `PlacesMonitor` et emplacements avec Mobile Core :
 
 ### Objective-C
 
@@ -149,7 +160,7 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 
 >[!IMPORTANT]
 >
->La surveillance des lieux dépend de l’extension Places. When manually installing the Places Monitor extension, ensure that you also add the `libACPPlaces_iOS.a` library to your project.
+>La surveillance des lieux dépend de l&#39;extension Places. When manually installing the Places Monitor extension, ensure that you also add the `libACPPlaces_iOS.a` library to your project.
 
 
 ## Ajouter des autorisations au manifeste
@@ -158,7 +169,7 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 
 **Java**
 
-Pour toutes les versions d’Android, pour déclarer que votre application a besoin d’une autorisation d’emplacement, ajoutez un `<uses-permission>` élément dans le manifeste de votre application, en tant qu’enfant de l’ `<manifest>` élément de niveau supérieur. Pour les applications Android qui ciblent les API Niveau 29 et supérieur, pour permettre à l&#39;application d&#39;accéder à l&#39;emplacement en arrière-plan, incluez l&#39;autorisation ACCESS_BACKGROUND_LOCATION.
+Pour toutes les versions d&#39;Android, pour déclarer que votre application a besoin d&#39;une autorisation d&#39;emplacement, ajoutez un `<uses-permission>` élément dans le manifeste de votre application, en tant qu&#39;enfant de l&#39; `<manifest>` élément de niveau supérieur. Pour les applications Android qui utilisent l&#39;API de cible Niveau 29 et plus, pour permettre à l&#39;application d&#39;accéder à un emplacement en arrière-plan, incluez l&#39;autorisation ACCESS_BACKGROUND_LOCATION.
 
 ```java
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.adobe.placesapp">
@@ -172,18 +183,18 @@ Pour toutes les versions d’Android, pour déclarer que votre application a bes
 ```
 
 
-## Activation des mises à jour d’emplacement en arrière-plan {#enable-location-updates-background}
+## Activation des mises à jour d’emplacement en arrière-plan  {#enable-location-updates-background}
 
-iOS prend en charge la diffusion d’événements d’emplacement dans les applications qui sont suspendues ou qui ne sont plus en cours d’exécution. Pour recevoir les mises à jour de l’emplacement en arrière-plan pour l’extension du moniteur de lieux, configurez la fonctionnalité des mises à jour de l’emplacement pour votre application dans `Xcode.background-location-updates`.
+iOS prend en charge la diffusion de événements d’emplacement pour les applications suspendues ou qui ne sont plus en cours d’exécution. Pour recevoir les mises à jour de l’emplacement en arrière-plan pour l’extension Places Monitor, configurez la fonctionnalité de mises à jour de l’emplacement pour votre application dans `Xcode.background-location-updates`.
 
-![utilisation du moniteur des lieux](/help/assets/using-the-places-monitor_1.png)
+![utilisation du moniteur de lieux](/help/assets/using-the-places-monitor_1.png)
 
 ## Configuration des clés de liste
 
 Les clés suivantes doivent être incluses dans le `Info.plist` fichier de votre application :
 
-* `NSLocationWhenInUseUsageDescription` - le texte doit expliquer pourquoi l’application demande l’accès aux informations d’emplacement de l’utilisateur lors de son exécution au premier plan.
-* `NSLocationAlwaysAndWhenInUseUsageDescription` - le texte doit décrire pourquoi l’application demande en permanence l’accès aux informations d’emplacement de l’utilisateur.
+* `NSLocationWhenInUseUsageDescription` - le texte doit décrire pourquoi l’application demande l’accès aux informations d’emplacement de l’utilisateur lors de son exécution au premier plan.
+* `NSLocationAlwaysAndWhenInUseUsageDescription` - le texte doit décrire pourquoi l’application demande l’accès aux informations d’emplacement de l’utilisateur en tout temps.
 
 >[!TIP]
 >
