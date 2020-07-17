@@ -2,9 +2,9 @@
 title: Extension Places
 description: L'extension Places vous permet d'agir en fonction de l'emplacement de vos utilisateurs.
 translation-type: tm+mt
-source-git-commit: 0ac139fce666540b36a8c82fe4c05974e12e987f
+source-git-commit: a7dddb78e1e00a0bde01ea668334932759a9dae8
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: '694'
 ht-degree: 5%
 
 ---
@@ -33,11 +33,16 @@ L&#39;extension Places vous permet d&#39;agir en fonction de l&#39;emplacement d
 
 ## Ajouter l’extension Places à votre application {#add-places-to-app}
 
-Vous pouvez ajouter l’extension Places à vos applications Android et iOS. Vous trouverez ci-dessous la procédure à suivre pour ajouter des emplacements à votre application iOS ou Android. Des places sont également disponibles pour Cordova et React Native. Pour ajouter des emplacements à votre application lors du développement avec l’une de ces plateformes, consultez les liens suivants :
+Vous pouvez ajouter l’extension Places à vos applications Android et iOS. Vous trouverez ci-dessous la procédure à suivre pour ajouter des emplacements à votre application iOS ou Android. Les extensions Places sont également disponibles pour les plateformes suivantes. Pour ajouter des emplacements à votre application lors du développement avec l’une de ces plateformes, consultez les liens suivants :
 
 **[Plug-in Cordova Places](https://github.com/adobe/cordova-acpplaces/blob/master/README.md)**
 
 **[Module externe Réagir aux emplacements natifs](https://github.com/adobe/react-native-acpplaces/blob/master/README.md)**
+
+**[Plug-in Fbattement Places](https://github.com/adobe/flutter-acpplaces_monitor)**
+
+**[Module externe Places Xamarin](https://github.com/adobe/xamarin-acpcore)**
+
 
 ### Android
 
