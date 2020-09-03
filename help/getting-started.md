@@ -2,46 +2,53 @@
 title: Prise en main
 description: Prise en main du service Places.
 translation-type: tm+mt
-source-git-commit: c22efc36f2eac6b20fc555d998c3988d8c31169e
+source-git-commit: 30650c1e11a52f6bbc118d374b8ff6050b5d80ce
+workflow-type: tm+mt
+source-wordcount: '180'
+ht-degree: 3%
 
 ---
 
 
 # Prise en main {#getting-started}
 
-Voici une vidéo utile pour obtenir un aperçu des services Places :
+Voici une vidéo très utile qui présente un aperçu des services Places :
 
->[!VIDEO](https://www.youtube.com/watch?v=aV6i_ayxWCw)
+<!--
+Test of different youtube link for exl
+-->
+
+>[!VIDEO](https://youtu.be/aV6i_ayxWCw)
 
 ## Utilisation du service Places
 
-Pour utiliser le service Places, procédez comme suit :
+Pour utiliser le service Places, effectuez les tâches suivantes :
 
 ### 1. Assurez-vous que votre utilisateur est configuré pour utiliser le service Places.
 
-Le contexte du produit du service Places est disponible pour toutes les organisations Experience Cloud.
+Le contexte du produit Service Lieux est disponible pour toutes les organisations Experience Cloud.
 
-* Assurez-vous que vous êtes répertorié en tant qu’utilisateur sous les contextes de produit Places Service et Experience Platform Launch dans la Console d’administration.
+* Assurez-vous d’être répertorié en tant qu’utilisateur sous le service Lieux et les contextes de produits Experience Platform Launch dans le Admin Console.
 
-   Pour plus d’informations, voir *Ajout d’un utilisateur au service* Places et Lancement de plateforme d’expérience dans la [Foire aux questions](/help/places-gain-access.md).
+   Pour plus d’informations, voir *Ajouter un utilisateur au service* des Experience Platform Launch et des emplacements dans la section Questions [](/help/places-gain-access.md)fréquentes.
 
 
-### 2. Création de vos points d’intérêt
+### 2. Créez vos points d’intérêt
 
-Les points ciblés sont des clôtures géographiques que vous créez pour vos organisations et vous pouvez créer des points ciblés de l’une des manières suivantes :
+Les points ciblés (POI) sont des clôtures géographiques que vous créez pour vos entreprises et vous pouvez les créer de l’une des manières suivantes :
 
 * Utilisation de l’interface utilisateur du service Places.
 
-   Pour plus d’informations, voir Présentation [du service](/help/poi-mgmt-ui/poi-mgmt-ui-overview.md)Places.
+   For more information, see [Places Service overview](/help/poi-mgmt-ui/poi-mgmt-ui-overview.md).
 
 * Utilisation des API du service Web Places.
 
    Pour plus d’informations, voir API [Service](/help/web-service-api/places-web-services.md)Web.
 
 
-### 3. Configuration de l’extension Places et de l’extension Places Monitor
+### 3. Configuration de l&#39;extension Places et de l&#39;extension Places Monitor
 
-Pour plus d’informations sur la configuration de l’extension Places et de l’extension Monitor, voir les informations suivantes :
+Pour plus d&#39;informations sur la configuration de l&#39;extension Places et de l&#39;extension Monitor, consultez les informations suivantes :
 
 * [Extension Places](/help/places-ext-aep-sdks/places-extension/places-extension.md)
-* [Extension du moniteur des lieux](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md)
+* [Extension du moniteur de lieux](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md)
