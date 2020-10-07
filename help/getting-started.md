@@ -2,9 +2,9 @@
 title: Prise en main
 description: Prise en main du service Places.
 translation-type: tm+mt
-source-git-commit: 30650c1e11a52f6bbc118d374b8ff6050b5d80ce
+source-git-commit: 45a6af8396c24eda2c7e0d8966684935c45fe966
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '175'
 ht-degree: 3%
 
 ---
@@ -18,7 +18,7 @@ Voici une vidéo très utile qui présente un aperçu des services Places :
 Test of different youtube link for exl
 -->
 
->[!VIDEO](https://youtu.be/aV6i_ayxWCw)
+>[!VIDEO](https://video.tv.adobe.com/v/41647)
 
 ## Utilisation du service Places
 
