@@ -1,13 +1,13 @@
 ---
 product: Places Service
 audience: end-user
-user-guide-title: Guide du service Places
-user-guide-description: Places Service is a geo-location service that enables mobile apps with location awareness to understand the location context.
+user-guide-title: Guide de Places Service
+user-guide-description: Places Service est un service de géolocalisation qui permet aux applications mobiles dotées de géolocalisation de comprendre le contexte de la localisation.
 translation-type: tm+mt
 source-git-commit: f9215fa3871d91166ad109a0708105f79536213c
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 13%
+source-wordcount: '316'
+ht-degree: 19%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 13%
          + [permet de lire toutes les bibliothèques de votre organisation.](web-service-api/api-usage/manage-libraries/read-all-libraries-in-your-organization.md)
          + [Définir un rang sur vos bibliothèques](web-service-api/api-usage/manage-libraries/set-a-ran-on-your-libraries.md)
          + [Obtenir le classement d&#39;une bibliothèque](web-service-api/api-usage/manage-libraries/get-a-librarys-rank.md)
-      + Gestion des points ciblés{#manage-pois}
+      + Gestion des points ciblés {#manage-pois}
          + [Présentation de la gestion des points d’intérêt](web-service-api/api-usage/manage-pois/manage-pois.md)
          + [Création d’un point d’accès](web-service-api/api-usage/manage-pois/create-a-poi.md)
          + [Lire un POI](web-service-api/api-usage/manage-pois/read-a-poi.md)
@@ -74,7 +74,7 @@ ht-degree: 13%
    + Adobe Analytics {#places-adobe-analytics}
       + [Utiliser le service Places avec Adobe Analytics](use-places-with-other-solutions/places-adobe-analytics/use-places-analytics-overview.md)
       + [Envoyer les données d’entrée et de sortie du point d’accès à Analytics](use-places-with-other-solutions/places-adobe-analytics/use-places-adobe-analytics.md)
-      + [ajouter le contexte d’emplacement aux demandes Analytics](use-places-with-other-solutions/places-adobe-analytics/run-reports-aa-places-data.md)
+      + [Ajouter le contexte d’emplacement aux demandes Analytics](use-places-with-other-solutions/places-adobe-analytics/run-reports-aa-places-data.md)
       + [Rapport sur les données d’emplacement dans Analytics Workspace](use-places-with-other-solutions/places-adobe-analytics/places-in-workspace.md)
    + Adobe Mobile Services {#places-mobile-svcs-messaging}
       + [Adobe Mobile Services](use-places-with-other-solutions/places-mobile-svcs-for-messaging/use-places-mobie-svcs-messaging.md)
