@@ -2,9 +2,9 @@
 title: POI de téléchargement en masse
 description: Cette section fournit des informations sur la manière de télécharger en masse vos points d’intérêt.
 translation-type: tm+mt
-source-git-commit: 1ffc1f4237dfb872614a4bffd43d3fdaefc62fa9
+source-git-commit: 462df20bb351795dc72009cc18d390cb45e262a8
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '859'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,11 @@ Le bouton **Importer les points d’intérêt** du service Lieux permet de tél�
 
 ![Écran d&#39;importation en masse](/help/assets/Bulk-import.png)
 
-Voici une vidéo montrant le processus d&#39;importation et de modification en masse :
+Cette vidéo présente le processus d&#39;importation en masse et de modification en masse :
 
->[!VIDEO](https://www.youtube.com/watch?v=75qVtirsXhg)
+<!--I changed this embed to a link to pass validation. We should not link to youtube videos, so please upload this to MCP-->
+
+[Importation et modification en masse des points d’intérêt de service](https://www.youtube.com/watch?v=75qVtirsXhg)
 
 ## Scripts d&#39;API Python
 
@@ -93,7 +95,7 @@ Les valeurs des colonnes suivantes sont utilisées dans l’interface utilisateu
 
    * `access_code`
 
-      Il s&#39;agit de votre code d&#39;accès obtenu à partir de l&#39;appel à Adobe IMS. Pour plus d’informations sur la façon d’obtenir ce code d’accès, voir *Conditions préalables à l’accès* des utilisateurs dans Présentation de l’ [intégration et Conditions préalables](/help/web-service-api/adobe-i-o-integration.md).
+      Il s&#39;agit de votre code d&#39;accès obtenu à partir de l&#39;appel à l&#39;Adobe IMS. Pour plus d’informations sur la façon d’obtenir ce code d’accès, voir *Conditions préalables à l’accès* des utilisateurs dans Présentation de l’ [intégration et Conditions préalables](/help/web-service-api/adobe-i-o-integration.md).
 
    * `org_id`
 
@@ -101,7 +103,7 @@ Les valeurs des colonnes suivantes sont utilisées dans l’interface utilisateu
 
    * `api_key`
 
-      Il s&#39;agit de votre clé d&#39;API REST Places obtenue à partir de votre intégration des emplacements d&#39;E/S Adobe. Pour plus d’informations sur la façon d’obtenir la clé d’API, voir *Conditions préalables à l’accès* des utilisateurs dans Présentation de l’ [intégration et Conditions préalables](/help/web-service-api/adobe-i-o-integration.md).
+      Il s&#39;agit de votre clé d&#39;API REST Places obtenue à partir de votre intégration de lieux d&#39;E/S Adobe. Pour plus d’informations sur la façon d’obtenir la clé d’API, voir *Conditions préalables à l’accès* des utilisateurs dans Présentation de l’ [intégration et Conditions préalables](/help/web-service-api/adobe-i-o-integration.md).
    b. Enregistrez vos modifications.
 
 1. Dans une fenêtre de terminal, accédez au `…/places-scripts/import/` répertoire.
