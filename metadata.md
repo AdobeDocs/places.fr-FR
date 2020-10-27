@@ -1,16 +1,21 @@
 ---
 cloud: experience-cloud
 product: adobe experience platform
+solution: Experience Platform, Data Collection
+type: Documentation
 solution-title: Formation et assistance
 solution-hub-url: https://helpx.adobe.com/fr/support/experience-cloud.html
 getting-started-title: Prise en main
 getting-started-url: https://docs.adobe.com/content/help/en/places/using/getting-started.html
 tutorials-title: Tutoriels
 tutorials-url: https://experienceleague.adobe.com/#recommended/solutions/experience-platform
-git-repo: https://git.corp.adobe.com/AdobeDocs/places.en
+git-repo: https://git.corp.adobe.com/AdobeDocs/places.fr-FR
 index: true
 translation-type: tm+mt
-source-git-commit: 671f807f4ecf23271b1c66d3ac021788f1fba4f3
+source-git-commit: 0f3c43c8eb62fc620a71096c92a673bcf8407f94
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -19,18 +24,18 @@ source-git-commit: 671f807f4ecf23271b1c66d3ac021788f1fba4f3
 
 # Métadonnées pour une utilisation interne
 
-Le fichier metadata.md comprend des métadonnées de niveau référentiel qui sont transmises aux fichiers TOC.md du guide de l’utilisateur dans le référentiel. Si vous souhaitez modifier le contenu du fichier métadata.md pour un guide de l’utilisateur, faites-le dans le fichier TOC.md.
+Le fichier metadata.md comprend des métadonnées de niveau référentiel qui sont transmises aux fichiers TOC.md du guide de l’utilisateur dans le référentiel. Si vous souhaitez modifier le contenu du fichier metadata.md pour un guide de l’utilisateur, faites-le dans le fichier TOC.md.
 
 | métadonnées | utilisation |
 |--- |--- |
-| solution-title | Utilisé comme lien dans l’en-tête d’article. |
-| solution-hub-url | Ouvre la page hub helpx. |
+| solution-title | Utilisé comme lien dans l’en-tête d’article |
+| solution-hub-url | Ouvre la page hub helpx |
 | solution-icon | Affiche l’icône de la solution en regard de son titre. Pas encore mis en œuvre |
-| getting-started-title | Rarement utilisé lorsque les tutoriels ne sont pas appropriés. |
-| getting-started-url | Lien vers la page de prise en main de helpx. |
-| tutorials-title | Rarement utilisé lorsque les tutoriels ne sont pas appropriés. |
-| tutorials-url | Lien vers des tutoriels vidéo : tutoriels helpx ou KT. |
-| mini-toc-levels | Détermine le nombre de niveaux d’en-tête qui apparaissent dans le rail de droite. La valeur par défaut est 2. |
+| getting-started-title | Rarement utilisé lorsque les tutoriels ne sont pas appropriés |
+| getting-started-url | Lien vers la page de prise en main de helpx |
+| tutorials-title | Rarement utilisé lorsque les tutoriels ne sont pas appropriés |
+| tutorials-url | Lien vers des tutoriels vidéo : tutoriels helpx ou KT |
+| mini-toc-levels | Détermine le nombre de niveaux d’en-tête qui apparaissent dans le rail de droite. La valeur par défaut est 2 |
 | git-repo | https://github.com/AdobeDocs/places.en |
 | index | Définit l’index = pas pour les prélancements |
 
@@ -38,5 +43,5 @@ Dans le fichier TOC.md
 
 | métadonnées | utilisation |
 |--- |--- |
-| user-guide-title | Utilisé comme lien dans l’en-tête d’article. |
-| user-guide-url | Ouvre la page hub helpx. |
+| user-guide-title | Utilisé comme lien dans l’en-tête d’article |
+| user-guide-url | Ouvre la page hub helpx |
