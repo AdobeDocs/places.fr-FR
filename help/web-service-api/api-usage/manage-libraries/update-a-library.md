@@ -3,13 +3,16 @@ title: Mise à jour d’une bibliothèque
 description: Mettez à jour une bibliothèque à l’aide de l’API REST Places.
 translation-type: tm+mt
 source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
+workflow-type: tm+mt
+source-wordcount: '48'
+ht-degree: 6%
 
 ---
 
 
 # Mise à jour d’une bibliothèque {#update-a-library}
 
-Méthode PUT qui permet de mettre à jour une bibliothèque.
+Méthode de PUT qui vous permet de mettre à jour une bibliothèque.
 
 ## Requête
 
@@ -45,5 +48,5 @@ curl -X PUT 'https://api-places.adobe.io/places/placesapi/v1/libraries/<LIBRARYI
 
 >[!IMPORTANT]
 >
->Remplacez des variables telles que `<lIBRARYID>`, `<API KEY>`, `<TOKEN>`et `<ORGID>` par des valeurs réelles.
+>Remplacez les variables telles que `<lIBRARYID>`, `<API KEY>`, `<TOKEN>`et `<ORGID>` par des valeurs réelles.
 
