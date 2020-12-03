@@ -3,13 +3,16 @@ title: Suppression d’une bibliothèque
 description: Supprimez une bibliothèque à l’aide des API REST Places.
 translation-type: tm+mt
 source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
+workflow-type: tm+mt
+source-wordcount: '47'
+ht-degree: 6%
 
 ---
 
 
 # Suppression d’une bibliothèque {#delete-a-library}
 
-Méthode DELETE qui permet de supprimer une bibliothèque.
+Méthode de DELETE qui vous permet de supprimer une bibliothèque.
 
 ## Requête
 
