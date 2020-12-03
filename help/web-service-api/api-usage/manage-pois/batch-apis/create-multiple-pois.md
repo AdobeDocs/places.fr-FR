@@ -3,13 +3,16 @@ title: Création de plusieurs points d’intérêt
 description: Utilisez les API par lot pour créer plusieurs points d’intérêt.
 translation-type: tm+mt
 source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+workflow-type: tm+mt
+source-wordcount: '56'
+ht-degree: 5%
 
 ---
 
 
 # Création de plusieurs points d’intérêt {#create-multiple-pois}
 
-Méthode POST qui permet de créer plusieurs points d’intérêt.
+Méthode de POST qui vous permet de créer plusieurs points d’intérêt.
 
 ## Requête
 
