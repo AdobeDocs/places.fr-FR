@@ -22,7 +22,7 @@ Vous pouvez également accéder au service Lieux à partir du menu Adobe Experie
 
 Si le service Lieux n’apparaît dans aucun de ces menus, contactez un administrateur de votre organisation pour ajouter votre ID d’utilisateur au service principal Lieux dans le Admin Console.
 
-## ajouter un utilisateur au service Places et à l’Experience Platform Launch
+## Ajouter un utilisateur au service Places et à l’Experience Platform Launch
 
 Pour permettre aux utilisateurs d’accéder à l’interface utilisateur [de l’](https://launch.adobe.com)Experience Platform Launch, ils doivent être ajoutés au service principal Places dans le Admin Console en tant qu’utilisateur. Pour permettre aux utilisateurs d’accéder à l’Experience Platform Launch, de configurer les propriétés mobiles et d’utiliser des emplacements avec le kit SDK Adobe Experience Platform, ils doivent être ajoutés à l’Experience Platform Launch dans le Admin Console et recevoir les autorisations suivantes pour l’Experience Platform Launch :
 
@@ -113,7 +113,7 @@ Vous pouvez ajouter un utilisateur et/ou un développeur à votre service Places
 
 Pour ajouter un utilisateur à votre service Lieux et à vos profils Experience Platform Launch :
 
-1. ajoutez un utilisateur au profil Experience Platform Launch.
+1. Ajoutez un utilisateur au profil Experience Platform Launch.
 
    a. Dans la barre de menus, cliquez sur **[!UICONTROL Overview]**.
 
@@ -160,7 +160,7 @@ Pour ajouter un utilisateur à votre service Lieux et à vos profils Experience 
 
    f. Cliquez sur **[!UICONTROL Save]**.
 
-### ajouter un développeur
+### Ajouter un développeur
 
 Pour les utilisateurs qui doivent également accéder à l’API du service Web, vous devez les ajouter en tant que développeur.
 
