@@ -1,15 +1,18 @@
 ---
-title: Lecture d’un document d’intérêt
-description: Lisez une API REST Places à l’aide des API REST Places.
+title: Lire un POI
+description: Lisez un point d’intérêt en utilisant les API REST de lieux.
 translation-type: tm+mt
 source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
+workflow-type: tm+mt
+source-wordcount: '45'
+ht-degree: 6%
 
 ---
 
 
-# Lecture d’un document d’intérêt {#read-a-poi}
+# Lire un POI {#read-a-poi}
 
-Méthode GET qui renvoie les détails d’un point d’intérêt.
+Méthode de GET qui renvoie les détails d’une API.
 
 ## Requête
 
