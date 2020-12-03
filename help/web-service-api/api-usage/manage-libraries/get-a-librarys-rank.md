@@ -1,15 +1,18 @@
 ---
-title: Obtenir le rang d'une bibliothèque
+title: Obtenir le classement d'une bibliothèque
 description: Obtenez le classement d’une bibliothèque à l’aide de l’API REST Places.
 translation-type: tm+mt
 source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
+workflow-type: tm+mt
+source-wordcount: '41'
+ht-degree: 7%
 
 ---
 
 
-# Obtenir le rang d&#39;une bibliothèque {#get-library-rank}
+# Obtenir le classement d&#39;une bibliothèque {#get-library-rank}
 
-Méthode GET qui vous permet de classer les bibliothèques.
+Méthode de GET qui vous permet de classer les bibliothèques.
 
 ## Requête
 
