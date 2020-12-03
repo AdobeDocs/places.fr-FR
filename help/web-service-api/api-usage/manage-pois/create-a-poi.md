@@ -1,15 +1,18 @@
 ---
-title: Créer un POI
-description: Créez un point d’accès à l’aide des API REST Places.
+title: Création d’un point d’accès
+description: Créez un point d’accès à Internet en utilisant les API REST de lieux.
 translation-type: tm+mt
 source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
+workflow-type: tm+mt
+source-wordcount: '47'
+ht-degree: 6%
 
 ---
 
 
-# Créer un POI {#create-a-poi}
+# Création d’un point d’accès {#create-a-poi}
 
-Méthode POST qui vous permet de créer un point d’intérêt.
+Méthode de POST qui vous permet de créer un point d’accès (POI).
 
 ## Requête
 
