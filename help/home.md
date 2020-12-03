@@ -1,76 +1,79 @@
 ---
-title: Service Places
+title: Places Service
 description: 'Le service Places est un contexte important pour comprendre l’engagement des utilisateurs mobiles. En utilisant ce contexte, les développeurs d’applications mobiles peuvent améliorer la conception de l’application et en faire une expérience plus personnalisée et plus attrayante. '
 translation-type: tm+mt
 source-git-commit: 05b4d29aa7925f7a43e70c644e3cb88045cbe446
+workflow-type: tm+mt
+source-wordcount: '708'
+ht-degree: 10%
 
 ---
 
 
-# Service Places {#home}
+# Places Service {#home}
 
-![&quot;Service Places&quot;](/help/assets/places-service-header.png)
+![&quot;Places Service&quot;](/help/assets/places-service-header.png)
 
-L’emplacement est un contexte important pour comprendre et interagir avec les utilisateurs mobiles. En utilisant ce contexte, les développeurs d’applications mobiles peuvent améliorer la conception de l’application et en faire une expérience plus personnalisée et plus attrayante.
+La localisation est un contexte important pour comprendre et interagir avec les utilisateurs mobiles. En utilisant ce contexte, les développeurs d’applications mobiles peuvent améliorer la conception de l’application et en faire une expérience plus personnalisée et plus attrayante.
 
-Le service Places, précédemment appelé Adobe Experience Platform Location Service, est un service de géolocalisation qui permet aux applications mobiles connaissant l’emplacement de comprendre le contexte de l’emplacement en utilisant des interfaces SDK riches et faciles à utiliser, accompagnées d’une base de données flexible de points d’intérêt (POI).
+Le service Places, précédemment appelé Adobe Experience Platform Location Service, est un service de géolocalisation qui permet aux applications mobiles connaissant l&#39;emplacement de comprendre le contexte de l&#39;emplacement en utilisant des interfaces SDK riches et faciles à utiliser, accompagnées d&#39;une base de données flexible de points d&#39;intérêt (POI).
 
 Le service Places vous permet d’effectuer les opérations suivantes :
 
-* Créez et gérez une base de données des points d’intérêt pouvant être exploitée avec d’autres solutions Adobe Experience Cloud.
-* Associez des métadonnées personnalisées aux points d’intérêt pour les rendre plus riches et plus significatives en spécifiant des attributs supplémentaires.
+* Créez et gérez une base de données des points d’intérêt qui peut être exploitée avec d’autres solutions Adobe Experience Cloud.
+* Joignez des métadonnées personnalisées aux points d’intérêt afin de les rendre plus riches et plus significatives en spécifiant des attributs supplémentaires.
 * Visualisez les points d’intérêt sur une carte pour comprendre facilement le contexte spatial et ajouter/modifier des attributs de métadonnées.
-* Configurez le SDK dans Adobe Experience Platform Launch pour définir vos règles déclenchées par l’emplacement et vos conditions basées sur les métadonnées.
-* Réduisez le code que vous devez écrire pour surveiller l’emplacement d’un périphérique et utilisez l’extension Places pour déclencher automatiquement les règles spécifiques à l’emplacement.
+* Configurez le SDK en Adobe Experience Platform Launch pour définir les règles déclenchées par l’emplacement et les conditions basées sur les métadonnées.
+* Réduisez le code que vous devez écrire pour surveiller l&#39;emplacement d&#39;un périphérique et utilisez l&#39;extension Lieux pour déclencher automatiquement les règles propres à l&#39;emplacement.
 
-Cela vous permettra d&#39;agir à partir des signaux d&#39;emplacement en temps réel, quand et où cela importe. Le contexte approprié offre une expérience d’engagement mobile plus enrichissante.
+Cela vous permettra d&#39;agir à partir des signaux de localisation en temps réel, quand et où cela compte. Le contexte approprié offre une expérience d’engagement mobile plus enrichissante.
 
-Voici quelques-unes des méthodes d’utilisation de Places :
+Voici quelques-unes des façons d&#39;utiliser Places :
 
-* Envoyez une notification en temps réel quand quelqu&#39;un entre dans un point d&#39;intérêt, *&quot;Hé...bienvenue au stade.&quot;*
-* Analysez le trafic de pied de vos propres magasins par rapport à celui de vos concurrents.
+* Envoyez une notification en temps réel lorsque quelqu&#39;un entre dans un POI, *&quot;Hey...bienvenue au stade.&quot;*
+* Comparez le trafic de pied de vos propres magasins à celui de vos concurrents.
 * Segmentez une audience en fonction du comportement hors ligne en utilisant des profils d’audience avec contexte d’emplacement.
-* Ciblez un utilisateur avec une expérience en magasin, le cas échéant.
+* Cible d’un utilisateur avec une expérience en magasin, le cas échéant.
 
-## Composants du service Places
+## Place les composants Service
 
 Le service Places comprend les composants suivants :
 
 * **Service Web**
 
-   Vous pouvez créer et gérer des points d’intérêt à l’aide des API REST Places. Pour plus d’informations sur les API REST, voir [Gestion des bibliothèques](/help/web-service-api/api-usage/manage-libraries/manage-libraries.md) et [Gestion des API](/help/web-service-api/api-usage/manage-pois/manage-pois.md).
+   Vous pouvez créer et gérer des points d’intérêt à l’aide des API REST Places. Pour plus d’informations sur les API REST, voir [Gestion des bibliothèques](/help/web-service-api/api-usage/manage-libraries/manage-libraries.md) et [Gestion des POI](/help/web-service-api/api-usage/manage-pois/manage-pois.md).
 
-* **Interface de gestion des API**
+* **Interface de gestion des POI**
 
    Visualisez les points d’intérêt sur une carte pour comprendre le contexte spatial et ajouter/modifier les points d’intérêt et leurs métadonnées personnalisées.
 
 * **Extension Places**
 
-   L’interface API mobile multiplateforme pour intégrer le contexte d’emplacement dans vos applications mobiles. Pour plus d’informations sur les SDK, voir [Extension](/help/places-ext-aep-sdks/places-extension/places-extension.md)Places.
+   Interface API mobile multiplate-forme permettant d’intégrer le contexte d’emplacement dans vos applications mobiles. Pour plus d’informations sur les SDK, voir [Extension](/help/places-ext-aep-sdks/places-extension/places-extension.md)Places.
 
 * **Règles de lancement**
 
    Règles de lancement géointelligentes qui vous permettent de déclencher des actions avec des événements d’entrée et de sortie. Les règles vous permettent également d’utiliser des attributs géographiques dans des conditions pour personnaliser l’expérience.
 
-* **Extension du moniteur des lieux**
+* **Extension du moniteur de lieux**
 
-   SDK mobile multiplateforme pouvant être intégré dans votre application mobile pour surveiller automatiquement les modifications d’emplacement de l’utilisateur et déclencher des règles de lieux. Pour plus d’informations, voir [Extension](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md)du moniteur des lieux.
+   Le SDK mobile multiplate-forme qui peut être intégré dans votre application mobile pour surveiller automatiquement les modifications d’emplacement de votre utilisateur et déclencher des règles de lieux. Pour plus d’informations, voir [Extension](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md)d’écran Places.
 
 ## Terminologie
 
 Voici quelques termes courants utilisés dans cette documentation :
 
-* Un **point d’intérêt (POI)** est un lieu géographique qui intéresse votre organisation.
+* Un **point d’intérêt (POI)** est un emplacement géographique qui présente un intérêt pour votre organisation.
 
    Vous pouvez définir des points d’intérêt avec des attributs tels que le nom, le rayon, l’adresse, la catégorie et les balises de métadonnées.
 
-* Une **géofence** est un type de point d&#39;intérêt.
+* Une **géofence** est un type de point d’intérêt.
 
    Ce type d’IPE est une limite géographique virtuelle définie par les coordonnées de latitude et de longitude.
 
-* Une **balise** est un type de point d’intérêt.
+* Une **balise** est un type de point d’accès (POI).
 
-   Ce type d&#39;interface est un périphérique physique qui représente un emplacement en émettant un signal Bluetooth à faible puissance. La prise en charge des balises sera disponible dans une prochaine version.
+   Ce type de point d&#39;accès est un périphérique physique qui représente un emplacement en émettant un signal Bluetooth à faible puissance. La prise en charge des balises sera disponible dans une prochaine version.
 
 * Une **bibliothèque** est une collection de POI permettant l’association plus simple de règles à un ensemble de POI plutôt qu’à un POI unique.
 
@@ -80,7 +83,7 @@ Voici quelques termes courants utilisés dans cette documentation :
 
 * Une **organisation** est l’entité Adobe qui identifie votre société dans Adobe Experience Cloud.
 
-   En règle générale, une organisation est le nom de votre société. Cependant, une entreprise peut avoir plusieurs organisations. L’administrateur de l’organisation peut configurer des groupes et des utilisateurs et configurer la fonctionnalité de connexion unique.
+   En règle générale, une organisation est votre nom de société. Cependant, une société peut avoir plusieurs organisations. L’administrateur de l’organisation peut configurer des groupes et des utilisateurs et configurer la fonctionnalité de connexion unique.
 
 * L’**orgID** est l’identifiant représentant votre organisation dans Adobe Experience Platform.
 
@@ -88,4 +91,4 @@ Voici quelques termes courants utilisés dans cette documentation :
 
 * The **Experience Cloud ID** service provides a universal, persistent ID that identifies your visitors across all the solutions in the Experience Cloud.
 
-   For more information, see [Overview](https://docs.adobe.com/content/help/en/id-service/using/intro/overview.html).
+   Pour plus d’informations, voir [Aperçu](https://docs.adobe.com/content/help/fr-FR/id-service/using/intro/overview.html).
