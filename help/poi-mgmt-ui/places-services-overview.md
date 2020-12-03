@@ -1,8 +1,11 @@
 ---
 title: Présentation du service Places
-description: 'Cette section fournit des informations sur la création et l’utilisation des points d’intérêt (POI). '
+description: 'Cette section fournit des informations sur la création et l’utilisation de points d’intérêt (POI). '
 translation-type: tm+mt
 source-git-commit: c22efc36f2eac6b20fc555d998c3988d8c31169e
+workflow-type: tm+mt
+source-wordcount: '53'
+ht-degree: 0%
 
 ---
 
