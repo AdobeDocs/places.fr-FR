@@ -1,15 +1,18 @@
 ---
-title: Lire toutes les bibliothèques de votre entreprise
-description: Lisez toutes les bibliothèques de votre entreprise à l’aide de l’API REST Places.
+title: permet de lire toutes les bibliothèques de votre organisation.
+description: Lisez toutes les bibliothèques de votre organisation à l’aide de l’API REST Places.
 translation-type: tm+mt
 source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
+workflow-type: tm+mt
+source-wordcount: '60'
+ht-degree: 5%
 
 ---
 
 
-# Lire toutes les bibliothèques de votre entreprise {#read-all-lib-in-org}
+# permet de lire toutes les bibliothèques de votre organisation. {#read-all-lib-in-org}
 
-Méthode GET qui renvoie les détails de toutes les bibliothèques de votre organisation.
+Méthode de GET qui renvoie les détails de toutes les bibliothèques de votre organisation.
 
 ## Requête
 
