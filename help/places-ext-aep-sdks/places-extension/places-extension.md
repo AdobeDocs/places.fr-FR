@@ -14,7 +14,7 @@ ht-degree: 5%
 
 L&#39;extension Places vous permet d&#39;agir en fonction de l&#39;emplacement de vos utilisateurs. Cette extension est l&#39;interface des API du service de Requête des emplacements. En écoutant les événements qui contiennent des coordonnées GPS et des événements de région de géofence, cette extension envoie de nouveaux événements qui sont traités par le moteur de règles. L’extension Places récupère également et fournit une liste de l’API la plus proche pour les données de l’application qui sont récupérées à partir des API. Les régions renvoyées par les API sont stockées dans le cache et la persistance, ce qui permet un traitement hors ligne limité.
 
-## Installer l&#39;extension Places dans le lancement d&#39;Adobe Experience Platform
+## Installation de l’extension Places en Adobe Experience Platform Launch
 
 1. In Experience Platform Launch, click the **[!UICONTROL Extensions]** tab.
 1. Dans l’ **[!UICONTROL Catalog]** onglet, recherchez l’ **[!UICONTROL Places]** extension, puis cliquez sur **[!UICONTROL Install]**.
@@ -39,7 +39,7 @@ Vous pouvez ajouter l’extension Places à vos applications Android et iOS. Vou
 
 **[Module externe Réagir aux emplacements natifs](https://github.com/adobe/react-native-acpplaces/blob/master/README.md)**
 
-**[Plug-in Fbattement Places](https://github.com/adobe/flutter-acpplaces_monitor)**
+**[Plug-in Fbattstèles Places](https://github.com/adobe/flutter-acpplaces_monitor)**
 
 **[Module externe Places Xamarin](https://github.com/adobe/xamarin-acpcore)**
 
@@ -48,7 +48,7 @@ Vous pouvez ajouter l’extension Places à vos applications Android et iOS. Vou
 
 Pour ajouter l’extension Places à votre application à l’aide de Java :
 
-1. Ajoutez l’extension Places sur votre projet à l’aide du fichier de nivellement de votre application.
+1. Ajoutez l’extension Places à votre projet à l’aide du fichier de nivellement de votre application.
 
    ```java
    implementation 'com.adobe.marketing.mobile:places:1.+'
