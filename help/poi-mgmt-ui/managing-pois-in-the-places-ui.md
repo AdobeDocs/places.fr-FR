@@ -1,23 +1,26 @@
 ---
-title: Gestion des points d’intérêt existants
-description: Dans l’interface utilisateur du service Places, vous pouvez modifier, supprimer ou filtrer les points d’intérêt existants.
+title: Gérer les points d’intérêt existants
+description: Dans l’interface utilisateur du service Lieux, vous pouvez modifier, supprimer ou filtrer les points d’accès existants.
 translation-type: tm+mt
 source-git-commit: 5a21e734c0ef56c815389a9f08b445bedaae557a
+workflow-type: tm+mt
+source-wordcount: '398'
+ht-degree: 7%
 
 ---
 
 
-# Gestion des points d’intérêt existants {#managing-existing-pois}
+# Gérer les points d’intérêt existants {#managing-existing-pois}
 
 Les points d’accès et les bibliothèques sont créés et gérés dans la base de données Places à l’aide de l’interface utilisateur Places.
 
-## Modification d’une API
+## Modification d’un point d’intérêt
 
 1. Connectez-vous à Places à l’aide de votre Adobe ID.
 1. Connectez-vous au service Places à l’aide de votre Adobe ID.
 1. Dans le coin supérieur droit, cliquez sur l’icône qui ressemble à une liste à puces.
-1. Localisez le point d’accès à modifier.
-1. Cliquez sur **[!UICONTROL ...]**puis sélectionnez**[!UICONTROL View Details]**.
+1. Localisez le point d’accès à Internet que vous souhaitez modifier.
+1. Cliquez sur **[!UICONTROL ...]** et sélectionnez **[!UICONTROL View Details]**.
 1. Mettez à jour les informations, puis cliquez sur **[!UICONTROL Save]**.
 
 ## Suppression d’un point d’intérêt
@@ -25,14 +28,14 @@ Les points d’accès et les bibliothèques sont créés et gérés dans la base
 1. Connectez-vous à Places à l’aide de votre Adobe ID.
 1. Connectez-vous au service Places à l’aide de votre Adobe ID.
 1. Dans le coin supérieur droit, cliquez sur l’icône qui ressemble à une liste à puces.
-1. Localisez le point d’accès à supprimer.
-1. Cliquez sur **[!UICONTROL ...]**puis sélectionnez**[!UICONTROL Delete]**.
+1. Localisez le point d’accès à Internet que vous souhaitez supprimer.
+1. Cliquez sur **[!UICONTROL ...]** et sélectionnez **[!UICONTROL Delete]**.
 
 ## Filtrage des points d’intérêt par ville, état, pays ou métadonnées
 
-![filtrage d’une API](/help/assets/filter_poi.png)
+![filtrage d’un point d’accès](/help/assets/filter_poi.png)
 
-1. Connectez-vous à l’interface utilisateur du service Places à l’aide de votre Adobe ID.
+1. Connectez-vous à l’interface utilisateur du service Lieux à l’aide de votre Adobe ID.
 1. Dans le coin supérieur droit, cliquez sur l’icône de filtrage.
 1. Vous pouvez filtrer les points d’intérêt de l’une des manières suivantes :
 
@@ -42,33 +45,33 @@ Les points d’accès et les bibliothèques sont créés et gérés dans la base
 
    * Par propriété :
 
-      a. Dans la liste déroulante Propriété, sélectionnez **[!UICONTROL Country]**,**[!UICONTROL State]** ou **[!UICONTROL City]**.
+      a. Dans la liste déroulante Propriété, sélectionnez **[!UICONTROL Country]**, **[!UICONTROL State]** ou **[!UICONTROL City]**.
 
       b. Dans la ligne suivante, entrez une valeur.
 
-      Par exemple, vous pouvez sélectionner **[!UICONTROL State]**et saisir**[!UICONTROL California]**.
+      Par exemple, vous pouvez sélectionner **[!UICONTROL State]** et taper **[!UICONTROL California]**.
 
    * Avec métadonnées :
 
-      a. Entrez une clé et une valeur.
+      a. Saisissez une clé et une valeur.
 
-## Définition d’un POI de géofence
+## Définition d’une POI de géofence
 
-Les Geofences sont un type d’API et sont définies dans la base de données en fonction des clés suivantes :
+Les Geofences sont un type d’IPE et sont définies dans la base de données en fonction des clés suivantes :
 
-| Clés | Description | Obligatoire? |
+| Keys | Description | Obligatoire? |
 | :--- | :--- | :--- |
-| ID | Identifiant unique attribué à chaque point d’intérêt | Oui |
-| Nom | Nom convivial donné à la POI. | Oui |
-| Bibliothèque | Chaque point d’intérêt doit se voir attribuer une bibliothèque pour l’organisation. | Oui |
-| Rayon | Le rayon de votre point d’intérêt en mètres. | Oui |
+| Identifiant | Identificateur unique attribué à chaque point d’intérêt | Oui |
+| Nom | Nom convivial attribué à l’objet de l’enquête. | Oui |
+| Bibliothèque | Chaque point d’accès doit se voir attribuer une bibliothèque pour l’organisation. | Oui |
+| Rayon | Rayon de votre point d’intérêt en mètres. | Oui |
 | Icône | Aide à la visualisation des points d’intérêt. | Oui (valeur par défaut affectée) |
 | Couleur | Aide à la visualisation des points d’intérêt. | Oui (valeur par défaut affectée) |
-| Catégorie | Attribuez un cadre commun aux catégories communes à tous les points d’intérêt dans toutes les bibliothèques. | Non |
-| Adresse | Adresse. | Non |
-| Ville | Ville de la POI. | Non |
-| État/Région | État ou région de l&#39;IPE. | Non |
-| Pays | Pays de la zone d&#39;intérêt. | Non |
-| Latitude | Coordonnée de la latitude pour le centre du point d’intérêt. | Oui |
-| Longitude | Coordonnée de la longitude pour le centre du point d’intérêt. | Oui |
-| Métadonnées | Des paires clé/valeur personnalisées qui peuvent être attribuées aux points d’intérêt. Ces métadonnées rationalisent les flux de travaux futurs en vous permettant de regrouper les points d’intérêt entre les bibliothèques pour que chacune d’elles utilise des règles et des filtres dans les flux de travaux en aval, tels que l’envoi d’une notification Push lorsqu’une personne entre dans un point d’intérêt avec le paramètre Type = Concurrent. | Non |
+| Catégorie | Attribuez un cadre commun de catégories communes à tous les points d’intérêt dans toutes les bibliothèques. | Non |
+| Adresse | Adresse postale. | Non |
+| Ville | Ville de l&#39;IPE. | Non |
+| Etat/région | État ou région de l’IPE. | Non |
+| Pays | Pays de la période d’enquête. | Non |
+| Latitude | Coordonnée de la latitude pour le centre de l&#39;interface utilisateur. | Oui |
+| Longitude | Coordonnée de la longitude pour le centre de l’objet ciblé. | Oui |
+| Métadonnées | Des paires clé/valeur personnalisées qui peuvent être attribuées aux points d’intérêt. Ces métadonnées simplifient les futurs workflows en vous permettant de regrouper les points d’intérêt entre les bibliothèques pour que chacune d’elles utilise des règles et des filtres dans les workflows en aval, tels que l’envoi d’une notification Push lorsqu’une personne entre dans un point d’intérêt avec le Concurrent Type =. | Non |
