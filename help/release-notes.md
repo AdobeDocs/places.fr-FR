@@ -5,14 +5,14 @@ translation-type: tm+mt
 source-git-commit: 3f986697179eb9c0af1d9b54daf67793a99b8491
 workflow-type: tm+mt
 source-wordcount: '1503'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
 
 # Notes de mise à jour {#release-notes}
 
-## 8 juillet 2020
+## 8 juillet 2020
 
 * **Lieux et emplacements des extensions Moniteur**
 
@@ -21,14 +21,14 @@ ht-degree: 4%
    * Pour plus d&#39;informations, voir : [Utilisation de l&#39;extension Places](https://docs.adobe.com/content/help/fr-FR/places/using/places-ext-aep-sdks/places-extension/places-extension.html)
 
 
-## 12 mai 2020
+## 12 mai 2020
 
 * **Places Service**
 
    * Importer en bloc les points d’intérêt d’un fichier CSV à l’aide du bouton &quot;Importer les points d’intérêt&quot;
    * Sélection de plusieurs points d’intérêt et modification en masse ou ajout de valeurs de métadonnées
 
-## 6 mai 2020
+## 6 mai 2020
 
 * **PlacesMonitor 2.2.1**
 
@@ -36,7 +36,7 @@ ht-degree: 4%
 
       * Journalisation améliorée
 
-## 5 mai 2020
+## 5 mai 2020
 
 
 * **PlacesMonitor 2.1.3**
@@ -58,7 +58,7 @@ ht-degree: 4%
    * L’extension Places signale désormais les informations de version au concentrateur de événements dans le SDK principal.
    * Les informations d’adhésion à l’API du périphérique comportent désormais une durée de vie par défaut d’une heure à partir du moment où elles sont collectées. Pour plus d’informations, voir [Modification de lieux d’adhésion durée de vie](places-ext-aep-sdks/places-extension/places-extension.md#places-ttl)
 
-## 27 janvier 2020
+## 27 janvier 2020
 
 * **PlacesMonitor 2.2.0**
 
@@ -67,7 +67,7 @@ ht-degree: 4%
       * Appelez la nouvelle API Places pour collecter l’état d’autorisation de l’emplacement au lancement de l’application et lorsque l’autorisation est modifiée pendant l’exécution de l’application.
       * API setRequestLocationPermission Ajoutée et API setLocationPermission obsolète.
 
-## 9 janvier 2020
+## 9 janvier 2020
 
 * **Lieux 1.4.0**
 
@@ -135,7 +135,7 @@ Voici une liste des mises à jour apportées à l’interface utilisateur Lieux 
 * Ajouté une nouvelle vue de liste qui montre les points d’intérêt sans la carte.
 * Options de filtrage POI Ajoutées pour la ville, l’état, le pays et les métadonnées.
 * La première bibliothèque d’une organisation est automatiquement créée.
-* Ajouté le tri des points d’intérêt sur la Vue de Liste.
+* Tri POI Ajouté vers la Vue de Liste.
 
 #### Mises à jour de l’interface utilisateur
 
@@ -143,7 +143,7 @@ Voici une liste des mises à jour apportées à l’interface utilisateur Lieux 
 * Ajouté un nouveau panneau de recherche en haut de l’interface utilisateur.
 * Si une seule bibliothèque est présente, cette bibliothèque est automatiquement sélectionnée lors de la création d’une API.
 * Déplacement de la gestion des bibliothèques dans une fenêtre contextuelle.
-* Ajouté un nombre de points d’intérêt en regard des filtres.
+* Ajouté un nombre de points d’intérêt à côté des filtres.
 
 ## 6 août 2019
 
@@ -179,9 +179,9 @@ Les mises à jour suivantes ont été apportées à cette version :
 
    dans ACPPlacesMonitor, remplacez une API existante `+ (void) stop;` par`+ (void) stop: (BOOL) clearData;`.
 
-* Mise à jour de l’utilisation de l’ `getNearbyPointsOfInterest` API ACPPlaces pour gérer plus efficacement les scénarios d’erreur.
+* Mise à jour de l’utilisation de l’ `getNearbyPointsOfInterest` API ACPPlaces afin de gérer plus efficacement les scénarios d’erreur.
 
-## 22 juillet 2019
+## 22 juillet 2019
 
 Les mises à jour suivantes ont été apportées à cette version :
 
@@ -192,7 +192,7 @@ Les mises à jour suivantes ont été apportées à cette version :
 * Correction d’un bogue en raison duquel le `getNearbyPointsOfInterest` rappel renvoyait du code d’erreur `SERVER_RESPONSE_ERROR instead of CONNECTIVITY_ERROR` sur Internet.
 * `getNearbyPointsOfInterest` L&#39;API (sans errorCallback) aura l&#39; `successCallback` appel avec une liste de point vide, en cas d&#39;erreur de récupération des points d&#39;intérêt proches.
 
-## 19 juillet 2019
+## 19 juillet 2019
 
 Les mises à jour suivantes ont été apportées à cette version :
 
@@ -208,7 +208,7 @@ Les mises à jour suivantes ont été apportées à cette version :
 
 * Améliorations de la qualité de vie, notamment une meilleure documentation et une meilleure consignation en code.
 
-## 17 juin 2019
+## 17 juin 2019
 
 Les mises à jour suivantes ont été apportées à cette version :
 
@@ -262,7 +262,7 @@ Pour plus d&#39;informations sur le Moniteur des lieux, cliquez ici.
 * L’Enregistrement du dernier emplacement connu respecte désormais correctement l’état de confidentialité de l’utilisateur.
 
 
-## 9 avril 2019
+## 9 avril 2019
 
 Les mises à jour suivantes ont été apportées à cette version :
 
@@ -272,7 +272,7 @@ Les mises à jour suivantes ont été apportées à cette version :
 * Intégration CI (CircleCI)
 * Intégration de la couverture du code (codecov)
 
-## 25 mars 2019
+## 25 mars 2019
 
 iOS Places Monitor 1.0.0
 
@@ -284,9 +284,9 @@ Le moniteur de lieux gère les API d&#39;emplacement au niveau du système d&#39
 
 ### Version bêta
 
-Il s&#39;agit de la première version du service Places, un ensemble d&#39;outils qui permet aux clients d&#39;enrichir l&#39;expérience de leurs utilisateurs avec des données de localisation dans le monde réel. Pour la première version, notre principal cas d’utilisation consiste à permettre aux applications mobiles de récupérer des données d’emplacement personnalisées et d’agir sur ces données par le biais du lancement d’Adobe Experience Platform.
+Il s&#39;agit de la première version du service Places, un ensemble d&#39;outils qui permet aux clients d&#39;enrichir l&#39;expérience de leurs utilisateurs avec des données de localisation dans le monde réel. Pour la première version, notre Principale utilisation consiste à permettre aux applications mobiles de récupérer des données d’emplacement personnalisées et d’agir sur ces données via Adobe Experience Platform Launch.
 
-### Fonctionnalités clés
+### Principales fonctionnalités
 
 Voici les principales fonctionnalités de cette version :
 
@@ -304,7 +304,7 @@ A l’aide de l’extension Places, vous pouvez ajouter vos bibliothèques du se
 Dans l&#39;extension Places :
 
 * Vous pouvez choisir les bibliothèques POI à inclure dans votre application.
-* événements de règle qui se déclenchent lors de l’entrée ou de la sortie d’un point d’accès.
+* Événements de règle qui se déclenchent lors de l’entrée ou de la sortie d’un point d’accès.
 * Créez des éléments de données qui pointent vers le point d’intérêt actuel de l’utilisateur.
 
 For more information about the Places extension, see [Places extension](/help/places-ext-aep-sdks/places-extension/places-extension.md).
@@ -325,4 +325,4 @@ Pour plus d’informations sur les API de lieux, voir API [de service](/help/web
 
 #### Intégration    Analytics
 
-L’extension Analytics est en cours de mise à jour afin d’ajouter automatiquement des données contextuelles d’emplacement de votre base de données du service Places à tous les appels Analytics sortants lorsqu’un utilisateur se trouve dans un point d’accès (appels passifs). Cette mise à jour permet également à la création de règles de déclencher les appels de suivi Analytics directement à l’entrée ou à la sortie de l’API (appels actifs).
+L’extension Analytics est en cours de mise à jour afin d’ajouter automatiquement des données contextuelles d’emplacement de votre base de données du service Places à tous les appels Analytics sortants lorsqu’un utilisateur est dans un point d’accès (appels passifs). Cette mise à jour permet également à la création de règles de déclencher les appels de suivi Analytics directement à l’entrée ou à la sortie de l’API (appels Principaux).
