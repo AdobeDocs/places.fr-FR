@@ -103,7 +103,7 @@ Les valeurs des colonnes suivantes sont utilisées dans l’interface utilisateu
 
    * `api_key`
 
-      Il s&#39;agit de votre clé d&#39;API REST Places obtenue à partir de votre intégration de lieux d&#39;E/S Adobe. Pour plus d’informations sur la façon d’obtenir la clé d’API, voir *Conditions préalables à l’accès* des utilisateurs dans Présentation de l’ [intégration et Conditions préalables](/help/web-service-api/adobe-i-o-integration.md).
+      Il s’agit de votre clé d’API REST Places obtenue à partir de votre intégration Adobe I/O Places. Pour plus d’informations sur la façon d’obtenir la clé d’API, voir *Conditions préalables à l’accès* des utilisateurs dans Présentation de l’ [intégration et Conditions préalables](/help/web-service-api/adobe-i-o-integration.md).
    b. Enregistrez vos modifications.
 
 1. Dans une fenêtre de terminal, accédez au `…/places-scripts/import/` répertoire.
