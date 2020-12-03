@@ -3,6 +3,9 @@ title: Lecture d’une bibliothèque
 description: Lisez une bibliothèque à l’aide de l’API REST Places.
 translation-type: tm+mt
 source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
+workflow-type: tm+mt
+source-wordcount: '45'
+ht-degree: 6%
 
 ---
 
@@ -10,7 +13,7 @@ source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
 
 # Lecture d’une bibliothèque {#read-a-library}
 
-Méthode GET qui renvoie les détails d’une bibliothèque.
+Méthode de GET qui renvoie les détails d’une bibliothèque.
 
 ## Requête
 
