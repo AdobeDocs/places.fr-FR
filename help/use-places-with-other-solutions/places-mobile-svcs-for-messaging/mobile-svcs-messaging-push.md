@@ -1,13 +1,16 @@
 ---
-title: Notifications Push
+title: Notifications push
 description: Cette section vous explique comment utiliser le service Places avec des notifications Push.
 translation-type: tm+mt
 source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
+workflow-type: tm+mt
+source-wordcount: '228'
+ht-degree: 8%
 
 ---
 
 
-# Notifications Push
+# Notifications push
 
 Mobile Services vous permet d’envoyer des notifications Push aux segments Adobe Analytics. Dans le service Places, vous pouvez segmenter l’audience de votre message push en utilisant leurs interactions historiques avec vos points d’intérêt. Par exemple, vous pouvez envoyer un message aux utilisateurs qui se trouvent dans l’une de vos boutiques au cours des 30 derniers jours.
 
@@ -15,7 +18,7 @@ Avant de commencer, vérifiez que vous avez effectué les tâches suivantes :
 
 * Les données du service Places ont été traitées par Adobe Analytics.
 
-   Cela signifie que votre application mobile a envoyé avec succès des données du service Places dans une suite de rapports et que les données sont disponibles pour la segmentation.
+   Cela signifie que votre application mobile a envoyé avec succès des données du service Lieux dans une suite de rapports et que les données sont disponibles pour la segmentation.
 
 * Le canal de notification Push dans Mobile Services est configuré.
 
@@ -27,10 +30,10 @@ Avant de commencer, vérifiez que vous avez effectué les tâches suivantes :
 
 ## Envoyer une notification
 
-Dans l’ **[!UICONTROL Audience]**onglet du flux de travail *Créer une notification*Push, vous pouvez créer l’audience pour ce message de l’une des manières suivantes :
+Dans l’ **[!UICONTROL Audience]** onglet du processus *Créer une notification* Push, vous pouvez créer l’audience de ce message de l’une des manières suivantes :
 
-* Dans la liste **[!UICONTROL Analytics Segments]**déroulante, sélectionnez un segment Adobe Analytics créé précédemment.
+* Dans la liste **[!UICONTROL Analytics Segments]** déroulante, sélectionnez un segment Adobe Analytics créé précédemment.
 
-* Dans la **[!UICONTROL Custom Segment]**section, créez une audience à l’aide des paramètres de segment personnalisé disponibles.
+* Dans la **[!UICONTROL Custom Segment]** section, créez une audience en utilisant les paramètres de segment personnalisé disponibles.
 
 ![configuration d’un message push](/help/assets/push-set-up.png)
