@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 7fdaace59886225b7fd9b0eba8cc6c2a139fa2d7
 workflow-type: tm+mt
 source-wordcount: '491'
-ht-degree: 8%
+ht-degree: 10%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 8%
 
 Pour utiliser l&#39;extension Places Monitor, effectuez les tâches suivantes :
 
-## Installer l&#39;extension Places Monitor dans l&#39;Experience Platform Launch
+## Installez l’extension Places Monitor dans Experience Platform Launch
 
 1. In Experience Platform Launch, click the **[!UICONTROL Extensions]** tab.
 1. Dans l’ **[!UICONTROL Catalog]** onglet, recherchez l’ **[!UICONTROL Places Monitor]** extension, puis cliquez sur **Installer**.
@@ -163,7 +163,7 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 >La surveillance des lieux dépend de l&#39;extension Places. When manually installing the Places Monitor extension, ensure that you also add the `libACPPlaces_iOS.a` library to your project.
 
 
-## Ajouter des autorisations au manifeste
+## Ajouter des autorisations pour le manifeste
 
 ### Android
 
