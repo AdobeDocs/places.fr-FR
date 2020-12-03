@@ -21,7 +21,7 @@ Avant de commencer, effectuez les tâches suivantes :
 * Disposez d’une application mobile configurée avec le Adobe Experience Platform Mobile SDK, y compris l’extension [](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard)Adobe Campaign Standard.
 
 * Intégrez le SDK [](https://aep-sdks.gitbook.io/docs/getting-started/get-the-sdk) Adobe Experience Platform Mobile à votre application.
-* ajoutez l’extension [](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard) Adobe Campaign Standard à votre configuration d’application mobile.
+* Ajoutez l’extension [](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard) Adobe Campaign Standard à votre configuration d’application mobile.
 
 * [Créez un POI](/help/poi-mgmt-ui/create-a-poi-ui.md) dans l’interface de gestion du POI du service Places.
 
