@@ -1,15 +1,18 @@
 ---
-title: Mise à jour de plusieurs points d’intérêt
-description: Utilisez les API par lot pour mettre à jour plusieurs points d’intérêt.
+title: Mise à jour de plusieurs POI
+description: Utilisez les API par lot pour mettre à jour plusieurs POI.
 translation-type: tm+mt
 source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+workflow-type: tm+mt
+source-wordcount: '56'
+ht-degree: 5%
 
 ---
 
 
-# Mise à jour de plusieurs points d’intérêt {#update-multiple-pois}
+# Mise à jour de plusieurs POI {#update-multiple-pois}
 
-Méthode POST qui permet de mettre à jour plusieurs points d’intérêt.
+Méthode de POST qui vous permet de mettre à jour plusieurs points d’intérêt.
 
 ## Requête
 
