@@ -1,15 +1,18 @@
 ---
-title: Place event reference
-description: 'Liste des événements gérés par l’extension Places. '
+title: Place la référence de événement
+description: 'Liste des événements gérés par l''extension Places. '
 translation-type: tm+mt
 source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+workflow-type: tm+mt
+source-wordcount: '248'
+ht-degree: 25%
 
 ---
 
 
-# Place event reference {#places-event-reference}
+# Place la référence de événement {#places-event-reference}
 
-Voici la liste des événements gérés par l’extension Places.
+Voici une liste des événements qui sont gérés par l&#39;extension Places.
 
 ## GetCurrentPointsOfInterest
 
@@ -21,11 +24,11 @@ Voici la liste des événements gérés par l’extension Places.
 
 **Event Description (Description de l’événement)**
 
-Cet événement est une demande de récupération des points d’intérêt sur lesquels se trouve actuellement le périphérique.
+Ce événement est une demande de récupération des points d’accès sur lesquels se trouve actuellement le périphérique.
 
 **Définition de la charge utile des données**
 
-n/d
+n/a
 
 ## GetNearbyPointsOfInterest
 
@@ -37,16 +40,16 @@ n/d
 
 **Event Description (Description de l’événement)**
 
-Cet événement est une requête pour obtenir les points d’intérêt proches en prenant en compte l’emplacement actuel du périphérique et les bibliothèques Places configurées.
+Ce événement est une demande pour obtenir les points d’intérêt proches en tenant compte de l’emplacement actuel du périphérique et des bibliothèques Places configurées.
 
 **Définition de la charge utile des données**
 
 | Clé | Type de valeur | Obligatoire | Valeur par défaut | Description |
 | :--- | :--- | :--- | :--- | :--- |
-| latitude | double | true | n/d | Contient la valeur de latitude pour le centre de la recherche des points d’intérêt proches. |
-| longitude | double | true | n/d | Contient la valeur de longitude pour le centre de la recherche des points d’intérêt proches. |
-| radius | integer | false | n/d | Rayon, en mètres, utilisé par la recherche des points d&#39;intérêt proches. |
-| count | integer | false | 10 | Nombre maximal de points d’intérêt à renvoyer dans l’événement de réponse résultant. |
+| latitude | double | true | n/a | Contient la valeur de latitude pour le centre de la recherche des points d’intérêt voisins. |
+| longitude | double | true | n/a | Contient la valeur de longitude du centre de la recherche des points d’intérêt voisins. |
+| radius | entier | false | n/a | Rayon, en mètres, utilisé par la recherche des points d’intérêt proches. |
+| count | entier | false | 10 | Nombre maximal de points d’intérêt à renvoyer dans le événement de réponse résultant. |
 
 ## ProcessRegionEvent
 
@@ -58,16 +61,16 @@ Cet événement est une requête pour obtenir les points d’intérêt proches e
 
 **Event Description (Description de l’événement)**
 
-L’extension Places traite alors un événement d’entrée ou de sortie de géofence.
+Ce événement entraîne le traitement par l&#39;extension Places d&#39;un événement d&#39;entrée ou de sortie de géoofence.
 
 **Définition de la charge utile des données**
 
 | Clé | Type de valeur | Obligatoire | Description |
 | :--- | :--- | :--- | :--- |
-| régionid | string | true | ID de la région qui génère l’événement. |
-| regioneventtype | int | true | Type d’événement de région généré. 1 pour l&#39;entrée et 2 pour la sortie. |
+| régionid | chaîne | vrai | ID de la région qui génère le événement. |
+| regioneventtype | int | vrai | Type de événement de région généré. 1 pour l&#39;entrée et 2 pour la sortie. |
 
-## Evénements distribués par l’extension Places
+## Événements expédiés par l&#39;extension Places
 
 Ces informations sont actuellement en cours.
 
