@@ -10,7 +10,7 @@ ht-degree: 0%
 ---
 
 
-# Présentation de l’utilisation des API {#api-usage-overview}
+# Aperçu de l&#39;utilisation de l&#39;API {#api-usage-overview}
 
 Pour utiliser l’API REST Places pour gérer vos points d’intérêt et bibliothèques, consultez les sections suivantes :
 
