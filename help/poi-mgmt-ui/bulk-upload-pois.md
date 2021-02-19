@@ -4,15 +4,15 @@ description: Cette section fournit des informations sur la manière de télécha
 translation-type: tm+mt
 source-git-commit: 462df20bb351795dc72009cc18d390cb45e262a8
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: '861'
 ht-degree: 0%
 
 ---
 
 
-# Bulk upload of POIs {#bulk-upload-pois}
+# Chargement en masse des points d’intérêt {#bulk-upload-pois}
 
-Le bouton **Importer les points d’intérêt** du service Lieux permet de télécharger en masse les nouveaux points d’intérêt à l’aide d’un fichier CSV. Un exemple de modèle de feuille de calcul est fourni pour indiquer les colonnes de données requises et comment ajouter des métadonnées personnalisées facultatives.
+Le bouton **Importer les points d’intérêt** du service Lieux peut être utilisé pour charger en masse les nouveaux points d’intérêt à l’aide d’un fichier CSV. Un exemple de modèle de feuille de calcul est fourni pour indiquer les colonnes de données requises et comment ajouter des métadonnées personnalisées facultatives.
 
 ![Écran d&#39;importation en masse](/help/assets/Bulk-import.png)
 
@@ -24,19 +24,19 @@ Cette vidéo présente le processus d&#39;importation en masse et de modificatio
 
 ## Scripts d&#39;API Python
 
-Un ensemble de scripts Python a été créé pour simplifier l&#39;importation par lots des points d&#39;intérêt à partir d&#39;un fichier .csv dans une base de données POI à l&#39;aide des API de service Web. Ces scripts peuvent être téléchargés à partir de ce [git repo](https://github.com/adobe/places-scripts)open source.
+Un ensemble de scripts Python a été créé pour simplifier l&#39;importation par lots des points d&#39;intérêt à partir d&#39;un fichier .csv dans une base de données POI à l&#39;aide des API de service Web. Ces scripts peuvent être téléchargés à partir de ce [git repo](https://github.com/adobe/places-scripts) open source.
 
-Avant d’exécuter ces scripts, pour accéder aux API des services Web, voir *Conditions préalables à l’accès* des utilisateurs dans la section Présentation de l’ [intégration et conditions préalables](/help/web-service-api/adobe-i-o-integration.md).
+Avant d’exécuter ces scripts, pour accéder aux API de service Web, voir *Conditions préalables pour l’accès des utilisateurs* dans [Présentation de l’intégration et conditions préalables](/help/web-service-api/adobe-i-o-integration.md).
 
 Voici quelques informations sur les scripts :
 
 >[!TIP]
 >
->Ces informations sont également incluses dans un fichier lisez-moi dans le référentiel [git](https://github.com/adobe/places-scripts).
+>Ces informations sont également incluses dans un fichier lisez-moi dans le [réf. git](https://github.com/adobe/places-scripts).
 
 ## Fichier CSV
 
-Un exemple de fichier .csv `places_sample.csv`fait partie de ce package et comprend les en-têtes requis et une ligne d’exemples de données. Ces en-têtes sont tous en minuscules et correspondent aux clés de métadonnées réservées utilisées dans la base de données Places. Les colonnes que vous ajoutez au fichier .csv sont ajoutées à la base de données du point d’accès (POI) dans une section de métadonnées distincte pour chaque point d’accès (POI) en tant que paires clé/valeur et la valeur d’en-tête est utilisée comme clé.
+Un exemple de fichier .csv, `places_sample.csv`, fait partie de ce package et comprend les en-têtes requis et une ligne d’exemples de données. Ces en-têtes sont tous en minuscules et correspondent aux clés de métadonnées réservées utilisées dans la base de données Places. Les colonnes que vous ajoutez au fichier .csv sont ajoutées à la base de données du point d’accès (POI) dans une section de métadonnées distincte pour chaque point d’accès (POI) en tant que paires clé/valeur et la valeur d’en-tête est utilisée comme clé.
 
 Voici une liste des colonnes et des valeurs que vous devez utiliser :
 
@@ -66,7 +66,7 @@ Les valeurs des colonnes suivantes sont utilisées dans l’interface utilisateu
 
 * color, qui est utilisée comme couleur de la broche qui représente l’emplacement du point d’accès dans la carte d’interface utilisateur du service Places.
    * Les valeurs valides sont &quot;&quot;, #3E76D0, #AA99E8, #DC2ABA, #FC685B, #FC962E, #F6C436, #BECE5D, #61B56B, #3DC8DE et &quot;&quot;.
-   * Si la valeur n’est pas renseignée, l’interface utilisateur du service Lieux utilise le bleu comme couleur par défaut.
+   * Si la valeur n’est pas renseignée, l’interface utilisateur du service des emplacements utilise le bleu comme couleur par défaut.
 
       Les valeurs correspondent au bleu (#3E76D0), au violet (#AA99E8), au fuschia (#DC2ABA), à l’orange (#FC685B), à l’orange clair (#FC962E), au jaune (#F6C436), au vert clair (#BECE5D), au vert (#61B1B). 56B), et bleu clair (#3DC8DE), respectivement.
 
@@ -84,37 +84,37 @@ Les valeurs des colonnes suivantes sont utilisées dans l’interface utilisateu
 
 ## Exécution du script
 
-1. Téléchargez des fichiers depuis le référentiel [](https://github.com/adobe/places-scripts) git vers votre répertoire local.
-1. Dans un éditeur de texte, ouvrez le `config.py` fichier et remplissez les tâches suivantes :
+1. Téléchargez des fichiers de [git repo](https://github.com/adobe/places-scripts) vers votre répertoire local.
+1. Dans un éditeur de texte, ouvrez le fichier `config.py` et effectuez les tâches suivantes :
 
    a. Modifiez les valeurs de variable suivantes en tant que chaînes :
 
    * `csv_file_path`
 
-      Il s&#39;agit du chemin d&#39;accès à votre `.csv` fichier.
+      Il s&#39;agit du chemin d&#39;accès à votre fichier `.csv`.
 
    * `access_code`
 
-      Il s&#39;agit de votre code d&#39;accès obtenu à partir de l&#39;appel à l&#39;Adobe IMS. Pour plus d’informations sur la façon d’obtenir ce code d’accès, voir *Conditions préalables à l’accès* des utilisateurs dans Présentation de l’ [intégration et Conditions préalables](/help/web-service-api/adobe-i-o-integration.md).
+      Il s&#39;agit de votre code d&#39;accès obtenu à partir de l&#39;appel à l&#39;Adobe IMS. Pour plus d&#39;informations sur la façon d&#39;obtenir ce code d&#39;accès, voir *Conditions préalables requises pour l&#39;accès utilisateur* dans [Présentation de l&#39;intégration et conditions préalables](/help/web-service-api/adobe-i-o-integration.md).
 
    * `org_id`
 
-      orgID Experience Cloud dans lequel les points d’intérêt doivent être importés. Pour plus d’informations sur la manière d’obtenir l’ID d’organisation, voir *Conditions préalables pour l’accès* des utilisateurs dans Présentation de l’ [intégration et Conditions préalables](/help/web-service-api/adobe-i-o-integration.md).
+      orgID Experience Cloud dans lequel les points d’intérêt doivent être importés. Pour plus d’informations sur la manière d’obtenir l’ID d’organisation, voir *Conditions préalables pour l’accès utilisateur* dans [Présentation de l’intégration et conditions préalables](/help/web-service-api/adobe-i-o-integration.md).
 
    * `api_key`
 
-      Il s’agit de votre clé d’API REST Places obtenue à partir de votre intégration Adobe I/O Places. Pour plus d’informations sur la façon d’obtenir la clé d’API, voir *Conditions préalables à l’accès* des utilisateurs dans Présentation de l’ [intégration et Conditions préalables](/help/web-service-api/adobe-i-o-integration.md).
+      Il s’agit de votre clé d’API REST Places obtenue à partir de votre intégration Adobe I/O Places. Pour plus d&#39;informations sur la façon d&#39;obtenir la clé d&#39;API, voir *Conditions préalables requises pour l&#39;accès utilisateur* dans [Présentation de l&#39;intégration et conditions préalables](/help/web-service-api/adobe-i-o-integration.md).
    b. Enregistrez vos modifications.
 
-1. Dans une fenêtre de terminal, accédez au `…/places-scripts/import/` répertoire.
-1. Saisissez `python ./places_import.py` et appuyez sur la **[!UICONTROL enter]** touche (**[!UICONTROL return]**).
+1. Dans une fenêtre de terminal, accédez au répertoire `…/places-scripts/import/`.
+1. Saisissez `python ./places_import.py` et appuyez sur la touche **[!UICONTROL enter]** (**[!UICONTROL return]**).
 
 
 ## Vérifications CSV préalables à l’importation
 
 Le script effectue initialement les vérifications suivantes sur le fichier .csv :
 
-* Indique si un `.csv` fichier a été spécifié.
+* Indique si un fichier `.csv` a été spécifié.
 * Indique si le chemin d’accès au fichier est valide.
 * Précise si les en-têtes de métadonnées réservés sont inclus.
 
@@ -130,4 +130,4 @@ Si des erreurs sont détectées, le script imprime les erreurs et est abandonné
 
 ## Tests unitaires
 
-Les tests unitaires sont dans le `tests.py` fichier, doivent être exécutés avant chaque demande d&#39;extraction et doivent tous être exécutés. Des tests supplémentaires doivent être ajoutés avec un nouveau code. Pour exécuter les tests, accédez au `…/places-scripts/import/` répertoire, puis entrez `python ./places_import.py` dans le terminal.
+Les tests unitaires se trouvent dans le fichier `tests.py`, doivent être exécutés avant chaque demande d&#39;extraction et doivent tous réussir. Des tests supplémentaires doivent être ajoutés avec un nouveau code. Pour exécuter les tests, accédez au répertoire `…/places-scripts/import/`, puis saisissez `python ./places_import.py` dans le terminal.
