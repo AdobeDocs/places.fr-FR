@@ -4,13 +4,13 @@ description: Cette section fournit des informations sur la création, l’utilis
 translation-type: tm+mt
 source-git-commit: c22efc36f2eac6b20fc555d998c3988d8c31169e
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '485'
 ht-degree: 1%
 
 ---
 
 
-# Définition d’un élément de données {#define-data-elements}
+# Définir un élément de données {#define-data-elements}
 
 Les informations suivantes vous aident à comprendre les éléments de données et comment les créer et les publier.
 
@@ -30,32 +30,32 @@ L’extension Places vous permet de référencer des valeurs à partir des cible
 
 Chaque point d’intérêt contient les références de données suivantes :
 
-* **[!UICONTROL Category]**: catégorie du POI
-* **[!UICONTROL City]**: ville du POI
-* **[!UICONTROL Country]**: pays de la période d&#39;enquête
-* **[!UICONTROL Latitude]**: latitude du POI
-* **[!UICONTROL Longitude]**: longitude de l’IPE
-* **[!UICONTROL Metadata]**: métadonnées personnalisées de l’API
-* **[!UICONTROL Name]**: nom de l’API
-* **[!UICONTROL Radius]**: rayon du POI
-* **[!UICONTROL Region ID]**: ID de l’API
-* **[!UICONTROL Region/State]**: région, province ou état de l&#39;IPE
+* **[!UICONTROL Catégorie]** : catégorie du POI
+* **[!UICONTROL Ville]** : ville du POI
+* **[!UICONTROL Pays]** : pays de la période d&#39;enquête
+* **[!UICONTROL Latitude]** : latitude du POI
+* **[!UICONTROL Longitude]** : longitude de l’IPE
+* **[!UICONTROL Métadonnées]** : métadonnées personnalisées de l’API
+* **[!UICONTROL Nom]** : nom de l’API
+* **[!UICONTROL Rayon]** : rayon du POI
+* **[!UICONTROL ID]** de région : ID de l’API
+* **[!UICONTROL Région/État]** : région, province ou état de l&#39;IPE
 
-### créer un élément de données ;
+### Créer un élément de données
 
-1. Dans la page Propriétés de votre application, cliquez sur l’ **[!UICONTROL Data Elements]** onglet.
+1. Dans la page Propriété de votre application, cliquez sur l’onglet **[!UICONTROL Éléments de données]**.
 
-1. Cliquez sur **[!UICONTROL Create New Data Element]**.
+1. Cliquez sur **[!UICONTROL Créer un élément de données]**.
 
 1. Dans la liste des extensions installées, recherchez **[!UICONTROL Places]**.
 
-1. Dans la liste **[!UICONTROL Data Element Type]** déroulante, sélectionnez une référence de données pour cet élément de données.
+1. Dans la liste déroulante **[!UICONTROL Type d’élément de données]**, sélectionnez une référence de données pour cet élément de données.
 
 1. Sélectionnez une cible d’API.
 
 1. Si cet élément de données est une référence de métadonnées personnalisée, sélectionnez une clé de métadonnées.
 
-1. Saisissez le nom de l’élément de données, puis cliquez sur **[!UICONTROL Save]**.
+1. Saisissez le nom de l’élément de données, puis cliquez sur **[!UICONTROL Enregistrer]**.
 
    ![Créer un élément de données](/help/assets/create-de-7-v3.png)
 
@@ -66,8 +66,8 @@ Après la création d’un élément de données, si un sélecteur d’élément
 
 ![Utilisation de l’élément de données](/help/assets/use-de-v2.png)
 
-Si un sélecteur d’éléments de données n’est pas présent dans le composant de règle, vous pouvez utiliser l’élément de données en enveloppant le nom de l’élément de données avec les **[!UICONTROL %%]** jetons.
-Par exemple, si le nom de l’élément de données est **[!UICONTROL Last POI City]** le même, vous pouvez ajouter **[!UICONTROL LAST POI City]** une entrée de texte.
+Si un sélecteur d’éléments de données n’est pas présent dans le composant de règle, vous pouvez utiliser l’élément de données en enveloppant le nom de l’élément de données avec les jetons **[!UICONTROL %]**.
+Par exemple, si le nom de l’élément de données est **[!UICONTROL Dernière ville d’intérêt public]**, vous pouvez ajouter **[!UICONTROL DERNIÈRE ville d’intérêt public]** à une entrée de texte.
 
 
 ## Publication des éléments de données
