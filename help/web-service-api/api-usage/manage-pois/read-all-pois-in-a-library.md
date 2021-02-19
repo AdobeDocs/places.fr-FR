@@ -5,12 +5,12 @@ translation-type: tm+mt
 source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
 workflow-type: tm+mt
 source-wordcount: '54'
-ht-degree: 5%
+ht-degree: 7%
 
 ---
 
 
-# permet de lire tous les points d’intérêt d’une bibliothèque. {#read-all-pois-library}
+# Lire tous les points d’intérêt d’une bibliothèque {#read-all-pois-library}
 
 Méthode de GET qui renvoie tous les points d’intérêt dans une bibliothèque.
 
@@ -168,5 +168,5 @@ curl -X GET 'https://api-places.adobe.io/places/placesapi/v1/libraries/<LIBRARYI
 
 >[!IMPORTANT]
 >
->Remplacez &quot;&quot;, `<API KEY>`, `<TOKEN>`et `<ORGID>` par des valeurs réelles.
+>Remplacez &#39;&#39;, `<API KEY>`, `<TOKEN>` et `<ORGID>` par des valeurs réelles.
 
