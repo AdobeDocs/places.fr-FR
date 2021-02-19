@@ -15,4 +15,4 @@ ht-degree: 0%
 Les points d’accès sont créés et gérés dans la base de données du service Places à l’aide de l’interface utilisateur du service Places.
 
 * Pour créer ou modifier une bibliothèque, voir [Gestion des bibliothèques](/help/poi-mgmt-ui/manage-libraries-in-the-places-ui.md).
-* Pour créer ou modifier une API, voir [Gestion des API](/help/poi-mgmt-ui/managing-pois-in-the-places-ui.md).
+* Pour créer ou modifier un POI, voir [Gérer les POI](/help/poi-mgmt-ui/managing-pois-in-the-places-ui.md).
