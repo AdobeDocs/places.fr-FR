@@ -16,8 +16,8 @@ ht-degree: 3%
 
 * **Lieux et emplacements des extensions Moniteur**
 
-   * Des emplacements et des emplacements ont été ajoutés pour les applications [React natives.](https://aep-sdks.gitbook.io/docs/resources/upgrading-to-aep/current-sdk-versions#react-native)
-   * Des emplacements et des emplacements ont été ajoutés aux extensions du moniteur pour les applications [Cordova.](https://aep-sdks.gitbook.io/docs/resources/upgrading-to-aep/current-sdk-versions#cordova)
+   * Des emplacements et des emplacements ont été ajoutés pour [Réagir aux applications natives](https://aep-sdks.gitbook.io/docs/resources/upgrading-to-aep/current-sdk-versions#react-native)
+   * Des emplacements et des emplacements ont été ajoutés pour les [applications Cordova](https://aep-sdks.gitbook.io/docs/resources/upgrading-to-aep/current-sdk-versions#cordova)
    * Pour plus d&#39;informations, voir : [Utilisation de l&#39;extension Places](https://docs.adobe.com/content/help/fr-FR/places/using/places-ext-aep-sdks/places-extension/places-extension.html)
 
 
@@ -30,7 +30,7 @@ ht-degree: 3%
 
 ## 6 mai 2020
 
-* **PlacesMonitor 2.2.1**
+* **PlacesMonitor 2.1.1**
 
    * **Android**
 
@@ -50,15 +50,15 @@ ht-degree: 3%
 * **ACPPlaces 1.3.1 (iOS)**
 
    * L’extension Places signale désormais les informations de version au concentrateur de événements dans le SDK principal.
-   * Les informations d’adhésion à l’API du périphérique comportent désormais une durée de vie par défaut d’une heure à partir du moment où elles sont collectées. Pour plus d’informations, voir [Modification de lieux d’adhésion durée de vie](places-ext-aep-sdks/places-extension/places-extension.md#places-ttl)
+   * Les informations d’adhésion à l’API du périphérique comportent désormais une durée de vie par défaut d’une heure à partir du moment où elles sont collectées. Pour plus d’informations, voir [Modification des lieux où la durée de vie de l’abonnement](places-ext-aep-sdks/places-extension/places-extension.md#places-ttl).
 
 
 * **Lieux 1.4.1 (Android)**
 
    * L’extension Places signale désormais les informations de version au concentrateur de événements dans le SDK principal.
-   * Les informations d’adhésion à l’API du périphérique comportent désormais une durée de vie par défaut d’une heure à partir du moment où elles sont collectées. Pour plus d’informations, voir [Modification de lieux d’adhésion durée de vie](places-ext-aep-sdks/places-extension/places-extension.md#places-ttl)
+   * Les informations d’adhésion à l’API du périphérique comportent désormais une durée de vie par défaut d’une heure à partir du moment où elles sont collectées. Pour plus d’informations, voir [Modification des lieux où la durée de vie de l’abonnement](places-ext-aep-sdks/places-extension/places-extension.md#places-ttl).
 
-## 27 janvier 2020
+## 27 janvier 2020
 
 * **PlacesMonitor 2.2.0**
 
@@ -73,7 +73,7 @@ ht-degree: 3%
 
    * **Android**
 
-      * Ajouté une nouvelle API `setAuthorizationStatus`, pour définir l&#39;état d&#39;autorisation de l&#39;appareil pour Places Services. La valeur est stockée et utilisée dans l’état Lieux partagés.
+      * Ajouté une nouvelle API, `setAuthorizationStatus`, pour définir l&#39;état d&#39;autorisation du périphérique pour Places Services. La valeur est stockée et utilisée dans l’état Lieux partagés.
 
 ## 4 décembre 2019
 
@@ -83,25 +83,25 @@ ht-degree: 3%
 
       * Appelez l&#39;API Places pour collecter CLAuthorizationStatus depuis le périphérique lorsqu&#39;il change.
 
-## 3 décembre 2019
+## 3 décembre 2019
 
 * **ACPPlaces 1.3.0**
 
    * **iOS**
 
-      * Ajouté une nouvelle API `setAuthorizationStatus`, pour définir l&#39;état d&#39;autorisation de l&#39;appareil pour Places Services. La valeur est stockée et utilisée dans l’état Lieux partagés.
+      * Ajouté une nouvelle API, `setAuthorizationStatus`, pour définir l&#39;état d&#39;autorisation du périphérique pour Places Services. La valeur est stockée et utilisée dans l’état Lieux partagés.
 
 ## 25 novembre 2019
 
-* **PlacesMonitor 2.1.1**
+* **PlacesMonitor 2.2.1**
 
    * **iOS**
 
       * Correction des instructions d&#39;importation pour les projets Cocoapods à l&#39;aide de l&#39;option de plusieurs projets de capsules.
 
-## 22 novembre 2019
+## 22 novembre 2019
 
-* **PlacesMonitor 2.1.1**
+* **PlacesMonitor 2.2.1**
 
    * **Android**
 
@@ -114,10 +114,10 @@ ht-degree: 3%
 
    * **iOS**
 
-      * Ajouté une nouvelle API `setRequestAuthorizationLevel`, afin de définir le type de demande d’autorisation d’emplacement pour laquelle l’utilisateur sera invité.
+      * Ajouté une nouvelle API, `setRequestAuthorizationLevel`, pour définir le type de demande d&#39;autorisation d&#39;emplacement pour laquelle l&#39;utilisateur sera invité à répondre.
    * **Android**
 
-      * Ajouté une nouvelle API `setLocationPermission`, afin de définir le type de demande d’autorisation d’emplacement pour laquelle l’utilisateur sera invité.
+      * Ajouté une nouvelle API, `setLocationPermission`, afin de définir le type de demande d&#39;autorisation d&#39;emplacement pour laquelle l&#39;utilisateur sera invité.
       * Le moniteur de lieux prend désormais en charge Android 10.
 
 
@@ -165,9 +165,9 @@ Les mises à jour suivantes ont été apportées à cette version :
 
    Ancienne API : `public static void stop();`
 
-   New API: `public static void stop (final boolean clearData);`
+   Nouvelle API : `public static void stop (final boolean clearData);`
 
-* Mise à jour de l’utilisation de l’ `getNearbyPointsOfInterest` API pour gérer plus efficacement les scénarios d’erreur.
+* Mise à jour de l&#39;utilisation de l&#39;API `getNearbyPointsOfInterest` pour gérer plus efficacement les scénarios d&#39;erreur.
 
 ## 25 juillet 2019
 
@@ -177,9 +177,9 @@ Les mises à jour suivantes ont été apportées à cette version :
 
 * Pour effacer toutes les données Places du périphérique,
 
-   dans ACPPlacesMonitor, remplacez une API existante `+ (void) stop;` par`+ (void) stop: (BOOL) clearData;`.
+   dans ACPPlacesMonitor, remplacez une API existante `+ (void) stop;` par `+ (void) stop: (BOOL) clearData;`.
 
-* Mise à jour de l’utilisation de l’ `getNearbyPointsOfInterest` API ACPPlaces afin de gérer plus efficacement les scénarios d’erreur.
+* Mise à jour de l’utilisation de l’API ACPPlaces `getNearbyPointsOfInterest` pour gérer les scénarios d’erreur de manière plus efficace.
 
 ## 22 juillet 2019
 
@@ -189,8 +189,8 @@ Les mises à jour suivantes ont été apportées à cette version :
 
 * Ajouté une nouvelle API qui efface toutes les données relatives aux emplacements de l’état partagé, de la mémoire in-app et de la préférence partagée.
 * Correction d’un problème en raison duquel l’état partagé n’était pas mis à jour pendant le début de l’application.
-* Correction d’un bogue en raison duquel le `getNearbyPointsOfInterest` rappel renvoyait du code d’erreur `SERVER_RESPONSE_ERROR instead of CONNECTIVITY_ERROR` sur Internet.
-* `getNearbyPointsOfInterest` L&#39;API (sans errorCallback) aura l&#39; `successCallback` appel avec une liste de point vide, en cas d&#39;erreur de récupération des points d&#39;intérêt proches.
+* Correction d’un bogue en raison duquel le rappel `getNearbyPointsOfInterest` renvoyait le code d’erreur `SERVER_RESPONSE_ERROR instead of CONNECTIVITY_ERROR` sur Internet.
+* `getNearbyPointsOfInterest` L&#39;API (sans errorCallback) sera  `successCallback` appelée avec une liste de point vide, en cas d&#39;erreur lors de la récupération des points d&#39;intérêt voisins.
 
 ## 19 juillet 2019
 
@@ -278,7 +278,7 @@ iOS Places Monitor 1.0.0
 
 Version initiale du moniteur de lieux pour iOS.
 
-Le moniteur de lieux gère les API d&#39;emplacement au niveau du système d&#39;exploitation et communique directement avec l&#39;extension Places. Avec les deux extensions installées, les clients peuvent avoir une surveillance régionale prête à l&#39;emploi dans leur application. Pour plus d’informations sur le moniteur de lieux, voir [Extension](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md)du moniteur de lieux.
+Le moniteur de lieux gère les API d&#39;emplacement au niveau du système d&#39;exploitation et communique directement avec l&#39;extension Places. Avec les deux extensions installées, les clients peuvent avoir une surveillance régionale prête à l&#39;emploi dans leur application. Pour plus d&#39;informations sur le moniteur de lieux, voir [Extension du moniteur de lieux](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md).
 
 ## 28 février 2019
 
@@ -307,7 +307,7 @@ Dans l&#39;extension Places :
 * Événements de règle qui se déclenchent lors de l’entrée ou de la sortie d’un point d’accès.
 * Créez des éléments de données qui pointent vers le point d’intérêt actuel de l’utilisateur.
 
-For more information about the Places extension, see [Places extension](/help/places-ext-aep-sdks/places-extension/places-extension.md).
+Pour plus d’informations sur l’extension Places, voir [Extension Places](/help/places-ext-aep-sdks/places-extension/places-extension.md).
 
 #### Place les API
 
@@ -319,7 +319,7 @@ Vous pouvez utiliser les API Lieux pour effectuer les opérations suivantes :
 
    Vous pouvez utiliser l&#39;utilitaire Python fourni pour terminer l&#39;importation en masse.
 
-Pour plus d’informations sur les API de lieux, voir API [de service](/help/web-service-api/places-web-services.md)Web.
+Pour plus d&#39;informations sur les API Places, voir [API de service Web](/help/web-service-api/places-web-services.md).
 
 ### Bientôt disponible
 
