@@ -10,11 +10,11 @@ ht-degree: 0%
 ---
 
 
-# API de traitement par lots {#batch-apis}
+# API de lot {#batch-apis}
 
 Les API par lot vous permettent de créer, de mettre à jour ou de supprimer plusieurs points d’intérêt simultanément.
 
-Pour vous aider à effectuer une importation par lot de vos points d’intérêt à partir d’un `.csv` fichier dans la base de données Places de votre organisation, utilisez l’ensemble de scripts Python. Vous pouvez télécharger le fichier zip de ces scripts [ici](https://github.com/adobe/places-scripts). Pour savoir comment utiliser les scripts, consultez le fichier README dans le repo.
+Pour vous aider à effectuer une importation par lots de vos points d’intérêt à partir d’un fichier `.csv` dans la base de données Places de votre organisation, utilisez l’ensemble de scripts Python. Vous pouvez télécharger le fichier zip de ces scripts [ici](https://github.com/adobe/places-scripts). Pour savoir comment utiliser les scripts, consultez le fichier README dans le repo.
 
 Vous pouvez utiliser les API de traitement par lot pour exécuter les tâches suivantes :
 
