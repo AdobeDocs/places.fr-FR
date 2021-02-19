@@ -30,7 +30,7 @@ Le contexte du produit Service Lieux est disponible pour toutes les organisation
 
 * Assurez-vous d’être répertorié en tant qu’utilisateur sous le service Lieux et les contextes de produits Experience Platform Launch dans le Admin Console.
 
-   Pour plus d’informations, voir *Ajouter un utilisateur au service* des Experience Platform Launch et des emplacements dans la section Questions [](/help/places-gain-access.md)fréquentes.
+   Pour plus d&#39;informations, voir *Ajouter un utilisateur au service Experience Platform Launch et places* dans [Questions fréquentes](/help/places-gain-access.md).
 
 
 ### 2. Créez vos points d’intérêt
@@ -39,11 +39,11 @@ Les points ciblés (POI) sont des clôtures géographiques que vous créez pour 
 
 * Utilisation de l’interface utilisateur du service Places.
 
-   For more information, see [Places Service overview](/help/poi-mgmt-ui/poi-mgmt-ui-overview.md).
+   Pour plus d’informations, voir [Présentation du service Places](/help/poi-mgmt-ui/poi-mgmt-ui-overview.md).
 
 * Utilisation des API du service Web Places.
 
-   Pour plus d’informations, voir API [Service](/help/web-service-api/places-web-services.md)Web.
+   Pour plus d&#39;informations, voir [API de service Web](/help/web-service-api/places-web-services.md).
 
 
 ### 3. Configuration de l&#39;extension Places et de l&#39;extension Places Monitor
