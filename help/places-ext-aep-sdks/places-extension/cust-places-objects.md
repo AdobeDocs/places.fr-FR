@@ -9,7 +9,7 @@ ht-degree: 7%
 ---
 
 
-# Objets Lieux personnalisés {#places-objects}
+# Emplacements personnalisés, objets {#places-objects}
 
 Voici les classes natives personnalisées qui seront utilisées avec les API Places :
 
