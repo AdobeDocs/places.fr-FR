@@ -47,7 +47,7 @@ Ce événement est une demande pour obtenir les points d’intérêt proches en 
 | Clé | Type de valeur | Obligatoire | Valeur par défaut | Description |
 | :--- | :--- | :--- | :--- | :--- |
 | latitude | double | true | n/a | Contient la valeur de latitude pour le centre de la recherche des points d’intérêt voisins. |
-| longitude | double | true | n/a | Contient la valeur de longitude du centre de la recherche des points d’intérêt voisins. |
+| longitude | doublon | true | n/a | Contient la valeur de longitude du centre de la recherche des points d’intérêt voisins. |
 | radius | entier | false | n/a | Rayon, en mètres, utilisé par la recherche des points d’intérêt proches. |
 | count | entier | false | 10 | Nombre maximal de points d’intérêt à renvoyer dans le événement de réponse résultant. |
 
