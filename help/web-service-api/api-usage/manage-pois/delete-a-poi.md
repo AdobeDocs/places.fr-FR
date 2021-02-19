@@ -5,12 +5,12 @@ translation-type: tm+mt
 source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
 workflow-type: tm+mt
 source-wordcount: '44'
-ht-degree: 6%
+ht-degree: 9%
 
 ---
 
 
-# Suppression d’un point d’intérêt {#delete-a-poi}
+# Supprimer un POI {#delete-a-poi}
 
 Méthode de DELETE qui vous permet de supprimer un point d’intérêt.
 
@@ -46,5 +46,5 @@ curl -X DELETE 'https://api-places.adobe.io/places/placesapi/v1/pois/<POIID>' -H
 
 >[!IMPORTANT]
 >
->Remplacez `<POIID>`, `<API KEY>`, `<TOKEN>`et `<ORGID>` par des valeurs réelles.
+>Remplacez `<POIID>`, `<API KEY>`, `<TOKEN>` et `<ORGID>` par des valeurs réelles.
 
