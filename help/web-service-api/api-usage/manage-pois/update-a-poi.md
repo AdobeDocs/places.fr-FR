@@ -5,12 +5,12 @@ translation-type: tm+mt
 source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
 workflow-type: tm+mt
 source-wordcount: '45'
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 
 
-# Mettre à jour un point d’intérêt {#update-a-poi}
+# Mettre à jour un POI {#update-a-poi}
 
 Méthode de PUT qui vous permet de mettre à jour un point d’intérêt.
 
@@ -48,4 +48,4 @@ curl -X PUT 'https://api-places.adobe.io/places/placesapi/v1/pois/<POIID>' -H 'x
 
 >[!IMPORTANT]
 >
->Remplacez `<POIID>`, `<API KEY>`, `<TOKEN>`, `<ORGID>`et `<SINGLEPOIDATA>` par des valeurs réelles.
+>Remplacez `<POIID>`, `<API KEY>`, `<TOKEN>`, `<ORGID>` et `<SINGLEPOIDATA>` par des valeurs réelles.
