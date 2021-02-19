@@ -10,7 +10,7 @@ ht-degree: 1%
 ---
 
 
-# Présentation de l’API des services Web {#places-web-services-api}
+# Présentation de l&#39;API des services Web {#places-web-services-api}
 
 Places Service est l&#39;ensemble de services qui permet aux clients Adobes d&#39;hydrater plus facilement les solutions Adobe Cloud Platform et Adobe Experience Platform avec des données d&#39;emplacement et la bonne expérience à la bonne personne au bon moment et au bon endroit.
 
@@ -30,11 +30,11 @@ Avant d’utiliser l’API des services Web, assurez-vous que les conditions sui
 
 * Le service Places est mis en service dans votre organisation et vous disposez des droits d’accès appropriés en tant qu’utilisateur.
 
-   Pour plus d’informations, voir *Conditions requises pour l’accès* des utilisateurs dans Présentation de l’ [intégration et Conditions préalables](/help/web-service-api/adobe-i-o-integration.md).
+   Pour plus d’informations, voir *Conditions préalables requises pour l’accès utilisateur* dans [Présentation de l’intégration et conditions préalables](/help/web-service-api/adobe-i-o-integration.md).
 
 * Une fois le service Places configuré dans votre organisation et auquel vous avez accès, créez une intégration d’Adobe pour le service Places.
 
-   Pour plus d’informations, voir *Création d’une intégration* de service d’emplacements dans Présentation de l’ [intégration et conditions préalables](/help/web-service-api/adobe-i-o-integration.md).
+   Pour plus d’informations, voir *Création d’une intégration du service Places* dans [Présentation de l’intégration et conditions préalables](/help/web-service-api/adobe-i-o-integration.md).
 
 Informations supplémentaires :
 
