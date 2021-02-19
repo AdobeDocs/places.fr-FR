@@ -4,14 +4,14 @@ description: Cette section fournit des informations sur la façon d'ajouter un u
 translation-type: tm+mt
 source-git-commit: 26538602a73e806a4822705c7a3aa44d76351030
 workflow-type: tm+mt
-source-wordcount: '1079'
-ht-degree: 7%
+source-wordcount: '1160'
+ht-degree: 10%
 
 ---
 
-# Obtenir l&#39;accès au service Places {#adding-user-launch-places}
+# Accès au service Places {#adding-user-launch-places}
 
-Vous pouvez accéder au service Lieux à partir du menu d&#39;accès rapide sur la page d&#39;accueil [de](https://experience.adobe.com)Adobe Experience Cloud.
+Vous pouvez accéder au service Lieux à partir du menu Accès rapide sur [Adobe Experience Cloud home](https://experience.adobe.com).
 Si votre ID utilisateur a accès, l&#39;icône du service Lieux s&#39;affiche, comme indiqué ci-dessous :
 
 ![menu d&#39;accès rapide](/help/assets/quickaccess.png)
@@ -24,7 +24,7 @@ Si le service Lieux n’apparaît dans aucun de ces menus, contactez un administ
 
 ## Ajouter un utilisateur au service Places et à l’Experience Platform Launch
 
-Pour permettre aux utilisateurs d’accéder à l’interface utilisateur [de l’](https://launch.adobe.com)Experience Platform Launch, ils doivent être ajoutés au service principal Places dans le Admin Console en tant qu’utilisateur. Pour permettre aux utilisateurs d’accéder à l’Experience Platform Launch, de configurer les propriétés mobiles et d’utiliser des emplacements avec le kit SDK Adobe Experience Platform, ils doivent être ajoutés à l’Experience Platform Launch dans le Admin Console et recevoir les autorisations suivantes pour l’Experience Platform Launch :
+Pour permettre aux utilisateurs d’accéder à l’[interface utilisateur Experience Platform Launch](https://launch.adobe.com), ils doivent être ajoutés au service principal Places dans le Admin Console en tant qu’utilisateur. Pour permettre aux utilisateurs d’accéder à l’Experience Platform Launch, de configurer les propriétés mobiles et d’utiliser des emplacements avec le kit SDK Adobe Experience Platform, ils doivent être ajoutés à l’Experience Platform Launch dans le Admin Console et recevoir les autorisations suivantes pour l’Experience Platform Launch :
 
 * Tous les droits de propriété :
    * Développer
@@ -47,11 +47,11 @@ Si c’est la première fois que vous ajoutez un utilisateur, procédez comme su
 
    ![interrupteur à coque](/help/assets/places_shell_switcher1.png)
 
-1. Sous **[!UICONTROL Platform]** (Événements), cliquez sur **[!UICONTROL Administration]** (Ajouter).
+1. Sous **[!UICONTROL Plateforme]**, cliquez sur **[!UICONTROL Administration]**.
 
-   Si vous ne voyez pas **Administration** dans la liste, vous n’êtes pas un administrateur. Vous devez contacter l’administrateur de votre organisation pour effectuer cette procédure.
+   Si **Administration** n’apparaît pas dans la liste, vous n’êtes pas un administrateur. Vous devez contacter l’administrateur de votre organisation pour effectuer cette procédure.
 
-1. Dans la page Administration des Experience Cloud, sur la **[!UICONTROL Admin Console]** carte, cliquez sur **[!UICONTROL Take me there]**.
+1. Dans la page Administration de l’Experience Cloud, sur la carte **[!UICONTROL Admin Console]**, cliquez sur **[!UICONTROL M’y amener]**.
 
 1. Dans le Admin Console, si vous avez accès à plusieurs organisations, vérifiez que la bonne organisation est sélectionnée dans le coin supérieur droit de la page.
 
@@ -61,7 +61,7 @@ Si c’est la première fois que vous ajoutez un utilisateur, procédez comme su
    >
    >Si vous n’avez pas accès à une organisation, cela signifie que vous n’avez pas d’accès administrateur à cette organisation.
 
-1. Vérifiez que les cartes pour **[!UICONTROL Adobe Experience Platform Launch]** et **[!UICONTROL Places Core Services]** sont affichées.
+1. Vérifiez que les cartes pour **[!UICONTROL Adobe Experience Platform Launch]** et **[!UICONTROL Services principaux des Places]** s’affichent.
 
    ![](/help/assets/places_provisioned1.png)
 
@@ -72,7 +72,7 @@ Si c’est la première fois que vous ajoutez un utilisateur, procédez comme su
 
 1. Configurez un profil Experience Platform Launch qui permet aux utilisateurs qui ont été ajoutés au profil d’utiliser l’Experience Platform Launch et ses propriétés mobiles avec le SDK Experience Platform.
 
-   a. Dans la barre de menus, cliquez sur **[!UICONTROL Product]**.
+   a. Dans la barre de menus, cliquez sur **[!UICONTROL Produit]**.
 
    b. Dans le volet de gauche, dans la liste des produits, cliquez sur **[!UICONTROL Adobe Experience Platform Launch]**.
 
@@ -85,19 +85,19 @@ Si c’est la première fois que vous ajoutez un utilisateur, procédez comme su
 
    a. Cliquez sur le nom du profil par défaut.
 
-   b. Click the **[!UICONTROL Permissions]** tab.
+   b. Cliquez sur l&#39;onglet **[!UICONTROL Permissions]**.
 
-   c. Cliquez sur **[!UICONTROL Edit]** en regard de **[!UICONTROL Property Rights]**.
+   c. Cliquez sur **[!UICONTROL Modifier]** en regard de **[!UICONTROL Droits de propriété]**.
 
-   d. Dans le volet de gauche, cliquez sur **[!UICONTROL + Add all]**.
+   d. Dans le volet de gauche, cliquez sur **[!UICONTROL + Ajouter all]**.
 
    Cette étape déplace toutes les autorisations disponibles vers la liste d’autorisations incluse.
 
-   e. Cliquez sur **[!UICONTROL Company Rights]**.
+   e. Cliquez sur **[!UICONTROL Droits de la Société]**.
 
-   f. Dans le volet de gauche, cliquez sur **[!UICONTROL + Manage Properties]**.
+   f. Dans le volet de gauche, cliquez sur **[!UICONTROL + Gérer les propriétés]**.
 
-   g. Cliquez sur **[!UICONTROL Save]**.
+   g. Cliquez sur **[!UICONTROL Enregistrer]**.
 
 >[!IMPORTANT]
 >
@@ -115,50 +115,50 @@ Pour ajouter un utilisateur à votre service Lieux et à vos profils Experience 
 
 1. Ajoutez un utilisateur au profil Experience Platform Launch.
 
-   a. Dans la barre de menus, cliquez sur **[!UICONTROL Overview]**.
+   a. Dans la barre de menus, cliquez sur **[!UICONTROL Aperçu]**.
 
-   b. Sur la **[!UICONTROL Adobe Experience Platform Launch]** carte, vérifiez les éléments suivants :
+   b. Sur la carte **[!UICONTROL Adobe Experience Platform Launch]**, vérifiez les éléments suivants :
 
    * Deux points sont affichés au bas de la carte.
    * Le point à gauche est noir.
 
       Si le point à droite est noir, vous ne pouvez ajouter que des développeurs. Pour ajouter un utilisateur, cliquez sur le point à gauche.
-   c. Cliquez sur **[!UICONTROL + Add Users]**.
+   c. Cliquez sur **[!UICONTROL + Ajouter les utilisateurs]**.
 
    d. Saisissez l’Adobe ID de l’utilisateur.
 
    e. Effectuez l’une des étapes suivantes :
 
-   * Si vous ajoutez un nouvel utilisateur, cliquez sur **[!UICONTROL New user]**, puis saisissez son prénom et son nom.
+   * Si vous ajoutez un nouvel utilisateur, cliquez sur **[!UICONTROL Nouvel utilisateur]**, puis saisissez le prénom et le nom de l’utilisateur.
    * Si vous ajoutez un utilisateur existant, cliquez sur son nom.
 
-   f. Dans la liste **[!UICONTROL Please select a profile for this product]** déroulante, sélectionnez le profil que vous avez modifié précédemment.
+   f. Dans la liste déroulante **[!UICONTROL Sélectionnez un profil pour ce produit]**, sélectionnez le profil que vous avez modifié précédemment.
 
-   g. Cliquez sur **[!UICONTROL Save]**.
+   g. Cliquez sur **[!UICONTROL Enregistrer]**.
 
-1. Add a user to **[!UICONTROL Places Core Services]**.
+1. Ajoutez un utilisateur à **[!UICONTROL Place les services principaux]**.
 
    >[!TIP]
    >
    >Actuellement, tous les utilisateurs du service Lieux disposent des mêmes autorisations. Il n’est donc pas nécessaire de modifier ces autorisations.
 
-   a. Sur la **[!UICONTROL Places Core Services]** carte, vérifiez les éléments suivants :
+   a. Sur la carte **[!UICONTROL Place les services principaux]**, vérifiez les éléments suivants :
 
    * Deux points sont affichés au bas de la carte.
    * Le point à gauche est noir.
 
-   b. Cliquez sur **[!UICONTROL + Assign Users]**.
+   b. Cliquez sur **[!UICONTROL + Attribuer des utilisateurs]**.
 
    c. Saisissez l’Adobe ID de l’utilisateur.
 
    d. Effectuez l’une des étapes suivantes :
 
-   * Si vous ajoutez un nouvel utilisateur, cliquez sur **[!UICONTROL New user]**, puis saisissez son prénom et son nom.
+   * Si vous ajoutez un nouvel utilisateur, cliquez sur **[!UICONTROL Nouvel utilisateur]**, puis saisissez le prénom et le nom de l’utilisateur.
    * Si vous ajoutez un utilisateur existant, cliquez sur son nom.
 
-   e. Dans la liste **[!UICONTROL Please select a profile for this product]** déroulante, sélectionnez le profil Lieux.
+   e. Dans la liste déroulante **[!UICONTROL Sélectionnez un profil pour ce produit]**, sélectionnez le profil Lieux.
 
-   f. Cliquez sur **[!UICONTROL Save]**.
+   f. Cliquez sur **[!UICONTROL Enregistrer]**.
 
 ### Ajouter un développeur
 
@@ -166,22 +166,22 @@ Pour les utilisateurs qui doivent également accéder à l’API du service Web,
 
 Pour ajouter un développeur :
 
-1. Sur la **[!UICONTROL Places Core Services]** carte, vérifiez les éléments suivants :
+1. Sur la carte **[!UICONTROL Services principaux d’Places]**, vérifiez les éléments suivants :
 
    * Deux points sont affichés au bas de la carte.
-   * Cliquez sur le point sur la droite pour **[!UICONTROL Assign Developers]** afficher la partie inférieure de la carte.
+   * Cliquez sur le point à droite pour que **[!UICONTROL Affecter des développeurs]** s’affiche au bas de la carte.
 
-1. Cliquez sur **[!UICONTROL + Assign Developers]**.
+1. Cliquez sur **[!UICONTROL + Affecter des développeurs]**.
 
 1. Saisissez l’Adobe ID de l’utilisateur.
 
 1. Effectuez l’une des étapes suivantes :
 
-   * Si vous ajoutez un nouvel utilisateur, cliquez sur **[!UICONTROL New user]** et saisissez son prénom et son nom.
+   * Si vous ajoutez un nouvel utilisateur, cliquez sur **[!UICONTROL Nouvel utilisateur]** et saisissez son prénom et son nom.
    * Si vous ajoutez un utilisateur existant, cliquez sur son nom.
 
-1. Dans la liste **[!UICONTROL Please select a profile for this product]** déroulante, sélectionnez le profil Service Lieux.
+1. Dans la liste déroulante **[!UICONTROL Sélectionnez un profil pour ce produit]**, sélectionnez le profil Service Lieux.
 
 1. Cliquez sur **Enregistrer**.
 
-Les utilisateurs reçoivent un e-mail leur indiquant qu’ils ont accès à Experience Platform Launch. They can can log in to the [Experience Platform Launch](https://launch.adobe.com) or the [Places Service](https://places.adobe.com) UIs for this organization. Si vous effectuez l’étape 4 de la procédure **Ajouter un développeur**, l’utilisateur peut aussi se connecter à la [console Adobe I/O](https://console.adobe.io) pour créer une intégration des Places et utiliser l’API REST Places.
+Les utilisateurs reçoivent un e-mail leur indiquant qu’ils ont accès à Experience Platform Launch. Ils peuvent se connecter aux [Experience Platform Launch](https://launch.adobe.com) ou aux [interfaces utilisateur du service Places](https://places.adobe.com) pour cette organisation. Si vous effectuez l’étape 4 de la procédure **Ajouter un développeur**, l’utilisateur peut aussi se connecter à la [console Adobe I/O](https://console.adobe.io) pour créer une intégration des Places et utiliser l’API REST Places.
