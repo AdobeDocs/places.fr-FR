@@ -4,8 +4,8 @@ description: Cette section vous explique comment utiliser le service Places avec
 translation-type: tm+mt
 source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
 workflow-type: tm+mt
-source-wordcount: '660'
-ht-degree: 5%
+source-wordcount: '668'
+ht-degree: 4%
 
 ---
 
@@ -30,9 +30,9 @@ Voici une liste des types de messagerie in-app disponibles :
 * Alerte
 * Notifications locales
 
-Ces types sont des messages in-app car ils sont déclenchés par le SDK. Les notifications locales ressemblent aux notifications Push car elles s’affichent lorsque l’application est en arrière-plan. Ces notifications délivrent également des notifications en temps réel lorsque les utilisateurs entrent ou sortent de vos points d’intérêt pendant que l’application est en arrière-plan. Pour plus d’informations, voir [Extension](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md)d’écran Places.
+Ces types sont des messages in-app car ils sont déclenchés par le SDK. Les notifications locales ressemblent aux notifications Push car elles s’affichent lorsque l’application est en arrière-plan. Ces notifications délivrent également des notifications en temps réel lorsque les utilisateurs entrent ou sortent de vos points d’intérêt pendant que l’application est en arrière-plan. Pour plus d&#39;informations, voir [Place Monitor extension](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md).
 
-### Conditions préalables 
+### Conditions préalables
 
 Avant de commencer, vous devez comprendre comment envoyer et créer un message in-app dans Mobile Services et comment fonctionnent les déclencheurs. Pour plus d’informations, voir [Créer un message in-app.](https://docs.adobe.com/content/help/en/mobile-services/using/messaging-ug/inapp-messages/t-in-app-message.html)
 
@@ -54,16 +54,16 @@ Une fois la règle configurée avec les paramètres de événement et de conditi
 
 Pour créer une action :
 
-1. Sélectionnez l’extension **[!UICONTROL Adobe Analytics]**.
-1. Dans la liste **[!UICONTROL Action type]** déroulante, sélectionnez **[!UICONTROL Track.]**
+1. Sélectionnez l&#39;extension **[!UICONTROL Adobe Analytics]**.
+1. Dans la liste déroulante **[!UICONTROL Type d&#39;action]**, sélectionnez **[!UICONTROL Suivi.]**
 1. Tapez le nom de votre action.
-1. Dans le volet de droite, dans **[!UICONTROL Context Data]**, sélectionnez la paire clé-valeur pour définir les données contextuelles qui seront envoyées à Analytics.
+1. Dans le volet de droite, dans **[!UICONTROL Données contextuelles]**, sélectionnez la paire clé-valeur pour définir les données contextuelles qui seront envoyées à Analytics.
 
 Par exemple, vous pouvez sélectionner `poiname` comme clé et `{%%Last Entered POI Name}` comme valeur.
 
 >[!TIP]
 >
->Les règles de traitement d’Analytics peuvent être définies pour récupérer ces données contextuelles. Pour plus d’informations, reportez-vous à la section [Règles de traitement](https://docs.adobe.com/content/help/en/analytics/implementation/analytics-basics/ref-processing-rules.html). Dans l’exemple de *Création d’une action*, l’action envoie la `poiname` sous forme de contexte pour décrire le événement d’entrée d’API envoyé à Analytics.
+>Les règles de traitement d’Analytics peuvent être définies pour récupérer ces données contextuelles. Pour plus d’informations, reportez-vous à la section [Règles de traitement](https://docs.adobe.com/content/help/en/analytics/implementation/analytics-basics/ref-processing-rules.html). Dans l’exemple de *Création d’une action*, l’action envoie `poiname` comme contexte pour décrire le événement d’entrée POI envoyé à Analytics.
 
 ![création d’une action](/help/assets/configure-action.png)
 
@@ -80,10 +80,10 @@ Dans le cadre des paramètres Déclencheur, vous pouvez créer l’audience du m
 
    Cette option peut être utilisée avec une action spécifique à un emplacement, telle qu’une entrée, ou peut être utilisée comme contexte à un autre événement, tel qu’un lancement ou un clic de bouton.
 
-   Voici un exemple de configuration d’un message in-app afin d’accueillir les utilisateurs qui entrent une API dont le nom **[!UICONTROL Adobe]** figure dans le nom :
+   Voici un exemple de configuration d’un message in-app afin d’accueillir les utilisateurs qui entrent dans un point d’accès qui comporte **[!UICONTROL Adobe]** dans le nom :
 
    ![paramètres de déclenchement](/help/assets/trigger-parameters.png)
 
-* Les paramètres des en-têtes du service Lieux de la page *Triggers and Traits* de Mobile Services ne fonctionnent pas avec les données du service Lieux.
+* Les paramètres des en-têtes du service Emplacements de la page *Déclencheurs et traits* de Mobile Services ne fonctionnent pas avec les données du service Emplacements.
 
    Ces paramètres concernent uniquement la base de données Places Service héritée qui a été créée dans Mobile Services.
