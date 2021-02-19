@@ -10,7 +10,7 @@ ht-degree: 12%
 ---
 
 
-# Headers and parameters {#headers-and-parameters}
+# En-têtes et paramètres {#headers-and-parameters}
 
 Voici les détails concernant les en-têtes et les paramètres disponibles dans l’API REST du service Places :
 
@@ -57,5 +57,5 @@ Voici les détails concernant les en-têtes et les paramètres disponibles dans 
 | `metadata` | Tableau de paires clé/valeur pour l’API | array(string) | key: 256 caractères, valeur : 256 caractères, maximum de 10 paires | les deux, facultatif* | `"metadata": {"region": "Equator"}` |
 | `lib_id` | ID de la bibliothèque dans laquelle se trouve le point d’accès | n/a | n/a | les deux, obligatoires | `"lib_id": "ac7a0b25-c6c2-43ba-bbc6-2b1777b80fe9"` |
 
-* Si la valeur du paramètre n’est pas incluse, elle est définie sur `empty` dans la base de données. Si la paire clé/valeur existante n’est pas incluse, la paire clé/valeur est supprimée pour cette API dans la base de données.
+* Si la valeur du paramètre n&#39;est pas incluse, elle est définie sur `empty` dans la base de données. Si la paire clé/valeur existante n’est pas incluse, la paire clé/valeur est supprimée pour cette API dans la base de données.
 
