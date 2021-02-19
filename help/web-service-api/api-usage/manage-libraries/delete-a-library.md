@@ -5,12 +5,12 @@ translation-type: tm+mt
 source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
 workflow-type: tm+mt
 source-wordcount: '47'
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 
 
-# Suppression d’une bibliothèque {#delete-a-library}
+# Supprimer une bibliothèque {#delete-a-library}
 
 Méthode de DELETE qui vous permet de supprimer une bibliothèque.
 
@@ -46,5 +46,5 @@ curl -X DELETE 'https://api-places.adobe.io/places/placesapi/v1/libraries/<LIBRA
 
 >[!IMPORTANT]
 >
->Remplacez des variables telles que `<lIBRARYID>`, `<API KEY>`, `<TOKEN>`et `<ORGID>`par des valeurs réelles.
+>Remplacez des variables telles que `<lIBRARYID>`, `<API KEY>`, `<TOKEN>` et `<ORGID>`par des valeurs réelles.
 
