@@ -109,7 +109,7 @@ Voici un exemple du format JSON renvoyé avec succès :
 }
 ```
 
-Les points d’intérêt sous `places.pois` sont triés par distance entre l’appelant et le bord des points d’intérêt. Les points d’intérêt sous `places.userWithin` contiennent l’appelant, et ces points d’intérêt sont classés par rang puis par rayon croissant.
+Les points d’intérêt sous `places.pois` sont triés par distance entre l’appelant et le bord des points d’intérêt. Les points d’intérêt sous `places.userWithin` contiennent l’appelant et ces points d’intérêt sont classés par rang puis par rayon croissant.
 
 ## Exemple d’appel
 
