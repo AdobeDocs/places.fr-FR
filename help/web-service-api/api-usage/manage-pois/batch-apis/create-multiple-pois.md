@@ -5,12 +5,12 @@ translation-type: tm+mt
 source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 workflow-type: tm+mt
 source-wordcount: '56'
-ht-degree: 5%
+ht-degree: 7%
 
 ---
 
 
-# Création de plusieurs points d’intérêt {#create-multiple-pois}
+# Créer plusieurs POI {#create-multiple-pois}
 
 Méthode de POST qui vous permet de créer plusieurs points d’intérêt.
 
@@ -48,11 +48,11 @@ curl -X POST 'https://api-places.adobe.io/places/placesapi/v1/pois/batchCreate' 
 
 >[!IMPORTANT]
 >
->Remplacez `<API KEY>`, `<TOKEN>`, `<ORGID>`et `<PATHTOBATCHCREATEJSONFILE>` par des valeurs réelles.
+>Remplacez `<API KEY>`, `<TOKEN>`, `<ORGID>` et `<PATHTOBATCHCREATEJSONFILE>` par des valeurs réelles.
 
 ## Exemple de fichier JSON
 
-Voici l’exemple de fichier JSON pour l’ `batchCreate` API :
+Voici l’exemple de fichier JSON pour l’API `batchCreate` :
 
 ```text
 {    "createPOIRequests": [{            "name": "Sample POI 1",            "description": "1",            "location": {                "type": "Point",                "coordinates": [0.0, 0.0]            },            "radius": 25,            "country": "Ghana",            "state": "Ghana",            "city": "Accra",            "street": "",            "category": "cafe",            "icon": "nice",            "color": "red",            "metadata": {                "region": "Equator"            },            "lib_id" : "42b4d03c-672c-4deb-83e0-134ef070c2af"        },        {            "name": "Sample POI 2",            "description": "2",            "location": {                "type": "Point",                "coordinates": [0.025, 0.025]            },            "radius": 50,            "country": "Ghana",            "state": "Ghana",            "city": "Accra",            "street": "",            "category": "cafe",            "icon": "nice",            "color": "blue",            "metadata": {                "region": "Equator"            },            "lib_id" : "42b4d03c-672c-4deb-83e0-134ef070c2af"        },        {            "name": "Sample POI 3",            "description": "3",            "location": {                "type": "Point",                "coordinates": [0.05, 0.05]            },            "radius": 100,            "country": "Ghana",            "state": "Ghana",            "city": "Accra",            "street": "",            "category": "cafe",            "icon": "nice",            "color": "green",            "metadata": {                "region": "Equator"            },            "lib_id" : "42b4d03c-672c-4deb-83e0-134ef070c2af"        }    ]}
