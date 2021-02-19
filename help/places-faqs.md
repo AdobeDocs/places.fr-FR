@@ -16,7 +16,7 @@ Voici quelques informations et des questions fréquentes sur le service Places.
 
 ## Migration depuis trackLocation dans le SDK v4
 
-Si vous effectuez une migration depuis le SDK v4 et recherchez un remplacement de l’ `trackLocation` API, reportez-vous à la rubrique Service [Utiliser des emplacements sans surveillance](use-places-without-active-monitoring.md)Principale de région.
+Si vous effectuez une migration à partir du SDK v4 et que vous recherchez un remplacement de l’API `trackLocation`, reportez-vous à la rubrique [Utiliser le service Lieux sans surveillance de région Principale](use-places-without-active-monitoring.md).
 
 ## Taille et fiabilité
 
@@ -40,4 +40,4 @@ La surveillance d’une région géographique commence immédiatement après l�
 
 Soyez judicieux lorsque vous spécifiez l’ensemble de régions à surveiller. Les régions sont une ressource système partagée et le nombre total de régions disponibles à l&#39;échelle du système est limité. Pour cette raison, l’emplacement principal limite à 20 le nombre de régions qui peuvent être surveillées simultanément par une seule application. Pour contourner cette limite, pensez à n&#39;enregistrer que les régions situées dans le voisinage immédiat de l&#39;utilisateur.
 
-[Consultez des informations supplémentaires sur le site] des développeurs Apple (https://developer.apple.com/library/archive/documentation/UserExperience/Conceptual/LocationAwarenessPG/RegionMonitoring/RegionMonitoring.html#//apple_ref/doc/uid/TP40009497-CH9-SW11).
+[Consultez des informations supplémentaires sur le site]  des développeurs Apple (https://developer.apple.com/library/archive/documentation/UserExperience/Conceptual/LocationAwarenessPG/RegionMonitoring/RegionMonitoring.html#//apple_ref/doc/uid/TP40009497-CH9-SW11).
