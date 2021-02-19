@@ -10,7 +10,7 @@ ht-degree: 2%
 ---
 
 
-# Référence à l&#39;API d&#39;analyse des lieux {#places-api-reference}
+# Place la référence de l&#39;API Monitor {#places-api-reference}
 
 ## Enregistrer l&#39;extension du moniteur de lieux
 
@@ -30,7 +30,7 @@ public static void registerExtension();
 
 #### Exemple
 
-Appelez cette méthode dans la `onCreate` méthode où vous initialisez le reste du SDK Experience Platform.
+Appelez cette méthode dans la méthode `onCreate` où vous initialisez le reste du SDK Experience Platform.
 
 ```java
 public class MobileApp extends Application {
@@ -61,7 +61,7 @@ Voici la syntaxe de Objective-C :
 
 #### Exemple
 
-This method should be called in the `didFinishLaunchingWithOptions` delegate method of the `AppDelegate`.
+Cette méthode doit être appelée dans la méthode déléguée `didFinishLaunchingWithOptions` de `AppDelegate`.
 
 ```objective-c
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
@@ -120,7 +120,7 @@ Commencez à suivre l&#39;emplacement du périphérique et à surveiller les emp
 
 ### Début (Android)
 
-Si l’utilisateur n’a pas accordé l’autorisation d’utiliser l’emplacement du périphérique, le premier appel à l’ `start` API l’invite à l’autoriser.
+Si l&#39;utilisateur n&#39;a pas accordé l&#39;autorisation d&#39;utiliser l&#39;emplacement du périphérique, le premier appel à l&#39;API `start` invite l&#39;utilisateur à l&#39;autoriser.
 
 Voici la syntaxe et l’exemple de code de cette API :
 
@@ -142,15 +142,15 @@ PlacesMonitor.start();
 >
 >Pour commencer la surveillance, le service de localisation doit avoir l’autorisation nécessaire :
 >
->* Si l&#39;autorisation du service des emplacements n&#39;a pas été fournie à l&#39;application, le premier appel à l&#39; `start` API demande l&#39;autorisation d&#39;utiliser le service des emplacements tel que configuré pour l&#39;application.
->* Selon les capacités de votre périphérique, si l’autorisation a été fournie, le moniteur des lieux effectue le suivi de l’emplacement de l’utilisateur en fonction de l’emplacement actuellement défini `ACPPlacesMonitorMode`. Par défaut, le moniteur utilise `ACPPlacesMonitorModeSignificantChanges`.
+>* Si l&#39;autorisation du service Places n&#39;a pas été fournie à l&#39;application, le premier appel à l&#39;API `start` demande l&#39;autorisation d&#39;utiliser le service Places tel que configuré pour l&#39;application.
+>* Selon les capacités de votre périphérique, si l&#39;autorisation a été fournie, le moniteur des lieux effectue le suivi de l&#39;emplacement de l&#39;utilisateur en fonction de l&#39;emplacement actuellement défini `ACPPlacesMonitorMode`. Par défaut, le moniteur utilise `ACPPlacesMonitorModeSignificantChanges`.
 
 
 >[!CAUTION]
 >
 >Si votre appel à la surveillance des débuts est effectué avant l’initialisation du SDK, il est possible qu’il soit ignoré.
 
-Vous pouvez vous assurer que le SDK a terminé l’initialisation en appelant `start` à partir du rappel fourni à `ACPCore::start:`.
+Vous pouvez vous assurer que l’initialisation du SDK est terminée en appelant `start` à partir du rappel fourni à `ACPCore::start:`.
 
 Voici la syntaxe et l’exemple de code de cette API :
 
@@ -258,7 +258,7 @@ Cette API définit le type de demande d&#39;autorisation d&#39;emplacement pour 
 >
 >Cette API n’est efficace que pour les périphériques fonctionnant sous Android 10 et versions ultérieures.
 >
->Pour définir l&#39;invite d&#39;autorisation appropriée à afficher à l&#39;utilisateur, appelez cette API avant le `PlacesMonitor.start()`. L’appel de cette méthode, tout en surveillant activement, met à niveau le niveau d’autorisation d’emplacement vers la valeur d’autorisation demandée. Si le niveau d’autorisation demandé est déjà fourni ou refusé par l’utilisateur de l’application, ou si vous tentez de réduire l’autorisation `ALWAYS_ALLOW` à `WHILE_USING_APP`, cette méthode n’a aucun effet.
+>Pour définir l&#39;invite d&#39;autorisation appropriée à afficher à l&#39;utilisateur, appelez cette API avant le `PlacesMonitor.start()`. L’appel de cette méthode, tout en surveillant activement, met à niveau le niveau d’autorisation d’emplacement vers la valeur d’autorisation demandée. Si le niveau d&#39;autorisation demandé est déjà fourni ou refusé par l&#39;utilisateur de l&#39;application, ou si vous tentez de réduire l&#39;autorisation de `ALWAYS_ALLOW` à `WHILE_USING_APP`, cette méthode n&#39;a aucun effet.
 
 L’autorisation d’emplacement peut être définie sur l’une des valeurs suivantes :
 
@@ -282,7 +282,7 @@ L’autorisation d’emplacement peut être définie sur l’une des valeurs sui
 
 >[!IMPORTANT]
 >
->Si l’utilisateur de l’application se voit accorder l’ `WHILE_USING_APP` autorisation, les données Geofence ne seront pas enregistrées auprès du système d’exploitation. Par conséquent, l&#39;extension Surveillance des lieux ne déclenchera pas de événements d&#39;entrée/sortie sur les régions qui se trouvent en arrière-plan.
+>Si l’utilisateur de l’application se voit accorder l’autorisation `WHILE_USING_APP`, les géoinfractions ne seront pas enregistrées auprès du système d’exploitation. Par conséquent, l&#39;extension Surveillance des lieux ne déclenchera pas de événements d&#39;entrée/sortie sur les régions qui se trouvent en arrière-plan.
 
 Voici la syntaxe et l’exemple de code de cette API :
 
@@ -294,7 +294,7 @@ public static void setLocationPermission(final PlacesMonitorLocationPermission p
 
 #### Exemple
 
-Pour demander l&#39; `WHILE_USING_APP` autorisation :
+Pour demander l&#39;autorisation `WHILE_USING_APP` :
 
 ```java
 // set the location permission
@@ -303,7 +303,7 @@ PlacesMonitor.setLocationPermission(PlacesMonitorLocationPermission.WHILE_USING_
 PlacesMonitor.start()
 ```
 
-Pour mettre à niveau vers `ALWAYS_ALLOW` l&#39;autorisation :
+Pour mettre à niveau vers l&#39;autorisation `ALWAYS_ALLOW` :
 
 ```java
 // upgrade the permission level
@@ -314,23 +314,23 @@ PlacesMonitor.setLocationPermission(PlacesMonitorLocationPermission.ALWAYS_ALLOW
 
 Cette API définit le type de demande d&#39;autorisation d&#39;emplacement pour laquelle l&#39;utilisateur sera invité à répondre.
 
-Pour définir l&#39;invite d&#39;autorisation appropriée à afficher à l&#39;utilisateur, appelez `SetRequestAuthorizationLevel` avant d&#39;appeler `[ACPPlacesMonitor start]`. Pour définir l&#39;invite d&#39;autorisation appropriée à afficher à l&#39;utilisateur, appelez cette API avant le `[ACPPlacesMonitor start]`. L&#39;appel de cette méthode pendant la surveillance active mettra à niveau le niveau d&#39;autorisation de l&#39;emplacement vers la valeur d&#39;autorisation demandée. Si le niveau d&#39;autorisation demandé est déjà fourni ou refusé par l&#39;utilisateur de l&#39;application ou s&#39;il existe une dégradation de l&#39;autorisation `ACPPlacesRequestAuthorizationLevelAlways` à `ACPPlacesRequestAuthorizationLevelWhenInUse` l&#39;autorisation, cette méthode n&#39;a aucun effet.
+Pour définir l&#39;invite d&#39;autorisation appropriée à afficher à l&#39;utilisateur, appelez `SetRequestAuthorizationLevel` avant d&#39;appeler `[ACPPlacesMonitor start]`. Pour définir l&#39;invite d&#39;autorisation appropriée à afficher à l&#39;utilisateur, appelez cette API avant le `[ACPPlacesMonitor start]`. L&#39;appel de cette méthode pendant la surveillance active mettra à niveau le niveau d&#39;autorisation de l&#39;emplacement vers la valeur d&#39;autorisation demandée. Si le niveau d&#39;autorisation demandé est déjà fourni ou refusé par l&#39;utilisateur de l&#39;application ou s&#39;il existe une dégradation de l&#39;autorisation de `ACPPlacesRequestAuthorizationLevelAlways` à `ACPPlacesRequestAuthorizationLevelWhenInUse`, cette méthode n&#39;a aucun effet.
 
 Le niveau d’autorisation peut être défini sur l’une des valeurs suivantes :
 
 * `ACPPlacesRequestAuthorizationLevelWhenInUse`
 
-   Demande à l’utilisateur l’autorisation d’utiliser le service Places pendant que l’application est en cours d’utilisation. L’invite utilisateur contient le texte de la `NSLocationWhenInUseUsageDescription` clé dans votre fichier Info.plist d’application, et la présence de cette clé est requise lors de l’appel de cette méthode. Pour plus d’informations, consultez la documentation [Apple sur requestWhenInUseAuthorization](https://developer.apple.com/documentation/corelocation/cllocationmanager/1620562-requestwheninuseauthorization).
+   Demande à l’utilisateur l’autorisation d’utiliser le service Places pendant que l’application est en cours d’utilisation. L’invite utilisateur contient le texte de la clé `NSLocationWhenInUseUsageDescription` dans votre fichier Info.plist d’application et la présence de cette clé est requise lors de l’appel de cette méthode. Pour plus d&#39;informations, consultez la [documentation Apple sur requestWhenInUseAuthorization](https://developer.apple.com/documentation/corelocation/cllocationmanager/1620562-requestwheninuseauthorization).
 
 * `ACPPlacesRequestMonitorAuthorizationLevelAlways`
 
-   Utilisez cet énumération pour demander Places Service même si l’application est en arrière-plan. Vous devez disposer des clés `NSLocationAlwaysUsageDescription` et `NSLocationWhenInUseUsageDescription` clés dans Info.plist de votre application. Ces clés définissent le texte qui apparaîtra à l’invite de l’utilisateur. Pour plus d’informations, consultez la documentation [Apple sur requestAlwaysAuthorization](https://developer.apple.com/documentation/corelocation/cllocationmanager/1620551-requestalwaysauthorization).
+   Utilisez cet énumération pour demander Places Service même si l’application est en arrière-plan. Vous devez disposer des clés `NSLocationAlwaysUsageDescription` et `NSLocationWhenInUseUsageDescription` dans la liste Info.plist de votre application. Ces clés définissent le texte qui apparaîtra à l’invite de l’utilisateur. Pour plus d’informations, consultez la [documentation Apple sur requestAlwaysAuthorization](https://developer.apple.com/documentation/corelocation/cllocationmanager/1620551-requestalwaysauthorization).
 
 `ACPPlacesRequestAuthorizationLevelAlways` est la valeur d’autorisation de requête par défaut.
 
 >[!IMPORTANT]
 >
->L&#39;application qui a autorisé l&#39;utilisation de l&#39; `ACPPlacesRequestAuthorizationLevelWhenInUse` autorisation ne déclenchera pas de événements d&#39;entrée/sortie dans les régions qui se trouvent en arrière-plan.
+>L&#39;application qui a autorisé l&#39;utilisation de l&#39;autorisation `ACPPlacesRequestAuthorizationLevelWhenInUse` ne déclenchera pas de événements d&#39;entrée/sortie dans les régions qui se trouvent en arrière-plan.
 
 Voici la syntaxe et l’exemple de code de cette API :
 
@@ -342,7 +342,7 @@ Voici la syntaxe et l’exemple de code de cette API :
 
 #### Exemple
 
-Pour demander l&#39; `ACPPlacesRequestAuthorizationLevelWhenInUse` autorisation :
+Pour demander l&#39;autorisation `ACPPlacesRequestAuthorizationLevelWhenInUse` :
 
 ```objective-c
 // set the request authorization level
@@ -351,7 +351,7 @@ Pour demander l&#39; `ACPPlacesRequestAuthorizationLevelWhenInUse` autorisation 
 [ACPPlacesMonitor start];
 ```
 
-Pour mettre à niveau vers `ACPPlacesRequestAuthorizationLevelAlways` l&#39;autorisation :
+Pour mettre à niveau l&#39;autorisation `ACPPlacesRequestAuthorizationLevelAlways` :
 
 ```objective-c
 // set the request authorization level
@@ -364,11 +364,11 @@ La surveillance peut être définie sur l’une des valeurs suivantes :
 
 * `ACPPlacesMonitorModeContinuous`
 
-   L&#39;extension de surveillance reçoit et traite les emplacements plus fréquemment. Cette stratégie de surveillance consomme beaucoup de puissance mais offre une précision accrue. Pour plus d’informations, reportez-vous à la documentation d’ [Apple sur la surveillance](https://developer.apple.com/documentation/corelocation/cllocationmanager/1423750-startupdatinglocation)continue.
+   L&#39;extension de surveillance reçoit et traite les emplacements plus fréquemment. Cette stratégie de surveillance consomme beaucoup de puissance mais offre une précision accrue. Pour plus d’informations, voir la [documentation Apple sur la surveillance continue](https://developer.apple.com/documentation/corelocation/cllocationmanager/1423750-startupdatinglocation).
 
 * `ACPPlacesMonitorModeSignificantChanges`
 
-   L&#39;extension de surveillance ne reçoit et traite les mises à jour de l&#39;emplacement qu&#39;une fois que le périphérique a déplacé une distance importante de l&#39;emplacement précédemment traité. Cette stratégie de surveillance consomme moins de puissance que la stratégie de surveillance continue. Pour plus d’informations, reportez-vous à la documentation [Apple sur la surveillance importante](https://developer.apple.com/documentation/corelocation/cllocationmanager/1423531-startmonitoringsignificantlocati)
+   L&#39;extension de surveillance ne reçoit et traite les mises à jour de l&#39;emplacement qu&#39;une fois que le périphérique a déplacé une distance importante de l&#39;emplacement précédemment traité. Cette stratégie de surveillance consomme moins de puissance que la stratégie de surveillance continue. Pour plus d’informations, voir la [documentation Apple sur la surveillance importante](https://developer.apple.com/documentation/corelocation/cllocationmanager/1423531-startmonitoringsignificantlocati)
 
 ### SetPlacesMonitorMode (iOS)
 
