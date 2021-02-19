@@ -9,7 +9,7 @@ ht-degree: 5%
 
 ---
 
-# Présentation de la gestion des bibliothèques {#manage-libraries}
+# Gérer l&#39;aperçu des bibliothèques {#manage-libraries}
 
 Vous pouvez utiliser les API REST du service Places pour effectuer les tâches suivantes :
 
