@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
 workflow-type: tm+mt
 source-wordcount: '45'
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 
@@ -70,5 +70,5 @@ curl -X GET 'https://api-places.adobe.io/places/placesapi/v1/pois/<POIID>' -H 'x
 
 >[!IMPORTANT]
 >
->Remplacez `<POIID>`, `<API KEY>`, `<TOKEN>`et `<ORIGIN>` par des valeurs réelles.
+>Remplacez `<POIID>`, `<API KEY>`, `<TOKEN>` et `<ORIGIN>` par des valeurs réelles.
 
