@@ -14,13 +14,13 @@ ht-degree: 1%
 
 Avant de pouvoir utiliser l’extension Mobile Services pour la messagerie, vérifiez les conditions préalables suivantes :
 
-* Des points d&#39;intérêt ont été créés dans le service Places. For more information, see [Create a POI](/help/poi-mgmt-ui/create-a-poi-ui.md).
+* Des points d&#39;intérêt ont été créés dans le service Places. Pour plus d’informations, voir [Création d’un POI](/help/poi-mgmt-ui/create-a-poi-ui.md).
 
    >[!IMPORTANT]
    >
-   >Le service Places comprend une nouvelle base de données d’API améliorée pour votre entreprise qui existe en dehors de l’interface utilisateur héritée de Mobile Services. Les points d’accès situés sur la page Mobile Service *Manage Placess (Gérer les emplacements* ) ne fonctionnent que pour la version 4 du SDK.
+   >Le service Places comprend une nouvelle base de données d’API améliorée pour votre entreprise qui existe en dehors de l’interface utilisateur héritée de Mobile Services. Les points d’accès situés sur la page Service mobile *Gérer les emplacements* ne fonctionnent que pour la version 4 du SDK.
 
-* Voici la page de gestion *Gérer les emplacements* de l’interface utilisateur héritée de Mobile Services pour les versions plus anciennes du SDK :
+* Voici la *page de gestion des emplacements* POI dans l’interface utilisateur héritée de Mobile Services pour les anciennes versions du SDK :
 
    ![Interface utilisateur héritée](/help/assets/legacy-location-v4-ui.png)
 
@@ -30,15 +30,15 @@ Avant de pouvoir utiliser l’extension Mobile Services pour la messagerie, vér
 
 * Le SDK ACP est correctement configuré avec les extensions du service Places et/ou du moniteur Places.
 
-   Cela signifie que les données sont disponibles en tant que événements et/ou conditions dans le moteur de règles Experience Platform Launch pour votre application mobile. Pour plus d’informations, voir Extension [](/help/places-ext-aep-sdks/places-extension/places-extension.md) Places ou Extension [d’écran](/help/places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.md)Places.
+   Cela signifie que les données sont disponibles en tant que événements et/ou conditions dans le moteur de règles Experience Platform Launch pour votre application mobile. Pour plus d’informations, voir [Place extension](/help/places-ext-aep-sdks/places-extension/places-extension.md) ou [Place Monitor extension](/help/places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.md).
 
 * Familiarisez-vous avec la création et la publication de règles Experience Platform Launch au SDK ACP dans votre application mobile.
 
-   For more information, see [Rules engine](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/rules-engine).
+   Pour plus d’informations, voir [Moteur de règles](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/rules-engine).
 
 * Les éléments de données Experience Platform Launch sont créés à partir des données de l&#39;extension Places qui seront utilisées dans le moteur de règles.
 
-   For more information, see [Data elements](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/rules-engine#data-elements).
+   Pour plus d’informations, voir [Éléments de données](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/rules-engine#data-elements).
 
 ## Création de rapports
 
@@ -50,7 +50,7 @@ Avant d’utiliser le rapports, remplissez les conditions préalables suivantes 
 
 * Familiarisez-vous avec Mobile Services rapports.
 
-   For more information, see [Reports](https://docs.adobe.com/content/help/en/mobile-services/using/reports-ug/usage.html).
+   Pour plus d&#39;informations, voir [Rapports](https://docs.adobe.com/content/help/en/mobile-services/using/reports-ug/usage.html).
 
 ## Visualisation des rapports
 
