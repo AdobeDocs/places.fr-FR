@@ -4,7 +4,7 @@ description: Cette section vous explique comment utiliser le service Places avec
 translation-type: tm+mt
 source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '233'
 ht-degree: 8%
 
 ---
@@ -30,10 +30,10 @@ Avant de commencer, vérifiez que vous avez effectué les tâches suivantes :
 
 ## Envoyer une notification
 
-Dans l’ **[!UICONTROL Audience]** onglet du processus *Créer une notification* Push, vous pouvez créer l’audience de ce message de l’une des manières suivantes :
+Dans l&#39;onglet **[!UICONTROL Audience]** du flux de travaux *Créer une notification Push*, vous pouvez créer l&#39;audience de ce message de l&#39;une des manières suivantes :
 
-* Dans la liste **[!UICONTROL Analytics Segments]** déroulante, sélectionnez un segment Adobe Analytics créé précédemment.
+* Dans la liste déroulante **[!UICONTROL Segments Analytics]**, sélectionnez un segment Adobe Analytics créé précédemment.
 
-* Dans la **[!UICONTROL Custom Segment]** section, créez une audience en utilisant les paramètres de segment personnalisé disponibles.
+* Dans la section **[!UICONTROL Segment personnalisé]**, créez une audience en utilisant les paramètres de segment personnalisé disponibles.
 
 ![configuration d’un message push](/help/assets/push-set-up.png)
