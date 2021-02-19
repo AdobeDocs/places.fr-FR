@@ -10,7 +10,7 @@ ht-degree: 0%
 ---
 
 
-# Utiliser le service Lieux avec d&#39;autres solutions d&#39;Adobe {#use-places-other-solutions}
+# Utiliser le service Places avec d&#39;autres solutions d&#39;Adobe {#use-places-other-solutions}
 
 En soi, l’utilisation du service Places pour collecter des données d’emplacement n’est pas utile dans votre application. Vous aurez début à obtenir la valeur réelle des données d’emplacement lorsque vous les fournirez à vos autres solutions d’Adobe. Ce processus vous permet d’utiliser les données d’emplacement pour fournir des expériences personnalisées et prendre des décisions éclairées.
 
