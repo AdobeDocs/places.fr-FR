@@ -10,7 +10,7 @@ ht-degree: 0%
 ---
 
 
-# Extension du moniteur de lieux {#places-monitor-extension}
+# Place l&#39;extension de moniteur {#places-monitor-extension}
 
 L’extension Places Monitor gère les interactions avec le système d’exploitation afin d’enregistrer et de surveiller les points d’intérêt les plus proches de l’utilisateur. Cette extension récupère les points d&#39;accès qui doivent être enregistrés à partir de l&#39;extension Places et transmet les notifications d&#39;entrée et de sortie à l&#39;extension Places. Ces notifications seront disponibles en événements dans les règles Experience Platform Launch.
 
