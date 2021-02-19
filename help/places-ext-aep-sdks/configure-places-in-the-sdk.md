@@ -12,7 +12,7 @@ ht-degree: 9%
 
 # Configuration du SDK avec l’extension Places {#configure-sdk-places-extension}
 
-Pour activer la sensibilisation aux emplacements dans votre application mobile, configurez le SDK avec l’extension Places et, en option, avec l’extension Surveillance des Places. For more information including SDK configuration, see [Places (Beta) extension](/help/places-ext-aep-sdks/places-extension/places-extension.md).
+Pour activer la sensibilisation aux emplacements dans votre application mobile, configurez le SDK avec l’extension Places et, en option, avec l’extension Surveillance des Places. Pour plus d’informations, y compris sur la configuration du SDK, voir [Installations (bêta) extension](/help/places-ext-aep-sdks/places-extension/places-extension.md).
 
 ## Configuration de l&#39;extension Places
 
@@ -20,15 +20,15 @@ Pour configurer l&#39;extension Places :
 
 1. Configurez l&#39;extension Places dans Lancement.
 
-   Pour plus d’informations, voir *Configurer l’extension Places dans Lancement* dans l’extension [](/help/places-ext-aep-sdks/places-extension/places-extension.md)Places.
+   Pour plus d’informations, voir *Configurer l’extension Places dans Launch* dans [Extension Places](/help/places-ext-aep-sdks/places-extension/places-extension.md).
 
 1. Ajoutez l’extension Places sur votre application mobile.
 
-   Pour plus d’informations, voir *Ajouter l’extension Places à votre application* dans [Places Extension](/help/places-ext-aep-sdks/places-extension/places-extension.md).
+   Pour plus d’informations, voir *Ajouter l’extension Places à votre application* dans [Extension Places](/help/places-ext-aep-sdks/places-extension/places-extension.md).
 
 1. Enregistrez des emplacements avec l’extension Mobile Core.
 
-   Pour plus d&#39;informations, reportez-vous à la section *Enregistrement de lieux avec noyau* mobile dans [Places Extension](/help/places-ext-aep-sdks/places-extension/places-extension.md).
+   Pour plus d&#39;informations, voir *Enregistrer les emplacements avec le noyau mobile* dans [Extension des emplacements](/help/places-ext-aep-sdks/places-extension/places-extension.md).
 
 ## Configuration de l&#39;extension Places Monitor
 
@@ -36,7 +36,7 @@ Pour configurer l&#39;extension du moniteur d&#39;emplacements dans Lancement :
 
 1. Configurez l&#39;extension Places Monitor dans Launch.
 
-   Pour plus d’informations, voir *Configurer l’extension Surveillance des lieux dans Lancement*.
+   Pour plus d’informations, voir *Configuration de l’extension Surveillance des lieux dans Launch*.
 
 1. Ajoutez l’extension Places Monitor sur votre application mobile.
 
@@ -44,7 +44,7 @@ Pour configurer l&#39;extension du moniteur d&#39;emplacements dans Lancement :
 
 1. Enregistrez le moniteur de lieux avec l&#39;extension Mobile Core.
 
-   Pour plus d’informations, voir Enregistrement du moniteur *d’emplacements avec Mobile Core*.
+   Pour plus d’informations, voir Enregistrement du moniteur d’emplacements *avec Mobile Core*.
 
 1. Activez les mises à jour d’emplacement en arrière-plan.
 
