@@ -4,8 +4,8 @@ description: Cette section fournit des informations sur l’utilisation de la me
 translation-type: tm+mt
 source-git-commit: 462df20bb351795dc72009cc18d390cb45e262a8
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 3%
+source-wordcount: '368'
+ht-degree: 2%
 
 ---
 
@@ -14,24 +14,24 @@ ht-degree: 3%
 
 Ces informations vous aident à comprendre comment utiliser les informations du service Places pour envoyer des messages in-app ou des notifications locales.
 
-## Conditions préalables 
+## Conditions préalables
 
 Avant de commencer, effectuez les tâches suivantes :
 
-* Disposez d’une application mobile configurée avec le Adobe Experience Platform Mobile SDK, y compris l’extension [](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard)Adobe Campaign Standard.
+* Ayez une application mobile configurée avec le SDK Adobe Experience Platform Mobile, y compris l&#39;[extension Adobe Campaign Standard](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard).
 
-* Intégrez le SDK [](https://aep-sdks.gitbook.io/docs/getting-started/get-the-sdk) Adobe Experience Platform Mobile à votre application.
-* Ajoutez l’extension [](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard) Adobe Campaign Standard à votre configuration d’application mobile.
+* Intégrez le [SDK Adobe Experience Platform Mobile](https://aep-sdks.gitbook.io/docs/getting-started/get-the-sdk) dans votre application.
+* Ajoutez [Adobe Campaign Standard Extension](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard) à votre configuration d’application mobile.
 
-* [Créez un POI](/help/poi-mgmt-ui/create-a-poi-ui.md) dans l’interface de gestion du POI du service Places.
+* [Créez un ](/help/poi-mgmt-ui/create-a-poi-ui.md) point d’accès dans l’interface de gestion de point d’accès du service Places.
 
-* Installez et configurez l&#39;extension [](/help/places-ext-aep-sdks/places-extension/places-extension.md) Places et les extensions [](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md) Places Monitor dans votre application mobile.
+* Installez et configurez les extensions [Place ](/help/places-ext-aep-sdks/places-extension/places-extension.md) et [Place les extensions Monitor](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md) dans votre application mobile.
 
 ## Envoi d’un message intégré à l’application en fonction d’une entrée ou d’une sortie de géolocalisation
 
-1. Dans votre instance Adobe Campaign Standard, cliquez sur **[!UICONTROL Create In-App message]**.
-1. Pour le type de message, sélectionnez **[!UICONTROL Target all users of a Mobile application]**.
-1. Cliquez sur **[!UICONTROL Next]** et tapez les détails généraux.
+1. Dans votre instance Adobe Campaign Standard, cliquez sur **[!UICONTROL Créer un message intégré]**.
+1. Pour le type de message, sélectionnez **[!UICONTROL Cible de tous les utilisateurs d’une application Mobile]**.
+1. Cliquez sur **[!UICONTROL Suivant]** et entrez les détails généraux.
 1. Dans le volet de gauche, vérifiez que vous pouvez utiliser divers déclencheurs liés à Places Services.
 
    * Vous pouvez choisir d’afficher le message in-app si l’utilisateur a entré une clôture de point d’accès (POI).
@@ -41,7 +41,7 @@ Avant de commencer, effectuez les tâches suivantes :
 
    ![&quot;Métadonnées des emplacements de messages in-app&quot;](/help/assets/last-entered-vacation.png)
 
-1. Click the **[!UICONTROL Next]** to finish creating the In-app message for delivery.
+1. Cliquez sur **[!UICONTROL Suivant]** pour terminer la création du message In-App pour la diffusion.
 
    ![&quot;créer un événement&quot;](/help/assets/prepare-ACS.png)
 
