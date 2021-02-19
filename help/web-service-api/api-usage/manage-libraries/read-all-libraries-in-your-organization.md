@@ -5,12 +5,12 @@ translation-type: tm+mt
 source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
 workflow-type: tm+mt
 source-wordcount: '60'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
 
-# permet de lire toutes les bibliothèques de votre organisation. {#read-all-lib-in-org}
+# Lisez toutes les bibliothèques de votre organisation {#read-all-lib-in-org}
 
 Méthode de GET qui renvoie les détails de toutes les bibliothèques de votre organisation.
 
