@@ -10,7 +10,7 @@ ht-degree: 0%
 ---
 
 
-# Utiliser le service Lieux dans le cadre du processus Experience Platform Launch {#loc-service-launch-workflow}
+# Utiliser le service Lieux dans le cadre du flux de travail des Experience Platform Launch {#loc-service-launch-workflow}
 
-* Pour définir des éléments de données, voir [Définition d’éléments](/help/use-places-launch-workflow/define-data-elements.md)de données.
-* Pour créer des règles d’entrée et de sortie, voir [Création de règles](/help/use-places-launch-workflow/create-rule-places-property.md)d’entrée et de sortie.
+* Pour définir les éléments de données, voir [Définition des éléments de données](/help/use-places-launch-workflow/define-data-elements.md).
+* Pour créer des règles d’entrée et de sortie, voir [Création de règles d’entrée et de sortie](/help/use-places-launch-workflow/create-rule-places-property.md).
