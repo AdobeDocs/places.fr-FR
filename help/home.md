@@ -30,7 +30,7 @@ Cela vous permettra d&#39;agir à partir des signaux de localisation en temps r�
 
 Voici quelques-unes des façons d&#39;utiliser Places :
 
-* Envoyez une notification en temps réel lorsque quelqu&#39;un entre dans un POI, *&quot;Hey...bienvenue au stade.&quot;*
+* Envoyez une notification en temps réel lorsque quelqu&#39;un entre dans un POI, *&quot;Hey..bienvenue au stade.&quot;*
 * Comparez le trafic de pied de vos propres magasins à celui de vos concurrents.
 * Segmentez une audience en fonction du comportement hors ligne en utilisant des profils d’audience avec contexte d’emplacement.
 * Cible d’un utilisateur avec une expérience en magasin, le cas échéant.
@@ -41,7 +41,7 @@ Le service Places comprend les composants suivants :
 
 * **Service Web**
 
-   Vous pouvez créer et gérer des points d’intérêt à l’aide des API REST Places. Pour plus d’informations sur les API REST, voir [Gestion des bibliothèques](/help/web-service-api/api-usage/manage-libraries/manage-libraries.md) et [Gestion des POI](/help/web-service-api/api-usage/manage-pois/manage-pois.md).
+   Vous pouvez créer et gérer des points d’intérêt à l’aide des API REST Places. Pour plus d’informations sur les API REST, voir [Gestion des bibliothèques](/help/web-service-api/api-usage/manage-libraries/manage-libraries.md) et [Gestion des API](/help/web-service-api/api-usage/manage-pois/manage-pois.md).
 
 * **Interface de gestion des POI**
 
@@ -49,7 +49,7 @@ Le service Places comprend les composants suivants :
 
 * **Extension Places**
 
-   Interface API mobile multiplate-forme permettant d’intégrer le contexte d’emplacement dans vos applications mobiles. Pour plus d’informations sur les SDK, voir [Extension](/help/places-ext-aep-sdks/places-extension/places-extension.md)Places.
+   Interface API mobile multiplate-forme permettant d’intégrer le contexte d’emplacement dans vos applications mobiles. Pour plus d’informations sur les SDK, voir [Place extension](/help/places-ext-aep-sdks/places-extension/places-extension.md).
 
 * **Règles de lancement**
 
@@ -57,7 +57,7 @@ Le service Places comprend les composants suivants :
 
 * **Extension du moniteur de lieux**
 
-   Le SDK mobile multiplate-forme qui peut être intégré dans votre application mobile pour surveiller automatiquement les modifications d’emplacement de votre utilisateur et déclencher des règles de lieux. Pour plus d’informations, voir [Extension](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md)d’écran Places.
+   Le SDK mobile multiplate-forme qui peut être intégré dans votre application mobile pour surveiller automatiquement les modifications d’emplacement de votre utilisateur et déclencher des règles de lieux. Pour plus d’informations, voir [Place Monitor extension](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md).
 
 ## Terminologie
 
@@ -67,11 +67,11 @@ Voici quelques termes courants utilisés dans cette documentation :
 
    Vous pouvez définir des points d’intérêt avec des attributs tels que le nom, le rayon, l’adresse, la catégorie et les balises de métadonnées.
 
-* Une **géofence** est un type de point d’intérêt.
+* Un **géofence** est un type d&#39;IPE.
 
    Ce type d’IPE est une limite géographique virtuelle définie par les coordonnées de latitude et de longitude.
 
-* Une **balise** est un type de point d’accès (POI).
+* Une **balise** est un type d&#39;IPE.
 
    Ce type de point d&#39;accès est un périphérique physique qui représente un emplacement en émettant un signal Bluetooth à faible puissance. La prise en charge des balises sera disponible dans une prochaine version.
 
@@ -89,6 +89,6 @@ Voici quelques termes courants utilisés dans cette documentation :
 
    Pour plus d’informations, voir [Recherche de votre orgID](https://forums.adobe.com/thread/2339895).
 
-* The **Experience Cloud ID** service provides a universal, persistent ID that identifies your visitors across all the solutions in the Experience Cloud.
+* Le service **ID d’Experience Cloud** fournit un identifiant universel et persistant qui identifie vos visiteurs dans toutes les solutions de l’Experience Cloud.
 
    Pour plus d’informations, voir [Aperçu](https://docs.adobe.com/content/help/fr-FR/id-service/using/intro/overview.html).
