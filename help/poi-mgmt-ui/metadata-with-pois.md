@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Stratégies d’utilisation de métadonnées avec des points d’intérêt {#using-metadata-pois}
 
-Dans le service Lieux, lorsque vous créez un nouvel point d’accès, les seuls éléments requis sont Nom, Rayon, Latitude et Longitude. Pour plus d’informations sur la création d’une API, voir [Création d’une API](/help/poi-mgmt-ui/create-a-poi-ui.md). Cependant, si vous ne saisissez que les informations minimales, vous ne pourrez pas créer de valeur supplémentaire.
+Dans le service Lieux, lorsque vous créez un nouvel point d’accès, les seuls éléments requis sont Nom, Rayon, Latitude et Longitude. Pour plus d’informations sur la création d’un POI, voir [Création d’un POI](/help/poi-mgmt-ui/create-a-poi-ui.md). Cependant, si vous ne saisissez que les informations minimales, vous ne pourrez pas créer de valeur supplémentaire.
 
 Les métadonnées des points d’intérêt peuvent être utilisées de différentes manières. Du point de vue de la gestion des points d’intérêt, l’ajout de valeurs de métadonnées peut aider à rechercher ou à filtrer une liste de milliers d’points d’intérêt potentiels. La création de métadonnées pour les attributs clés liés à une API peut générer des valeurs dans les workflows en aval. Par exemple, une chaîne d&#39;hôtels qui crée des points d&#39;intérêt pour chaque établissement peut vouloir inclure des métadonnées telles que si l&#39;établissement possède une piscine ou non, un restaurant et un bar, ou s&#39;il possède une salle de sport. Ces métadonnées peuvent être incluses en tant que données contextuelles dans Analytics et peuvent également être utilisées pour des offres ou des messages ciblés.
 
