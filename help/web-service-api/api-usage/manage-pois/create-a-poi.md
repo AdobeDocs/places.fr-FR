@@ -5,12 +5,12 @@ translation-type: tm+mt
 source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
 workflow-type: tm+mt
 source-wordcount: '47'
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 
 
-# Création d’un point d’accès {#create-a-poi}
+# Créer un POI {#create-a-poi}
 
 Méthode de POST qui vous permet de créer un point d’accès (POI).
 
@@ -97,4 +97,4 @@ curl -X POST 'https://api-places.adobe.io/places/placesapi/v1/pois' -H 'x-api-ke
 
 >[!IMPORTANT]
 >
->Pensez à remplacer `<API KEY>`, `<TOKEN>`, &#39;,&#39; et `<SINGLEPOIDATA>` par des valeurs réelles.
+>N&#39;oubliez pas de remplacer `<API KEY>`, `<TOKEN>`, &#39;,&#39; et `<SINGLEPOIDATA>` par des valeurs réelles.
