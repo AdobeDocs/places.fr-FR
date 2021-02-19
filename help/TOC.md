@@ -25,13 +25,13 @@ ht-degree: 19%
    + [Stratégies d’utilisation de métadonnées avec des points d’intérêt](poi-mgmt-ui/metadata-with-pois.md)
    + [Téléchargement en masse des points d’intérêt](poi-mgmt-ui/bulk-upload-pois.md)
    + [Gestion de plusieurs bibliothèques](poi-mgmt-ui/manage-libraries-in-the-places-ui.md)
-+ API du service Web {#web-service-api}
++ API de service Web {#web-service-api}
    + [Présentation de l’API de service Web](web-service-api/places-web-services.md)
    + [Conditions préalables à l’intégration](web-service-api/adobe-i-o-integration.md)
-   + Utilisation des API {#api-usage}
+   + Utilisation de l&#39;API {#api-usage}
       + [Présentation de l’utilisation des API](web-service-api/api-usage/api-usage-overview.md)
       + [En-têtes et paramètres](web-service-api/api-usage/headers-and-parameters.md)
-      + Gestion des bibliothèques {#manage-libraries}
+      + Gérer les bibliothèques {#manage-libraries}
          + [Présentation de la gestion des bibliothèques](web-service-api/api-usage/manage-libraries/manage-libraries.md)
          + [créer une bibliothèque ;](web-service-api/api-usage/manage-libraries/create-a-library.md)
          + [Lecture d’une bibliothèque](web-service-api/api-usage/manage-libraries/read-a-library.md)
@@ -48,29 +48,29 @@ ht-degree: 19%
          + [Suppression d’un point d’intérêt](web-service-api/api-usage/manage-pois/delete-a-poi.md)
          + [permet de lire tous les points d’intérêt d’une bibliothèque.](web-service-api/api-usage/manage-pois/read-all-pois-in-a-library.md)
          + [Lire tous les points d’intérêt de votre entreprise](web-service-api/api-usage/manage-pois/read-all-pois-in-your-organization.md)
-         + API de traitement par lots {#batch-apis}
+         + API de lot {#batch-apis}
             + [Présentation des API par lot](web-service-api/api-usage/manage-pois/batch-apis/batch-apis.md)
             + [Création de plusieurs points d’intérêt](web-service-api/api-usage/manage-pois/batch-apis/create-multiple-pois.md)
             + [Mise à jour de plusieurs POI](web-service-api/api-usage/manage-pois/batch-apis/update-multiple-pois.md)
             + [Suppression de plusieurs points d’intérêt](web-service-api/api-usage/manage-pois/batch-apis/delete-multiple-pois.md)
       + [API de requête](web-service-api/api-usage/query-apis.md)
-+ Extensions pour les kits SDK mobiles {#places-ext-aep-sdks}
++ Extensions pour les SDK mobiles {#places-ext-aep-sdks}
    + Extension Places {#places-extension}
       + [Extension Places](places-ext-aep-sdks/places-extension/places-extension.md)
       + [Place la référence à l&#39;API](places-ext-aep-sdks/places-extension/places-api-reference.md)
       + [Place la référence de événement](places-ext-aep-sdks/places-extension/places-event-ref.md)
       + [Objets Lieux personnalisés](places-ext-aep-sdks/places-extension/cust-places-objects.md)
-   + Extension du moniteur de lieux {#places-monitor-extension}
+   + Place l&#39;extension de moniteur {#places-monitor-extension}
       + [Extension du moniteur de lieux](places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md)
       + [Utilisation de l’extension Places Monitor](places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.md)
       + [Référence à l&#39;API d&#39;analyse des lieux](places-ext-aep-sdks/places-monitor-extension/places-monitor-api-reference.md)
 + [Utiliser le service Places avec votre propre solution de surveillance](using-your-own-monitor.md)
 + [Utiliser le service Places sans surveillance principale des régions](use-places-without-active-monitoring.md)
-+ Utiliser le service Lieux dans le cadre du processus Experience Platform Launch {#use-places-launch-workflow}
++ Utiliser le service Lieux dans le cadre du flux de travail des Experience Platform Launch {#use-places-launch-workflow}
    + [Utiliser le service Lieux dans le cadre du processus Experience Platform Launch](use-places-launch-workflow/places-launch-workflow.md)
    + [Définition des éléments de données](use-places-launch-workflow/define-data-elements.md)
    + [Création de règles d’entrée et de sortie](use-places-launch-workflow/create-rule-places-property.md)
-+ Utiliser le service Lieux avec d&#39;autres solutions d&#39;Adobe {#use-places-with-other-solutions}
++ Utiliser le service Places avec d&#39;autres solutions d&#39;Adobe {#use-places-with-other-solutions}
    + Adobe Analytics {#places-adobe-analytics}
       + [Utiliser le service Places avec Adobe Analytics](use-places-with-other-solutions/places-adobe-analytics/use-places-analytics-overview.md)
       + [Envoyer les données d’entrée et de sortie du point d’accès à Analytics](use-places-with-other-solutions/places-adobe-analytics/use-places-adobe-analytics.md)
