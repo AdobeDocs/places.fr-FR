@@ -4,7 +4,7 @@ description: Dans l’interface utilisateur du service Lieux, vous pouvez modifi
 translation-type: tm+mt
 source-git-commit: 5a21e734c0ef56c815389a9f08b445bedaae557a
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '407'
 ht-degree: 7%
 
 ---
@@ -20,8 +20,8 @@ Les points d’accès et les bibliothèques sont créés et gérés dans la base
 1. Connectez-vous au service Places à l’aide de votre Adobe ID.
 1. Dans le coin supérieur droit, cliquez sur l’icône qui ressemble à une liste à puces.
 1. Localisez le point d’accès à Internet que vous souhaitez modifier.
-1. Cliquez sur **[!UICONTROL ...]** et sélectionnez **[!UICONTROL View Details]**.
-1. Mettez à jour les informations, puis cliquez sur **[!UICONTROL Save]**.
+1. Cliquez sur **[!UICONTROL ...]** et sélectionnez **[!UICONTROL Détails de la Vue]**.
+1. Mettez à jour les informations et cliquez sur **[!UICONTROL Enregistrer]**.
 
 ## Suppression d’un point d’intérêt
 
@@ -29,7 +29,7 @@ Les points d’accès et les bibliothèques sont créés et gérés dans la base
 1. Connectez-vous au service Places à l’aide de votre Adobe ID.
 1. Dans le coin supérieur droit, cliquez sur l’icône qui ressemble à une liste à puces.
 1. Localisez le point d’accès à Internet que vous souhaitez supprimer.
-1. Cliquez sur **[!UICONTROL ...]** et sélectionnez **[!UICONTROL Delete]**.
+1. Cliquez sur **[!UICONTROL ...]** et sélectionnez **[!UICONTROL Supprimer]**.
 
 ## Filtrage des points d’intérêt par ville, état, pays ou métadonnées
 
@@ -45,11 +45,11 @@ Les points d’accès et les bibliothèques sont créés et gérés dans la base
 
    * Par propriété :
 
-      a. Dans la liste déroulante Propriété, sélectionnez **[!UICONTROL Country]**, **[!UICONTROL State]** ou **[!UICONTROL City]**.
+      a. Dans la liste déroulante Propriété, sélectionnez **[!UICONTROL Pays]**, **[!UICONTROL Etat]** ou **[!UICONTROL Ville]**.
 
       b. Dans la ligne suivante, entrez une valeur.
 
-      Par exemple, vous pouvez sélectionner **[!UICONTROL State]** et taper **[!UICONTROL California]**.
+      Par exemple, vous pouvez sélectionner **[!UICONTROL Etat]** et taper **[!UICONTROL Californie]**.
 
    * Avec métadonnées :
 
