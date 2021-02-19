@@ -16,5 +16,5 @@ Les points d’accès et les bibliothèques sont créés et gérés dans la base
 
 * Pour créer une bibliothèque ou gérer plusieurs bibliothèques, voir [Gestion des bibliothèques](/help/poi-mgmt-ui/manage-libraries-in-the-places-ui.md).
 * Pour créer un POI, voir [Création d’un POI](/help/poi-mgmt-ui/create-a-poi-ui.md).
-* Pour gérer plusieurs points d’intérêt, voir [Gestion des points d’intérêt](/help/poi-mgmt-ui/managing-pois-in-the-places-ui.md)créés précédemment.
-* Pour procéder à une importation en masse des points d’intérêt, voir Importation [en masse des points d’intérêt](/help/poi-mgmt-ui/bulk-upload-pois.md).
+* Pour gérer plusieurs POI, voir [Gestion des POI précédemment créés](/help/poi-mgmt-ui/managing-pois-in-the-places-ui.md).
+* Pour effectuer une importation en vrac des points d’intérêt, voir [Importation en vrac des points d’intérêt](/help/poi-mgmt-ui/bulk-upload-pois.md).
