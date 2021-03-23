@@ -2,7 +2,7 @@
 title: 'Obtenir l''accès au service Places '
 description: Cette section fournit des informations sur la façon d'ajouter un utilisateur au service Places et à l'Experience Platform Launch, de sorte que l'utilisateur puisse accéder au service Places.
 translation-type: tm+mt
-source-git-commit: 26538602a73e806a4822705c7a3aa44d76351030
+source-git-commit: ecf50d67d4c08e79d9c3be64480f27d435fd7fcb
 workflow-type: tm+mt
 source-wordcount: '1160'
 ht-degree: 10%
@@ -31,7 +31,7 @@ Pour permettre aux utilisateurs d’accéder à l’[interface utilisateur Exper
    * Approuver
    * Publiez
    * Gérer les extensions
-   * Gérer les environnements
+   * Gestion des environnements
 * Gérer l’autorisation Propriétés sous Droits de Société
 
 Si c’est la première fois que vous ajoutez un utilisateur, procédez comme suit pour ajouter des utilisateurs au service Experience Platform Launch et aux services locaux. Si vous avez déjà ajouté des utilisateurs, plusieurs profils peuvent s’afficher. Assurez-vous donc de sélectionner le profil approprié.
@@ -49,7 +49,7 @@ Si c’est la première fois que vous ajoutez un utilisateur, procédez comme su
 
 1. Sous **[!UICONTROL Plateforme]**, cliquez sur **[!UICONTROL Administration]**.
 
-   Si **Administration** n’apparaît pas dans la liste, vous n’êtes pas un administrateur. Vous devez contacter l’administrateur de votre organisation pour effectuer cette procédure.
+   Si **[!UICONTROL Administration]** n’apparaît pas dans la liste, vous n’êtes pas un administrateur. Vous devez contacter l’administrateur de votre organisation pour effectuer cette procédure.
 
 1. Dans la page Administration de l’Experience Cloud, sur la carte **[!UICONTROL Admin Console]**, cliquez sur **[!UICONTROL M’y amener]**.
 
@@ -182,6 +182,6 @@ Pour ajouter un développeur :
 
 1. Dans la liste déroulante **[!UICONTROL Sélectionnez un profil pour ce produit]**, sélectionnez le profil Service Lieux.
 
-1. Cliquez sur **Enregistrer**.
+1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
-Les utilisateurs reçoivent un e-mail leur indiquant qu’ils ont accès à Experience Platform Launch. Ils peuvent se connecter aux [Experience Platform Launch](https://launch.adobe.com) ou aux [interfaces utilisateur du service Places](https://places.adobe.com) pour cette organisation. Si vous effectuez l’étape 4 de la procédure **Ajouter un développeur**, l’utilisateur peut aussi se connecter à la [console Adobe I/O](https://console.adobe.io) pour créer une intégration des Places et utiliser l’API REST Places.
+Les utilisateurs reçoivent un e-mail leur indiquant qu’ils ont accès à Experience Platform Launch. Ils peuvent se connecter aux [Experience Platform Launch](https://launch.adobe.com) ou aux [interfaces utilisateur du service Places](https://places.adobe.com) pour cette organisation. Si vous effectuez l’étape 4 de la procédure **[!UICONTROL Ajouter un développeur]**, l’utilisateur peut aussi se connecter à la [console Adobe I/O](https://console.adobe.io) pour créer une intégration des Places et utiliser l’API REST Places.
