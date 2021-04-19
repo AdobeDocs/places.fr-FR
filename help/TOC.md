@@ -1,10 +1,9 @@
 ---
-product: Places Service
 audience: end-user
 user-guide-title: Guide de Places Service
 user-guide-description: Places Service est un service de géolocalisation qui permet aux applications mobiles dotées de géolocalisation de comprendre le contexte de la localisation.
 translation-type: tm+mt
-source-git-commit: f9215fa3871d91166ad109a0708105f79536213c
+source-git-commit: 12283d11829ee70a808bc11d2bc1241cb1770ac3
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 19%
@@ -80,7 +79,7 @@ ht-degree: 19%
       + [Adobe Mobile Services](use-places-with-other-solutions/places-mobile-svcs-for-messaging/use-places-mobie-svcs-messaging.md)
       + [Notifications push](use-places-with-other-solutions/places-mobile-svcs-for-messaging/mobile-svcs-messaging-push.md)
       + [Notifications in-app](use-places-with-other-solutions/places-mobile-svcs-for-messaging/mobile-svcs-messaging-inapp.md)
-   + Adobe Campaign Standard {#places-acs}
+   + Adobe Campaign Standard {#places-acs}
       + [Utiliser le service Places avec Adobe Campaign Standard](use-places-with-other-solutions/places-acs/places-acs-overview.md)
       + [Notifications push](use-places-with-other-solutions/places-acs/places-acs-push-notifications.md)
       + [Messages in-app](use-places-with-other-solutions/places-acs/places-acs-in-app-messages.md)
