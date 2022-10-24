@@ -2,9 +2,9 @@
 title: Places Service
 description: Places Service est un contexte important pour comprendre l’engagement des utilisateurs mobiles. En utilisant ce contexte, les développeurs d’applications mobiles peuvent améliorer la conception de l’application et en faire une expérience plus personnalisée et attrayante.
 exl-id: 7369176f-c072-437a-9ee3-b463c5ff1d12
-source-git-commit: c13da9ea3dc0cd574f2f9a496405867f7d36eae0
+source-git-commit: 010de286c25c1eeb989fb76e3c2adaa82ac9fd35
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '673'
 ht-degree: 10%
 
 ---
@@ -51,10 +51,6 @@ Places Service comprend les composants suivants :
 * **Règles de lancement**
 
    Les règles Launch géointelligentes vous permettent de déclencher des actions avec des événements d’entrée et de sortie. Les règles vous permettent également d’utiliser des attributs géographiques dans des conditions pour personnaliser l’expérience.
-
-* **Extension Places Monitor**
-
-   Le SDK mobile multiplateforme qui peut être incorporé dans votre application mobile pour surveiller automatiquement les modifications d’emplacement de votre utilisateur et déclencher des règles Places. Pour plus d’informations, voir [Extension Places Monitor](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md).
 
 ## Terminologie
 

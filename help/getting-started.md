@@ -1,18 +1,17 @@
 ---
 title: Prise en main
-description: Prise en main du service Places.
-translation-type: tm+mt
-source-git-commit: 45a6af8396c24eda2c7e0d8966684935c45fe966
+description: Prise en main de Places Service.
+exl-id: 1f0ac226-4993-495b-9d07-1e0ada7f19a7
+source-git-commit: 010de286c25c1eeb989fb76e3c2adaa82ac9fd35
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '219'
 ht-degree: 3%
 
 ---
 
-
 # Prise en main {#getting-started}
 
-Voici une vidéo très utile qui présente un aperçu des services Places :
+Voici une vidéo utile pour avoir un aperçu des Places Services :
 
 <!--
 Test of different youtube link for exl
@@ -24,31 +23,38 @@ Test of different youtube link for exl
 
 Pour utiliser le service Places, effectuez les tâches suivantes :
 
-### 1. Assurez-vous que votre utilisateur est configuré pour utiliser le service Places.
+### 1. Assurez-vous que votre utilisateur est configuré pour utiliser Places Service.
 
-Le contexte du produit Service Lieux est disponible pour toutes les organisations Experience Cloud.
+Le contexte du produit Places Service est disponible avec toutes les organisations Experience Cloud.
 
-* Assurez-vous d’être répertorié en tant qu’utilisateur sous le service Lieux et les contextes de produits Experience Platform Launch dans le Admin Console.
+* Assurez-vous que vous êtes répertorié en tant qu’utilisateur sous les contextes de service Places et de produit Experience Platform Launch dans Admin Console.
 
-   Pour plus d&#39;informations, voir *Ajouter un utilisateur au service Experience Platform Launch et places* dans [Questions fréquentes](/help/places-gain-access.md).
+   Pour plus d’informations, voir *Ajout d’un utilisateur à Experience Platform Launch et à Places Service* in [Questions fréquentes](/help/places-gain-access.md).
 
 
-### 2. Créez vos points d’intérêt
+### 2. Création des points ciblés
 
-Les points ciblés (POI) sont des clôtures géographiques que vous créez pour vos entreprises et vous pouvez les créer de l’une des manières suivantes :
+Les points ciblés (POI) sont des clôtures géographiques que vous créez pour vos entreprises et vous pouvez créer des points ciblés de l’une des manières suivantes :
 
 * Utilisation de l’interface utilisateur du service Places.
 
-   Pour plus d’informations, voir [Présentation du service Places](/help/poi-mgmt-ui/poi-mgmt-ui-overview.md).
+   Pour plus d’informations, voir [Présentation de Places Service](/help/poi-mgmt-ui/poi-mgmt-ui-overview.md).
 
 * Utilisation des API du service Web Places.
 
-   Pour plus d&#39;informations, voir [API de service Web](/help/web-service-api/places-web-services.md).
+   Pour plus d’informations, voir [API Web Service](/help/web-service-api/places-web-services.md).
 
 
-### 3. Configuration de l&#39;extension Places et de l&#39;extension Places Monitor
+### 3. Configuration de l&#39;extension Places
 
-Pour plus d&#39;informations sur la configuration de l&#39;extension Places et de l&#39;extension Monitor, consultez les informations suivantes :
+Pour plus d’informations sur la configuration de l’extension Places, consultez les informations suivantes :
 
 * [Extension Places](/help/places-ext-aep-sdks/places-extension/places-extension.md)
-* [Extension du moniteur de lieux](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md)
+
+### 4. (Facultatif) Mise en oeuvre d’une solution de surveillance de région
+
+Si vous envisagez d’effectuer une surveillance de région principale, vous devrez effectuer la mise en oeuvre directement avec le système d’exploitation. Pour plus d’informations, voir les documents suivants :
+
+* iOS - [Documentation CoreLocation](https://developer.apple.com/documentation/corelocation/monitoring_the_user_s_proximity_to_geographic_regions)
+
+* Android - [Documentation de l’emplacement](https://developer.android.com/training/location/geofencing)
