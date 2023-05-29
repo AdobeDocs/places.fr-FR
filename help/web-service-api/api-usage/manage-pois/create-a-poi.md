@@ -1,18 +1,17 @@
 ---
-title: Création d’un point d’accès
-description: Créez un point d’accès à Internet en utilisant les API REST de lieux.
-translation-type: tm+mt
-source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
+title: Création d’un point ciblé
+description: Créez un point ciblé à l’aide des API REST de Places.
+exl-id: 0f5b5b40-11f0-4122-b3d5-c3853a6e8ca5
+source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '47'
-ht-degree: 8%
+ht-degree: 10%
 
 ---
 
+# Création d’un point ciblé {#create-a-poi}
 
-# Créer un POI {#create-a-poi}
-
-Méthode de POST qui vous permet de créer un point d’accès (POI).
+Méthode de POST qui vous permet de créer un point ciblé.
 
 ## Requête
 
@@ -97,4 +96,4 @@ curl -X POST 'https://api-places.adobe.io/places/placesapi/v1/pois' -H 'x-api-ke
 
 >[!IMPORTANT]
 >
->N&#39;oubliez pas de remplacer `<API KEY>`, `<TOKEN>`, &#39;,&#39; et `<SINGLEPOIDATA>` par des valeurs réelles.
+>N’oubliez pas de remplacer `<API KEY>`, `<TOKEN>`, &#39;,&#39; et `<SINGLEPOIDATA>` avec des valeurs réelles.

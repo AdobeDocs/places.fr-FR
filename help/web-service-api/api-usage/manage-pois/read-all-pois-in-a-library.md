@@ -1,18 +1,17 @@
 ---
-title: permet de lire tous les points d’intérêt d’une bibliothèque.
-description: Lisez tous les points d’intérêt d’une bibliothèque à l’aide des API REST Places.
-translation-type: tm+mt
-source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
+title: Lecture de tous les points ciblés dans une bibliothèque
+description: Lisez tous les points ciblés dans une bibliothèque à l’aide des API REST de Places.
+exl-id: 08544909-661c-4a14-84e0-bacd0241a844
+source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '54'
 ht-degree: 7%
 
 ---
 
+# Lecture de tous les points ciblés dans une bibliothèque {#read-all-pois-library}
 
-# Lire tous les points d’intérêt d’une bibliothèque {#read-all-pois-library}
-
-Méthode de GET qui renvoie tous les points d’intérêt dans une bibliothèque.
+Méthode de GET qui renvoie tous les points ciblés dans une bibliothèque.
 
 ## Requête
 
@@ -168,5 +167,4 @@ curl -X GET 'https://api-places.adobe.io/places/placesapi/v1/libraries/<LIBRARYI
 
 >[!IMPORTANT]
 >
->Remplacez &#39;&#39;, `<API KEY>`, `<TOKEN>` et `<ORGID>` par des valeurs réelles.
-
+>Remplacer &quot;&quot;, `<API KEY>`, `<TOKEN>`, et `<ORGID>` avec des valeurs réelles.

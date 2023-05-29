@@ -1,18 +1,17 @@
 ---
-title: Mettre à jour un point d’intérêt
-description: Mettez à jour un point d’intérêt à l’aide des API REST Places.
-translation-type: tm+mt
-source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
+title: Mise à jour d’un point ciblé
+description: Mettez à jour un point ciblé à l’aide des API REST de Places.
+exl-id: f155d1d3-88a3-47bc-bffe-a35842a639e2
+source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '45'
-ht-degree: 8%
+ht-degree: 11%
 
 ---
 
+# Mise à jour d’un point ciblé {#update-a-poi}
 
-# Mettre à jour un POI {#update-a-poi}
-
-Méthode de PUT qui vous permet de mettre à jour un point d’intérêt.
+Méthode de PUT qui vous permet de mettre à jour un point ciblé.
 
 ## Requête
 
@@ -48,4 +47,4 @@ curl -X PUT 'https://api-places.adobe.io/places/placesapi/v1/pois/<POIID>' -H 'x
 
 >[!IMPORTANT]
 >
->Remplacez `<POIID>`, `<API KEY>`, `<TOKEN>`, `<ORGID>` et `<SINGLEPOIDATA>` par des valeurs réelles.
+>Remplacer `<POIID>`, `<API KEY>`, `<TOKEN>`, `<ORGID>`, et `<SINGLEPOIDATA>` avec des valeurs réelles.

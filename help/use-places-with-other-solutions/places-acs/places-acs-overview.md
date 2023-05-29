@@ -1,18 +1,17 @@
 ---
-title: 'Utiliser le service Places avec Adobe Campaign Standard '
-description: 'Cette section présente une vue d''ensemble de l''utilisation du service Places avec le Campaign Standard. '
-translation-type: tm+mt
-source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
+title: Utilisation du service Places avec Adobe Campaign Standard
+description: Cette section présente un aperçu de l’utilisation de Places Service avec Campaign Standard.
+exl-id: e2906ad3-5c78-417b-bc9a-4dd259bbafe9
+source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '53'
 ht-degree: 0%
 
 ---
 
+# Utilisation du service Places avec Adobe Campaign Standard {#location-service-acs}
 
-# Utiliser le service Places avec Adobe Campaign Standard {#location-service-acs}
+Lorsque vous utilisez Places Service avec Campaign Standard, vous pouvez utiliser les types de messages suivants :
 
-Lorsque vous utilisez Places Service avec Campaign Standard, vous pouvez utiliser les types de message suivants :
-
-* [Notifications Push avec le service Places](/help/use-places-with-other-solutions/places-acs/places-acs-push-notifications.md)
-* [Messagerie in-app avec le service Places](/help/use-places-with-other-solutions/places-acs/places-acs-in-app-messages.md)
+* [Notifications push avec le service Places](/help/use-places-with-other-solutions/places-acs/places-acs-push-notifications.md)
+* [Messagerie In-App avec Places Service](/help/use-places-with-other-solutions/places-acs/places-acs-in-app-messages.md)

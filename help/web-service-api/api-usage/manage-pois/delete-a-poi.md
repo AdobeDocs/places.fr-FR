@@ -1,18 +1,17 @@
 ---
-title: Suppression d’un point d’intérêt
-description: Supprimez un point d’intérêt en utilisant les API REST de lieux.
-translation-type: tm+mt
-source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
+title: Suppression d’un point ciblé
+description: Supprimez un point ciblé à l’aide des API REST de Places.
+exl-id: 0325eb3b-f9b2-4b21-bed8-e318e8072a69
+source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '44'
 ht-degree: 9%
 
 ---
 
+# Suppression d’un point ciblé {#delete-a-poi}
 
-# Supprimer un POI {#delete-a-poi}
-
-Méthode de DELETE qui vous permet de supprimer un point d’intérêt.
+Méthode de DELETE qui vous permet de supprimer un point ciblé.
 
 ## Requête
 
@@ -46,5 +45,4 @@ curl -X DELETE 'https://api-places.adobe.io/places/placesapi/v1/pois/<POIID>' -H
 
 >[!IMPORTANT]
 >
->Remplacez `<POIID>`, `<API KEY>`, `<TOKEN>` et `<ORGID>` par des valeurs réelles.
-
+>Remplacer `<POIID>`, `<API KEY>`, `<TOKEN>`, et `<ORGID>` avec des valeurs réelles.

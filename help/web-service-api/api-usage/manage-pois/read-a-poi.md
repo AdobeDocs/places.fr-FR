@@ -1,18 +1,17 @@
 ---
-title: Lire un POI
-description: Lisez un point d’intérêt en utilisant les API REST de lieux.
-translation-type: tm+mt
-source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
+title: Lecture d’un point ciblé
+description: Lisez un point ciblé à l’aide des API REST de Places.
+exl-id: 19eb73c4-5101-47a9-8c79-bc4790ecf472
+source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '45'
 ht-degree: 8%
 
 ---
 
+# Lecture d’un point ciblé {#read-a-poi}
 
-# Lire un POI {#read-a-poi}
-
-Méthode de GET qui renvoie les détails d’une API.
+Méthode de GET qui renvoie les détails d’un point ciblé.
 
 ## Requête
 
@@ -70,5 +69,4 @@ curl -X GET 'https://api-places.adobe.io/places/placesapi/v1/pois/<POIID>' -H 'x
 
 >[!IMPORTANT]
 >
->Remplacez `<POIID>`, `<API KEY>`, `<TOKEN>` et `<ORIGIN>` par des valeurs réelles.
-
+>Remplacer `<POIID>`, `<API KEY>`, `<TOKEN>`, et `<ORIGIN>` avec des valeurs réelles.

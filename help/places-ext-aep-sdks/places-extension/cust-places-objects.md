@@ -1,8 +1,7 @@
 ---
-title: Objets Lieux personnalisés
+title: Objets Places personnalisés
 description: Informations sur les classes natives personnalisées utilisées avec les API Places.
 exl-id: deb16ba3-bd59-42b1-85ec-0f7de17f91f8
-translation-type: tm+mt
 source-git-commit: 2f666081fa01c11e832b94c83f2fe2c66eb51766
 workflow-type: tm+mt
 source-wordcount: '38'
@@ -10,7 +9,7 @@ ht-degree: 5%
 
 ---
 
-# Emplacements personnalisés, objets {#places-objects}
+# Objets Places personnalisés {#places-objects}
 
 Voici les classes natives personnalisées qui seront utilisées avec les API Places :
 

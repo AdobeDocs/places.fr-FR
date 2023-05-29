@@ -19,7 +19,7 @@ Puisque les variables environnementales peuvent être un facteur de précision e
 >
 >Ce plan suppose que les points ciblés ont été créés dans la variable [Interface utilisateur de Places Service](https://places.adobe.com) et les dernières versions de l&#39;extension Places sont installées et correctement configurées. Si vous effectuez une surveillance de région principale, une solution de surveillance de région est également mise en oeuvre. Pour plus d’informations, voir [Extension Places](/help/places-ext-aep-sdks/places-extension/places-extension.md), [Documentation CoreLocation](https://developer.apple.com/documentation/corelocation/monitoring_the_user_s_proximity_to_geographic_regions) pour iOS ou [Documentation sur l’emplacement Android](https://developer.android.com/training/location/geofencing).
 
-| Étape  | Description | Résultat attendu |
+| Étape | Description | Résultat attendu |
 |--- |--- |--- |
 | 1 | Vérifiez que les clés de manifeste appropriées ont été saisies pour Android afin d’accorder l’accès à l’emplacement de suivi. | Confirmé |
 | 1a | Confirmez que les mises à jour de l’emplacement sont configurées dans iOS. Assurez-vous également que vous disposez des clés de liste appropriées configurées dans iOS pour demander aux utilisateurs l’autorisation d’effectuer le suivi de l’emplacement. | Confirmé |

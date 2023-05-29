@@ -35,7 +35,7 @@ ht-degree: 3%
 
       * Journalisation améliorée
 
-## 5 mai 2020
+## 5 mai 2020
 
 
 * **PlacesMonitor 2.1.3**
@@ -74,7 +74,7 @@ ht-degree: 3%
 
       * Ajout d’une nouvelle API, `setAuthorizationStatus`, pour définir l’état d’autorisation de l’appareil pour Places Services. La valeur est stockée et utilisée dans l’état partagé Places .
 
-## 4 décembre 2019
+## 4 décembre 2019
 
 * **PlacesMonitor 2.1.2**
 
@@ -82,7 +82,7 @@ ht-degree: 3%
 
       * Appelez l’API Places pour collecter CLAuthorizationStatus depuis l’appareil lorsqu’il change.
 
-## 3 décembre 2019
+## 3 décembre 2019
 
 * **ACPPlaces 1.3.0**
 
@@ -107,7 +107,7 @@ ht-degree: 3%
       * Le moniteur reconnaît désormais le démarrage d’un appareil Android et, si nécessaire, enregistre à nouveau les clôtures virtuelles avec le système d’exploitation en fonction de l’emplacement actuel de l’appareil.
       * Correction d’une condition de concurrence en raison de laquelle les événements d’entrée/de sortie étaient parfois ignorés.
 
-## 9 octobre 2019
+## 9er octobre 2019
 
 * **PlacesMonitor 2.1.0**
 
@@ -180,7 +180,7 @@ Les mises à jour suivantes ont été apportées à cette version :
 
 * Mise à jour de l’utilisation des ACPPlaces `getNearbyPointsOfInterest` API permettant de gérer plus efficacement les scénarios d’erreur.
 
-## 22 juillet 2019
+## 22 juillet 2019
 
 Les mises à jour suivantes ont été apportées à cette version :
 
@@ -191,7 +191,7 @@ Les mises à jour suivantes ont été apportées à cette version :
 * Correction d’un bogue en raison duquel `getNearbyPointsOfInterest` callback renvoyait le code d’erreur `SERVER_RESPONSE_ERROR instead of CONNECTIVITY_ERROR` sur Internet.
 * `getNearbyPointsOfInterest` L’API (sans errorCallback) aura la variable `successCallback` appelé avec une liste de points ciblés vide, en cas d’erreur lors de la récupération des points ciblés proches.
 
-## 19 juillet 2019
+## 19 juillet 2019
 
 Les mises à jour suivantes ont été apportées à cette version :
 
@@ -199,7 +199,7 @@ Les mises à jour suivantes ont été apportées à cette version :
 
 Ajout d’une nouvelle API qui efface toutes les données liées à Places de l’état partagé, de la mémoire in-app et `NSUserDefaults`.
 
-## 25 juin 2019
+## 25 juin 2019
 
 Les mises à jour suivantes ont été apportées à cette version :
 
@@ -207,7 +207,7 @@ Les mises à jour suivantes ont été apportées à cette version :
 
 * Améliorations de la qualité de vie, notamment une meilleure documentation et une meilleure journalisation du code intégré.
 
-## 17 juin 2019
+## 17 juin 2019
 
 Les mises à jour suivantes ont été apportées à cette version :
 
@@ -218,7 +218,7 @@ Les mises à jour suivantes ont été apportées à cette version :
 * Correction d’un problème qui, après un premier lancement, entraînait parfois la perte d’événements Places en raison de mauvaises conditions réseau.
 * Correction d’un problème en raison duquel, lors du traitement des événements d’entrée de point ciblé dans une succession rapide, le remplacement de jeton par le moteur de règles faisait parfois référence à un point ciblé incorrect.
 
-## 30 mai 2019
+## 30 mai 2019
 
 **Android Places Monitor 1.0.1**
 
@@ -233,7 +233,7 @@ Correction des problèmes suivants dans l’interface utilisateur de Places :
 * Augmentation à 10 mètres du rayon minimal autorisé dans l’interface utilisateur.
 * Correction d’un problème en raison duquel, si vous supprimez tous les nombres du champ, le champ de rayon était réinitialisé à 20 mètres.
 
-## 17 mai 2019
+## 17 mai 2019
 
 Les mises à jour suivantes ont été apportées à cette version :
 

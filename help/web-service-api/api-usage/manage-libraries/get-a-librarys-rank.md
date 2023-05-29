@@ -1,16 +1,15 @@
 ---
-title: Obtenir le classement d'une bibliothèque
+title: Obtention du rang d’une bibliothèque
 description: Obtenez le classement d’une bibliothèque à l’aide de l’API REST Places.
-translation-type: tm+mt
-source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
+exl-id: c0abedd0-5ff4-4a01-9f8d-e3d17ea53a97
+source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '41'
 ht-degree: 9%
 
 ---
 
-
-# Obtenir le classement d&#39;une bibliothèque {#get-library-rank}
+# Obtention du rang d’une bibliothèque {#get-library-rank}
 
 Méthode de GET qui vous permet de classer les bibliothèques.
 
@@ -42,5 +41,4 @@ curl -X GET 'https://api-places.adobe.io/places/placesapi/v1/libraries/rank ' -H
 
 >[!IMPORTANT]
 >
->Remplacez des variables telles que `<API KEY>`, `<TOKEN>` et `<ORGID>` par des valeurs réelles.
-
+>Remplacer des variables telles que `<API KEY>`, `<TOKEN>`, et `<ORGID>` avec des valeurs réelles.

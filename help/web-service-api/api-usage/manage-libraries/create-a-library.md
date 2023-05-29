@@ -1,16 +1,15 @@
 ---
 title: créer une bibliothèque ;
 description: Créez une bibliothèque à l’aide de l’API REST Places.
-translation-type: tm+mt
-source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
+exl-id: 155cc6e6-9254-4389-bb02-e526d15908f4
+source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '48'
-ht-degree: 20%
+ht-degree: 22%
 
 ---
 
-
-# Création d’une bibliothèque {#create-a-library}
+# créer une bibliothèque ; {#create-a-library}
 
 Méthode de POST qui vous permet de créer une bibliothèque.
 
@@ -48,5 +47,4 @@ curl -X POST 'https://api-places.adobe.io/places/placesapi/v1/libraries' -H 'x-a
 
 >[!IMPORTANT]
 >
->Remplacez des variables telles que `<API KEY>`, `<TOKEN>` et `<ORGID>` par des valeurs réelles.
-
+>Remplacer des variables telles que `<API KEY>`, `<TOKEN>`, et `<ORGID>` avec des valeurs réelles.

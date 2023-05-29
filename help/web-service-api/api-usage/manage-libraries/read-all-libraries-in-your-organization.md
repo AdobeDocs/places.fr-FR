@@ -1,16 +1,15 @@
 ---
-title: permet de lire toutes les bibliothèques de votre organisation.
+title: Lire toutes les bibliothèques de votre entreprise
 description: Lisez toutes les bibliothèques de votre organisation à l’aide de l’API REST Places.
-translation-type: tm+mt
-source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
+exl-id: 3384e1f2-9626-498d-85f7-84569d869c2c
+source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '60'
 ht-degree: 6%
 
 ---
 
-
-# Lisez toutes les bibliothèques de votre organisation {#read-all-lib-in-org}
+# Lire toutes les bibliothèques de votre entreprise {#read-all-lib-in-org}
 
 Méthode de GET qui renvoie les détails de toutes les bibliothèques de votre organisation.
 
@@ -42,4 +41,4 @@ curl -X GET 'https://api-places.adobe.io/places/placesapi/v1/libraries' -H 'x-ap
 
 >[!IMPORTANT]
 >
->Remplacez des variables telles que `<API KEY>`, `<TOKEN>,` et `<ORGID>` par des valeurs réelles.
+>Remplacer des variables telles que `<API KEY>`, `<TOKEN>,` et `<ORGID>` avec des valeurs réelles.
