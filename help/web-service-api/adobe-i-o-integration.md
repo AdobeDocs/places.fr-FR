@@ -1,150 +1,69 @@
 ---
-title: Présentation de l’intégration Adobe I/O
-description: Informations sur la création d’une intégration Adobe I/O.
+title: Présentation du projet Adobe Developer
+description: Informations sur la création d’un projet d’API Adobe Developer.
 exl-id: d7d31938-6c0e-40f8-a9d3-30af96043119
-source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
+source-git-commit: 3d477c6133b74a7e6380d0db1af5125aaa844035
 workflow-type: tm+mt
-source-wordcount: '879'
-ht-degree: 6%
+source-wordcount: '497'
+ht-degree: 2%
 
 ---
 
-# Présentation de l’intégration et conditions préalables {#integration-prereqs}
+# Présentation de l’accès à l’API Places et conditions préalables {#developer-prereqs}
 
-Ces informations vous montrent comment créer un Adobe I/O et une intégration avec Places Service.
+Ces informations vous montrent comment créer un projet dans la console Adobe Developer et générer un jeton d’accès à utiliser dans les demandes de l’API Places.
 
 ## Conditions préalables pour l’accès utilisateur
 
 Vérifiez auprès de l’administrateur système de votre entreprise que les tâches suivantes ont été effectuées :
 
-* Places Core Service apparaît dans la console d’administration de votre entreprise.
 * Vous avez été ajouté à l’organisation.
-* Vous avez été ajouté en tant qu’utilisateur à Places Core Service dans votre entreprise.
+* Vous avez été ajouté à un profil dans Adobe Experience Platform.
 
-   Pour plus d’informations, voir *Ajout d’un utilisateur ou d’un développeur à vos profils Places Service et Experience Platform Launch* in [Accéder au service Places](/help/places-gain-access.md).
-
-* Vous avez été ajouté en tant que développeur à Places Core Service dans votre entreprise.
-
-   Pour plus d’informations sur l’ajout de développeurs, voir *Ajout d’un utilisateur ou d’un développeur à vos profils Places Service et Experience Platform Launch* in [Accéder au service Places](/help/places-gain-access.md).
-
-   Pour plus d’informations sur le rôle de développeur, voir [Gérer les développeurs](https://helpx.adobe.com/fr/enterprise/using/manage-developers.html).
+  Pour plus d’informations, voir *Ajout d’un utilisateur ou d’un développeur à vos profils Places Service et Experience Platform Launch* in [Accéder au service Places](/help/places-gain-access.md).
 
 ### Requêtes d’API REST
 
 Chaque requête à l’API REST du service Places nécessite les éléments suivants :
 
-* ID d’organisation
-* Une clé API
+* Un ID d’organisation
+* Une clé API (également appelée ID client)
+* Secret client
 * Jeton porteur
 
-Une intégration avec Adobe I/O fournit ces éléments et un moyen de demander le jeton porteur à l’aide d’un jeton web JSON (JWT).
+Un projet avec la fonction [Console Adobe Developer](https://developer.adobe.com/console) fournit ces éléments.
 
-* Pour plus d’informations sur les jetons JWT, voir [Présentation des jetons Web JSON](https://jwt.io/introduction/).
-* Pour créer une intégration pour Places Service, reportez-vous à la section *Création d&#39;une intégration avec Places Service* ci-dessous.
-* Pour comprendre l’intégration de la clé API, la génération d’un JWT et de certificats de clé publique, voir [Présentation de l’authentification des Adobes I/O](https://www.adobe.io/apis/cloudplatform/console/authentication/gettingstarted.html).
+* Pour créer un projet pour l’API Places Service, voir *Création d’un projet de service Places* ci-dessous.
 
 >[!IMPORTANT]
 >
->Si vous ne pouvez pas vous connecter à la console Adobe I/O ou si le service Places n’est pas une option de la *Page Créer des intégrations*, voir *Exigences de l’organisation* in [Présentation de l’API des services Web](/help/web-service-api/places-web-services.md).
+>Si vous ne pouvez pas vous connecter à [Console Adobe Developer](https://developer.adobe.com/console)ou si le service Places n’est pas une option de la variable *Page Créer des intégrations*, voir *Exigences de l’organisation* in [Présentation de l’API des services Web](/help/web-service-api/places-web-services.md).
 
-## Création d’une intégration avec Places Service
+## Création d’un projet d’API de service Places
 
-Pour créer une intégration avec Places Service, effectuez les tâches suivantes :
+Pour créer une API de projet pour Places Service, procédez comme suit :
 
-### Génération d’une paire de clés publique et privée
-
-Pour créer une intégration avec Places Service, vous avez besoin d’une paire de clés publique et privée. Vous pouvez acheter ces paires ou générer vos propres clés autosignées.
-
-Pour générer vos propres clés auto-signées :
-
-1. Dans une fenêtre de terminal, copiez et collez chacune des lignes suivantes, puis appuyez sur **[!UICONTROL Entrée]** après avoir collé chaque ligne :
-
-   ```text
-      mkdir keys
-      cd keys
-      openssl req -x509 -sha256 -nodes -days 365 -newkey rsa:2048 -keyout places_integration_test_private.key -out    places_integration_test_public.crt
-   ```
-
-   >[!IMPORTANT]
-   >
-   >Nous vous recommandons de nommer vos clés à des fins de référence et de les stocker dans un dossier. Si vous créez plusieurs intégrations, vous pouvez facilement identifier et gérer les clés appartenant à l’intégration.
-
-1. Saisissez les informations demandées par OpenSSL :
-
-   ```text
-   Country Name (2 letter code:  // Example: US
-   State or Province Name (full name):  // Example: California
-   Locality Name (eg, city):  // Example: San Jose
-   Organization Name (eg, company):  // Example: Places
-   Organizational Unit Name (eg, section):  // Example: Engineering
-   Common Name (eg, fully qualified host name):  // Example: places.com
-   Email Address:  // Example:  poi@places.com
-   ```
-
-   Pour plus d’informations sur OpenSSL, voir [OpenSSL](https://www.openssl.org/).
-
-   >[!IMPORTANT]
-   >
-   >Les informations que vous fournissez sont intégrées aux clés.
-
-1. Accédez au répertoire dans lequel le `.key` et `.crt` Les fichiers sont situés.
-
-   Par exemple, dans MacOS, accédez à **[!UICONTROL Macintosh HD]** > **[!UICONTROL utilisateurs]** > **[!UICONTROL (votre nom d’utilisateur)]** > **[!UICONTROL Clés]**.
-
-La vidéo suivante vous guide tout au long du processus de génération de la paire de clés :
-
-![vidéo d’intégration](/help/assets/places_integration_video.gif)
-
-### Création d’une intégration du service Places dans la console Adobe I/O
-
-Pour créer une intégration avec Places Service :
-
-1. Accédez à [https://console.adobe.io](https://console.adobe.io) et connectez-vous avec votre Adobe ID.
-1. Dans le **Démarrage rapide** , cliquez sur **Création d’une intégration**.
-1. Sélectionnez **[!UICONTROL Access an API]** (Accéder à une API), puis cliquez sur **[!UICONTROL Continue]** (Continuer).
-
-   **[!UICONTROL Accès à une API]** est l’emplacement par défaut.
-
-1. Si vous avez accès à plusieurs organisations Experience Cloud, sélectionnez l’organisation dans la liste déroulante en haut à droite.
-1. Sous **[!UICONTROL Experience Cloud]**, sélectionnez **[!UICONTROL Places Service]** comme service Adobe auquel vous souhaitez intégrer et cliquez sur **[!UICONTROL Continuer]**.
-1. Sélectionner **[!UICONTROL Nouvelle intégration]** et cliquez sur **[!UICONTROL Continuer]**.
-1. Dans l’écran Créer une intégration , saisissez un nom et une description.
-1. Faites glisser et déposez votre `xxxx_public.crt` , que vous avez créé ci-dessus, dans le fichier **[!UICONTROL Certificats de clés publiques]** zone de dépôt.
-1. Sélection dʼun profil de produit.
-
-   Si vous ne savez pas quel profil sélectionner, contactez votre administrateur système.
-1. Au bas de la page, cliquez sur **[!UICONTROL Création d’une intégration]**.
-1. Après quelques secondes, dans la variable *Intégration créée* Vérifiez que le message suivant s’affiche :
-
-   `Your integration has been created.`
-
-1. La page des détails de l’intégration s’affiche avec le nom de l’intégration en haut.
-
-   Le **[!UICONTROL Présentation]** s’affiche par défaut et affiche la clé API, l’ID d’organisation, l’ID de compte technique et d’autres détails sur vos intégrations.
-
-### Enregistrez l’ID d’organisation et la clé API
-
-1. Sur la page des détails de l’intégration, cliquez sur le **[!UICONTROL Services]** et confirmez que **[!UICONTROL Places Service]** s’affiche sous **[!UICONTROL Services configurés]**.
-1. Sur le **[!UICONTROL Présentation]** Recherchez et enregistrez la clé API (ID client) et l’ID d’organisation.
-
-   Ces identifiants sont nécessaires pour chaque requête de l’API REST du service Places.
-
-![](/help/assets/places_orgid_api-key.png)
-
-### Génération d’un jeton JWT
-
-Sur la page des détails de l’intégration, cliquez sur le **[!UICONTROL JWT]** afin que vous puissiez tester votre intégration en générant un jeton JWT et en fournissant l’URL d’échange.
-
-Pour générer un jeton JWT :
-
-1. Dans un éditeur de texte, ouvrez votre `private.key` fichier créé que vous avez créé ci-dessus.
-1. Sous l’onglet **[!UICONTROL JWT]**, copiez le contenu de la clé et collez-le dans le champ **[!UICONTROL Coller la clé privée]**.
-1. Cliquez sur **[!UICONTROL Génération de JWT]**.
-1. Dans la section **[!UICONTROL Exemple de commande CURL]**, cliquez sur **[!UICONTROL Copier]** et collez le contenu dans votre invite de commande ou fenêtre de terminal.
-1. Exécutez la commande en appuyant sur **[!UICONTROL Entrée]** sur votre clavier.
-1. Recherchez la variable `"token_type": "bearer"` et le `"access_token"` .
-
-   La valeur du jeton d’accès au porteur est ce que vous utiliserez dans vos demandes d’API du service Places.
+1. Connexion à [Site web Adobe Developer](https://developer.adobe.com) avec votre Adobe ID.
+2. Cliquez sur **[!UICONTROL Console]** dans le coin supérieur droit de la page.
+3. Si plusieurs organisations d’Adobe vous sont affectées, sélectionnez la bonne organisation dans la liste déroulante située dans le coin supérieur droit de la page.
+4. Cliquez sur le bouton **[!UICONTROL Créer un projet]** bouton .
+5. Cliquez sur **[!UICONTROL Ajouter une API]** dans la section Prise en main de votre nouveau projet .
+6. Pour sélectionner l&#39;API Places, faites défiler la page jusqu&#39;à la carte Places et cochez la case dans le coin supérieur droit de la carte.
+7. Cliquez sur le bouton **[!UICONTROL Suivant.]**
+8. Sélectionnez l’option Serveur à serveur OAuth (s’il y a un choix).
+9. Nommez les informations d’identification, puis cliquez sur **[!UICONTROL Suivant]**.
+10. Sélectionnez un profil (tout doit fonctionner s’il en existe plusieurs).
+11. Cliquez sur **[!UICONTROL Enregistrement et configuration de l’API]**.
+12. Dans le panneau de gauche, cliquez sur le **[!UICONTROL OAuth serveur à serveur]** lien sous CREDENTIALS
+13. Cette page fournit les informations suivantes :
+   * Un moyen de générer un jeton d’accès à utiliser dans les demandes de l’API REST du service Places.
+   * Affichez une commande curl pour obtenir un exemple de génération d’un jeton d’accès à partir de votre propre code.
+   * Affichage de l’ID client (également appelé clé API)
+   * Affichage du secret client
+   * Affichage de l’ID d’organisation
+   * Tous ces éléments sont requis dans les requêtes de l’API REST Places Service.
+14. Vous pouvez renommer le projet en un nom plus explicite en cliquant sur le nom du projet dans le chemin d’accès en haut à gauche de la fenêtre.
+15. Cliquez ensuite sur le bouton **[!UICONTROL Modifier le projet]** dans le coin supérieur droit de la page.
 
 >[!IMPORTANT]
 >

@@ -2,9 +2,9 @@
 title: Places Service
 description: Places Service est un contexte important pour comprendre l’engagement des utilisateurs mobiles. En utilisant ce contexte, les développeurs d’applications mobiles peuvent améliorer la conception de l’application et en faire une expérience plus personnalisée et attrayante.
 exl-id: 7369176f-c072-437a-9ee3-b463c5ff1d12
-source-git-commit: 010de286c25c1eeb989fb76e3c2adaa82ac9fd35
+source-git-commit: d5c216aebd99ffef01c37c17c62576835b52438b
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '671'
 ht-degree: 10%
 
 ---
@@ -38,19 +38,19 @@ Places Service comprend les composants suivants :
 
 * **Service Web**
 
-   Vous pouvez créer et gérer des points ciblés à l’aide des API REST Places. Pour plus d’informations sur les API REST, voir [Gestion des bibliothèques](/help/web-service-api/api-usage/manage-libraries/manage-libraries.md) et [Gestion des points ciblés](/help/web-service-api/api-usage/manage-pois/manage-pois.md).
+  Vous pouvez créer et gérer des points ciblés à l’aide des API REST Places. Pour plus d’informations sur les API REST, voir [Gestion des bibliothèques](/help/web-service-api/api-usage/manage-libraries/manage-libraries.md) et [Gestion des points ciblés](/help/web-service-api/api-usage/manage-pois/manage-pois.md).
 
 * **Interface de gestion des points ciblés**
 
-   Visualisez les points ciblés sur une carte pour comprendre le contexte spatial et ajouter/modifier les points ciblés et leurs métadonnées personnalisées.
+  Visualisez les points ciblés sur une carte pour comprendre le contexte spatial et ajouter/modifier les points ciblés et leurs métadonnées personnalisées.
 
 * **Extension Places**
 
-   L’interface d’API mobile multiplateforme pour intégrer le contexte d’emplacement dans vos applications mobiles. Pour plus d’informations sur les SDK, voir [Extension Places](/help/places-ext-aep-sdks/places-extension/places-extension.md).
+  L’interface d’API mobile multiplateforme pour intégrer le contexte d’emplacement dans vos applications mobiles. Pour plus d’informations sur les SDK, voir [Extension Places](/help/places-ext-aep-sdks/places-extension/places-extension.md).
 
 * **Règles de lancement**
 
-   Les règles Launch géointelligentes vous permettent de déclencher des actions avec des événements d’entrée et de sortie. Les règles vous permettent également d’utiliser des attributs géographiques dans des conditions pour personnaliser l’expérience.
+  Les règles Launch géointelligentes vous permettent de déclencher des actions avec des événements d’entrée et de sortie. Les règles vous permettent également d’utiliser des attributs géographiques dans des conditions pour personnaliser l’expérience.
 
 ## Terminologie
 
@@ -58,30 +58,30 @@ Voici quelques termes courants utilisés dans cette documentation :
 
 * A **Point ciblé** est un emplacement géographique qui intéresse votre entreprise.
 
-   Vous pouvez définir des points ciblés avec des attributs tels que le nom, le rayon, l’adresse, la catégorie et les balises de métadonnées.
+  Vous pouvez définir des points ciblés avec des attributs tels que le nom, le rayon, l’adresse, la catégorie et les balises de métadonnées.
 
 * A **geofence** est un type de point ciblé.
 
-   Ce type de point ciblé est une limite géographique virtuelle définie par les coordonnées de latitude et de longitude.
+  Ce type de point ciblé est une limite géographique virtuelle définie par les coordonnées de latitude et de longitude.
 
 * A **beacon** est un type de point ciblé.
 
-   Ce type de point ciblé est un appareil physique qui représente un emplacement en émettant un signal Bluetooth à faible puissance. La prise en charge des balises sera disponible dans une version ultérieure.
+  Ce type de point ciblé est un appareil physique qui représente un emplacement en émettant un signal Bluetooth à faible puissance. La prise en charge des balises sera disponible dans une version ultérieure.
 
 * Une **bibliothèque** est une collection de POI permettant l’association plus simple de règles à un ensemble de POI plutôt qu’à un POI unique.
 
 * Un **extension** est l’extension Experience Platform Launch requise pour intégrer le SDK Places dans vos applications mobiles.
 
-   Extension utilisée avec les autres SDK mobiles pour ajouter un contexte d’emplacement à vos expériences.
+  Extension utilisée avec les autres SDK mobiles pour ajouter un contexte d’emplacement à vos expériences.
 
 * Une **organisation** est l’entité Adobe qui identifie votre société dans Adobe Experience Cloud.
 
-   En règle générale, une organisation correspond au nom de votre société. Cependant, une société peut avoir plusieurs organisations. L’administrateur de l’organisation peut configurer des groupes et des utilisateurs et configurer la fonctionnalité d’authentification unique.
+  En règle générale, une organisation correspond au nom de votre société. Cependant, une société peut avoir plusieurs organisations. L’administrateur de l’organisation peut configurer des groupes et des utilisateurs et configurer la fonctionnalité d’authentification unique.
 
 * L’**orgID** est l’identifiant représentant votre organisation dans Adobe Experience Platform.
 
-   Pour plus d’informations, voir [Recherche de votre orgID](https://forums.adobe.com/thread/2339895).
+  Pour plus d’informations, voir [Recherche de votre orgID](https://forums.adobe.com/thread/2339895).
 
-* Le **ID Experience Cloud** Le service fournit un identifiant universel et permanent qui identifie vos visiteurs à l’échelle de toutes les solutions de l’Experience Cloud.
+* La variable **Identifiant Experience Cloud** Le service fournit un identifiant universel et permanent qui identifie vos visiteurs dans toutes les solutions de l’Experience Cloud.
 
-   Pour plus d’informations, voir [Aperçu](https://docs.adobe.com/content/help/fr-FR/id-service/using/intro/overview.html).
+  Pour plus d’informations, voir [Aperçu](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=fr).

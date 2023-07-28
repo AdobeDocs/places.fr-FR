@@ -2,9 +2,9 @@
 title: Extension Places
 description: L’extension Places vous permet d’agir en fonction de l’emplacement de vos utilisateurs.
 exl-id: 09c02753-09b3-4e07-82b2-b6c72c4e0e42
-source-git-commit: 795808b38851d5afcedc03f58e9a1d6342830934
+source-git-commit: d5c216aebd99ffef01c37c17c62576835b52438b
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '697'
 ht-degree: 5%
 
 ---
@@ -20,11 +20,11 @@ L’extension Places vous permet d’agir en fonction de l’emplacement de vos 
 1. Sélectionnez les bibliothèques Places que vous souhaitez utiliser dans cette propriété. Il s’agit des bibliothèques qui seront accessibles dans votre application.
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
-   Lorsque vous cliquez sur **[!UICONTROL Enregistrer]**, le SDK Experience Platform recherche les points ciblés dans les services Places dans les bibliothèques que vous avez sélectionnées. Les données du point ciblé ne sont pas incluses dans le téléchargement de la bibliothèque lorsque vous créez l’application, mais un sous-ensemble de points ciblés basé sur l’emplacement est téléchargé sur l’appareil de l’utilisateur final au moment de l’exécution et est basé sur les coordonnées GPS de l’utilisateur.
+   Lorsque vous cliquez **[!UICONTROL Enregistrer]**, le SDK Experience Platform recherche les points ciblés dans les services Places dans les bibliothèques que vous avez sélectionnées. Les données du point ciblé ne sont pas incluses dans le téléchargement de la bibliothèque lorsque vous créez l’application, mais un sous-ensemble de points ciblés basé sur l’emplacement est téléchargé sur l’appareil de l’utilisateur final au moment de l’exécution et est basé sur les coordonnées GPS de l’utilisateur.
 
 1. Suivez le processus de publication pour mettre à jour la configuration du SDK.
 
-   Pour plus d’informations sur la publication dans Experience Platform Launch, voir [Publication](https://docs.adobe.com/content/help/fr-FR/launch/using/reference/publish/overview.html).
+   Pour plus d’informations sur la publication dans Experience Platform Launch, voir [Publication](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=fr).
 
 ### Configuration de l’extension Places {#configure-places-extension}
 

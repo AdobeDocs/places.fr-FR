@@ -2,10 +2,10 @@
 title: Rapport sur les données de localisation dans Analytics Workspace
 description: Cette section fournit des informations sur la manière de créer des rapports sur les données de localisation dans Analytics Workspace.
 exl-id: 45ca3c80-71b7-41de-9b00-645504061935
-source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
+source-git-commit: d5c216aebd99ffef01c37c17c62576835b52438b
 workflow-type: tm+mt
-source-wordcount: '452'
-ht-degree: 8%
+source-wordcount: '451'
+ht-degree: 5%
 
 ---
 
@@ -23,7 +23,7 @@ Ce document suppose les éléments suivants :
 
 1. L’utilisateur Adobe Analytics est administrateur et a accès aux règles de traitement.
 
-   Pour plus d’informations sur les règles de traitement, voir l’[Aperçu des règles de traitement](https://docs.adobe.com/content/help/fr-FR/analytics/admin/admin-tools/processing-rules/processing-rules.html).
+   Pour plus d’informations sur les règles de traitement, voir l’[Aperçu des règles de traitement](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules.html).
 
 1. Dans la propriété Launch, des éléments de données ont été créés pour les variables du service Places que vous souhaitez.
 
@@ -44,7 +44,7 @@ Dans cet exemple, l’action de la règle a les valeurs suivantes définies pour
 
 ## 2. Création de variables Analytics
 
-Pour mapper les données contextuelles (envoyées à l’étape 1), les variables doivent d’abord être créées pour la suite de rapports Analytics. Pour plus d’informations sur la création de variables dans Analytics, voir [Variables de conversion (eVars)](https://docs.adobe.com/content/help/en/analytics/implementation/analytics-basics/ref-conversion-variables-evar.html).
+Pour mapper les données contextuelles (envoyées à l’étape 1), les variables doivent d’abord être créées pour la suite de rapports Analytics. Pour plus d’informations sur la création de variables dans Analytics, voir [Variables de conversion (eVars)](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/evar.html?lang=fr).
 
 Dans cet exemple, une variable de conversion, **[!UICONTROL Evar2]**, a été créé et nommé **[!UICONTROL Nom du point ciblé Places]**. Des variables supplémentaires doivent être créées pour chaque variable d’emplacement que vous souhaitez afficher dans les rapports.
 
@@ -52,7 +52,7 @@ Dans cet exemple, une variable de conversion, **[!UICONTROL Evar2]**, a été cr
 
 ## 3. Création de règles de traitement
 
-Cette étape est nécessaire pour mapper les données contextuelles (étape 1) aux variables Analytics (étape 2). Pour plus d’informations sur la création de règles de traitement, voir [Règles de traitement - Aperçu](https://docs.adobe.com/content/help/fr-FR/analytics/admin/admin-tools/processing-rules/processing-rules.html).
+Cette étape est nécessaire pour mapper les données contextuelles (étape 1) aux variables Analytics (étape 2). Pour plus d’informations sur la création de règles de traitement, voir [Règles de traitement - Aperçu](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules.html).
 
 Dans cet exemple, une règle de traitement a été créée pour mapper la valeur de données contextuelles. **[!UICONTROL poi.name]** into **[!UICONTROL Nom du point ciblé Places (eVar2)]**. Des règles de traitement supplémentaires doivent être créées pour chaque variable d’emplacement créée.
 
@@ -60,13 +60,13 @@ Dans cet exemple, une règle de traitement a été créée pour mapper la valeur
 
 ## 4. Générer un rapport dans Workspace
 
-Cette étape affiche un rapport de base dans Analytics Workspace pour afficher les données collectées aux étapes 1 à 3. Pour plus d’informations sur l’utilisation d’Analytics Workspace, voir [Présentation d’Analytics Workspace](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/home.html).
+Cette étape affiche un rapport de base dans Analytics Workspace pour afficher les données collectées aux étapes 1 à 3. Pour plus d’informations sur l’utilisation d’Analytics Workspace, voir [Présentation d’Analytics Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=fr).
 
 Dans cet exemple, les paramètres du rapport sont les suivants :
 
 * Mesure - **[!UICONTROL Occurrences]**
 
-* Dimension - **[!UICONTROL Nom de l’action]**
+* DIMENSION - **[!UICONTROL Nom de l’action]**
 
    * Répartition par Dimension - **[!UICONTROL Nom du point ciblé Places]**
 

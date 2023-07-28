@@ -2,9 +2,9 @@
 title: Création d’une règle pour la propriété Places Service
 description: Le SDK Places effectue le suivi de l’emplacement actuel, surveille les points ciblés configurés autour de l’emplacement actuel et suit les événements d’entrée et de sortie pour ces points ciblés.
 exl-id: dd5aa7ac-55f9-44dc-8632-e483ef3b91a0
-source-git-commit: 010de286c25c1eeb989fb76e3c2adaa82ac9fd35
+source-git-commit: d5c216aebd99ffef01c37c17c62576835b52438b
 workflow-type: tm+mt
-source-wordcount: '927'
+source-wordcount: '922'
 ht-degree: 15%
 
 ---
@@ -50,19 +50,19 @@ Chaque point ciblé contient les éléments de données suivants :
 
 Les actions définissent ce que l’application fera en réponse à la condition que la règle soit remplie pour l’événement déclenché. Par exemple, lorsque votre client entre dans votre point ciblé, vous pouvez configurer un message de bienvenue à afficher sur son appareil mobile.
 
-## Créez une règle : un exemple
+## Créer une règle : exemple
 
 >[!CAUTION]
 >
->Cet exemple implique que vous ayez créé une bibliothèque POI de tous les cafés aux États-Unis. Pour plus d’informations sur la création de POI et de bibliothèques, voir [Création d’un point ciblé](/help/poi-mgmt-ui/create-a-poi-ui.md) et *Création d’une bibliothèque* in [Gestion de plusieurs bibliothèques](https://docs.adobe.com/content/help/en/places/using/poi-mgmt-ui/manage-libraries-in-the-places-ui.html).
+>Cet exemple implique que vous ayez créé une bibliothèque POI de tous les cafés aux États-Unis. Pour plus d’informations sur la création de POI et de bibliothèques, voir [Création d’un point ciblé](/help/poi-mgmt-ui/create-a-poi-ui.md) et *Création d’une bibliothèque* in [Gestion de plusieurs bibliothèques](https://experienceleague.adobe.com/docs/places/using/poi-mgmt-ui/manage-libraries-in-the-places-ui.html).
 
 La procédure suivante est un exemple de création d’une règle qui renvoie une publication au Slack lorsque vous entrez dans un café à San Francisco.
 
 L’événement, la condition et l’action sont définis comme suit :
 
-* **Événement**: Place l’événement d’entrée.
+* **Événement**: place l’événement d’entrée.
 * **Condition** : la ville du **Point ciblé actuel** est San Francisco
-* **Action**: Envoyez un postback au Slack du nom du café que votre client a saisi.
+* **Action**: envoyez un postback au Slack le nom du café que votre client a saisi.
 
 ### Condition requise
 
@@ -107,10 +107,10 @@ Pour créer un élément de données dans Experience Platform Launch :
 ### Créer une action
 
 1. Dans le **[!UICONTROL Actions]** , cliquez sur **[!UICONTROL + Ajouter]**.
-1. Dans le **[!UICONTROL Extension]** , laissez la valeur par défaut **[!UICONTROL Mobile Core]** option sélectionnée.
+1. Dans le **[!UICONTROL Extension]** , conservez la valeur par défaut **[!UICONTROL Mobile Core]** l’option sélectionnée.
 1. Sélectionnez un type d’action, par exemple : **[!UICONTROL Envoyer le postback]**.
 
-   a. Dans **[!UICONTROL URL]**, saisissez l’URL de postback pour Slack, par exemple : `https://hooks.slack.com/services/`.
+   a. **[!UICONTROL URL]**, saisissez l’URL de postback pour Slack, par exemple : `https://hooks.slack.com/services/`.
 
    b. Pour envoyer un corps de publication, sélectionnez l’option **[!UICONTROL Ajouter un corps de publication]** .
 
@@ -124,7 +124,7 @@ Pour créer un élément de données dans Experience Platform Launch :
 
 ### Publier la règle
 
-1. Pour activer la règle, vous devez la publier. Pour plus d’informations sur la publication de votre règle dans Experience Platform Launch, voir [Publication](https://docs.adobe.com/content/help/fr-FR/launch/using/reference/publish/overview.html).
+1. Pour activer la règle, vous devez la publier. Pour plus d’informations sur la publication de votre règle dans Experience Platform Launch, voir [Publication](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=fr).
 
 ### Penser au-delà des entrées et des sorties
 

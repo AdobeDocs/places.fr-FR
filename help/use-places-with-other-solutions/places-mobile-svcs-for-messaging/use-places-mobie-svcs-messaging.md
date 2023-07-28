@@ -2,9 +2,9 @@
 title: Utilisation de Places Service avec Mobile Services pour la messagerie
 description: Cette section vous explique comment utiliser Places Service avec Mobile Services pour la messagerie.
 exl-id: dfa6b8bb-6bf2-44eb-8bfc-87294807ec3b
-source-git-commit: 010de286c25c1eeb989fb76e3c2adaa82ac9fd35
+source-git-commit: d5c216aebd99ffef01c37c17c62576835b52438b
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '343'
 ht-degree: 1%
 
 ---
@@ -15,29 +15,29 @@ Avant d’utiliser l’extension Mobile Services pour la messagerie, vérifiez l
 
 * Des points ciblés ont été créés dans Places Service. Pour plus d’informations, voir [Création d’un point ciblé](/help/poi-mgmt-ui/create-a-poi-ui.md).
 
-   >[!IMPORTANT]
-   >
-   >Le service Places comprend une nouvelle base de données POI améliorée pour votre organisation, qui existe en dehors de l’ancienne interface utilisateur de Mobile Services. Points ciblés situés sur Mobile Service *Gérer les emplacements* La navigation dans les pages ne fonctionne que pour la version 4 du SDK.
+  >[!IMPORTANT]
+  >
+  >Le service Places comprend une nouvelle base de données POI améliorée pour votre organisation, qui existe en dehors de l’ancienne interface utilisateur de Mobile Services. Points ciblés situés sur Mobile Service *Gérer les emplacements* La navigation dans les pages ne fonctionne que pour la version 4 du SDK.
 
-* Voici la *Gestion des emplacements* Page de gestion des points ciblés dans l’ancienne interface utilisateur de Mobile Services pour les versions plus anciennes du SDK :
+* Voici la variable *Gestion des emplacements* Page de gestion des points ciblés dans l’ancienne interface utilisateur de Mobile Services pour les versions plus anciennes du SDK :
 
-   ![Interface utilisateur héritée](/help/assets/legacy-location-v4-ui.png)
+  ![Interface utilisateur héritée](/help/assets/legacy-location-v4-ui.png)
 
 * Voici l’interface utilisateur du service Places :
 
-   ![Interface utilisateur de gestion des points ciblés de Places Service](/help/assets/places-ui.png)
+  ![Interface utilisateur de gestion des points ciblés de Places Service](/help/assets/places-ui.png)
 
 * Le SDK ACP est correctement configuré avec l’extension Places.
 
-   Cela signifie que les données sont disponibles en tant qu’événements et/ou conditions dans le moteur de règles de l’Experience Platform Launch pour votre application mobile. Pour plus d’informations, voir [Extension Places](/help/places-ext-aep-sdks/places-extension/places-extension.md).
+  Cela signifie que les données sont disponibles en tant qu’événements et/ou conditions dans le moteur de règles de l’Experience Platform Launch pour votre application mobile. Pour plus d’informations, voir [Extension Places](/help/places-ext-aep-sdks/places-extension/places-extension.md).
 
 * Familiarisez-vous avec la création et la publication de règles Experience Platform Launch sur le SDK ACP dans votre application mobile.
 
-   Pour plus d’informations, voir [Moteur de règles](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/rules-engine).
+  Pour plus d’informations, voir [Moteur de règles](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/rules-engine).
 
 * Les éléments de données Experience Platform Launch sont créés à partir des données de l’extension Places qui seront utilisées dans le moteur de règles.
 
-   Pour plus d’informations, voir [Éléments de données](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/rules-engine#data-elements).
+  Pour plus d’informations, voir [Éléments de données](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/rules-engine#data-elements).
 
 ## Création de rapports
 
@@ -45,11 +45,11 @@ Pour pouvoir utiliser la création de rapports, remplissez les conditions préal
 
 * Envoi réussi des données du service Places dans la suite de rapports Adobe Analytics.
 
-   Pour plus d’informations, voir [Utilisation du service Places avec Adobe Analytics](/help/use-places-with-other-solutions/places-adobe-analytics/use-places-adobe-analytics.md).
+  Pour plus d’informations, voir [Utilisation du service Places avec Adobe Analytics](/help/use-places-with-other-solutions/places-adobe-analytics/use-places-adobe-analytics.md).
 
 * Familiarisez-vous avec les rapports Mobile Services.
 
-   Pour plus d’informations, voir [Rapports](https://docs.adobe.com/content/help/en/mobile-services/using/reports-ug/usage.html).
+  Pour plus d’informations, voir [Rapports](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html).
 
 ## Visualisation des rapports
 
