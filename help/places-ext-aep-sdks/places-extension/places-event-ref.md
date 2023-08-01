@@ -1,8 +1,9 @@
 ---
 title: Référence d’événement Places
 description: Liste des événements gérés par l’extension Places.
+feature: Mobile SDK
 exl-id: 98210ef4-5ff1-4792-b97b-2845ce02e78a
-source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
+source-git-commit: f521d5e3b0b69977877d88382ce41fcb7d1c54b9
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 29%
@@ -67,7 +68,7 @@ Cet événement provoque le traitement par l’extension Places d’un événeme
 | Clé | Type de valeur | Obligatoire | Description |
 | :--- | :--- | :--- | :--- |
 | région | chaîne | vrai | Identifiant de la région qui génère l’événement. |
-| régiononeventtype | int | vrai | Type d’événement de région généré. 1 pour l’entrée et 2 pour la sortie. |
+| régiononeventtype | int | vrai | Type d’événement de région généré. 1 pour entrée et 2 pour sortie. |
 
 ## Événements distribués par l’extension Places
 
