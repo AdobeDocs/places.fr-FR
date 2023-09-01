@@ -1,17 +1,17 @@
 ---
-title: Utilisation de Places Service sans surveillance de région principale
-description: Cette section fournit des informations sur l’utilisation de Places Service sans surveillance de région principale.
+title: Utilisation du service Places sans surveillance active des régions
+description: Cette section fournit des informations sur l’utilisation de Places Service sans surveillance de région active.
 exl-id: 0ba7949a-447e-4754-9b45-945e58e29541
-source-git-commit: 010de286c25c1eeb989fb76e3c2adaa82ac9fd35
+source-git-commit: 33cbef9b3226be3f013fe82d619b82e093a9752a
 workflow-type: tm+mt
-source-wordcount: '748'
+source-wordcount: '762'
 ht-degree: 1%
 
 ---
 
-# Utilisation de Places Service sans surveillance de région principale {#use-places-without-active-monitoring}
+# Utilisation du service Places sans surveillance active des régions {#use-places-without-active-monitoring}
 
-Les cas d’utilisation de votre application peuvent ne pas nécessiter une surveillance de région principale. Places Service peut toujours être utilisé pour intégrer les données de localisation de vos utilisateurs à d’autres produits Experience Platform.
+Les cas d’utilisation de votre application peuvent ne pas nécessiter de surveillance de région active. Places Service peut toujours être utilisé pour intégrer les données de localisation de vos utilisateurs à d’autres produits Experience Platform.
 
 ## Condition requise
 
@@ -19,9 +19,9 @@ Le développeur collectera l’emplacement de l’appareil à l’aide des API f
 
 >[!TIP]
 >
->Si les cas d’utilisation de votre application nécessitent une surveillance de région principale, reportez-vous à la section [Utilisation de Places Service avec votre propre solution de surveillance](/help/using-your-own-monitor.md).
+>Si les cas d’utilisation de votre application nécessitent une surveillance de région active, reportez-vous à la section [Utilisation de Places Service avec votre propre solution de surveillance](/help/using-your-own-monitor.md).
 
-Pour utiliser Places Service sans surveillance de région principale :
+Pour utiliser Places Service sans surveillance de région active :
 
 ## 1. Collecter l’emplacement de l’utilisateur
 
@@ -34,7 +34,7 @@ Pour plus d’informations, consultez la documentation suivante :
 
 ## 2. Récupérer les points ciblés proches à partir du SDK
 
-Après avoir obtenu l’emplacement de l’utilisateur, vous pouvez le transmettre au SDK pour obtenir une liste des points ciblés voisins.
+Après avoir obtenu l’emplacement de l’utilisateur, vous pouvez le transmettre au SDK pour obtenir une liste des points ciblés à proximité.
 
 ### Android
 
@@ -126,9 +126,9 @@ Voir [Ajout du contexte d’emplacement aux requêtes Analytics](use-places-with
 >
 >La méthode recommandée pour capturer des données Places consiste à [Joindre des données Places à vos requêtes Analytics](#attach-places-data-to-your-analytics-requests).
 >
->Si le cas d’utilisation nécessite une [événement d’entrée de région](places-ext-aep-sdks/places-extension/places-event-ref.md#processregionevent) pour être déclenché par le SDK, il doit être effectué manuellement comme indiqué ci-dessous.
+>Si le cas d’utilisation nécessite une [événement d’entrée de région](https://developer.adobe.com/client-sdks/documentation/places/api-reference/#processregionevent) pour être déclenché par le SDK, il doit être effectué manuellement comme indiqué ci-dessous.
 
-La liste renvoyée par la variable `getNearbyPointsOfInterest` L’API contient [objet personnalisé](places-ext-aep-sdks/places-extension/cust-places-objects.md) qui indiquent si l’utilisateur se trouve actuellement dans un point ciblé. Si l’utilisateur se trouve dans un point ciblé, le SDK peut déclencher un événement d’entrée pour cette région.
+La liste renvoyée par la variable `getNearbyPointsOfInterest` L’API contient [objet personnalisé](https://developer.adobe.com/client-sdks/documentation/places/api-reference/#additional-classes-and-enums) qui indiquent si l’utilisateur se trouve actuellement dans un point ciblé. Si l’utilisateur se trouve dans un point ciblé, le SDK peut déclencher un événement d’entrée pour cette région.
 
 >[!IMPORTANT]
 >
@@ -247,7 +247,7 @@ Cet exemple de code comprend l’étape facultative de [déclenchement d’évé
 
 >[!IMPORTANT]
 >
->Ces fragments de code sont : **only** exemples. Les développeurs doivent déterminer la manière dont ils souhaitent mettre en oeuvre la fonctionnalité. De plus, la décision doit tenir compte des bonnes pratiques recommandées par le système d’exploitation cible.
+>Ces fragments de code sont **only** exemples. Les développeurs doivent déterminer la manière dont ils souhaitent mettre en oeuvre la fonctionnalité. De plus, la décision doit tenir compte des bonnes pratiques recommandées par le système d’exploitation cible.
 
 ### Android
 
