@@ -4,8 +4,8 @@ description: Cette section fournit des informations sur l’utilisation de la me
 exl-id: c80727b8-20c9-4ca0-9f2c-20ec646bb7fa
 source-git-commit: 010de286c25c1eeb989fb76e3c2adaa82ac9fd35
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 4%
+source-wordcount: '362'
+ht-degree: 0%
 
 ---
 
@@ -17,14 +17,14 @@ Ces informations vous aident à comprendre comment utiliser les informations du 
 
 Avant de commencer, effectuez les tâches suivantes :
 
-* disposer d’une application mobile configurée avec le SDK Mobile Adobe Experience Platform, y compris le [Extension Adobe Campaign Standard](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard).
+* Ayez une application mobile configurée avec le SDK Mobile Adobe Experience Platform, y compris l’ [extension Adobe Campaign Standard](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard).
 
-* Intégrez la variable [SDK Adobe Experience Platform Mobile](https://aep-sdks.gitbook.io/docs/getting-started/get-the-sdk) dans votre application.
-* Ajoutez la variable [Extension Adobe Campaign Standard](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard) à la configuration de votre application mobile.
+* Intégrez le [SDK Adobe Experience Platform Mobile](https://aep-sdks.gitbook.io/docs/getting-started/get-the-sdk) à votre application.
+* Ajoutez l’[extension Adobe Campaign Standard](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard) à la configuration de votre application mobile.
 
-* [Création d’un point ciblé](/help/poi-mgmt-ui/create-a-poi-ui.md) dans l’interface de gestion des points ciblés du service Places.
+* [Créez un point ciblé](/help/poi-mgmt-ui/create-a-poi-ui.md) dans l’interface de gestion des points ciblés du service Places.
 
-* Installez et configurez le [Extension Places](/help/places-ext-aep-sdks/places-extension/places-extension.md) et une solution de surveillance de région ([Documentation CoreLocation](https://developer.apple.com/documentation/corelocation/monitoring_the_user_s_proximity_to_geographic_regions) pour iOS ou [Documentation sur l’emplacement Android](https://developer.android.com/training/location/geofencing)) dans votre application mobile.
+* Installez et configurez l’ [extension Places](/help/places-ext-aep-sdks/places-extension/places-extension.md) et une solution de surveillance de région ([documentation CoreLocation](https://developer.apple.com/documentation/corelocation/monitoring_the_user_s_proximity_to_geographic_regions) pour iOS ou [documentation de localisation Android](https://developer.android.com/training/location/geofencing)) dans votre application mobile.
 
 ## Envoi d’un message In-App basé sur une entrée ou une sortie de géolocalisation
 
@@ -40,13 +40,13 @@ Avant de commencer, effectuez les tâches suivantes :
 
    ![&quot;Métadonnées Places de message in-app&quot;](/help/assets/last-entered-vacation.png)
 
-1. Cliquez sur le bouton **[!UICONTROL Suivant]** pour terminer la création du message in-app pour la diffusion.
+1. Cliquez sur **[!UICONTROL Suivant]** pour terminer la création du message in-app pour la diffusion.
 
-   ![&quot;créer un événement&quot;](/help/assets/prepare-ACS.png)
+   ![&quot;create an event&quot;](/help/assets/prepare-ACS.png)
 
    Pour tester la diffusion des messages in-app, lancez l’application dans Xcode ou Android Studio et utilisez le simulateur d’emplacement pour sélectionner un point ciblé qui correspond aux critères de messagerie.
 
-   ![&quot;coupon de boisson&quot;](/help/assets/drink-coupon-on-app.png)
+   ![&quot;bons à boire&quot;](/help/assets/drink-coupon-on-app.png)
 
 L’utilisation de Places Services avec Adobe Campaign Standard vous offre un outil puissant pour segmenter et cibler vos messages vers les utilisateurs en fonction des entrées et des sorties de géo-barrières. Cette intégration vous permet de créer des cas d’utilisation plus personnalisés et contextuels.
 

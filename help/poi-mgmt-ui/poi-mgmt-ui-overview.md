@@ -11,9 +11,9 @@ ht-degree: 0%
 
 # Présentation de l’interface utilisateur de Places Service {#management-ui-overview}
 
-Les points ciblés et les bibliothèques sont créés et gérés dans la base de données de Places Service à l’aide de l’interface utilisateur de Places Service.
+Les points ciblés et les bibliothèques sont créés et gérés dans la base de données du service Places à l’aide de l’interface utilisateur du service Places.
 
 * Pour créer une bibliothèque ou gérer plusieurs bibliothèques, voir [Gestion des bibliothèques](/help/poi-mgmt-ui/manage-libraries-in-the-places-ui.md).
 * Pour créer un point ciblé, voir [Création d’un point ciblé](/help/poi-mgmt-ui/create-a-poi-ui.md).
 * Pour gérer plusieurs points ciblés, voir [Gestion des points ciblés créés précédemment](/help/poi-mgmt-ui/managing-pois-in-the-places-ui.md).
-* Pour réaliser un import en bloc de POI, voir [Importation en masse de POI](/help/poi-mgmt-ui/bulk-upload-pois.md).
+* Pour réaliser un import en bloc de POI, voir [Import en masse de POI](/help/poi-mgmt-ui/bulk-upload-pois.md).

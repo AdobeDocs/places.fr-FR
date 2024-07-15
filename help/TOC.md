@@ -6,7 +6,7 @@ feature: Places
 source-git-commit: 9f2c6fee6e0d6d075b662cc0b6cbee49cf05ee55
 workflow-type: tm+mt
 source-wordcount: '290'
-ht-degree: 22%
+ht-degree: 19%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 22%
 
 + [Présentation de Places Service](home.md)
 + [Notes de mise à jour](release-notes.md)
-+ [Prise en main](getting-started.md)
++ [Commencer](getting-started.md)
 + [Accéder au service Places](places-gain-access.md)
 + Interface utilisateur de Places Service {#poi-mgmt-ui}
    + [Présentation de l’interface utilisateur de Places Service](poi-mgmt-ui/poi-mgmt-ui-overview.md)
@@ -24,10 +24,10 @@ ht-degree: 22%
    + [Stratégies d’utilisation des métadonnées avec les points ciblés](poi-mgmt-ui/metadata-with-pois.md)
    + [Chargement en masse de POI](poi-mgmt-ui/bulk-upload-pois.md)
    + [Gestion de plusieurs bibliothèques](poi-mgmt-ui/manage-libraries-in-the-places-ui.md)
-+ API de service web {#web-service-api}
++ API de service Web {#web-service-api}
    + [Présentation de l’API de service Web](web-service-api/places-web-services.md)
    + [Conditions préalables à l’intégration](web-service-api/adobe-i-o-integration.md)
-   + Utilisation des API {#api-usage}
+   + Utilisation de l’API {#api-usage}
       + [Présentation de l’utilisation des API](web-service-api/api-usage/api-usage-overview.md)
       + [En-têtes et paramètres](web-service-api/api-usage/headers-and-parameters.md)
       + Gestion des bibliothèques {#manage-libraries}
@@ -57,11 +57,11 @@ ht-degree: 22%
    + [Extension Places](places-ext-aep-sdks/places-extension/places-extension.md)
 + [Utilisation de Places Service avec votre propre solution de surveillance](using-your-own-monitor.md)
 + [Utilisation du service Places sans surveillance active des régions](use-places-without-active-monitoring.md)
-+ Utilisation du service Places dans le cadre du workflow Experience Platform Launch {#use-places-launch-workflow}
++ Utiliser le service Places dans le cadre du workflow Experience Platform Launch {#use-places-launch-workflow}
    + [Utilisation du service Places dans le cadre du workflow Experience Platform Launch](use-places-launch-workflow/places-launch-workflow.md)
    + [Définition des éléments de données](use-places-launch-workflow/define-data-elements.md)
    + [Création de règles d’entrée et de sortie](use-places-launch-workflow/create-rule-places-property.md)
-+ Utilisation du service Places avec d’autres solutions Adobe {#use-places-with-other-solutions}
++ Utilisation du service Places avec d’autres solutions d’Adobe {#use-places-with-other-solutions}
    + Adobe Analytics {#places-adobe-analytics}
       + [Utilisation du service Places avec Adobe Analytics](use-places-with-other-solutions/places-adobe-analytics/use-places-analytics-overview.md)
       + [Envoi de données d’entrée et de sortie de point ciblé à Analytics](use-places-with-other-solutions/places-adobe-analytics/use-places-adobe-analytics.md)
@@ -71,7 +71,7 @@ ht-degree: 22%
       + [Adobe Mobile Services](use-places-with-other-solutions/places-mobile-svcs-for-messaging/use-places-mobie-svcs-messaging.md)
       + [Notifications push](use-places-with-other-solutions/places-mobile-svcs-for-messaging/mobile-svcs-messaging-push.md)
       + [Notifications In-App](use-places-with-other-solutions/places-mobile-svcs-for-messaging/mobile-svcs-messaging-inapp.md)
-   + Adobe Campaign Standard {#places-acs}
+   + Adobe Campaign Standard {#places-acs}
       + [Utilisation du service Places avec Adobe Campaign Standard](use-places-with-other-solutions/places-acs/places-acs-overview.md)
       + [Notifications push](use-places-with-other-solutions/places-acs/places-acs-push-notifications.md)
       + [Messages In-App](use-places-with-other-solutions/places-acs/places-acs-in-app-messages.md)

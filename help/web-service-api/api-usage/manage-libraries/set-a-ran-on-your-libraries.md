@@ -47,4 +47,4 @@ curl -X PUT `'https://api-places.adobe.io/places/placesapi/v1/libraries/rank'` -
 
 >[!IMPORTANT]
 >
->Remplacer des variables telles que `<API KEY>`, `<TOKEN>`, et `<ORGID>` avec des valeurs réelles.
+>Remplacez des variables telles que `<API KEY>`, `<TOKEN>` et `<ORGID>` par des valeurs réelles.

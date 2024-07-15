@@ -4,8 +4,8 @@ description: Cette section vous explique comment utiliser le service Places avec
 exl-id: c094fe9c-6148-45ba-850a-f4c520d3362c
 source-git-commit: d5c216aebd99ffef01c37c17c62576835b52438b
 workflow-type: tm+mt
-source-wordcount: '225'
-ht-degree: 8%
+source-wordcount: '216'
+ht-degree: 10%
 
 ---
 
@@ -21,18 +21,18 @@ Avant de commencer, assurez-vous d’avoir effectué les tâches suivantes :
 
 * Le canal des notifications push dans Mobile Services est configuré.
 
-  Pour plus d’informations, voir [Création d’un message push](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html).
+  Pour plus d’informations, voir [Création d’un message push](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.htmlhtml?lang=fr).
 
 * Découvrez comment envoyer une notification push à un segment Analytics dans Mobile Services.
 
-  Pour plus d’informations, voir [Création d’un message push](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html).
+  Pour plus d’informations, voir [Création d’un message push](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.htmlhtml?lang=fr).
 
 ## Envoyer une notification
 
-Sur le **[!UICONTROL Audience]** de la *Créer une notification push* vous pouvez créer l&#39;audience de ce message de l&#39;une des manières suivantes :
+Dans l&#39;onglet **[!UICONTROL Audience]** du workflow *Créer une notification push*, vous pouvez créer l&#39;audience de ce message de l&#39;une des manières suivantes :
 
-* Dans le **[!UICONTROL Segments Analytics]** , sélectionnez un segment Adobe Analytics créé précédemment.
+* Dans la liste déroulante **[!UICONTROL Segments Analytics]** , sélectionnez un segment Adobe Analytics créé précédemment.
 
-* Dans le **[!UICONTROL Segment personnalisé]** , créez une audience à l’aide des paramètres de segment personnalisés disponibles.
+* Dans la section **[!UICONTROL Segment personnalisé]** , créez une audience à l’aide des paramètres de segment personnalisé disponibles.
 
 ![configuration d’un message push](/help/assets/push-set-up.png)

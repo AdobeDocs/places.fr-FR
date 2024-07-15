@@ -4,7 +4,7 @@ description: Cette section fournit des informations sur la manière d’envoyer 
 exl-id: 69e96261-4902-47dd-a930-a8f3d19c179c
 source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '437'
 ht-degree: 4%
 
 ---
@@ -18,60 +18,60 @@ ht-degree: 4%
 
 Une fois que le service Places a envoyé les événements d’entrée et de sortie, vous pouvez créer des règles dans Experience Platform Launch pour envoyer les données du service Places à Adobe Analytics. Pour créer ce type de règle, sélectionnez votre propriété dans Launch et procédez comme suit :
 
-## 1. Création d’une règle
+## 1. Créer une règle
 
-1. Sur le **[!UICONTROL Règles]** , cliquez sur **[!UICONTROL Créer une règle]**.
+1. Sur l’onglet **[!UICONTROL Rules]**, cliquez sur **[!UICONTROL Create New Rule]**.
 
    Gardez à l’esprit les informations suivantes :
 
-   * Si vous ne disposez pas de règles existantes pour cette propriété, la variable **[!UICONTROL Créer une règle]** se trouve au milieu de l’écran.
-   * Si votre propriété comporte des règles, la variable **[!UICONTROL Créer une règle]** se trouve en haut à droite de l’écran.
+   * Si vous ne disposez pas de règles existantes pour cette propriété, le bouton **[!UICONTROL Créer une règle]** se trouve au milieu de l’écran.
+   * Si votre propriété comporte des règles, le bouton **[!UICONTROL Créer une règle]** se trouve en haut à droite de l’écran.
 
-## 2. Sélection d’un événement
+## 2. Sélectionner un événement
 
 1. Saisissez un nom significatif pour votre règle.
 
-   Ainsi, la règle sera facilement reconnaissable dans votre liste de règles. Dans cet exemple, la règle est nommée **[!UICONTROL Envoi de données à Analytics]**.
+   Ainsi, la règle sera facilement reconnaissable dans votre liste de règles. Dans cet exemple, la règle est nommée **[!UICONTROL Send Data to Analytics]**.
 
 1. Dans la section **[!UICONTROL Events]**, cliquez sur **[!UICONTROL Add]**.
 
-1. Dans la **[!UICONTROL Extension]** liste déroulante, sélectionnez **[!UICONTROL Places Service]**.
+1. Dans la liste déroulante **[!UICONTROL Extension]**, sélectionnez **[!UICONTROL Places Service]**.
 
-1. Dans la **[!UICONTROL Type d’événement]** liste déroulante, sélectionnez **[!UICONTROL Entrée dans le point ciblé]**.
+1. Dans la liste déroulante **[!UICONTROL Event Type]**, sélectionnez **[!UICONTROL Enter POI]**.
 
 1. Cliquez sur **[!UICONTROL Conserver les modifications]**.
 
-   ![&quot;sélectionner un événement&quot;](/help/assets/pt-selectEvent.png)
+   ![&quot;select an event&quot;](/help/assets/pt-selectEvent.png)
 
 
 ## 3. Ajouter des conditions
 
 >[!IMPORTANT]
 >
->Suivez cette étape pour ajouter des conditions à votre règle. Sinon, passez à *Définition de l’action* ci-dessous.
+>Suivez cette étape pour ajouter des conditions à votre règle. Sinon, passez à *Définissez l’action* ci-dessous.
 
 Dans cet exemple, une condition est créée, qui entraîne le déclenchement de la règle uniquement lorsque le nom du point ciblé actuel est égal à **[!UICONTROL Mon point ciblé]**.
 
-1. Sous , **[!UICONTROL Conditions]** , cliquez sur **[!UICONTROL Ajouter]**.
+1. Dans la section **[!UICONTROL Conditions]**, cliquez sur **[!UICONTROL Ajouter]**.
 
-1. Dans la **[!UICONTROL Extension]** liste déroulante, sélectionnez **[!UICONTROL Places Service]**.
+1. Dans la liste déroulante **[!UICONTROL Extension]**, sélectionnez **[!UICONTROL Places Service]**.
 
-1. Dans la **[!UICONTROL Type de condition]** liste déroulante, sélectionnez **[!UICONTROL Nom]**.
+1. Dans la liste déroulante **[!UICONTROL Type de condition]**, sélectionnez **[!UICONTROL Nom]**.
 
-1. Dans le volet de droite, dans le champ de texte, saisissez **[!UICONTROL Mon point ciblé]**.
+1. Dans le volet de droite, dans le champ de texte, saisissez **[!UICONTROL Mon POI]**.
 
 1. Cliquez sur **[!UICONTROL Conserver les modifications]**.
 
-   ![&quot;définir une condition&quot;](/help/assets/pt-setCondition.png)
+   ![&quot;set a condition&quot;](/help/assets/pt-setCondition.png)
 
 
-## 4. Définissez l’action.
+## 4. Définir l’action
 
-1. Sous , **[!UICONTROL Actions]** , cliquez sur **[!UICONTROL Ajouter]**.
+1. Sous la section **[!UICONTROL Actions]**, cliquez sur **[!UICONTROL Ajouter]**.
 
-1. Dans la **[!UICONTROL Extension]** liste déroulante, sélectionnez **[!UICONTROL Adobe Analytics]**.
+1. Dans la liste déroulante **[!UICONTROL Extension]** , sélectionnez **[!UICONTROL Adobe Analytics]**.
 
-1. Dans la **[!UICONTROL Type d’action]** liste déroulante, sélectionnez **[!UICONTROL Suivi]**.
+1. Dans la liste déroulante **[!UICONTROL Action Type]**, sélectionnez **[!UICONTROL Track]**.
 
 1. Dans le volet de droite, ajoutez l’action ou l’état que vous souhaitez envoyer à Analytics.
 
@@ -79,7 +79,7 @@ Dans cet exemple, une condition est créée, qui entraîne le déclenchement de 
 
 1. Cliquez sur **[!UICONTROL Conserver les modifications]**.
 
-   Dans l’exemple suivant, une `TrackAction` est envoyé à Analytics avec des données contextuelles supplémentaires de `poi.name` égal au nom du point ciblé qui a déclenché cet événement d’entrée :
+   Dans l’exemple suivant, un appel `TrackAction` est envoyé à Analytics avec des données contextuelles supplémentaires de `poi.name` égales au nom du point ciblé qui a déclenché cet événement d’entrée :
 
    ![&quot;définir une action&quot;](/help/assets/pt-setAction.png)
 
@@ -87,7 +87,7 @@ Dans cet exemple, une condition est créée, qui entraîne le déclenchement de 
 
 Une fois la configuration terminée, vérifiez que la règle ressemble à l’image suivante :
 
-![&quot;règle créée&quot;](/help/assets/pt-ruleComplete.png)
+![&quot;rule is created&quot;](/help/assets/pt-ruleComplete.png)
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 

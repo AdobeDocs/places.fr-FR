@@ -5,7 +5,7 @@ exl-id: a4cf28ae-1e3c-4724-bca3-ac1d0cd6da09
 source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '407'
-ht-degree: 7%
+ht-degree: 6%
 
 ---
 
@@ -40,25 +40,25 @@ Les points ciblés et les bibliothèques sont créés et gérés dans la base de
 
    * Par bibliothèque :
 
-      a. Sélectionnez une bibliothèque.
+     a. Sélectionnez une bibliothèque.
 
    * Par propriété :
 
-      a. Dans la liste déroulante Propriété, sélectionnez **[!UICONTROL Pays]**, **[!UICONTROL État]** ou **[!UICONTROL Ville]**.
+     a. Dans la liste déroulante Propriété, sélectionnez **[!UICONTROL Country]**, **[!UICONTROL State]** ou **[!UICONTROL City]**.
 
-      b. Dans la ligne suivante, saisissez une valeur.
+     b. Dans la ligne suivante, saisissez une valeur.
 
-      Par exemple, vous pouvez sélectionner **[!UICONTROL État]** et type **[!UICONTROL Californie]**.
+     Par exemple, vous pouvez sélectionner **[!UICONTROL State]** et saisir **[!UICONTROL California]**.
 
    * Avec les métadonnées :
 
-      a. Saisissez une clé et une valeur.
+     a. Saisissez une clé et une valeur.
 
 ## Définition d’un point ciblé de géo-barrière
 
 Les clôtures virtuelles sont un type de point ciblé et sont définies dans la base de données à l’aide des clés suivantes :
 
-| Clés | Description | Obligatoire? |
+| Clés | Description | Obligatoire ? |
 | :--- | :--- | :--- |
 | Identifiant | Identifiant unique attribué à chaque point ciblé | Oui |
 | Nom | Nom convivial donné au point ciblé. | Oui |
@@ -66,7 +66,7 @@ Les clôtures virtuelles sont un type de point ciblé et sont définies dans la 
 | Rayon | Rayon de votre point ciblé en mètres. | Oui |
 | Icône | Aide à la visualisation des points ciblés. | Oui (valeur par défaut affectée) |
 | Couleur | Aide à la visualisation des points ciblés. | Oui (valeur par défaut affectée) |
-| Catégorie | Attribuez un framework commun de catégories communes à tous les points ciblés dans toutes les bibliothèques. | Non |
+| Catégorie | Attribuez une structure commune de catégories communes à tous les points ciblés dans toutes les bibliothèques. | Non |
 | Adresse | Adresse postale. | Non |
 | Ville | Ville du point ciblé. | Non |
 | État/région | État ou région du point ciblé. | Non |

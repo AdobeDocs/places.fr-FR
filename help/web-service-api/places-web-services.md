@@ -29,13 +29,13 @@ Avant de pouvoir utiliser l’API des services Web, assurez-vous que les conditi
 
 * Places Service est configuré dans votre organisation et vous disposez d’un accès approprié en tant qu’utilisateur.
 
-   Pour plus d’informations, voir *Conditions préalables pour l’accès utilisateur* in [Présentation de l’intégration et conditions préalables](/help/web-service-api/adobe-i-o-integration.md).
+  Pour plus d’informations, voir *Conditions préalables requises pour l’accès des utilisateurs* dans [Présentation de l’intégration et conditions préalables](/help/web-service-api/adobe-i-o-integration.md).
 
 * Une fois que le service Places est configuré dans votre organisation et que vous y avez accès, créez une intégration d’Adobe pour le service Places.
 
-   Pour plus d’informations, voir *Création d&#39;une intégration avec Places Service* in [Présentation de l’intégration et conditions préalables](/help/web-service-api/adobe-i-o-integration.md).
+  Pour plus d’informations, voir *Création d’une intégration de service Places* dans [Présentation de l’intégration et conditions préalables](/help/web-service-api/adobe-i-o-integration.md).
 
 Informations supplémentaires :
 
-* Pour plus d’informations sur les API disponibles et leur utilisation, voir [Gestion des bibliothèques](/help/web-service-api/api-usage/manage-libraries/manage-libraries.md) et [Gestion des points ciblés](/help/web-service-api/api-usage/manage-pois/manage-pois.md).
+* Pour plus d’informations sur les API disponibles et sur leur utilisation, voir [Gestion des bibliothèques](/help/web-service-api/api-usage/manage-libraries/manage-libraries.md) et [Gestion des POI](/help/web-service-api/api-usage/manage-pois/manage-pois.md).
 * Pour plus d’informations sur les en-têtes et les paramètres de ces API, voir [En-têtes et paramètres](/help/web-service-api/api-usage/headers-and-parameters.md).

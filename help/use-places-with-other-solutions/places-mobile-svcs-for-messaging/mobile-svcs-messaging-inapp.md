@@ -4,8 +4,8 @@ description: Cette section vous explique comment utiliser le service Places avec
 exl-id: c655e64b-0737-44d5-b453-2ac02fb9cbcc
 source-git-commit: d5c216aebd99ffef01c37c17c62576835b52438b
 workflow-type: tm+mt
-source-wordcount: '659'
-ht-degree: 4%
+source-wordcount: '644'
+ht-degree: 2%
 
 ---
 
@@ -33,9 +33,9 @@ Ces types sont des messages in-app, car ils sont déclenchés par le SDK. Les no
 
 ### Conditions préalables
 
-Avant de commencer, vous devez comprendre comment envoyer et créer un message in-app dans Mobile Services, ainsi que le fonctionnement des déclencheurs. Pour plus d’informations, voir [Créer un message in-app.](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html)
+Avant de commencer, vous devez comprendre comment envoyer et créer un message in-app dans Mobile Services, ainsi que le fonctionnement des déclencheurs. Pour plus d’informations, voir [Création d’un message in-app.](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.htmlhtml?lang=fr)
 
-## Règles dans  Experience Platform Launch
+## Règles dans Experience Platform Launch
 
 Vous pouvez créer des règles Experience Platform Launch qui envoient les données que vous souhaitez pouvoir utiliser dans le cadre de vos règles de déclenchement de messages in-app à Analytics. Vous pouvez utiliser les données des extensions Places dans vos règles Experience Platform Launch sous la forme d’événements et/ou de conditions selon votre cas d’utilisation.
 
@@ -53,8 +53,8 @@ Une fois la règle configurée avec les paramètres d’événement et de condit
 
 Pour créer une action :
 
-1. Sélectionnez la variable **[!UICONTROL Adobe Analytics]** extension .
-1. Dans le **[!UICONTROL Type d’action]** liste déroulante, sélectionnez **[!UICONTROL Suivi.]**
+1. Sélectionnez l’extension **[!UICONTROL Adobe Analytics]**.
+1. Dans la liste déroulante **[!UICONTROL Action type]**, sélectionnez **[!UICONTROL Track.]**
 1. Saisissez le nom de votre action.
 1. Dans le volet de droite, dans **[!UICONTROL Données contextuelles]**, sélectionnez la paire clé-valeur pour définir les données contextuelles qui seront envoyées à Analytics.
 
@@ -62,7 +62,7 @@ Par exemple, vous pouvez sélectionner `poiname` comme clé et `{%%Last Entered 
 
 >[!TIP]
 >
->Les règles de traitement Analytics peuvent être définies pour récupérer ces données contextuelles. Pour plus d’informations, reportez-vous à la section [Règles de traitement](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules.html). Dans l’exemple de la section *Création d’une action*, l’action enverra la variable `poiname` comme contexte pour décrire l’événement d’entrée de point ciblé envoyé à Analytics.
+>Les règles de traitement Analytics peuvent être définies pour récupérer ces données contextuelles. Pour plus d’informations, voir [Règles de traitement](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules.html). Dans l’exemple de *Créer une action*, l’action envoie `poiname` comme contexte pour décrire l’événement d’entrée de point ciblé envoyé à Analytics.
 
 ![création d’une action](/help/assets/configure-action.png)
 
@@ -79,10 +79,10 @@ Dans le cadre de vos paramètres Déclencheur, vous pouvez créer l&#39;audience
 
   Cette option peut être utilisée avec une action spécifique à un emplacement, telle qu’une entrée, ou elle peut être utilisée comme contexte à un autre événement, tel qu’un lancement ou un clic sur un bouton.
 
-  Voici un exemple de configuration d’un message in-app pour accueillir les utilisateurs qui entrent dans un point ciblé dont le **[!UICONTROL Adobe]** dans le nom :
+  Voici un exemple de configuration d’un message in-app pour accueillir les utilisateurs qui entrent dans un point ciblé dont le nom contient **[!UICONTROL Adobe]** :
 
   ![paramètres de déclenchement](/help/assets/trigger-parameters.png)
 
-* Paramètres des en-têtes du service Places dans la *Triggers et caractéristiques* dans Mobile Services ne fonctionne pas avec les données du service Places.
+* Les paramètres des en-têtes du service Places de la page *Triggers and Traits* de Mobile Services ne fonctionnent pas avec les données du service Places.
 
   Ces paramètres concernent uniquement la base de données Places Service héritée qui a été créée dans Mobile Services.

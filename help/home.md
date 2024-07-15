@@ -27,7 +27,7 @@ Cela vous permet d’agir à partir des signaux de localisation en temps réel, 
 
 Voici quelques-unes des façons d&#39;utiliser Places :
 
-* envoyer une notification en temps réel lorsqu’une personne entre dans un point ciblé ; *&quot;Hé...bienvenue au stade.&quot;*
+* Envoyez une notification en temps réel lorsque quelqu’un entre dans un point ciblé, *&quot;Bonjour..bienvenue au stade.&quot;*
 * Comparez le trafic de pied de vos propres magasins à celui de vos concurrents.
 * Segmenter une audience en fonction du comportement hors ligne à l’aide de profils d’audience avec un contexte d’emplacement.
 * Ciblez un utilisateur avec une expérience en magasin, le cas échéant.
@@ -56,21 +56,21 @@ Places Service comprend les composants suivants :
 
 Voici quelques termes courants utilisés dans cette documentation :
 
-* A **Point ciblé** est un emplacement géographique qui intéresse votre entreprise.
+* Un **point ciblé (POI)** est une géolocalisation qui intéresse votre organisation.
 
   Vous pouvez définir des points ciblés avec des attributs tels que le nom, le rayon, l’adresse, la catégorie et les balises de métadonnées.
 
-* A **geofence** est un type de point ciblé.
+* Un **geofence** est un type de point ciblé.
 
   Ce type de point ciblé est une limite géographique virtuelle définie par les coordonnées de latitude et de longitude.
 
-* A **beacon** est un type de point ciblé.
+* Une **balise** est un type de point ciblé.
 
   Ce type de point ciblé est un appareil physique qui représente un emplacement en émettant un signal Bluetooth à faible puissance. La prise en charge des balises sera disponible dans une version ultérieure.
 
 * Une **bibliothèque** est une collection de POI permettant l’association plus simple de règles à un ensemble de POI plutôt qu’à un POI unique.
 
-* Un **extension** est l’extension Experience Platform Launch requise pour intégrer le SDK Places dans vos applications mobiles.
+* Une **extension** est l’extension Experience Platform Launch requise pour intégrer le SDK Places dans vos applications mobiles.
 
   Extension utilisée avec les autres SDK mobiles pour ajouter un contexte d’emplacement à vos expériences.
 
@@ -82,7 +82,7 @@ Voici quelques termes courants utilisés dans cette documentation :
 
   Pour plus d’informations, voir [Recherche de votre orgID](https://forums.adobe.com/thread/2339895).
 
-* La variable **Identifiant Experience Cloud** Le service fournit un identifiant universel et permanent qui identifie vos visiteurs dans toutes les solutions de l’Experience Cloud.
+* Le service **ID Experience Cloud** fournit un identifiant universel et permanent qui identifie vos visiteurs à l’échelle de toutes les solutions de l’Experience Cloud.
 
   Pour plus d’informations, voir [Aperçu](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=fr).
 

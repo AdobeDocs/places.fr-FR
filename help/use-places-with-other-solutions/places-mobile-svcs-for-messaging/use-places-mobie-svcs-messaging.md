@@ -4,7 +4,7 @@ description: Cette section vous explique comment utiliser Places Service avec Mo
 exl-id: dfa6b8bb-6bf2-44eb-8bfc-87294807ec3b
 source-git-commit: d5c216aebd99ffef01c37c17c62576835b52438b
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '328'
 ht-degree: 1%
 
 ---
@@ -17,15 +17,15 @@ Avant d’utiliser l’extension Mobile Services pour la messagerie, vérifiez l
 
   >[!IMPORTANT]
   >
-  >Le service Places comprend une nouvelle base de données POI améliorée pour votre organisation, qui existe en dehors de l’ancienne interface utilisateur de Mobile Services. Points ciblés situés sur Mobile Service *Gérer les emplacements* La navigation dans les pages ne fonctionne que pour la version 4 du SDK.
+  >Le service Places comprend une nouvelle base de données POI améliorée pour votre organisation, qui existe en dehors de l’ancienne interface utilisateur de Mobile Services. Les points ciblés situés sur la page Mobile Service *Gérer les emplacements* fonctionneront uniquement pour la version 4 du SDK.
 
-* Voici la variable *Gestion des emplacements* Page de gestion des points ciblés dans l’ancienne interface utilisateur de Mobile Services pour les versions plus anciennes du SDK :
+* Voici la page de gestion des points ciblés *Gérer les emplacements* de l’ancienne interface utilisateur de Mobile Services pour les anciennes versions du SDK :
 
   ![Interface utilisateur héritée](/help/assets/legacy-location-v4-ui.png)
 
 * Voici l’interface utilisateur du service Places :
 
-  ![Interface utilisateur de gestion des points ciblés de Places Service](/help/assets/places-ui.png)
+  ![Interface utilisateur de gestion des points ciblés du service Places](/help/assets/places-ui.png)
 
 * Le SDK ACP est correctement configuré avec l’extension Places.
 
@@ -49,7 +49,7 @@ Pour pouvoir utiliser la création de rapports, remplissez les conditions préal
 
 * Familiarisez-vous avec les rapports Mobile Services.
 
-  Pour plus d’informations, voir [Rapports](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html).
+  Pour plus d’informations, voir [Rapports](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.htmlhtml?lang=fr).
 
 ## Visualisation des rapports
 

@@ -14,4 +14,4 @@ ht-degree: 0%
 Les points ciblés sont créés et gérés dans la base de données du service Places à l’aide de l’interface utilisateur du service Places.
 
 * Pour créer ou modifier une bibliothèque, voir [Gestion des bibliothèques](/help/poi-mgmt-ui/manage-libraries-in-the-places-ui.md).
-* Pour créer ou modifier un point ciblé, voir [Gestion des points ciblés](/help/poi-mgmt-ui/managing-pois-in-the-places-ui.md).
+* Pour créer ou modifier un point ciblé, voir [Gérer les points ciblés](/help/poi-mgmt-ui/managing-pois-in-the-places-ui.md).

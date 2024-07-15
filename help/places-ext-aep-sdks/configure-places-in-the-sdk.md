@@ -19,12 +19,12 @@ Pour configurer l’extension Places :
 
 1. Configurez l’extension Places dans Launch.
 
-   Pour plus d’informations, voir *Configuration de l’extension Places dans Launch* in [Extension Places](/help/places-ext-aep-sdks/places-extension/places-extension.md).
+   Pour plus d’informations, voir *Configuration de l’extension Places dans Launch* dans [Extension Places](/help/places-ext-aep-sdks/places-extension/places-extension.md).
 
 1. Ajoutez l’extension Places à votre application mobile.
 
-   Pour plus d’informations, voir *Ajout de l’extension Places à votre application* in [Extension Places](/help/places-ext-aep-sdks/places-extension/places-extension.md).
+   Pour plus d’informations, voir *Ajout de l’extension Places à votre application* dans [Extension Places](/help/places-ext-aep-sdks/places-extension/places-extension.md).
 
 1. Enregistrez Places avec l’extension Mobile Core.
 
-   Pour plus d’informations, voir *Enregistrement des emplacements avec le noyau mobile* in [Extension Places](/help/places-ext-aep-sdks/places-extension/places-extension.md).
+   Pour plus d’informations, voir *Enregistrement de Places avec noyau mobile* dans [Extension Places](/help/places-ext-aep-sdks/places-extension/places-extension.md).

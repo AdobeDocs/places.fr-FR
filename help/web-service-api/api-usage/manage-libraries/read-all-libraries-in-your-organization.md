@@ -5,7 +5,7 @@ exl-id: 3384e1f2-9626-498d-85f7-84569d869c2c
 source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '60'
-ht-degree: 6%
+ht-degree: 3%
 
 ---
 
@@ -41,4 +41,4 @@ curl -X GET 'https://api-places.adobe.io/places/placesapi/v1/libraries' -H 'x-ap
 
 >[!IMPORTANT]
 >
->Remplacer des variables telles que `<API KEY>`, `<TOKEN>,` et `<ORGID>` avec des valeurs réelles.
+>Remplacez des variables telles que `<API KEY>`, `<TOKEN>,` et `<ORGID>` par des valeurs réelles.

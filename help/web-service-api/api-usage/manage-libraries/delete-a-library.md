@@ -5,7 +5,7 @@ exl-id: ad45ea38-9e12-43d7-b05f-17d3e40abaf5
 source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '47'
-ht-degree: 8%
+ht-degree: 4%
 
 ---
 
@@ -45,4 +45,4 @@ curl -X DELETE 'https://api-places.adobe.io/places/placesapi/v1/libraries/<LIBRA
 
 >[!IMPORTANT]
 >
->Remplacer des variables telles que `<lIBRARYID>`, `<API KEY>`, `<TOKEN>`, et `<ORGID>`avec des valeurs réelles.
+>Remplacez des variables telles que `<lIBRARYID>`, `<API KEY>`, `<TOKEN>` et `<ORGID>` par des valeurs réelles.

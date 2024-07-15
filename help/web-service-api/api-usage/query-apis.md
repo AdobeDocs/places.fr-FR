@@ -1,11 +1,11 @@
 ---
-title: Présentation
+title: Vue d’ensemble
 description: Comprendre et utiliser les API de requête.
 exl-id: cc61a49c-1cf2-407f-b81a-3d38fcb622cc
 source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
-source-wordcount: '217'
-ht-degree: 4%
+source-wordcount: '222'
+ht-degree: 3%
 
 ---
 
@@ -25,24 +25,24 @@ Avec l’entrée suivante, le service renvoie une liste des points ciblés les p
 * ID des bibliothèques POI à inclure dans la recherche.
 * Nombre maximal de points ciblés à renvoyer.  La valeur par défaut est 100.
 
-   La distance entre l’appelant et le point ciblé est définie comme la distance entre l’appelant et le bord de la clôture virtuelle du point ciblé. Dans la réponse, les points ciblés contenant l’appelant sont marqués comme ayant l’appelant.
+  La distance entre l’appelant et le point ciblé est définie comme la distance entre l’appelant et le bord de la clôture virtuelle du point ciblé. Dans la réponse, les points ciblés contenant l’appelant sont marqués comme ayant l’appelant.
 
 Les arguments sont fournis en tant que paramètres de requête suivants :
 
 * (**Obligatoire**) `latitude`
 
-   La latitude de l’appelant, qui doit être comprise entre -85 et 85.
+  La latitude de l’appelant, qui doit être comprise entre -85 et 85.
 * (**Obligatoire**) `longitude`
 
-   Longitude de l’appelant, qui doit être comprise entre -180 et 180.
+  Longitude de l’appelant, qui doit être comprise entre -180 et 180.
 
 * (**Facultatif**) `limit`
 
-   Nombre maximal de points ciblés à renvoyer.
+  Nombre maximal de points ciblés à renvoyer.
 
 * (**Obligatoire**) `library`
 
-   L’identifiant de la bibliothèque à interroger. Pour interroger plusieurs bibliothèques, veillez à inclure plusieurs copies du paramètre de bibliothèque dans la requête.
+  L’identifiant de la bibliothèque à interroger. Pour interroger plusieurs bibliothèques, veillez à inclure plusieurs copies du paramètre de bibliothèque dans la requête.
 
 Voici un exemple du format JSON renvoyé avec succès :
 
@@ -107,7 +107,7 @@ Voici un exemple du format JSON renvoyé avec succès :
 }
 ```
 
-Points ciblés sous `places.pois` sont triés par distance entre l’appelant et le bord des points ciblés. Points ciblés sous `places.userWithin` contient l’appelant. Ces points ciblés sont triés par rang, puis par rayon croissant.
+Les points ciblés sous `places.pois` sont triés par distance entre l’appelant et le bord des points ciblés. Les points ciblés sous `places.userWithin` contiennent l’appelant et ces points ciblés sont triés par rang, puis par rayon croissant.
 
 ## Exemple d’appel
 

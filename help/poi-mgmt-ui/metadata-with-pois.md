@@ -19,11 +19,11 @@ Les métadonnées des points ciblés peuvent être utilisées de différentes ma
 
 Dans Experience Platform Launch, vous pouvez créer des éléments de données pour chaque champ de métadonnées du service Places qui est important à des fins de suivi ou de messagerie.
 
-![élément de données de l’installation de gymnase](/help/assets/gymfacility.png)
+![élément de données pour l’installation de gymnase](/help/assets/gymfacility.png)
 
 Vous pouvez ensuite créer une action avec l’extension Analytics pour la création d’un accès qui comprend les métadonnées souhaitées en tant que données contextuelles.
 
-![action pour le gymnase](/help/assets/Analytics-gym.png)
+![action pour l&#39;installation de gym](/help/assets/Analytics-gym.png)
 
 ## Messagerie in-app dans Adobe Campaign
 
