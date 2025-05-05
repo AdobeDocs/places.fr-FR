@@ -62,7 +62,7 @@ Par exemple, vous pouvez sélectionner `poiname` comme clé et `{%%Last Entered 
 
 >[!TIP]
 >
->Les règles de traitement Analytics peuvent être définies pour récupérer ces données contextuelles. Pour plus d’informations, voir [Règles de traitement](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules.html). Dans l’exemple de *Créer une action*, l’action envoie `poiname` comme contexte pour décrire l’événement d’entrée de point ciblé envoyé à Analytics.
+>Les règles de traitement Analytics peuvent être définies pour récupérer ces données contextuelles. Pour plus d’informations, voir [Règles de traitement](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules.html?lang=fr). Dans l’exemple de *Créer une action*, l’action envoie `poiname` comme contexte pour décrire l’événement d’entrée de point ciblé envoyé à Analytics.
 
 ![création d’une action](/help/assets/configure-action.png)
 

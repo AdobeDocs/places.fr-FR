@@ -23,7 +23,7 @@ Ce document suppose les éléments suivants :
 
 1. L’utilisateur Adobe Analytics est administrateur et a accès aux règles de traitement.
 
-   Pour plus d’informations sur les règles de traitement, voir l’[Aperçu des règles de traitement](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules.html).
+   Pour plus d’informations sur les règles de traitement, voir l’[Aperçu des règles de traitement](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules.html?lang=fr).
 
 1. Dans la propriété Launch, des éléments de données ont été créés pour les variables du service Places que vous souhaitez.
 
@@ -52,7 +52,7 @@ Dans cet exemple, une variable de conversion, **[!UICONTROL Evar2]**, a été cr
 
 ## 3. Création de règles de traitement
 
-Cette étape est nécessaire pour mapper les données contextuelles (étape 1) aux variables Analytics (étape 2). Pour plus d’informations sur la création de règles de traitement, voir [Présentation des règles de traitement](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules.html).
+Cette étape est nécessaire pour mapper les données contextuelles (étape 1) aux variables Analytics (étape 2). Pour plus d’informations sur la création de règles de traitement, voir [Présentation des règles de traitement](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules.html?lang=fr).
 
 Dans cet exemple, une règle de traitement a été créée pour mapper la valeur de données contextuelles **[!UICONTROL poi.name]** sur **[!UICONTROL Nom du point ciblé Places (eVar2)]**. Des règles de traitement supplémentaires doivent être créées pour chaque variable d’emplacement créée.
 

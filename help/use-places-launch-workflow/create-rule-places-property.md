@@ -54,7 +54,7 @@ Les actions définissent ce que l’application fera en réponse à la condition
 
 >[!CAUTION]
 >
->Cet exemple implique que vous ayez créé une bibliothèque POI de tous les cafés aux États-Unis. Pour plus d’informations sur la création de POI et de bibliothèques, voir [Création d’un POI](/help/poi-mgmt-ui/create-a-poi-ui.md) et *Création d’une bibliothèque* dans [Gestion de plusieurs bibliothèques](https://experienceleague.adobe.com/docs/places/using/poi-mgmt-ui/manage-libraries-in-the-places-ui.html).
+>Cet exemple implique que vous ayez créé une bibliothèque POI de tous les cafés aux États-Unis. Pour plus d’informations sur la création de POI et de bibliothèques, voir [Création d’un POI](/help/poi-mgmt-ui/create-a-poi-ui.md) et *Création d’une bibliothèque* dans [Gestion de plusieurs bibliothèques](https://experienceleague.adobe.com/docs/places/using/poi-mgmt-ui/manage-libraries-in-the-places-ui.html?lang=fr).
 
 La procédure suivante est un exemple de création d’une règle qui renvoie une publication au Slack lorsque vous entrez dans un café à San Francisco.
 
@@ -124,7 +124,7 @@ Pour créer un élément de données dans Experience Platform Launch :
 
 ### Publish de la règle
 
-1. Pour activer la règle, vous devez la publier. Pour plus d’informations sur la publication de votre règle dans Experience Platform Launch, voir [Publication](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html).
+1. Pour activer la règle, vous devez la publier. Pour plus d’informations sur la publication de votre règle dans Experience Platform Launch, voir [Publication](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=fr).
 
 ### Penser au-delà des entrées et des sorties
 
