@@ -17,7 +17,7 @@ Voici une vidéo utile pour avoir un aperçu des Places Services :
 Test of different youtube link for exl
 -->
 
->[!VIDEO](https://video.tv.adobe.com/v/41647)
+>[!VIDEO](https://video.tv.adobe.com/v/3455114?captions=fre_fr)
 
 ## Utilisation du service Places
 
