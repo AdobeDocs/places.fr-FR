@@ -17,5 +17,5 @@ Les éléments de données sont les blocs de création de votre dictionnaire de 
 
 Un élément de données est une variable dont la valeur peut être mappée à des chaînes de requête, des URL, des valeurs de cookie, des variables JavaScript, etc. Dans Experience Platform Launch, vous pouvez référencer cette valeur par son nom de variable. La collecte des éléments de données devient le dictionnaire des données définies que vous pouvez utiliser pour créer vos règles (événements, conditions et actions), et le dictionnaire de données est partagé sur l’ensemble de l’Experience Platform Launch et peut être utilisé avec l’extension Places.
 
-Pour plus d’informations sur les éléments de données, voir [ Éléments de données ](https://docs.adobelaunch.com/launch-reference/managing-resources/data-elements) .
+Pour plus d’informations sur les éléments de données, voir [&#x200B; Éléments de données &#x200B;](https://docs.adobelaunch.com/launch-reference/managing-resources/data-elements) .
 

@@ -128,7 +128,7 @@ Pour en savoir plus sur cette rubrique, voir [Ajouter le contexte de l’emplace
 >
 >Si le cas d’utilisation nécessite qu’un [événement d’entrée de région](https://developer.adobe.com/client-sdks/documentation/places/api-reference/#processregionevent) soit déclenché par le SDK, il doit être effectué manuellement comme indiqué ci-dessous.
 
-La liste renvoyée par l’API `getNearbyPointsOfInterest` contient des [ objets personnalisés](https://developer.adobe.com/client-sdks/documentation/places/api-reference/#additional-classes-and-enums) qui indiquent si l’utilisateur se trouve actuellement dans un point ciblé. Si l’utilisateur se trouve dans un point ciblé, le SDK peut déclencher un événement d’entrée pour cette région.
+La liste renvoyée par l’API `getNearbyPointsOfInterest` contient des [&#x200B; objets personnalisés](https://developer.adobe.com/client-sdks/documentation/places/api-reference/#additional-classes-and-enums) qui indiquent si l’utilisateur se trouve actuellement dans un point ciblé. Si l’utilisateur se trouve dans un point ciblé, le SDK peut déclencher un événement d’entrée pour cette région.
 
 >[!IMPORTANT]
 >
