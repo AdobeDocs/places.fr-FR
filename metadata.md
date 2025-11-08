@@ -36,7 +36,7 @@ Le fichier metadata.md comprend des métadonnées de niveau référentiel qui so
 | tutorials-title | Rarement utilisé lorsque les tutoriels ne sont pas appropriés |
 | tutorials-url | Lien vers des tutoriels vidéo : tutoriels helpx ou KT |
 | mini-toc-levels | Détermine le nombre de niveaux d’en-tête qui apparaissent dans le rail de droite. La valeur par défaut est 2 |
-| git-repo | https://github.com/AdobeDocs/places.en |
+| git-repo | https://github.com/AdobeDocs/places.fr-FR |
 | index | Définit l’index = pas pour les prélancements |
 
 Dans le fichier TOC.md
