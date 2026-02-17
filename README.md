@@ -9,4 +9,4 @@ ht-degree: 0%
 
 Ce référentiel a été migré vers GitHub Cloud :
 
-<https://github.com/Adobe-Enterprise-Docs/places.en>
+<https://github.com/Adobe-Enterprise-Docs/places.fr-FR>
