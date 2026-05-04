@@ -1,44 +1,49 @@
 ---
 title: Utilisation du service Places sans surveillance active des régions
-description: Cette section fournit des informations sur l’utilisation de Places Service sans surveillance de région active.
+description: Cette section fournit des informations sur l’utilisation du service Places sans surveillance active des régions.
 exl-id: 0ba7949a-447e-4754-9b45-945e58e29541
-source-git-commit: 33cbef9b3226be3f013fe82d619b82e093a9752a
+TQID: https://experienceleague.adobe.com/xUmdMOa5CvDZSxKFeyse-3vHsUwvm2s04-sIG0FnnCs
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87id: dc5cf79d-43c4-4731-bffa-1df5d7549cb1id: e43347a8-f2c5-4aa4-8623-6f13875d7e3aid: e55547f1-a1ff-40c6-8978-026e40ab7fa4id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9id: f002a92a-b99f-47a4-90c8-65e0e415bc7a
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: bef6f891-2e8a-425e-8f99-7ddf22070daaid: c93393a4-e558-47e1-992e-c91ed4d480ceid: d833d0ef-8ed5-4cff-a5e7-9f12abd02a31id: daec7ead-f475-492a-a3b3-02ae08565d6fid: e08599ea-8888-4294-ba74-3ba0a7762a46id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: b572b7ff-a413-4173-b2b4-d7d3874f1b9bid: d2a6cbf4-df32-480f-909e-b42f66dcb9f0id: ee602049-8a18-43df-9299-a689a025a371
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: f962cef761f006c8e7d45b76ba24746e36bdaba6
 workflow-type: tm+mt
-source-wordcount: '715'
+source-wordcount: 786
 ht-degree: 0%
 
 ---
 
 # Utilisation du service Places sans surveillance active des régions {#use-places-without-active-monitoring}
 
-Les cas d’utilisation de votre application peuvent ne pas nécessiter de surveillance de région active. Places Service peut toujours être utilisé pour intégrer les données de localisation de vos utilisateurs à d’autres produits Experience Platform.
+Les cas d’utilisation de votre application peuvent ne pas nécessiter une surveillance active de la région. Places Service peut toujours être utilisé pour intégrer les données de localisation de vos utilisateurs à d’autres produits Experience Platform.
 
 ## Prérequis
 
-Le développeur collectera l’emplacement de l’appareil à l’aide des API fournies par le système d’exploitation de la plateforme cible.
+Le développeur va collecter l&#39;emplacement de l&#39;appareil en utilisant les API fournies par le système d&#39;exploitation de la plateforme cible.
 
 >[!TIP]
 >
->Si les cas d’utilisation de votre application nécessitent une surveillance de région active, reportez-vous à la section [Utilisation du service Places avec votre propre solution de surveillance](/help/using-your-own-monitor.md).
+>Si les cas d’utilisation de votre application nécessitent une surveillance active de la région, consultez [Utilisation du service Places avec votre propre solution de surveillance](/help/using-your-own-monitor.md).
 
-Pour utiliser Places Service sans surveillance de région active :
+Pour utiliser Places Service sans surveillance active des régions :
 
-## 1. Collecter l’emplacement de l’utilisateur
+## &#x200B;1. Collecter l’emplacement de l’utilisateur
 
-Le développeur de l’application doit collecter l’emplacement actuel de l’appareil à l’aide des API `CoreLocation.framework` (iOS) ou `Location` fournies par Google Play Services (Android).
+Le développeur ou la développeuse d’applications doit collecter l’emplacement actuel de l’appareil à l’aide de l’`CoreLocation.framework` (iOS) ou des API `Location` fournies par les services Google Play (Android).
 
 Pour plus d’informations, consultez la documentation suivante :
 
 - [CoreLocation](https://developer.apple.com/documentation/corelocation) (Apple)
-- [API de localisation dans les services Google Play](https://developer.android.com/training/location) (Google)
+- [API d’emplacement dans les services Google Play](https://developer.android.com/training/location) (Google)
 
-## 2. Récupérer les points ciblés proches à partir du SDK
+## &#x200B;2. Récupérer les points d’intérêt à proximité à partir du SDK
 
-Après avoir obtenu l’emplacement de l’utilisateur, vous pouvez le transmettre au SDK pour obtenir une liste des points ciblés à proximité.
+Une fois que vous avez obtenu l’emplacement de l’utilisateur, vous pouvez le transmettre au SDK pour récupérer une liste des points d’intérêt à proximité.
 
 ### Android
 
-Voici un exemple de mise en oeuvre dans Android qui utilise un [`BroadcastReceiver`](https://codelabs.developers.google.com/codelabs/background-location-updates-android-o/index.html?index=..%2F..index#5) :
+Voici un exemple d’implémentation dans Android qui utilise un [`BroadcastReceiver`](https://codelabs.developers.google.com/codelabs/background-location-updates-android-o/index.html?index=..%2F..index#5) :
 
 ```java
 public class LocationBroadcastReceiver extends BroadcastReceiver {
@@ -82,9 +87,9 @@ public class LocationBroadcastReceiver extends BroadcastReceiver {
 }
 ```
 
-### Objective-C
+### Objectif-C
 
-Voici un exemple de mise en oeuvre pour iOS. Le code affiche la mise en oeuvre de la méthode [`locationManager:didUpdateLocations:`](https://developer.apple.com/documentation/corelocation/cllocationmanagerdelegate/1423615-locationmanager?language=objc) dans [`CLLocationManagerDelegate`](https://developer.apple.com/documentation/corelocation/cllocationmanager?language=objc) :
+Voici un exemple d’implémentation pour iOS. Le code affiche l’implémentation de la méthode [`locationManager:didUpdateLocations:`](https://developer.apple.com/documentation/corelocation/cllocationmanagerdelegate/1423615-locationmanager?language=objc) dans le [`CLLocationManagerDelegate`](https://developer.apple.com/documentation/corelocation/cllocationmanager?language=objc) :
 
 ```objectivec
 - (void) locationManager:(CLLocationManager*)manager didUpdateLocations:(NSArray<CLLocation*>*)locations {
@@ -100,7 +105,7 @@ Voici un exemple de mise en oeuvre pour iOS. Le code affiche la mise en oeuvre d
 
 ### Swift
 
-Voici un exemple de mise en oeuvre pour iOS. Le code affiche la mise en oeuvre de la méthode [`locationManager(_:didUpdateLocations:)`](https://developer.apple.com/documentation/corelocation/cllocationmanagerdelegate/1423615-locationmanager) dans [`CLLocationManagerDelegate`](https://developer.apple.com/documentation/corelocation/cllocationmanager) :
+Voici un exemple d’implémentation pour iOS. Le code affiche l’implémentation de la méthode [`locationManager(_:didUpdateLocations:)`](https://developer.apple.com/documentation/corelocation/cllocationmanagerdelegate/1423615-locationmanager) dans le [`CLLocationManagerDelegate`](https://developer.apple.com/documentation/corelocation/cllocationmanager) :
 
 ```swift
 func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
@@ -114,31 +119,31 @@ func locationManager(_ manager: CLLocationManager, didUpdateLocations locations:
 }
 ```
 
-## 3. Joindre des données Places à vos requêtes Analytics
+## &#x200B;3. Joindre les données Places à vos requêtes Analytics
 
-En appelant l’API `getNearbyPointsOfInterest`, le SDK Places met à disposition toutes les données POI pertinentes pour l’appareil via les éléments de données dans Launch. En utilisant une règle [Joindre les données](https://aep-sdks.gitbook.io/docs/resources/user-guides/attach-data), les données de Places peuvent être automatiquement ajoutées aux futures requêtes d’Analytics. Cela évite d’avoir besoin d’un appel ponctuel à Analytics au moment de la collecte de l’emplacement de l’appareil.
+En appelant l’API `getNearbyPointsOfInterest`, Places SDK rend toutes les données de point d’intérêt pertinentes pour l’appareil disponibles via les éléments de données dans Launch. En utilisant une règle [Joindre les données](https://aep-sdks.gitbook.io/docs/resources/user-guides/attach-data), les données Places peuvent être automatiquement ajoutées aux futures requêtes envoyées à Analytics. Cela élimine la nécessité d’un appel unique à Analytics au moment de la collecte de l’emplacement de l’appareil.
 
-Pour en savoir plus sur cette rubrique, voir [Ajouter le contexte de l’emplacement aux requêtes Analytics](use-places-with-other-solutions/places-adobe-analytics/run-reports-aa-places-data.md) .
+Voir [Ajouter du contexte d’emplacement aux requêtes Analytics](use-places-with-other-solutions/places-adobe-analytics/run-reports-aa-places-data.md) pour en savoir plus sur cette rubrique.
 
-## Facultatif - Déclenchez les événements d’entrée lorsque l’utilisateur se trouve dans un point ciblé
+## Facultatif - Déclenchez des événements d’entrée lorsque l’utilisateur se trouve dans un point d’intérêt
 
 >[!TIP]
 >
->La méthode recommandée pour capturer des données Places consiste à [Joindre des données Places à vos requêtes Analytics](#attach-places-data-to-your-analytics-requests).
+>La méthode recommandée pour capturer les données Places consiste à [Joindre les données Places à vos requêtes Analytics](#attach-places-data-to-your-analytics-requests).
 >
->Si le cas d’utilisation nécessite qu’un [événement d’entrée de région](https://developer.adobe.com/client-sdks/documentation/places/api-reference/#processregionevent) soit déclenché par le SDK, il doit être effectué manuellement comme indiqué ci-dessous.
+>Si le cas d’utilisation nécessite le déclenchement d’un événement d’entrée [région](https://developer.adobe.com/client-sdks/documentation/places/api-reference/#processregionevent) par le SDK, il doit être effectué manuellement comme indiqué ci-dessous.
 
-La liste renvoyée par l’API `getNearbyPointsOfInterest` contient des [&#x200B; objets personnalisés](https://developer.adobe.com/client-sdks/documentation/places/api-reference/#additional-classes-and-enums) qui indiquent si l’utilisateur se trouve actuellement dans un point ciblé. Si l’utilisateur se trouve dans un point ciblé, le SDK peut déclencher un événement d’entrée pour cette région.
+La liste renvoyée par l’API `getNearbyPointsOfInterest` contient des [objets personnalisés](https://developer.adobe.com/client-sdks/documentation/places/api-reference/#additional-classes-and-enums) qui indiquent si l’utilisateur se trouve actuellement dans un point d’intérêt. Si l’utilisateur se trouve dans un point d’intérêt, le SDK peut déclencher un événement d’entrée pour cette région.
 
 >[!IMPORTANT]
 >
->Pour empêcher votre application de déclencher plusieurs événements d’entrée au cours d’une même visite, conservez la liste des régions dans lesquelles vous savez que l’utilisateur est entré. Lors du traitement de la réponse des points ciblés à proximité à partir du SDK, déclenchez un événement d’entrée uniquement lorsque la région ne figure pas dans votre liste.
+>Pour éviter que votre application ne déclenche plusieurs événements d’entrée au cours d’une seule visite, conservez la liste des régions dans lesquelles vous savez que l’utilisateur a saisi des données. Lors du traitement de la réponse des points d’intérêt à proximité à partir du SDK, déclenchez un événement d’entrée uniquement lorsque la région ne figure pas dans votre liste.
 >
 >Dans l’exemple de code suivant, `NSUserDefaults` (iOS) et `SharedPreferences` (Android) sont utilisés pour gérer la liste des régions :
 
 ### Android
 
-L’exemple de code suivant montre la gestion du résultat fourni dans le rappel de `getNearbyPointsOfInterest`, un `List<PlacesPOI>` :
+L’exemple de code suivant montre la gestion du résultat fourni dans le rappel d’un `List<PlacesPOI>` `getNearbyPointsOfInterest` :
 
 ```java
 void handleUpdatedPOIs(final List<PlacesPOI> nearbyPois) {
@@ -174,9 +179,9 @@ void handleUpdatedPOIs(final List<PlacesPOI> nearbyPois) {
 }
 ```
 
-### Objective-C
+### Objectif-C
 
-L’exemple de code suivant montre la gestion du résultat fourni dans le rappel de `getNearbyPointsOfInterest:limit:callback:errorCallback:`, un `NSArray<ACPPlacesPoi *> *` :
+L’exemple de code suivant montre la gestion du résultat fourni dans le rappel d’un `NSArray<ACPPlacesPoi *> *` `getNearbyPointsOfInterest:limit:callback:errorCallback:` :
 
 ```objectivec
 - (void) handleUpdatedPOIs:(NSArray<ACPPlacesPoi *> *)nearbyPois {
@@ -210,7 +215,7 @@ L’exemple de code suivant montre la gestion du résultat fourni dans le rappel
 
 ### Swift
 
-L’exemple de code suivant montre la gestion du résultat fourni dans le rappel de `getNearbyPoints(_ ofInterest: CLLocation, limit: UInt, callback: (([ACPPlacesPoi]?) -> Void)?, errorCallback: ((ACPPlacesRequestError) -> Void)?)`, un `[ACPPlacesPoi]` :
+L’exemple de code suivant montre la gestion du résultat fourni dans le rappel d’un `[ACPPlacesPoi]` `getNearbyPoints(_ ofInterest: CLLocation, limit: UInt, callback: (([ACPPlacesPoi]?) -> Void)?, errorCallback: ((ACPPlacesRequestError) -> Void)?)` :
 
 ```swift
 func handleUpdatedPOIs(_ nearbyPois:[ACPPlacesPoi]) {
@@ -239,15 +244,15 @@ func handleUpdatedPOIs(_ nearbyPois:[ACPPlacesPoi]) {
 }
 ```
 
-## Exemple de mise en oeuvre complet
+## Exemple complet d’implémentation
 
-Les exemples de code ci-dessous vous montrent comment récupérer l’emplacement actuel de l’appareil, déclencher les événements d’entrée nécessaires et vous assurer que vous n’obtenez pas plusieurs entrées pour le même emplacement lors d’une visite.
+Les exemples de code ci-dessous vous montrent comment récupérer l’emplacement actuel de l’appareil, déclencher les événements d’entrée nécessaires et vous assurer que vous n’obtenez pas plusieurs entrées pour le même emplacement lors d’une seule visite.
 
-Cet exemple de code inclut l’étape facultative de [déclenchement d’événements d’entrée lorsque l’utilisateur se trouve dans un point ciblé](#trigger-entry-events-when-the-user-is-in-a-poi).
+Cet exemple de code comprend l’étape facultative [déclencher des événements d’entrée lorsque l’utilisateur se trouve dans un point d’intérêt](#trigger-entry-events-when-the-user-is-in-a-poi).
 
 >[!IMPORTANT]
 >
->Ces fragments de code sont **uniquement** exemples. Les développeurs doivent déterminer la manière dont ils souhaitent mettre en oeuvre la fonctionnalité. De plus, la décision doit tenir compte des bonnes pratiques recommandées par le système d’exploitation cible.
+>Ces fragments de code ne sont que **exemples** L’équipe de développement doit déterminer comment elle souhaite implémenter la fonctionnalité. Dans sa décision, elle doit tenir compte des bonnes pratiques recommandées par le système d’exploitation cible.
 
 ### Android
 
@@ -327,7 +332,7 @@ public class LocationBroadcastReceiver extends BroadcastReceiver {
 ```
 
 
-### Objective-C
+### Objectif-C
 
 ```objectivec
 - (void) locationManager:(CLLocationManager*)manager didUpdateLocations:(NSArray<CLLocation*>*)locations {
@@ -410,6 +415,6 @@ func handleUpdatedPOIs(_ nearbyPois:[ACPPlacesPoi]) {
 }
 ```
 
-Outre le déclenchement des événements d’entrée du service Places dans le SDK, en raison des événements d’entrée de déclenchement, toutes les données qui définissent vos points ciblés peuvent être utilisées par le reste du SDK via `data elements` dans Experience Platform Launch. Avec Experience Platform Launch `rules`, vous pouvez joindre dynamiquement les données du service Places aux événements entrants qui sont traités par le SDK. Par exemple, vous pouvez joindre les métadonnées d’un point ciblé dans lequel l’utilisateur se trouve et envoyer les données à Analytics en tant que données contextuelles.
+Outre le déclenchement des événements d’entrée du service Places dans le SDK, en raison des événements d’entrée de déclenchement, toutes les données qui définissent vos points d’intérêt peuvent être utilisées par le reste du SDK via `data elements` dans Experience Platform Launch. Avec Experience Platform Launch `rules`, vous pouvez joindre dynamiquement les données du service Places aux événements entrants qui sont traités par le SDK. Par exemple, vous pouvez joindre les métadonnées d’un point d’intérêt dans lequel se trouve l’utilisateur et envoyer les données à Analytics en tant que données contextuelles.
 
-Pour plus d’informations, voir [Utilisation de Places Service avec d’autres solutions d’Adobe](/help/use-places-with-other-solutions/places-adobe-analytics/use-places-analytics-overview.md).
+Pour plus d’informations, voir [Utilisation du service Places avec d’autres solutions Adobe](/help/use-places-with-other-solutions/places-adobe-analytics/use-places-analytics-overview.md).
