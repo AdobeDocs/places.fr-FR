@@ -3,19 +3,10 @@ title: Notifications In-App
 description: Cette section vous explique comment utiliser le service Places avec la messagerie In-App.
 exl-id: c655e64b-0737-44d5-b453-2ac02fb9cbcc
 TQID: https://experienceleague.adobe.com/Z39ybIytDRlCbkMthWjvk5F-oexy0C9gtqgK1mmyMxM
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
-feature_v2:
-  - id: e08599ea-8888-4294-ba74-3ba0a7762a46
-subfeature_v2:
-  - id: d2a6cbf4-df32-480f-909e-b42f66dcb9f0
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87id: dfc56824-e8b9-499e-85d4-21aedb507314id: e43347a8-f2c5-4aa4-8623-6f13875d7e3aid: e55547f1-a1ff-40c6-8978-026e40ab7fa4id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: e08599ea-8888-4294-ba74-3ba0a7762a46
+subfeature_v2: id: d2a6cbf4-df32-480f-909e-b42f66dcb9f0
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: f962cef761f006c8e7d45b76ba24746e36bdaba6
 workflow-type: tm+mt
 source-wordcount: 689
@@ -67,7 +58,7 @@ Une fois la règle configurée avec les paramètres d’événement et de condit
 
 Pour créer une action :
 
-1. Sélectionnez l’extension **&#x200B;**.
+1. Sélectionnez l’extension ****.
 1. Dans la liste déroulante **[!UICONTROL Type d’action]**, sélectionnez **[!UICONTROL Suivi.]**
 1. Saisissez le nom de l’action.
 1. Dans le volet de droite, dans **[!UICONTROL Données contextuelles]**, sélectionnez la paire clé-valeur pour définir les données contextuelles qui seront envoyées à Analytics.
@@ -76,7 +67,7 @@ Par exemple, vous pouvez sélectionner `poiname` comme clé et `{%%Last Entered 
 
 >[!TIP]
 >
->Les règles de traitement Analytics peuvent être définies pour récupérer ces données contextuelles. Pour plus d’informations, voir [&#x200B; Règles de traitement &#x200B;](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules.html?lang=fr). Dans l’exemple de *Créer une action*, l’action envoie l’`poiname` comme contexte pour décrire l’événement d’entrée de point d’intérêt envoyé à Analytics.
+>Les règles de traitement Analytics peuvent être définies pour récupérer ces données contextuelles. Pour plus d’informations, voir [ Règles de traitement ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules.html). Dans l’exemple de *Créer une action*, l’action envoie l’`poiname` comme contexte pour décrire l’événement d’entrée de point d’intérêt envoyé à Analytics.
 
 ![création d’une action](/help/assets/configure-action.png)
 
@@ -93,7 +84,7 @@ Dans le cadre de vos paramètres de déclencheur, vous pouvez créer l’audienc
 
   Cette option peut être utilisée avec une action spécifique à l’emplacement, telle qu’une entrée, ou elle peut être utilisée comme contexte pour un autre événement, tel qu’un lancement ou un clic sur un bouton.
 
-  Voici un exemple de configuration d’un message in-app pour accueillir les utilisateurs qui entrent dans un point d’intérêt dont le nom contient **&#x200B;**&#x200B;:
+  Voici un exemple de configuration d’un message in-app pour accueillir les utilisateurs qui entrent dans un point d’intérêt dont le nom contient **** :
 
   ![paramètres de déclenchement](/help/assets/trigger-parameters.png)
 
