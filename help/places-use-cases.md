@@ -5,15 +5,13 @@ source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 workflow-type: tm+mt
 source-wordcount: '48'
 ht-degree: 0%
-
 ---
 
-
-# Cas pratiques des lieux
+# Cas d’utilisation de Places
 
 Voici quelques exemples :
 
 * Envoyer une notification en temps réel lorsqu’une personne entre dans votre boutique
-* Analyser le trafic des pieds de mes magasins par rapport aux magasins concurrents
+* Analyser le trafic piétonnier de mes magasins par rapport aux magasins concurrents
 * Créer une audience de voyageur d’affaires
-* Ciblez l’utilisateur avec l’expérience en magasin lorsque cela est pertinent
+* Ciblez l’utilisateur avec une expérience en magasin, le cas échéant.
