@@ -1,17 +1,18 @@
 ---
 title: Vue d’ensemble
-description: Comprendre et utiliser les API de requête.
+description: Comprendre et utiliser les API Query.
 exl-id: cc61a49c-1cf2-407f-b81a-3d38fcb622cc
-source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: d8704da9c84a066f72471421290d4b46c65f41e1
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 3%
-
 ---
-
 # API de requête
 
-Méthode de GET qui vous permet d’interroger les points ciblés les plus proches de l’appelant.
+Méthode GET qui permet d’interroger les points d’intérêt les plus proches de l’appelant.
 
 ## Requête
 
@@ -19,30 +20,30 @@ Méthode de GET qui vous permet d’interroger les points ciblés les plus proch
 GET https://query.places.adobe.com/placesedgequery
 ```
 
-Avec l’entrée suivante, le service renvoie une liste des points ciblés les plus proches de l’appelant :
+Avec l’entrée suivante, le service renvoie une liste des points d’intérêt les plus proches de l’appelant :
 
 * Position de l’appelant (latitude, longitude).
-* ID des bibliothèques POI à inclure dans la recherche.
-* Nombre maximal de points ciblés à renvoyer.  La valeur par défaut est 100.
+* Identifiants des bibliothèques de points d’intérêt à inclure dans la recherche.
+* Nombre maximal de POI à renvoyer.  La valeur par défaut est 100.
 
-  La distance entre l’appelant et le point ciblé est définie comme la distance entre l’appelant et le bord de la clôture virtuelle du point ciblé. Dans la réponse, les points ciblés contenant l’appelant sont marqués comme ayant l’appelant.
+  La distance entre l&#39;appelant et le point d&#39;intérêt est définie comme la distance entre l&#39;appelant et le bord de la limite géographique du point d&#39;intérêt. Dans la réponse, les points d’intérêt qui contiennent l’appelant sont marqués comme ayant l’appelant.
 
-Les arguments sont fournis en tant que paramètres de requête suivants :
+Les arguments sont fournis sous la forme des paramètres de requête suivants :
 
 * (**Obligatoire**) `latitude`
 
-  La latitude de l’appelant, qui doit être comprise entre -85 et 85.
+  La latitude de l&#39;appelant, qui doit être comprise entre -85 et 85.
 * (**Obligatoire**) `longitude`
 
-  Longitude de l’appelant, qui doit être comprise entre -180 et 180.
+  Longitude de l&#39;appelant, qui doit être comprise entre -180 et 180.
 
 * (**Facultatif**) `limit`
 
-  Nombre maximal de points ciblés à renvoyer.
+  Nombre maximal de POI à renvoyer.
 
 * (**Obligatoire**) `library`
 
-  L’identifiant de la bibliothèque à interroger. Pour interroger plusieurs bibliothèques, veillez à inclure plusieurs copies du paramètre de bibliothèque dans la requête.
+  Identifiant de la bibliothèque à interroger. Pour interroger plusieurs bibliothèques, veillez à inclure plusieurs copies du paramètre de bibliothèque dans la requête.
 
 Voici un exemple du format JSON renvoyé avec succès :
 
@@ -107,11 +108,11 @@ Voici un exemple du format JSON renvoyé avec succès :
 }
 ```
 
-Les points ciblés sous `places.pois` sont triés par distance entre l’appelant et le bord des points ciblés. Les points ciblés sous `places.userWithin` contiennent l’appelant et ces points ciblés sont triés par rang, puis par rayon croissant.
+Les points d’intérêt sous `places.pois` sont triés par distance entre l’appelant et le bord des points d’intérêt. Les points d’intérêt sous `places.userWithin` contiennent l’appelant et ces points d’intérêt sont classés par rang, puis par rayon croissant.
 
 ## Exemple d’appel
 
-Voici un exemple d’appel :
+Voici un exemple de l’appel :
 
 ```text
 GET https://query.places.adobe.com/placesedgequery?latitude=<userLatitude>&longitude=<userLongitude>&library=<libID1>&library=<libID2>&limit=20

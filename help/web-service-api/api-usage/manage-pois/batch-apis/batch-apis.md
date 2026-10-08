@@ -1,22 +1,23 @@
 ---
-title: API de lot
-description: Avec les API par lots, vous pouvez créer, mettre à jour et supprimer plusieurs points ciblés.
+title: API Batch
+description: Grâce aux API Batch, vous pouvez créer, mettre à jour et supprimer plusieurs POI.
 exl-id: 8c77e5e3-2700-4684-a480-c638691994e5
-source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: d8704da9c84a066f72471421290d4b46c65f41e1
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '105'
 ht-degree: 0%
-
 ---
+# API Batch {#batch-apis}
 
-# API de lot {#batch-apis}
+Les API Batch vous permettent de créer, mettre à jour ou supprimer plusieurs POI en même temps.
 
-Les API par lot vous permettent de créer, de mettre à jour ou de supprimer plusieurs points ciblés en même temps.
+Pour vous aider à effectuer un import par lots de vos POI à partir d&#39;un fichier `.csv` dans la base de données Places de votre organisation, utilisez l&#39;ensemble de scripts Python. Vous pouvez télécharger le fichier zip de ces scripts [ici](https://github.com/adobe/places-scripts). Pour plus d’informations sur l’utilisation des scripts, consultez le fichier LISEZ-MOI dans le référentiel.
 
-Pour vous aider à effectuer une importation par lots de vos points ciblés à partir d’un fichier `.csv` dans la base de données Places de votre entreprise, utilisez l’ensemble de scripts Python. Vous pouvez télécharger le fichier zip de ces scripts [ici](https://github.com/adobe/places-scripts). Pour plus d’informations sur l’utilisation des scripts, voir le fichier LISEZMOI dans le référentiel.
+Vous pouvez utiliser les API Batch pour effectuer les tâches suivantes :
 
-Vous pouvez utiliser les API de lot pour effectuer les tâches suivantes :
-
-* [Création de plusieurs points ciblés](/help/web-service-api/api-usage/manage-pois/batch-apis/create-multiple-pois.md)
-* [Mise à jour de plusieurs points ciblés](/help/web-service-api/api-usage/manage-pois/batch-apis/update-multiple-pois.md)
-* [Suppression de plusieurs points ciblés](/help/web-service-api/api-usage/manage-pois/batch-apis/delete-multiple-pois.md)
+* [Création de plusieurs points d’intérêt](/help/web-service-api/api-usage/manage-pois/batch-apis/create-multiple-pois.md)
+* [Mettre à jour plusieurs points d’intérêt](/help/web-service-api/api-usage/manage-pois/batch-apis/update-multiple-pois.md)
+* [Supprimer plusieurs points d’intérêt](/help/web-service-api/api-usage/manage-pois/batch-apis/delete-multiple-pois.md)

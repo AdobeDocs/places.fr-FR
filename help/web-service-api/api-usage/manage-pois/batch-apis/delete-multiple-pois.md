@@ -1,17 +1,18 @@
 ---
-title: Suppression de plusieurs points ciblés
-description: Utilisez les API par lot pour supprimer plusieurs points ciblés.
+title: Supprimer plusieurs points d’intérêt
+description: Utilisez les API Batch pour supprimer plusieurs points d’intérêt.
 exl-id: f170b722-e6f4-42a2-b3a6-1bf56965eb17
-source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: d8704da9c84a066f72471421290d4b46c65f41e1
 workflow-type: tm+mt
 source-wordcount: '56'
 ht-degree: 5%
-
 ---
+# Supprimer plusieurs points d’intérêt {#delete-multiple-pois}
 
-# Suppression de plusieurs points ciblés {#delete-multiple-pois}
-
-Méthode de POST qui vous permet de supprimer plusieurs points ciblés.
+Méthode POST qui permet de supprimer plusieurs points d’intérêt.
 
 ## Requête
 
@@ -37,7 +38,7 @@ POST https://api-places.adobe.io/places/placesapi/v1/pois/batchDelete
 If successful a Status of "204 No Content" is returned.
 ```
 
-## CURL, commande
+## Commande CURL
 
 Utilisez la commande CURL suivante pour tester cette API :
 

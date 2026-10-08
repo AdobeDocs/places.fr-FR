@@ -5,29 +5,38 @@ exl-id: f388945e-cf26-4694-9697-9fe564ae4b69
 TQID: https://experienceleague.adobe.com/EYg1wjQJZeHqX7vPnJ1VUZzojqG6ANjS8-VBXV3y51c
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
   - id: f7bdf6be-dd3b-4d2d-ac52-0e62ed0d3102
+    internal-label: Admin Console
 feature_v2:
   - id: c132d929-fa62-4271-803e-b823be07b914
+    internal-label: Profile
   - id: e08599ea-8888-4294-ba74-3ba0a7762a46
+    internal-label: Data collection
 subfeature_v2:
   - id: b64298cc-90cc-46b7-8917-ee391f1c7516
+    internal-label: Data collection UI
   - id: d2a6cbf4-df32-480f-909e-b42f66dcb9f0
+    internal-label: Places
   - id: f5efb499-54f9-432b-ac5c-599dbac103af
+    internal-label: Data management
   - id: f6ff4d13-7b5c-4533-8556-95e76673d4cb
+    internal-label: Properties
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: f962cef761f006c8e7d45b76ba24746e36bdaba6
+    internal-label: Data management
+source-git-commit: d8704da9c84a066f72471421290d4b46c65f41e1
 workflow-type: tm+mt
-source-wordcount: 919
+source-wordcount: '919'
 ht-degree: 2%
-
 ---
-
 # Accéder au service Places {#adding-user-launch-places}
 
-Places Service est désormais disponible dans l’interface utilisateur de la collecte de données. Vous pouvez accéder à la collecte de données à partir du menu d&#39;accès rapide sur la page d&#39;accueil de [&#128279;](https://experience.adobe.com?lang=fr).
+Places Service est désormais disponible dans l’interface utilisateur de la collecte de données. Vous pouvez accéder à Collecte de données à partir du menu d’accès rapide sur la page d’accueil d’[Adobe Experience Cloud](https://experience.adobe.com?lang=fr).
 
 ![menu accès rapide](/help/assets/quickaccess.png)
 
@@ -46,12 +55,12 @@ Si le service Places ne s’affiche pas à cet emplacement, contactez un adminis
 Places est désormais inclus dans Adobe Experience Platform. Pour permettre aux utilisateurs d’accéder au [service Places](https://experience.adobe.com/#/data-collection/places), ils doivent être ajoutés en tant qu’utilisateur à Adobe Experience Platform dans Admin Console. Pour permettre aux utilisateurs d&#39;avoir accès à la collecte de données Experience Platform avec les autorisations requises pour configurer les propriétés mobiles et utiliser Places avec le SDK Adobe Experience Platform, ils doivent également être ajoutés à la collecte de données Adobe Experience Platform dans Admin Console et recevoir les autorisations suivantes pour la collecte de données Adobe Experience Platform :
 
 * Toutes les autorisations sous Droits de propriété :
-   * Approuver
-   * Développer
-   * Modifier la propriété
-   * Gérer les environnements
-   * Gérer les extensions
-   * Publier
+  * Approuver
+  * Développer
+  * Modifier la propriété
+  * Gérer les environnements
+  * Gérer les extensions
+  * Publier
 * Autorisation Gérer les propriétés sous Droits d’entreprise
 
 Si vous ajoutez un utilisateur pour la première fois, procédez comme suit pour ajouter des utilisateurs à la collecte de données Adobe Experience Platform et à Adobe Experience Platform. Si vous avez déjà ajouté des utilisateurs, plusieurs profils peuvent être affichés. Veillez donc à sélectionner le profil approprié.
@@ -62,7 +71,7 @@ Si vous ajoutez un utilisateur pour la première fois, procédez comme suit pour
 
 ### &#x200B;1. Vérifiez que Adobe Experience Platform et la collecte de données Adobe Experience Platform sont configurés
 
-1. Connectez-vous à votre organisation Experience Cloud, [Accueil Adobe Experience Cloud](https://experience.adobe.com?lang=fr).
+1. Connectez-vous à votre organisation Experience Cloud, [accueil Adobe Experience Cloud](https://experience.adobe.com?lang=fr).
 1. Dans le coin supérieur droit, cliquez sur le sélecteur de shell Experience Cloud pour afficher un menu déroulant.
 
    ![sélecteur de coque](/help/assets/places_shell_switcher1.png)
@@ -110,4 +119,4 @@ Pour les utilisateurs qui ont également besoin d’accéder à l’API REST Pla
 3. Dans le profil, cliquez sur l’onglet **Développeurs**
 4. Cliquez sur le bouton bleu **Ajouter un développeur**, renseignez l’utilisateur avec son Adobe ID et son nom, puis cliquez sur Enregistrer pour terminer l’ajout.
 
-Une fois les étapes ci-dessus terminées, l’utilisateur recevra un e-mail l’informant qu’il a accès à **&#x200B;**&#x200B;et à **[!UICONTROL la collecte de données Adobe Experience Platform]**. Ils peuvent ensuite se connecter à [&#128279;](https://experience.adobe.com?lang=fr) pour cette organisation et accéder au service Places et à la collecte de données. Si vous suivez également les étapes **[!UICONTROL Ajouter un développeur]**, l’utilisateur peut également se connecter à [Adobe Developer Console](https://developer.adobe.com/console/home) pour créer un projet qui donnerait accès à l’API REST Places Service.
+Une fois les étapes ci-dessus terminées, l’utilisateur recevra un e-mail l’informant qu’il a accès à **&#x200B;**&#x200B;et à **[!UICONTROL la collecte de données Adobe Experience Platform]**. Ils peuvent ensuite se connecter à [Adobe Experience Cloud](https://experience.adobe.com?lang=fr) pour cette organisation et accéder au service Places et à la collecte de données. Si vous suivez également les étapes **[!UICONTROL Ajouter un développeur]**, l’utilisateur peut également se connecter à [Adobe Developer Console](https://developer.adobe.com/console/home) pour créer un projet qui donnerait accès à l’API REST Places Service.

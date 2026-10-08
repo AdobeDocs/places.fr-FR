@@ -1,24 +1,27 @@
 ---
 title: Présentation de l’API Web Services
-description: Le service Places est l’ensemble de services qui permet aux clients Adobe de transmettre plus facilement les solutions Adobe Experience Cloud et Adobe Experience Platform, ainsi que les données de localisation et l’expérience appropriée, à la bonne personne, au bon moment et au bon endroit.
+description: Le service Places est l’ensemble de services qui permet aux clients Adobe d’intégrer plus facilement les solutions Adobe Experience Cloud et Adobe Experience Platform aux données de localisation et à l’expérience appropriée pour la bonne personne au bon moment et au bon endroit.
 exl-id: 9e7358d1-3ba0-4304-aeb2-fed7162afb57
 TQID: https://experienceleague.adobe.com/jP7iQH7X85UZROjsa3XzuN0bJZjjKffODFGGji7XZfQ
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 feature_v2:
   - id: e08599ea-8888-4294-ba74-3ba0a7762a46
+    internal-label: Data collection
 subfeature_v2:
   - id: d2a6cbf4-df32-480f-909e-b42f66dcb9f0
+    internal-label: Places
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: f962cef761f006c8e7d45b76ba24746e36bdaba6
+    internal-label: Data collection
+source-git-commit: d8704da9c84a066f72471421290d4b46c65f41e1
 workflow-type: tm+mt
-source-wordcount: 336
+source-wordcount: '336'
 ht-degree: 1%
-
 ---
-
 # Présentation de l’API Web Services {#places-web-services-api}
 
 Le service Places est l’ensemble de services qui permet aux clients d’Adobe d’intégrer plus facilement les solutions Adobe Cloud Platform et Adobe Experience Platform aux données de localisation et à l’expérience appropriée pour la bonne personne au bon moment et au bon endroit.

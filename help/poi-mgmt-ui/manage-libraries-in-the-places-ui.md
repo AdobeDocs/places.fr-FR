@@ -5,22 +5,27 @@ exl-id: 2fb999b4-854a-430f-bb89-4c786d1a89cc
 TQID: https://experienceleague.adobe.com/PP7P3aOL3EKSEPJWedHtfyHRzbCueMtNS-J7Ao4mawo
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
   - id: dc5cf79d-43c4-4731-bffa-1df5d7549cb1
+    internal-label: Adobe Sign
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 feature_v2:
   - id: e08599ea-8888-4294-ba74-3ba0a7762a46
+    internal-label: Data collection
 subfeature_v2:
   - id: d2a6cbf4-df32-480f-909e-b42f66dcb9f0
+    internal-label: Places
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: f962cef761f006c8e7d45b76ba24746e36bdaba6
+    internal-label: Data collection
+source-git-commit: d8704da9c84a066f72471421290d4b46c65f41e1
 workflow-type: tm+mt
-source-wordcount: 434
+source-wordcount: '434'
 ht-degree: 14%
-
 ---
-
 # Gestion des bibliothèques {#manage-libraries-places-ui}
 
 Une bibliothèque est une collection de points d’intérêt. Vous pouvez avoir jusqu’à 150 000 POI dans une bibliothèque et il peut y avoir jusqu’à 100 bibliothèques par organisation Experience Cloud.

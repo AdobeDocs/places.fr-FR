@@ -1,17 +1,18 @@
 ---
-title: Obtention du rang d’une bibliothèque
+title: Obtenir le rang d'une bibliothèque
 description: Obtenez le classement d’une bibliothèque à l’aide de l’API REST Places.
 exl-id: c0abedd0-5ff4-4a01-9f8d-e3d17ea53a97
-source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: d8704da9c84a066f72471421290d4b46c65f41e1
 workflow-type: tm+mt
 source-wordcount: '41'
 ht-degree: 9%
-
 ---
+# Obtenir le rang d&#39;une bibliothèque {#get-library-rank}
 
-# Obtention du rang d’une bibliothèque {#get-library-rank}
-
-Méthode de GET qui vous permet de classer les bibliothèques.
+Une méthode GET qui permet de classer les bibliothèques.
 
 ## Requête
 
@@ -33,7 +34,7 @@ Méthode de GET qui vous permet de classer les bibliothèques.
 {"library_rank_order":["ea45781f-26af-44b1-b4f8-43baf5f0fe28","dfcc5270-1d6d-4bc9-9cd9-85ecd5ebc12b"]}
 ```
 
-## CURL, commande
+## Commande CURL
 
 ```
 curl -X GET 'https://api-places.adobe.io/places/placesapi/v1/libraries/rank ' -H 'x-api-key: <API KEY>' -H 'Authorization: Bearer <TOKEN>' -H 'x-gw-ims-org-id: <ORGID>'
@@ -41,4 +42,4 @@ curl -X GET 'https://api-places.adobe.io/places/placesapi/v1/libraries/rank ' -H
 
 >[!IMPORTANT]
 >
->Remplacez des variables telles que `<API KEY>`, `<TOKEN>` et `<ORGID>` par des valeurs réelles.
+>Remplacez les variables telles que `<API KEY>`, `<TOKEN>` et `<ORGID>` par des valeurs réelles.

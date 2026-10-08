@@ -1,27 +1,28 @@
 ---
 title: Utilisation de votre propre moniteur
-description: Vous pouvez également utiliser vos services de surveillance et intégrer avec Places Service en utilisant les API d'extension de Places Service.
+description: Vous pouvez également utiliser vos services de surveillance et intégrer Places Service à l’aide des API d’extension de Places Service.
 exl-id: 8ca4d19b-0f23-4291-b335-af47f03179fa
-source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: d8704da9c84a066f72471421290d4b46c65f41e1
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 1%
-
 ---
-
 # Utilisation de votre propre moniteur {#using-your-monitor}
 
-Vous pouvez également utiliser vos services de surveillance et intégrer avec Places Service en utilisant les API de l&#39;extension Places.
+Vous pouvez également utiliser vos services de surveillance et intégrer Places Service à l’aide des API de l’extension Places.
 
-## Enregistrement de clôtures géographiques
+## Enregistrement de géorepères
 
-Si vous décidez d’utiliser vos services de surveillance, enregistrez les clôtures virtuelles des points ciblés autour de votre emplacement actuel en procédant comme suit :
+Si vous décidez d&#39;utiliser vos services de surveillance, enregistrez les clôtures géographiques des points d&#39;intérêt à proximité de votre emplacement actuel en procédant comme suit :
 
 ### iOS
 
 Dans iOS, procédez comme suit :
 
-1. Transmettez les mises à jour d’emplacement obtenues à partir des services de l’emplacement principal d’iOS à l’extension Places.
+1. Transmettez les mises à jour de localisation obtenues à partir des services de localisation principaux d’iOS à l’extension Places.
 
 1. Utilisez l’API d’extension `getNearbyPointsOfInterest` Places pour obtenir le tableau d’objets `ACPPlacesPoi` autour de l’emplacement actuel.
 
@@ -33,7 +34,7 @@ Dans iOS, procédez comme suit :
    }
    ```
 
-1. Extrayez les informations des objets `ACPPlacesPOI` obtenus et commencez à surveiller ces points ciblés.
+1. Extrayez les informations des objets `ACPPlacesPOI` obtenus et commencez à surveiller ces points d’intérêt.
 
    ```objective-c
    - (void) startMonitoringGeoFences: (NSArray*) newGeoFences {
@@ -59,7 +60,7 @@ Dans iOS, procédez comme suit :
 
 1. Transmettez les mises à jour d’emplacement obtenues à partir des services Google Play ou des services d’emplacement Android à l’extension Places.
 
-1. Utilisez l’API d’extension `getNearbyPointsOfInterest` Places pour obtenir la liste des objets `PlacesPoi` autour de l’emplacement actuel.
+1. Utilisez l’API de l’extension `getNearbyPointsOfInterest` Places pour obtenir la liste des objets `PlacesPoi` autour de l’emplacement actuel.
 
    ```java
    LocationCallback callback = new LocationCallback() {
@@ -77,7 +78,7 @@ Dans iOS, procédez comme suit :
    };
    ```
 
-1. Extrayez les données des objets `PlacesPOI` obtenus et commencez à surveiller ces points ciblés.
+1. Extrayez les données des objets `PlacesPOI` obtenus et commencez à surveiller ces points d’intérêt.
 
    ```java
    private void startMonitoringFences(final List<PlacesPOI> nearByPOIs) {
@@ -102,17 +103,17 @@ Dans iOS, procédez comme suit :
    ```
 
 
-L’appel de l’API `getNearbyPointsOfInterest` entraîne un appel réseau qui obtient l’emplacement autour de l’emplacement actuel.
+L’appel à l’API `getNearbyPointsOfInterest` génère un appel réseau qui récupère l’emplacement autour de l’emplacement actuel.
 
 >[!IMPORTANT]
 >
->Vous devez appeler l’API avec parcimonie ou uniquement en cas de modification significative de l’emplacement de l’utilisateur.
+>Vous devez appeler l’API avec parcimonie ou uniquement en cas de changement d’emplacement significatif de l’utilisateur.
 
-## Publication d’événements de géolocalisation
+## Publication des événements de limite géographique
 
 ### iOS
 
-Dans iOS, appelez l’API Places `processGeofenceEvent` dans le délégué `CLLocationManager`. Cette API vous indique si l’utilisateur est entré dans une région spécifique ou s’il l’a quitté.
+Dans iOS, appelez l’API `processGeofenceEvent` Places dans le délégué `CLLocationManager`. Cette API vous informe si l’utilisateur est entré ou sorti d’une zone géographique spécifique.
 
 ```objective-c
 - (void) locationManager:(CLLocationManager *)manager didEnterRegion:(CLRegion *)region {
@@ -126,7 +127,7 @@ Dans iOS, appelez l’API Places `processGeofenceEvent` dans le délégué `CLLo
 
 ### Android
 
-Dans Android, appelez la méthode `processGeofence` avec l’événement de transition approprié dans votre récepteur de diffusion Geofence. Vous pouvez organiser la liste des clôtures virtuelles reçues pour éviter les entrées/sorties en double.
+Dans Android, appelez la méthode `processGeofence` avec l’événement de transition approprié dans votre récepteur de diffusion Geofence. Vous pouvez traiter la liste des limites géographiques reçues pour empêcher les entrées/sorties en double.
 
 ```java
 void onGeofenceReceived(final Intent intent) {

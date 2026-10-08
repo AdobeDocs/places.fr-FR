@@ -1,17 +1,18 @@
 ---
 title: Suppression d’une bibliothèque
-description: Supprimez une bibliothèque à l’aide des API REST de Places.
+description: Supprimez une bibliothèque à l’aide des API REST Places.
 exl-id: ad45ea38-9e12-43d7-b05f-17d3e40abaf5
-source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: d8704da9c84a066f72471421290d4b46c65f41e1
 workflow-type: tm+mt
 source-wordcount: '47'
 ht-degree: 4%
-
 ---
-
 # Suppression d’une bibliothèque {#delete-a-library}
 
-Méthode de DELETE qui vous permet de supprimer une bibliothèque.
+Méthode DELETE permettant de supprimer une bibliothèque.
 
 ## Requête
 
@@ -35,7 +36,7 @@ DELETE https://api-places.adobe.io/places/placesapi/v1/libraries/<lIBRARYID>
 If successful a Status of "204 No Content" is returned.
 ```
 
-## CURL, commande
+## Commande CURL
 
 Utilisez la commande CURL suivante pour tester cette API :
 
@@ -45,4 +46,4 @@ curl -X DELETE 'https://api-places.adobe.io/places/placesapi/v1/libraries/<LIBRA
 
 >[!IMPORTANT]
 >
->Remplacez des variables telles que `<lIBRARYID>`, `<API KEY>`, `<TOKEN>` et `<ORGID>` par des valeurs réelles.
+>Remplacez les variables telles que `<lIBRARYID>`, `<API KEY>`, `<TOKEN>` et `<ORGID>`par des valeurs réelles.

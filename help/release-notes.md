@@ -5,139 +5,150 @@ exl-id: 76da9548-4e32-4b23-9a15-7012973915f3
 TQID: https://experienceleague.adobe.com/yo1eXPl9cKbp-EVWQT8gZHcAbSDoIFJVD6xKbdoysMc
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
   - id: f002a92a-b99f-47a4-90c8-65e0e415bc7a
+    internal-label: Pass
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: bef6f891-2e8a-425e-8f99-7ddf22070daa
+    internal-label: APIs
   - id: d833d0ef-8ed5-4cff-a5e7-9f12abd02a31
+    internal-label: SDKs
   - id: e08599ea-8888-4294-ba74-3ba0a7762a46
+    internal-label: Data collection
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
 subfeature_v2:
   - id: d2a6cbf4-df32-480f-909e-b42f66dcb9f0
+    internal-label: Places
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f962cef761f006c8e7d45b76ba24746e36bdaba6
+    internal-label: Privacy
+source-git-commit: d8704da9c84a066f72471421290d4b46c65f41e1
 workflow-type: tm+mt
-source-wordcount: 1612
+source-wordcount: '1612'
 ht-degree: 5%
-
 ---
-
 # Notes de mise à jour {#release-notes}
 
 ## 8 juillet 2020
 
 * **Extensions Places et Places Monitor**
 
-   * Les extensions Places et Places Monitor ont été ajoutées pour les applications [&#128279;](https://aep-sdks.gitbook.io/docs/resources/upgrading-to-aep/current-sdk-versions#react-native)
-   * Des extensions Places et Places Monitor ont été ajoutées pour les applications [Cordova](https://aep-sdks.gitbook.io/docs/resources/upgrading-to-aep/current-sdk-versions#cordova)
-   * Pour plus d’informations, voir : [Utilisation de l’extension Places](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html?lang=fr)
+  * Les extensions Places et Places Monitor ont été ajoutées pour les applications [&#128279;](https://aep-sdks.gitbook.io/docs/resources/upgrading-to-aep/current-sdk-versions#react-native)
+  * Des extensions Places et Places Monitor ont été ajoutées pour les applications [Cordova](https://aep-sdks.gitbook.io/docs/resources/upgrading-to-aep/current-sdk-versions#cordova)
+  * Pour plus d’informations, voir : [Utilisation de l’extension Places](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html?lang=fr)
 
 
 ## 12 Mai 2020
 
 * **Places Service**
 
-   * Importer en bloc des POI à partir d’un fichier CSV à l’aide du bouton Importer des POI
-   * Sélection de plusieurs points d’intérêt et modification ou ajout en bloc de valeurs de métadonnées
+  * Importer en bloc des POI à partir d’un fichier CSV à l’aide du bouton Importer des POI
+  * Sélection de plusieurs points d’intérêt et modification ou ajout en bloc de valeurs de métadonnées
 
 ## 6 Mai 2020
 
 * **PlacesMonitor 2.2.1**
 
-   * **Android**
+  * **Android**
 
-      * Journalisation améliorée
+    * Journalisation améliorée
 
 ## 5 Mai 2020
 
 
 * **PlacesMonitor 2.1.3**
 
-   * **iOS**
+  * **iOS**
 
-      * Journalisation améliorée
+    * Journalisation améliorée
 
 ## 20 Février 2020
 
 * **ACPPlaces 1.3.1 (iOS)**
 
-   * L’extension Places signale désormais les informations de version au hub d’événements dans Core SDK.
-   * Les informations d’appartenance au point d’intérêt de l’appareil ont désormais une durée de vie par défaut d’une heure à compter du moment où elles sont collectées. Pour plus d&#39;informations, voir [Modification de la durée de vie de l&#39;abonnement aux Places](places-ext-aep-sdks/places-extension/places-extension.md#places-ttl)
+  * L’extension Places signale désormais les informations de version au hub d’événements dans Core SDK.
+  * Les informations d’appartenance au point d’intérêt de l’appareil ont désormais une durée de vie par défaut d’une heure à compter du moment où elles sont collectées. Pour plus d&#39;informations, voir [Modification de la durée de vie de l&#39;abonnement aux Places](places-ext-aep-sdks/places-extension/places-extension.md#places-ttl)
 
 
 * **Places 1.4.1 (Android)**
 
-   * L’extension Places signale désormais les informations de version au hub d’événements dans Core SDK.
-   * Les informations d’appartenance au point d’intérêt de l’appareil ont désormais une durée de vie par défaut d’une heure à compter du moment où elles sont collectées. Pour plus d&#39;informations, voir [Modification de la durée de vie de l&#39;abonnement aux Places](places-ext-aep-sdks/places-extension/places-extension.md#places-ttl)
+  * L’extension Places signale désormais les informations de version au hub d’événements dans Core SDK.
+  * Les informations d’appartenance au point d’intérêt de l’appareil ont désormais une durée de vie par défaut d’une heure à compter du moment où elles sont collectées. Pour plus d&#39;informations, voir [Modification de la durée de vie de l&#39;abonnement aux Places](places-ext-aep-sdks/places-extension/places-extension.md#places-ttl)
 
 ## mardi 27 janvier 2020
 
 * **PlacesMonitor 2.2.0**
 
-   * **Android**
+  * **Android**
 
-      * Appelez la nouvelle API Places pour collecter le statut d’autorisation de l’emplacement au lancement de l’application et lorsque l’autorisation est modifiée pendant l’exécution de l’application.
-      * Ajout de l’API setRequestLocationPermission et API setLocationPermission obsolète.
+    * Appelez la nouvelle API Places pour collecter le statut d’autorisation de l’emplacement au lancement de l’application et lorsque l’autorisation est modifiée pendant l’exécution de l’application.
+    * Ajout de l’API setRequestLocationPermission et API setLocationPermission obsolète.
 
 ## 9 janvier 2020
 
 * **Places 1.4.0**
 
-   * **Android**
+  * **Android**
 
-      * Ajout d’une nouvelle API, `setAuthorizationStatus`, pour définir le statut d’autorisation des appareils pour Places Services. La valeur est stockée et utilisée dans l&#39;état Places partagées .
+    * Ajout d’une nouvelle API, `setAuthorizationStatus`, pour définir le statut d’autorisation des appareils pour Places Services. La valeur est stockée et utilisée dans l&#39;état Places partagées .
 
 ## jeudi 4 décembre 2019
 
 * **PlacesMonitor 2.1.2**
 
-   * **iOS**
+  * **iOS**
 
-      * Appelez l’API Places pour collecter CLAuthorizationStatus sur l’appareil lorsqu’il change.
+    * Appelez l’API Places pour collecter CLAuthorizationStatus sur l’appareil lorsqu’il change.
 
 ## mercredi 3 décembre 2019
 
 * **ACPPlaces 1.3.0**
 
-   * **iOS**
+  * **iOS**
 
-      * Ajout d’une nouvelle API, `setAuthorizationStatus`, pour définir le statut d’autorisation des appareils pour Places Services. La valeur est stockée et utilisée dans l&#39;état Places partagées .
+    * Ajout d’une nouvelle API, `setAuthorizationStatus`, pour définir le statut d’autorisation des appareils pour Places Services. La valeur est stockée et utilisée dans l&#39;état Places partagées .
 
 ## mardi 25 novembre 2019
 
 * **PlacesMonitor 2.1.1**
 
-   * **iOS**
+  * **iOS**
 
-      * Correction des instructions d’importation pour les projets Cocoapods à l’aide de plusieurs projets de capsule.
+    * Correction des instructions d’importation pour les projets Cocoapods à l’aide de plusieurs projets de capsule.
 
 ## samedi 22 novembre 2019
 
 * **PlacesMonitor 2.1.1**
 
-   * **Android**
+  * **Android**
 
-      * Le moniteur reconnaît désormais le démarrage d’un périphérique Android et, si nécessaire, enregistre à nouveau les barrières géographiques auprès du système d’exploitation en fonction de l’emplacement actuel du périphérique.
-      * Correction d’une condition de concurrence qui entraînait parfois l’abandon d’événements d’entrée/sortie.
+    * Le moniteur reconnaît désormais le démarrage d’un périphérique Android et, si nécessaire, enregistre à nouveau les barrières géographiques auprès du système d’exploitation en fonction de l’emplacement actuel du périphérique.
+    * Correction d’une condition de concurrence qui entraînait parfois l’abandon d’événements d’entrée/sortie.
 
 ## jeudi 9 octobre 2019
 
 * **PlacesMonitor 2.1.0**
 
-   * **iOS**
+  * **iOS**
 
-      * Ajout d’une nouvelle API, `setRequestAuthorizationLevel`, pour définir le type de demande d’autorisation d’emplacement pour laquelle l’utilisateur sera invité.
+    * Ajout d’une nouvelle API, `setRequestAuthorizationLevel`, pour définir le type de demande d’autorisation d’emplacement pour laquelle l’utilisateur sera invité.
 
 
-   * **Android**
+  * **Android**
 
-      * Ajout d’une nouvelle API, `setLocationPermission`, pour définir le type de demande d’autorisation d’emplacement pour laquelle l’utilisateur sera invité.
-      * Places Monitor prend désormais en charge Android 10.
+    * Ajout d’une nouvelle API, `setLocationPermission`, pour définir le type de demande d’autorisation d’emplacement pour laquelle l’utilisateur sera invité.
+    * Places Monitor prend désormais en charge Android 10.
 
 ## 8 Août 2019
 

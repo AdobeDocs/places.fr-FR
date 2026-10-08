@@ -5,24 +5,31 @@ exl-id: 72704bfc-5837-4439-bdb2-e77ddf935639
 TQID: https://experienceleague.adobe.com/FVZzn3FwSAFgnRBjkiFwHG8Zl2I-I4fPrqax-zGNclk
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
   - id: f002a92a-b99f-47a4-90c8-65e0e415bc7a
+    internal-label: Pass
 feature_v2:
   - id: bef6f891-2e8a-425e-8f99-7ddf22070daa
+    internal-label: APIs
   - id: e08599ea-8888-4294-ba74-3ba0a7762a46
+    internal-label: Data collection
 subfeature_v2:
   - id: d2a6cbf4-df32-480f-909e-b42f66dcb9f0
+    internal-label: Places
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: f962cef761f006c8e7d45b76ba24746e36bdaba6
+    internal-label: Data collection
+source-git-commit: d8704da9c84a066f72471421290d4b46c65f41e1
 workflow-type: tm+mt
-source-wordcount: 854
+source-wordcount: '854'
 ht-degree: 0%
-
 ---
-
 # Chargement en masse des points d’intérêt {#bulk-upload-pois}
 
 Le bouton **Importer des POI** du service Places permet de charger en masse de nouveaux POI à l’aide d’un fichier CSV. Un exemple de modèle de feuille de calcul est fourni pour indiquer les colonnes de données requises et comment ajouter des métadonnées personnalisées facultatives.
@@ -78,20 +85,20 @@ Voici une liste des colonnes et des valeurs que vous devez utiliser :
 Les valeurs des colonnes suivantes sont utilisées dans l’interface utilisateur de Places Service :
 
 * la couleur, qui est utilisée comme couleur de l’épingle qui représente l’emplacement du point d’intérêt dans la carte de l’interface utilisateur de Places Service.
-   * Les valeurs valides sont les suivantes : «  », #3E76D0, #AA99E8, #DC2ABA, #FC685B, #FC962E, #F6C436, #BECE5D, #61B56B et #3DC8DE, et «  ».
-   * Si la valeur n’est pas renseignée, l’interface utilisateur du service Places utilise le bleu comme couleur par défaut.
+  * Les valeurs valides sont les suivantes : «  », #3E76D0, #AA99E8, #DC2ABA, #FC685B, #FC962E, #F6C436, #BECE5D, #61B56B et #3DC8DE, et «  ».
+  * Si la valeur n’est pas renseignée, l’interface utilisateur du service Places utilise le bleu comme couleur par défaut.
 
-     Les valeurs correspondent respectivement au bleu (#3E76D0), au violet (#AA99E8), au fuschia (#DC2ABA), à l&#39;orange (#FC685B), à l&#39;orange clair (#FC962E), au jaune (#F6C436), au vert clair (#BECE5D), au vert (#61B56B) et au bleu clair (#3DC8DE).
+    Les valeurs correspondent respectivement au bleu (#3E76D0), au violet (#AA99E8), au fuschia (#DC2ABA), à l&#39;orange (#FC685B), à l&#39;orange clair (#FC962E), au jaune (#F6C436), au vert clair (#BECE5D), au vert (#61B56B) et au bleu clair (#3DC8DE).
 
 * icône, utilisée comme icône sur l’épingle représentant l’emplacement du point d’intérêt sur la carte de l’interface utilisateur de Places Service.
 
-   * Les valeurs valides sont les suivantes : «  », shop, hotelbed, car, airplane, train, bateau, stade, parc d&#39;attractions, ancre, bécher, cloche, enchère, livre, boîte, porte-documents, parcourir, brosse, bâtiment, calculatrice, caméra, horloge, éducation, lampe de poche, suivre, jeu, femme, masculin, cadeau, marteau, cœur, accueil, clé, lancement, ampoule, boîte aux lettres, argent, épingle, promouvoir, ruban, panier, étoile, cible, théière, pouceDown, pouceDown, piège, trophée, clé, clé à clé, clé à main, clé à main, clé à main.
+  * Les valeurs valides sont les suivantes : «  », shop, hotelbed, car, airplane, train, bateau, stade, parc d&#39;attractions, ancre, bécher, cloche, enchère, livre, boîte, porte-documents, parcourir, brosse, bâtiment, calculatrice, caméra, horloge, éducation, lampe de poche, suivre, jeu, femme, masculin, cadeau, marteau, cœur, accueil, clé, lancement, ampoule, boîte aux lettres, argent, épingle, promouvoir, ruban, panier, étoile, cible, théière, pouceDown, pouceDown, piège, trophée, clé, clé à clé, clé à main, clé à main, clé à main.
 
-     Les valeurs des icônes sont répertoriées dans l’ordre dans lequel elles apparaissent dans l’illustration suivante :
+    Les valeurs des icônes sont répertoriées dans l’ordre dans lequel elles apparaissent dans l’illustration suivante :
 
-     ![icônes de l’interface utilisateur](/help/assets/UI_icons.png)
+    ![icônes de l’interface utilisateur](/help/assets/UI_icons.png)
 
-   * Si cette valeur n’est pas renseignée, l’interface utilisateur utilise étoile comme icône par défaut.
+  * Si cette valeur n’est pas renseignée, l’interface utilisateur utilise étoile comme icône par défaut.
 
 * Les colonnes qui ne sont pas mentionnées peuvent être laissées vides.
 

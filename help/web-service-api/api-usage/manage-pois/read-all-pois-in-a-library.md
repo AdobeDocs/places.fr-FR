@@ -1,17 +1,18 @@
 ---
-title: Lecture de tous les points ciblés dans une bibliothèque
-description: Lisez tous les points ciblés dans une bibliothèque à l’aide des API REST de Places.
+title: Lire tous les POI d’une bibliothèque
+description: Lisez tous les POI d’une bibliothèque à l’aide des API REST Places.
 exl-id: 08544909-661c-4a14-84e0-bacd0241a844
-source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: d8704da9c84a066f72471421290d4b46c65f41e1
 workflow-type: tm+mt
 source-wordcount: '54'
 ht-degree: 3%
-
 ---
+# Lire tous les POI d’une bibliothèque {#read-all-pois-library}
 
-# Lecture de tous les points ciblés dans une bibliothèque {#read-all-pois-library}
-
-Méthode de GET qui renvoie tous les points ciblés dans une bibliothèque.
+Méthode GET qui renvoie tous les POI d’une bibliothèque.
 
 ## Requête
 
@@ -157,7 +158,7 @@ GET https://api-places.adobe.io/places/placesapi/v1/libraries/<LIBRARYID>/pois
 }
 ```
 
-## CURL, commande
+## Commande CURL
 
 Utilisez la commande CURL suivante pour tester l’API :
 
@@ -167,4 +168,4 @@ curl -X GET 'https://api-places.adobe.io/places/placesapi/v1/libraries/<LIBRARYI
 
 >[!IMPORTANT]
 >
->Remplacez &#39;&#39;, `<API KEY>`, `<TOKEN>` et `<ORGID>` par des valeurs réelles.
+>Remplacez « », `<API KEY>`, `<TOKEN>` et `<ORGID>` par les valeurs réelles.
