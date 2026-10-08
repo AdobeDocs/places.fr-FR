@@ -1,17 +1,18 @@
 ---
-title: Mise à jour d’un point ciblé
-description: Mettez à jour un point ciblé à l’aide des API REST de Places.
+title: Mettre à jour un point d’intérêt
+description: Mettez à jour un point d’intérêt à l’aide des API REST Places.
 exl-id: f155d1d3-88a3-47bc-bffe-a35842a639e2
-source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: d8704da9c84a066f72471421290d4b46c65f41e1
 workflow-type: tm+mt
 source-wordcount: '45'
 ht-degree: 6%
-
 ---
+# Mettre à jour un point d’intérêt {#update-a-poi}
 
-# Mise à jour d’un point ciblé {#update-a-poi}
-
-Méthode de PUT qui vous permet de mettre à jour un point ciblé.
+Méthode PUT permettant de mettre à jour un point d’intérêt.
 
 ## Requête
 
@@ -37,7 +38,7 @@ PUT https://api-places.adobe.io/places/placesapi/v1/pois/<POIID>
 {    "id": "66e3c0fb-12fe-4af2-863e-16e0e777d777",    "name": "New Name",    "description": "18827",    "location": {        "type": "Point",        "coordinates": [            -123.000507,            37.698029        ]    },    "radius": 66,    "country": "US",    "state": "CA",    "city": "Small City",    "street": "1 Island Road",    "category": "",    "icon": "",    "color": "",    "metadata": {        "ownership": "LS",        "brand": "Island station"    },    "lib_id": "6efd87bc-c9c4-4ff3-9503-051bfbc81777"}
 ```
 
-## CURL, commande
+## Commande CURL
 
 Utilisez la commande CURL suivante pour tester cette API :
 
@@ -47,4 +48,4 @@ curl -X PUT 'https://api-places.adobe.io/places/placesapi/v1/pois/<POIID>' -H 'x
 
 >[!IMPORTANT]
 >
->Remplacez `<POIID>`, `<API KEY>`, `<TOKEN>`, `<ORGID>` et `<SINGLEPOIDATA>` par des valeurs réelles.
+>Remplacez `<POIID>`, `<API KEY>`, `<TOKEN>`, `<ORGID>` et `<SINGLEPOIDATA>` par les valeurs réelles.

@@ -1,17 +1,18 @@
 ---
-title: Lecture d’un point ciblé
-description: Lisez un point ciblé à l’aide des API REST de Places.
+title: Lire un point d’intérêt
+description: Lire un point d’intérêt à l’aide des API REST Places.
 exl-id: 19eb73c4-5101-47a9-8c79-bc4790ecf472
-source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: d8704da9c84a066f72471421290d4b46c65f41e1
 workflow-type: tm+mt
 source-wordcount: '45'
 ht-degree: 4%
-
 ---
+# Lire un point d’intérêt {#read-a-poi}
 
-# Lecture d’un point ciblé {#read-a-poi}
-
-Méthode de GET qui renvoie les détails d’un point ciblé.
+Méthode GET qui renvoie les détails d’un point d’intérêt.
 
 ## Requête
 
@@ -59,7 +60,7 @@ GET https://api-places.adobe.io/places/placesapi/v1/pois/<POIID>
 }
 ```
 
-## CURL, commande
+## Commande CURL
 
 Utilisez la commande CURL suivante pour tester l’API :
 
@@ -69,4 +70,4 @@ curl -X GET 'https://api-places.adobe.io/places/placesapi/v1/pois/<POIID>' -H 'x
 
 >[!IMPORTANT]
 >
->Remplacez `<POIID>`, `<API KEY>`, `<TOKEN>` et `<ORIGIN>` par des valeurs réelles.
+>Remplacez `<POIID>`, `<API KEY>`, `<TOKEN>` et `<ORIGIN>` par les valeurs réelles.

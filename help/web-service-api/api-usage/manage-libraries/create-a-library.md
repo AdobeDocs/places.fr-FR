@@ -2,16 +2,17 @@
 title: créer une bibliothèque ;
 description: Créez une bibliothèque à l’aide de l’API REST Places.
 exl-id: 155cc6e6-9254-4389-bb02-e526d15908f4
-source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: d8704da9c84a066f72471421290d4b46c65f41e1
 workflow-type: tm+mt
 source-wordcount: '48'
 ht-degree: 18%
-
 ---
-
 # créer une bibliothèque ; {#create-a-library}
 
-Méthode de POST qui vous permet de créer une bibliothèque.
+Méthode POST qui permet de créer une bibliothèque.
 
 ## Requête
 
@@ -37,7 +38,7 @@ POST https://api-places.adobe.io/places/placesapi/v1/libraries
 {       "id": "449f08f3-eff5-4658-9329-2d9687af777e",       "name": "Facinating places",      "customerID": "777F20F55BACA09E0A495D8F@AdobeOrg",       "poiCount": 0  }
 ```
 
-## CURL, commande
+## Commande CURL
 
 Utilisez la commande CURL suivante pour tester cette API :
 
@@ -47,4 +48,4 @@ curl -X POST 'https://api-places.adobe.io/places/placesapi/v1/libraries' -H 'x-a
 
 >[!IMPORTANT]
 >
->Remplacez des variables telles que `<API KEY>`, `<TOKEN>` et `<ORGID>` par des valeurs réelles.
+>Remplacez les variables telles que `<API KEY>`, `<TOKEN>` et `<ORGID>` par des valeurs réelles.

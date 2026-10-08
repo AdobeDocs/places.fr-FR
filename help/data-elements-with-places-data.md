@@ -1,21 +1,22 @@
 ---
-title: Éléments de données Experience Platform Launch avec données Places
-description: Les éléments de données sont les blocs de création de votre dictionnaire de données (ou mappage de données).
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+title: Éléments de données Experience Platform Launch avec des données Places
+description: Les éléments de données sont les blocs de construction de votre dictionnaire de données (ou mappage de données).
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: d8704da9c84a066f72471421290d4b46c65f41e1
 workflow-type: tm+mt
-source-wordcount: '146'
-ht-degree: 2%
-
+source-wordcount: '153'
+ht-degree: 15%
 ---
 
-
-# Éléments de données Experience Platform Launch avec données Places {#launch-data-places}
+# Éléments de données Experience Platform Launch avec les données Places {#launch-data-places}
 
 ## Éléments de données
 
-Les éléments de données sont les blocs de création de votre dictionnaire de données ou de votre mappage de données. Vous pouvez utiliser des éléments de données pour collecter, organiser et diffuser des données sur l’ensemble des technologies marketing et publicitaires.
+Les éléments de données sont les blocs de construction de votre dictionnaire de données ou de votre mappage de données. Vous pouvez utiliser des éléments de données pour collecter, organiser et diffuser des données dans les technologies marketing et publicitaires.
 
-Un élément de données est une variable dont la valeur peut être mappée à des chaînes de requête, des URL, des valeurs de cookie, des variables JavaScript, etc. Dans Experience Platform Launch, vous pouvez référencer cette valeur par son nom de variable. La collecte des éléments de données devient le dictionnaire des données définies que vous pouvez utiliser pour créer vos règles (événements, conditions et actions), et le dictionnaire de données est partagé sur l’ensemble de l’Experience Platform Launch et peut être utilisé avec l’extension Places.
+Un élément de données est une variable dont la valeur peut être mappée à des chaînes de requête, des URL, des valeurs de cookie, des variables JavaScript, etc. Dans Experience Platform Launch, vous pouvez référencer cette valeur par son nom de variable. La collecte des éléments de données devient le dictionnaire des données définies que vous pouvez utiliser pour créer vos règles (événements, conditions et actions). Le dictionnaire de données est partagé dans Experience Platform Launch et peut être utilisé avec l’extension Places.
 
-Pour plus d’informations sur les éléments de données, voir [&#x200B; Éléments de données &#x200B;](https://docs.adobelaunch.com/launch-reference/managing-resources/data-elements) .
+Pour plus d’informations sur les éléments de données, voir [Data Elements](https://docs.adobelaunch.com/launch-reference/managing-resources/data-elements) .
 

@@ -1,17 +1,18 @@
 ---
-title: Création d’un point ciblé
-description: Créez un point ciblé à l’aide des API REST de Places.
+title: Créer un point d’intérêt
+description: Créez un point d’intérêt à l’aide des API REST Places.
 exl-id: 0f5b5b40-11f0-4122-b3d5-c3853a6e8ca5
-source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: d8704da9c84a066f72471421290d4b46c65f41e1
 workflow-type: tm+mt
 source-wordcount: '47'
 ht-degree: 6%
-
 ---
+# Créer un point d’intérêt {#create-a-poi}
 
-# Création d’un point ciblé {#create-a-poi}
-
-Méthode de POST qui vous permet de créer un point ciblé.
+Méthode POST permettant de créer un point d’intérêt.
 
 ## Requête
 
@@ -86,7 +87,7 @@ POST https://api-places.adobe.io/places/placesapi/v1/pois
 }
 ```
 
-## CURL, commande
+## Commande CURL
 
 Utilisez la commande CURL suivante pour tester cette API :
 
