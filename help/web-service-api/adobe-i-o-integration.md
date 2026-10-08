@@ -32,19 +32,19 @@ Chaque requête à l’API REST Places Service nécessite les éléments suivant
 * Secret client
 * Jeton porteur
 
-Un projet avec la console [](https://developer.adobe.com/console) fournit ces éléments.
+Un projet avec la console [&#128279;](https://developer.adobe.com/console) fournit ces éléments.
 
 * Pour créer un projet pour l’API Places Service, reportez-vous à la section *Création d’un projet Places Service* ci-dessous.
 
 >[!IMPORTANT]
 >
->Si vous ne pouvez pas vous connecter à la console [](https://developer.adobe.com/console) ou si Places Service n’est pas une option de la page *Créer des intégrations*, consultez *Exigences de l’organisation* dans [Présentation de l’API des services web](/help/web-service-api/places-web-services.md).
+>Si vous ne pouvez pas vous connecter à la console [&#128279;](https://developer.adobe.com/console) ou si Places Service n’est pas une option de la page *Créer des intégrations*, consultez *Exigences de l’organisation* dans [Présentation de l’API des services web](/help/web-service-api/places-web-services.md).
 
 ## Création d’un projet d’API Places Service
 
 Pour créer un projet pour l’API Places Service, procédez comme suit :
 
-1. Connectez-vous au [site web ](https://developer.adobe.com) avec votre Adobe ID.
+1. Connectez-vous au [site web &#x200B;](https://developer.adobe.com) avec votre Adobe ID.
 2. Cliquez sur **[!UICONTROL Console]** dans le coin supérieur droit de la page.
 3. Si vous êtes affecté à plusieurs organisations Adobe, sélectionnez l’organisation appropriée dans la liste déroulante située dans le coin supérieur droit de la page.
 4. Cliquez sur le bouton **[!UICONTROL Créer un projet]**.

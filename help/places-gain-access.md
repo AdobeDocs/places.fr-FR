@@ -42,7 +42,7 @@ Places Service est désormais disponible dans l’interface utilisateur de la co
 
 Vous pouvez également accéder à Collecte de données à partir du menu Adobe Experience Platform :
 
-![Menu ](/help/assets/solutionaccessmenu.png)
+![Menu &#x200B;](/help/assets/solutionaccessmenu.png)
 
 Si votre identifiant utilisateur dispose d’un accès, l’icône Places Service s’affiche dans le panneau de gauche sous Gestion des données dans la collecte de données, comme indiqué ci-dessous :
 
@@ -76,9 +76,9 @@ Si vous ajoutez un utilisateur pour la première fois, procédez comme suit pour
 
    ![sélecteur de coque](/help/assets/places_shell_switcher1.png)
 
-1. Au bas de la liste, cliquez sur ****. (Vous trouverez également un lien vers **** dans la section Accès rapide).
+1. Au bas de la liste, cliquez sur **&#x200B;**. (Vous trouverez également un lien vers **&#x200B;**&#x200B;dans la section Accès rapide).
 
-   Si vous ne voyez pas **** dans la liste, vous n’êtes pas un administrateur. Vous devez contacter l’administrateur de votre organisation pour effectuer cette procédure.
+   Si vous ne voyez pas **&#x200B;**&#x200B;dans la liste, vous n’êtes pas un administrateur. Vous devez contacter l’administrateur de votre organisation pour effectuer cette procédure.
 
 1. Dans Admin Console, si vous avez accès à plusieurs organisations, vérifiez que l’organisation appropriée est sélectionnée en haut à droite de la page.
 
@@ -99,8 +99,8 @@ Si vous ajoutez un utilisateur pour la première fois, procédez comme suit pour
 
 #### Ajout d’un utilisateur pour fournir l’accès à l’interface utilisateur du service Places
 
-1. Dans l&#39;onglet Produits , cliquez sur la vignette ****.
-2. Un utilisateur peut être ajouté à n&#39;importe quel profil dans **** pour accéder à Places, aucune autorisation spécifique ne doit être définie.
+1. Dans l&#39;onglet Produits , cliquez sur la vignette **&#x200B;**.
+2. Un utilisateur peut être ajouté à n&#39;importe quel profil dans **&#x200B;**&#x200B;pour accéder à Places, aucune autorisation spécifique ne doit être définie.
 3. Choisissez un profil (s’il en existe plusieurs) et cliquez dessus pour l’ouvrir.
 4. Cliquez sur le bouton bleu **Ajouter un utilisateur**, renseignez l’utilisateur avec son AdobeID et son nom, puis cliquez sur Enregistrer pour terminer l’ajout.
 
@@ -114,9 +114,9 @@ Si vous ajoutez un utilisateur pour la première fois, procédez comme suit pour
 #### Ajoutez un utilisateur en tant que développeur pour Places Service.
 
 Pour les utilisateurs qui ont également besoin d’accéder à l’API REST Places Service, vous devez les ajouter en tant que développeur.
-1. Dans l&#39;onglet Produits , cliquez sur la vignette ****.
-2. Si l&#39;utilisateur a déjà été ajouté à la carte **** via les instructions ci-dessus, choisissez le même profil précédemment utilisé et cliquez dessus.
+1. Dans l&#39;onglet Produits , cliquez sur la vignette **&#x200B;**.
+2. Si l&#39;utilisateur a déjà été ajouté à la carte **&#x200B;**&#x200B;via les instructions ci-dessus, choisissez le même profil précédemment utilisé et cliquez dessus.
 3. Dans le profil, cliquez sur l’onglet **Développeurs**
 4. Cliquez sur le bouton bleu **Ajouter un développeur**, renseignez l’utilisateur avec son Adobe ID et son nom, puis cliquez sur Enregistrer pour terminer l’ajout.
 
-Une fois les étapes ci-dessus terminées, l’utilisateur recevra un e-mail l’informant qu’il a accès à **** et à **[!UICONTROL la collecte de données Adobe Experience Platform]**. Ils peuvent ensuite se connecter à [Adobe Experience Cloud](https://experience.adobe.com?lang=fr) pour cette organisation et accéder au service Places et à la collecte de données. Si vous suivez également les étapes **[!UICONTROL Ajouter un développeur]**, l’utilisateur peut également se connecter à [Adobe Developer Console](https://developer.adobe.com/console/home) pour créer un projet qui donnerait accès à l’API REST Places Service.
+Une fois les étapes ci-dessus terminées, l’utilisateur recevra un e-mail l’informant qu’il a accès à **&#x200B;**&#x200B;et à **[!UICONTROL la collecte de données Adobe Experience Platform]**. Ils peuvent ensuite se connecter à [Adobe Experience Cloud](https://experience.adobe.com?lang=fr) pour cette organisation et accéder au service Places et à la collecte de données. Si vous suivez également les étapes **[!UICONTROL Ajouter un développeur]**, l’utilisateur peut également se connecter à [Adobe Developer Console](https://developer.adobe.com/console/home) pour créer un projet qui donnerait accès à l’API REST Places Service.

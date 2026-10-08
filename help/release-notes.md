@@ -44,7 +44,7 @@ ht-degree: 5%
 
 * **Extensions Places et Places Monitor**
 
-  * Les extensions Places et Places Monitor ont été ajoutées pour les applications [](https://aep-sdks.gitbook.io/docs/resources/upgrading-to-aep/current-sdk-versions#react-native)
+  * Les extensions Places et Places Monitor ont été ajoutées pour les applications [&#128279;](https://aep-sdks.gitbook.io/docs/resources/upgrading-to-aep/current-sdk-versions#react-native)
   * Des extensions Places et Places Monitor ont été ajoutées pour les applications [Cordova](https://aep-sdks.gitbook.io/docs/resources/upgrading-to-aep/current-sdk-versions#cordova)
   * Pour plus d’informations, voir : [Utilisation de l’extension Places](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html?lang=fr)
 
@@ -322,7 +322,7 @@ Les fonctionnalités clés de cette version sont les suivantes :
 
 Nous avons publié une interface utilisateur de gestion dans laquelle vous pouvez afficher et gérer vos points ciblés. Vous pouvez également organiser vos points d’intérêt en bibliothèques. Outre les métadonnées standard telles que la ville, l’État et la catégorie, nous prenons également en charge la possibilité d’ajouter des métadonnées personnalisées à vos points d’intérêt.
 
-* Pour afficher l’interface utilisateur, accédez à [](https://places.adobe.com).
+* Pour afficher l’interface utilisateur, accédez à [&#128279;](https://places.adobe.com).
 * Pour commencer à utiliser l’interface utilisateur, voir [Prise en main](/help/getting-started.md).
 
 #### Extension Places

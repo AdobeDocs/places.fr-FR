@@ -101,7 +101,7 @@ Dans l’exemple suivant, les valeurs `poi.city` et `poi.name` sont ajoutées au
 
 Une fois la configuration terminée, vérifiez que votre règle ressemble à l’image suivante :
 
-![« la règle est terminée.« ](/help/assets/ad-ruleComplete_use-analytics-data.png)
+![« la règle est terminée.« &#x200B;](/help/assets/ad-ruleComplete_use-analytics-data.png)
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 

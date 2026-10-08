@@ -74,7 +74,7 @@ Une fois la règle configurée avec les paramètres d’événement et de condit
 
 Pour créer une action :
 
-1. Sélectionnez l’extension ****.
+1. Sélectionnez l’extension **&#x200B;**.
 1. Dans la liste déroulante **[!UICONTROL Type d’action]**, sélectionnez **[!UICONTROL Suivi.]**
 1. Saisissez le nom de l’action.
 1. Dans le volet de droite, dans **[!UICONTROL Données contextuelles]**, sélectionnez la paire clé-valeur pour définir les données contextuelles qui seront envoyées à Analytics.
@@ -83,7 +83,7 @@ Par exemple, vous pouvez sélectionner `poiname` comme clé et `{%%Last Entered 
 
 >[!TIP]
 >
->Les règles de traitement Analytics peuvent être définies pour récupérer ces données contextuelles. Pour plus d’informations, voir [ Règles de traitement ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules.html). Dans l’exemple de *Créer une action*, l’action envoie l’`poiname` comme contexte pour décrire l’événement d’entrée de point d’intérêt envoyé à Analytics.
+>Les règles de traitement Analytics peuvent être définies pour récupérer ces données contextuelles. Pour plus d’informations, voir [&#x200B; Règles de traitement &#x200B;](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules.html). Dans l’exemple de *Créer une action*, l’action envoie l’`poiname` comme contexte pour décrire l’événement d’entrée de point d’intérêt envoyé à Analytics.
 
 ![création d’une action](/help/assets/configure-action.png)
 
@@ -100,7 +100,7 @@ Dans le cadre de vos paramètres de déclencheur, vous pouvez créer l’audienc
 
   Cette option peut être utilisée avec une action spécifique à l’emplacement, telle qu’une entrée, ou elle peut être utilisée comme contexte pour un autre événement, tel qu’un lancement ou un clic sur un bouton.
 
-  Voici un exemple de configuration d’un message in-app pour accueillir les utilisateurs qui entrent dans un point d’intérêt dont le nom contient **** :
+  Voici un exemple de configuration d’un message in-app pour accueillir les utilisateurs qui entrent dans un point d’intérêt dont le nom contient **&#x200B;**&#x200B;:
 
   ![paramètres de déclenchement](/help/assets/trigger-parameters.png)
 

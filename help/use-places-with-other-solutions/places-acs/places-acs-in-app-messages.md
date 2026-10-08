@@ -43,7 +43,7 @@ Avant de commencer, effectuez les tâches suivantes :
 * Ayez une application mobile configurée avec le SDK Mobile Adobe Experience Platform, y compris l&#39;extension [Adobe Campaign Standard](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard).
 
 * Intégrez le [Adobe Experience Platform Mobile SDK](https://aep-sdks.gitbook.io/docs/getting-started/get-the-sdk) dans votre application.
-* Ajoutez l’extension [](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard) à votre configuration d’application mobile.
+* Ajoutez l’extension [&#128279;](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard) à votre configuration d’application mobile.
 
 * [Créez un point d’intérêt](/help/poi-mgmt-ui/create-a-poi-ui.md) dans l’interface de gestion des points d’intérêt du service Places.
 

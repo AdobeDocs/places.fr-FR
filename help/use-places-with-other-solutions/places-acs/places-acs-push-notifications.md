@@ -39,11 +39,11 @@ Avant de commencer, effectuez les tâches suivantes :
 * Ayez une application mobile configurée avec le SDK Mobile Adobe Experience Platform, y compris l&#39;extension [Adobe Campaign Standard](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard).
 
 * Intégrez le [Adobe Experience Platform Mobile SDK](https://aep-sdks.gitbook.io/docs/getting-started/get-the-sdk) dans votre application.
-* Ajoutez l’extension [](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard) à votre configuration d’application mobile.
+* Ajoutez l’extension [&#128279;](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard) à votre configuration d’application mobile.
 
 * [Créez un point d’intérêt](/help/poi-mgmt-ui/create-a-poi-ui.md) dans l’interface de gestion des points d’intérêt du service Places.
 
-* Activez et installez l’extension [ Places ](/help/places-ext-aep-sdks/places-extension/places-extension.md).
+* Activez et installez l’extension [&#x200B; Places &#x200B;](/help/places-ext-aep-sdks/places-extension/places-extension.md).
 
 
 ## Création d’éléments de données dans Experience Platform Launch
@@ -59,7 +59,7 @@ Pour créer un élément de données :
 
    **[!UICONTROL Dernière entrée]** récupère le nom du point d’intérêt que l’utilisateur a saisi en dernier, et **[!UICONTROL Dernière sortie]** fournit le nom du dernier point d’intérêt que l’utilisateur a quitté. Dans cet exemple, nous avons sélectionné **[!UICONTROL Dernière saisie]** et saisi un nom pour l’élément de données, tel que **[!UICONTROL Nom du point d’intérêt saisi en dernier]** puis cliqué sur **[!UICONTROL Enregistrer]**.
 
-   ![« Messages push dans Campaign Standard« ](/help/assets/ACS_Push1.png)
+   ![« Messages push dans Campaign Standard« &#x200B;](/help/assets/ACS_Push1.png)
 
 1. Répétez les étapes 1 à 4 ci-dessus et créez des éléments de données pour *Latitude du point d’intérêt saisi en dernier*, *Longitude du point d’intérêt saisi en dernier* et *Rayon du point d’intérêt saisi en dernier*.
 

@@ -143,7 +143,7 @@ Pour créer un élément de données dans Experience Platform Launch :
 
 ### Publier la règle
 
-1. Pour activer la règle, vous devez la publier. Pour plus d’informations sur la publication de votre règle dans Experience Platform Launch, voir [ Publication ](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html).
+1. Pour activer la règle, vous devez la publier. Pour plus d’informations sur la publication de votre règle dans Experience Platform Launch, voir [&#x200B; Publication &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html).
 
 ### Voir au-delà des entrées et des sorties
 

@@ -77,7 +77,7 @@ Dans cet exemple, une variable de conversion, **[!UICONTROL Evar2]**, a été cr
 
 ## &#x200B;3. Création de règles de traitement
 
-Cette étape est nécessaire pour mapper les données contextuelles (étape 1) aux variables Analytics (étape 2). Pour plus d’informations sur la création de règles de traitement, voir [ Présentation des règles de traitement ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules.html).
+Cette étape est nécessaire pour mapper les données contextuelles (étape 1) aux variables Analytics (étape 2). Pour plus d’informations sur la création de règles de traitement, voir [&#x200B; Présentation des règles de traitement &#x200B;](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules.html).
 
 Dans cet exemple, une règle de traitement a été créée pour mapper la valeur des données contextuelles **[!UICONTROL poi.name]** dans **[!UICONTROL Nom du point de contact Places (eVar2)]**. Des règles de traitement supplémentaires devront être créées pour chaque variable d’emplacement créée.
 
