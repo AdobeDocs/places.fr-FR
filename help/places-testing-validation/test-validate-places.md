@@ -2,12 +2,12 @@
 title: Test et validation du service Places
 description: Cette section fournit des informations sur la manière dont vous pouvez tester et valider Places Service.
 exl-id: 8dad6619-566b-4aea-b29c-a89192a66441
-TQID: https://experienceleague.adobe.com/nO4tOQW9rp3zjkHT6aJ5IcXHcD9heOaRAJiEchiz1Fk
+TQID: 'https://experienceleague.adobe.com/nO4tOQW9rp3zjkHT6aJ5IcXHcD9heOaRAJiEchiz1Fk'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
     internal-label: CX Enterprise
   - id: dc5cf79d-43c4-4731-bffa-1df5d7549cb1
-    internal-label: Adobe Sign
+    internal-label: Acrobat Sign
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
@@ -21,23 +21,23 @@ feature_v2:
     internal-label: Implementation
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
     internal-label: Integrations
-  - id: daec7ead-f475-492a-a3b3-02ae08565d6f
-    internal-label: Implementation
   - id: e08599ea-8888-4294-ba74-3ba0a7762a46
-    internal-label: Data collection
+    internal-label: Data collection tags
   - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
-    internal-label: Integrations
-  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
     internal-label: Integrations
   - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
     internal-label: Integrations
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
     internal-label: API
+  - id: d2a6cbf4-df32-480f-909e-b42f66dcb9f0
+    internal-label: Places
+  - id: f6ac78a3-5b59-40f5-a37d-45df5303d3a3
+    internal-label: Dashboards
 subfeature_v2:
   - id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0
     internal-label: Triggers
-  - id: d2a6cbf4-df32-480f-909e-b42f66dcb9f0
-    internal-label: Places
+  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
+    internal-label: Integrations
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
@@ -45,7 +45,7 @@ topic_v2:
     internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: d8704da9c84a066f72471421290d4b46c65f41e1
+source-git-commit: 1b8be32cf474f0f65c484158870ece14f7c75ecd
 workflow-type: tm+mt
 source-wordcount: '1748'
 ht-degree: 2%
@@ -84,7 +84,7 @@ Comme les variables environnementales peuvent être un facteur de signal et de p
 |  | **Test de la messagerie in-app Adobe Campaign Standard avec Places Service.** |  |
 | 12 | Configurez un nouveau Message In-App (type = broadcast) dans le tableau de bord principal de Campaign |  |
 | 12 bis | Dans Déclencheurs, sélectionnez **Type d’événement Places - Entrée comme déclencheur**. |  |
-| 12b | Sélectionnez **[!UICONTROL Emplacements des métadonnées personnalisées]** comme filtre supplémentaire - utilisez le type de point d’intérêt = Dernier point d’intérêt saisi. <br>Nous utilisons **[!UICONTROL Dernière saisie]** comme type de point d’intérêt, car dans la plupart des cas, **[!UICONTROL Dernière saisie]** sera le même que **[!UICONTROL Point d’intérêt actuel]**. Le <br><br>**[!UICONTROL point d’intérêt actuel &#x200B;]**&#x200B;ne doit être utilisé que dans les instances où les clôtures géographiques des points d’intérêt se chevauchent. Dans ce cas, ces points d’intérêt doivent être CLASSÉS, puis le&#x200B;**[!UICONTROL &#x200B; point d’intérêt actuel &#x200B;]**&#x200B;affichera le point d’intérêt le mieux classé parmi les 2 ou 3 clôtures géographiques dans lesquelles un utilisateur peut se trouver actuellement. |  |
+| 12b | Sélectionnez **[!UICONTROL Emplacements des métadonnées personnalisées]** comme filtre supplémentaire - utilisez le type de point d’intérêt = Dernier point d’intérêt saisi. <br>Nous utilisons **[!UICONTROL Dernière saisie]** comme type de point d’intérêt, car dans la plupart des cas, **[!UICONTROL Dernière saisie]** sera le même que **[!UICONTROL Point d’intérêt actuel]**. Le <br><br>**[!UICONTROL point d’intérêt actuel ]**ne doit être utilisé que dans les instances où les clôtures géographiques des points d’intérêt se chevauchent. Dans ce cas, ces points d’intérêt doivent être CLASSÉS, puis le**[!UICONTROL  point d’intérêt actuel ]**affichera le point d’intérêt le mieux classé parmi les 2 ou 3 clôtures géographiques dans lesquelles un utilisateur peut se trouver actuellement. |  |
 | 12c | Sélectionnez une clé de métadonnées personnalisée qui vous aidera à déterminer les points d’intérêt qui recevront un message. |  |
 | 12 j | Pour la fréquence et la durée, limitez-les à un ou deux jours. Si les critères ne vous conviennent pas, vous pouvez faire expirer le déclencheur plus rapidement. |  |
 | 12e | Pour Toujours/Une ou Jusqu’au clic publicitaire, sélectionnez *TOUJOURS* afin de pouvoir effectuer des tests à plusieurs emplacements. | Un message in-app s’affiche TOUJOURS lorsque vous simulez un changement d’emplacement qui répond aux critères de métadonnées appropriés. |

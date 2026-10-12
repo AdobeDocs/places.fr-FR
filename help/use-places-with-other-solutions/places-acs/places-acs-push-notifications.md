@@ -2,7 +2,7 @@
 title: Notifications push avec Places Service
 description: Cette section fournit des informations sur l’utilisation du service Places avec les notifications push dans Campaign Standard.
 exl-id: 4b50f552-deb8-49cd-9221-fbbf33aaa5f9
-TQID: https://experienceleague.adobe.com/tjJD7Qn27sp8wnNcNdjnANIveyzjG1PZ--3C3rCjrMQ
+TQID: 'https://experienceleague.adobe.com/tjJD7Qn27sp8wnNcNdjnANIveyzjG1PZ--3C3rCjrMQ'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
     internal-label: CX Enterprise
@@ -13,17 +13,14 @@ product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
 feature_v2:
-  - id: c132d929-fa62-4271-803e-b823be07b914
-    internal-label: Profile
   - id: e08599ea-8888-4294-ba74-3ba0a7762a46
-    internal-label: Data collection
-subfeature_v2:
+    internal-label: Data collection tags
   - id: d2a6cbf4-df32-480f-909e-b42f66dcb9f0
     internal-label: Places
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: d8704da9c84a066f72471421290d4b46c65f41e1
+source-git-commit: 1b8be32cf474f0f65c484158870ece14f7c75ecd
 workflow-type: tm+mt
 source-wordcount: '1026'
 ht-degree: 4%
@@ -39,11 +36,11 @@ Avant de commencer, effectuez les tâches suivantes :
 * Ayez une application mobile configurée avec le SDK Mobile Adobe Experience Platform, y compris l&#39;extension [Adobe Campaign Standard](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard).
 
 * Intégrez le [Adobe Experience Platform Mobile SDK](https://aep-sdks.gitbook.io/docs/getting-started/get-the-sdk) dans votre application.
-* Ajoutez l’extension [&#128279;](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard) à votre configuration d’application mobile.
+* Ajoutez l’extension [](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard) à votre configuration d’application mobile.
 
 * [Créez un point d’intérêt](/help/poi-mgmt-ui/create-a-poi-ui.md) dans l’interface de gestion des points d’intérêt du service Places.
 
-* Activez et installez l’extension [&#x200B; Places &#x200B;](/help/places-ext-aep-sdks/places-extension/places-extension.md).
+* Activez et installez l’extension [ Places ](/help/places-ext-aep-sdks/places-extension/places-extension.md).
 
 
 ## Création d’éléments de données dans Experience Platform Launch
@@ -59,7 +56,7 @@ Pour créer un élément de données :
 
    **[!UICONTROL Dernière entrée]** récupère le nom du point d’intérêt que l’utilisateur a saisi en dernier, et **[!UICONTROL Dernière sortie]** fournit le nom du dernier point d’intérêt que l’utilisateur a quitté. Dans cet exemple, nous avons sélectionné **[!UICONTROL Dernière saisie]** et saisi un nom pour l’élément de données, tel que **[!UICONTROL Nom du point d’intérêt saisi en dernier]** puis cliqué sur **[!UICONTROL Enregistrer]**.
 
-   ![« Messages push dans Campaign Standard« &#x200B;](/help/assets/ACS_Push1.png)
+   ![« Messages push dans Campaign Standard« ](/help/assets/ACS_Push1.png)
 
 1. Répétez les étapes 1 à 4 ci-dessus et créez des éléments de données pour *Latitude du point d’intérêt saisi en dernier*, *Longitude du point d’intérêt saisi en dernier* et *Rayon du point d’intérêt saisi en dernier*.
 

@@ -2,7 +2,7 @@
 title: Création d’une règle pour votre propriété Places Service
 description: Places SDK effectue le suivi de l’emplacement actuel, surveille les points d’intérêt configurés autour de l’emplacement actuel et suit les événements d’entrée et de sortie pour ces points d’intérêt.
 exl-id: dd5aa7ac-55f9-44dc-8632-e483ef3b91a0
-TQID: https://experienceleague.adobe.com/jyGVmk-oKX6-5vxZBx6Mz-QF8SBYxAWssvAxJ0QLYWQ
+TQID: 'https://experienceleague.adobe.com/jyGVmk-oKX6-5vxZBx6Mz-QF8SBYxAWssvAxJ0QLYWQ'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
     internal-label: CX Enterprise
@@ -12,18 +12,18 @@ product_v2:
     internal-label: Experience Platform
 feature_v2:
   - id: e08599ea-8888-4294-ba74-3ba0a7762a46
-    internal-label: Data collection
-subfeature_v2:
+    internal-label: Data collection tags
   - id: d2a6cbf4-df32-480f-909e-b42f66dcb9f0
     internal-label: Places
+subfeature_v2:
   - id: f9a2105e-7a47-4e85-9193-31a519a2cb83
-    internal-label: Data elements
+    internal-label: Data collection tags data elements
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: d8704da9c84a066f72471421290d4b46c65f41e1
+source-git-commit: 1b8be32cf474f0f65c484158870ece14f7c75ecd
 workflow-type: tm+mt
 source-wordcount: '939'
 ht-degree: 13%
@@ -73,7 +73,7 @@ Les actions définissent ce que l’application fera en réponse à la condition
 
 >[!CAUTION]
 >
->Cet exemple implique que vous ayez créé une bibliothèque POI de tous les cafés aux États-Unis. Pour plus d’informations sur la création de POI et de bibliothèques, consultez [Création d’un POI](/help/poi-mgmt-ui/create-a-poi-ui.md) et *Création d’une bibliothèque* dans [Gestion de plusieurs bibliothèques](https://experienceleague.adobe.com/docs/places/using/poi-mgmt-ui/manage-libraries-in-the-places-ui.html?lang=fr).
+>Cet exemple implique que vous ayez créé une bibliothèque POI de tous les cafés aux États-Unis. Pour plus d’informations sur la création de POI et de bibliothèques, consultez [Création d’un POI](/help/poi-mgmt-ui/create-a-poi-ui.md) et *Création d’une bibliothèque* dans [Gestion de plusieurs bibliothèques](https://experienceleague.adobe.com/docs/places/using/poi-mgmt-ui/manage-libraries-in-the-places-ui.html).
 
 La procédure ci-dessous est un exemple de création d’une règle qui renvoie une publication à Slack lorsque vous entrez dans un café à San Francisco.
 
@@ -143,7 +143,7 @@ Pour créer un élément de données dans Experience Platform Launch :
 
 ### Publier la règle
 
-1. Pour activer la règle, vous devez la publier. Pour plus d’informations sur la publication de votre règle dans Experience Platform Launch, voir [&#x200B; Publication &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=fr).
+1. Pour activer la règle, vous devez la publier. Pour plus d’informations sur la publication de votre règle dans Experience Platform Launch, voir [ Publication ](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html).
 
 ### Voir au-delà des entrées et des sorties
 

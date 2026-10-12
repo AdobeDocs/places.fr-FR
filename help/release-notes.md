@@ -2,7 +2,7 @@
 title: Notes de mise à jour
 description: Notes de mise à jour du service Places.
 exl-id: 76da9548-4e32-4b23-9a15-7012973915f3
-TQID: https://experienceleague.adobe.com/yo1eXPl9cKbp-EVWQT8gZHcAbSDoIFJVD6xKbdoysMc
+TQID: 'https://experienceleague.adobe.com/yo1eXPl9cKbp-EVWQT8gZHcAbSDoIFJVD6xKbdoysMc'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
     internal-label: CX Enterprise
@@ -20,10 +20,9 @@ feature_v2:
   - id: d833d0ef-8ed5-4cff-a5e7-9f12abd02a31
     internal-label: SDKs
   - id: e08599ea-8888-4294-ba74-3ba0a7762a46
-    internal-label: Data collection
+    internal-label: Data collection tags
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
     internal-label: API
-subfeature_v2:
   - id: d2a6cbf4-df32-480f-909e-b42f66dcb9f0
     internal-label: Places
 topic_v2:
@@ -33,7 +32,7 @@ topic_v2:
     internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: d8704da9c84a066f72471421290d4b46c65f41e1
+source-git-commit: 1b8be32cf474f0f65c484158870ece14f7c75ecd
 workflow-type: tm+mt
 source-wordcount: '1612'
 ht-degree: 5%
@@ -44,7 +43,7 @@ ht-degree: 5%
 
 * **Extensions Places et Places Monitor**
 
-  * Les extensions Places et Places Monitor ont été ajoutées pour les applications [&#128279;](https://aep-sdks.gitbook.io/docs/resources/upgrading-to-aep/current-sdk-versions#react-native)
+  * Les extensions Places et Places Monitor ont été ajoutées pour les applications [](https://aep-sdks.gitbook.io/docs/resources/upgrading-to-aep/current-sdk-versions#react-native)
   * Des extensions Places et Places Monitor ont été ajoutées pour les applications [Cordova](https://aep-sdks.gitbook.io/docs/resources/upgrading-to-aep/current-sdk-versions#cordova)
   * Pour plus d’informations, voir : [Utilisation de l’extension Places](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html?lang=fr)
 
@@ -86,7 +85,7 @@ ht-degree: 5%
   * L’extension Places signale désormais les informations de version au hub d’événements dans Core SDK.
   * Les informations d’appartenance au point d’intérêt de l’appareil ont désormais une durée de vie par défaut d’une heure à compter du moment où elles sont collectées. Pour plus d&#39;informations, voir [Modification de la durée de vie de l&#39;abonnement aux Places](places-ext-aep-sdks/places-extension/places-extension.md#places-ttl)
 
-## mardi 27 janvier 2020
+## 27 janvier 2020
 
 * **PlacesMonitor 2.2.0**
 
@@ -103,7 +102,7 @@ ht-degree: 5%
 
     * Ajout d’une nouvelle API, `setAuthorizationStatus`, pour définir le statut d’autorisation des appareils pour Places Services. La valeur est stockée et utilisée dans l&#39;état Places partagées .
 
-## jeudi 4 décembre 2019
+## 4 décembre 2019
 
 * **PlacesMonitor 2.1.2**
 
@@ -111,7 +110,7 @@ ht-degree: 5%
 
     * Appelez l’API Places pour collecter CLAuthorizationStatus sur l’appareil lorsqu’il change.
 
-## mercredi 3 décembre 2019
+## 3 décembre 2019
 
 * **ACPPlaces 1.3.0**
 
@@ -119,7 +118,7 @@ ht-degree: 5%
 
     * Ajout d’une nouvelle API, `setAuthorizationStatus`, pour définir le statut d’autorisation des appareils pour Places Services. La valeur est stockée et utilisée dans l&#39;état Places partagées .
 
-## mardi 25 novembre 2019
+## 25 novembre 2019
 
 * **PlacesMonitor 2.1.1**
 
@@ -127,7 +126,7 @@ ht-degree: 5%
 
     * Correction des instructions d’importation pour les projets Cocoapods à l’aide de plusieurs projets de capsule.
 
-## samedi 22 novembre 2019
+## 22 novembre 2019
 
 * **PlacesMonitor 2.1.1**
 
@@ -136,7 +135,7 @@ ht-degree: 5%
     * Le moniteur reconnaît désormais le démarrage d’un périphérique Android et, si nécessaire, enregistre à nouveau les barrières géographiques auprès du système d’exploitation en fonction de l’emplacement actuel du périphérique.
     * Correction d’une condition de concurrence qui entraînait parfois l’abandon d’événements d’entrée/sortie.
 
-## jeudi 9 octobre 2019
+## 9 octobre 2019
 
 * **PlacesMonitor 2.1.0**
 
@@ -209,7 +208,7 @@ Les mises à jour suivantes ont été apportées à cette version :
 
 * Mise à jour de l’utilisation de l’API `getNearbyPointsOfInterest` ACPPlaces pour gérer plus efficacement les scénarios d’erreur.
 
-## mardi 22 juillet 2019
+## 22 juillet 2019
 
 Les mises à jour suivantes ont été apportées à cette version :
 
@@ -220,7 +219,7 @@ Les mises à jour suivantes ont été apportées à cette version :
 * Correction d’un bug en raison duquel `getNearbyPointsOfInterest` rappel renvoyait le code d’erreur `SERVER_RESPONSE_ERROR instead of CONNECTIVITY_ERROR` sur Internet.
 * `getNearbyPointsOfInterest`’API (sans errorCallback) verra le `successCallback` appelé avec une liste de points d’intérêt vide, en cas d’erreur de récupération des points d’intérêt à proximité.
 
-## samedi 19 juillet 2019
+## 19 juillet 2019
 
 Les mises à jour suivantes ont été apportées à cette version :
 
@@ -300,7 +299,7 @@ Les mises à jour suivantes ont été apportées à cette version :
 * Intégration d’un CI (CircleCI)
 * Intégration de la couverture de code (codecov)
 
-## mardi 25 mars 2019
+## 25 mars 2019
 
 iOS Places Monitor 1.0.0
 
@@ -322,7 +321,7 @@ Les fonctionnalités clés de cette version sont les suivantes :
 
 Nous avons publié une interface utilisateur de gestion dans laquelle vous pouvez afficher et gérer vos points ciblés. Vous pouvez également organiser vos points d’intérêt en bibliothèques. Outre les métadonnées standard telles que la ville, l’État et la catégorie, nous prenons également en charge la possibilité d’ajouter des métadonnées personnalisées à vos points d’intérêt.
 
-* Pour afficher l’interface utilisateur, accédez à [&#128279;](https://places.adobe.com).
+* Pour afficher l’interface utilisateur, accédez à [](https://places.adobe.com).
 * Pour commencer à utiliser l’interface utilisateur, voir [Prise en main](/help/getting-started.md).
 
 #### Extension Places

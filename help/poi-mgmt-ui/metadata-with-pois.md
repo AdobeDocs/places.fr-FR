@@ -2,7 +2,7 @@
 title: Utilisation de métadonnées avec des points d’intérêt
 description: Cette section fournit des informations et des stratégies sur l’utilisation des métadonnées avec les points d’intérêt.
 exl-id: e669e560-a999-43ff-aeb4-06e6308b0d5c
-TQID: https://experienceleague.adobe.com/wTzahAs7MMSv0q-cEhkNObBpALUJXqDXlOcqjitezwY
+TQID: 'https://experienceleague.adobe.com/wTzahAs7MMSv0q-cEhkNObBpALUJXqDXlOcqjitezwY'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
     internal-label: CX Enterprise
@@ -16,8 +16,7 @@ product_v2:
     internal-label: Experience Platform
 feature_v2:
   - id: e08599ea-8888-4294-ba74-3ba0a7762a46
-    internal-label: Data collection
-subfeature_v2:
+    internal-label: Data collection tags
   - id: d2a6cbf4-df32-480f-909e-b42f66dcb9f0
     internal-label: Places
 topic_v2:
@@ -25,14 +24,14 @@ topic_v2:
     internal-label: Metadata
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: d8704da9c84a066f72471421290d4b46c65f41e1
+source-git-commit: 1b8be32cf474f0f65c484158870ece14f7c75ecd
 workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 0%
 ---
 # Stratégies d’utilisation des métadonnées avec les points d’intérêt {#using-metadata-pois}
 
-Dans Places Service, lorsque vous créez un point d’intérêt, les seuls éléments requis sont le nom, le rayon, la latitude et la longitude. Pour plus d’informations sur la création d’un point d’intérêt, voir [&#x200B; Créer un point d’intérêt &#x200B;](/help/poi-mgmt-ui/create-a-poi-ui.md). Cependant, si vous saisissez uniquement les informations minimales, vous raterez une occasion de créer de la valeur supplémentaire.
+Dans Places Service, lorsque vous créez un point d’intérêt, les seuls éléments requis sont le nom, le rayon, la latitude et la longitude. Pour plus d’informations sur la création d’un point d’intérêt, voir [ Créer un point d’intérêt ](/help/poi-mgmt-ui/create-a-poi-ui.md). Cependant, si vous saisissez uniquement les informations minimales, vous raterez une occasion de créer de la valeur supplémentaire.
 
 Les métadonnées de point d’intérêt peuvent être utilisées de différentes manières. Du point de vue de la gestion des points d’intérêt, l’ajout de valeurs de métadonnées peut vous aider à rechercher ou à filtrer une liste de milliers de points d’intérêt potentiels. La création de métadonnées pour les attributs clés liés à un point d’intérêt peut générer de la valeur dans les workflows en aval. Par exemple, une chaîne hôtelière qui crée des points d’intérêt pour chaque propriété peut vouloir inclure des métadonnées comme si la propriété de l’hôtel possède une piscine ou non, un restaurant et un bar, ou si elle possède une salle de sport. Ces métadonnées peuvent être incluses en tant que données contextuelles dans les analyses et peuvent également être utilisées pour les offres ou les messages ciblés.
 
